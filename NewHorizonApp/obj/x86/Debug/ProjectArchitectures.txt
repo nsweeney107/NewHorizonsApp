@@ -1,0 +1,1 @@
+C:\Users\NateDev\Documents\Visual Studio 2017\Projects\NewHorizonApp\NewHorizonApp\NewHorizonApp.csproj;x86
