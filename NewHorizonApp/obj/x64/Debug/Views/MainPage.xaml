@@ -91,11 +91,11 @@
                Grid.Column="1"
                Grid.Row="1"
                Grid.RowSpan="2">
-            <Frame.Transitions>
+            <!--<Frame.Transitions>
                 <TransitionCollection>
                     <ContentThemeTransition />
                 </TransitionCollection>                
-            </Frame.Transitions>
+            </Frame.Transitions>-->
 
         </Frame>
     </Grid>

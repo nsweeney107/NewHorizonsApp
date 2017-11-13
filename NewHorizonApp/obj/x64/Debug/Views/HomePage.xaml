@@ -35,7 +35,7 @@
                     <Setter Property="BorderBrush" Value="DarkGray" />
                     <Setter Property="Margin" Value="12" />
                     <Setter Property="Padding" Value="4" />
-                    <Setter Property="Template">
+                    <!--<Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="Button">
                                 <Grid x:Name="RootGrid"
@@ -51,7 +51,7 @@
                                                 <Storyboard>
                                                     <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid"
                                                                                    Storyboard.TargetProperty="Background">
-                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Orange" />
+                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Bind DataHolder.Color}" />
                                                     </ObjectAnimationUsingKeyFrames>
                                                 </Storyboard>
                                             </VisualState>
@@ -61,7 +61,7 @@
                                 </Grid>
                             </ControlTemplate>
                         </Setter.Value>
-                    </Setter>
+                    </Setter>-->
                 </Style>
             </GridView.Resources>
             <Button x:ConnectionId='3' x:Name="YourClassButton"
