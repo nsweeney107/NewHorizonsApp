@@ -35,13 +35,33 @@
                     <Setter Property="BorderBrush" Value="DarkGray" />
                     <Setter Property="Margin" Value="12" />
                     <Setter Property="Padding" Value="4" />
-                    <Setter Property="Transitions">
+                    <!--<Setter Property="Template">
                         <Setter.Value>
-                            <TransitionCollection>
-                                <EntranceThemeTransition />
-                            </TransitionCollection>
+                            <ControlTemplate TargetType="Button">
+                                <Grid x:Name="RootGrid"
+                                      Background="{TemplateBinding Background}">
+                                    <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroup x:Name="CommonGroups">
+                                            <VisualState x:Name="Normal">
+                                                <Storyboard>
+                                                    <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
+                                                </Storyboard>
+                                            </VisualState>
+                                            <VisualState x:Name="PointerOver" >
+                                                <Storyboard>
+                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid"
+                                                                                   Storyboard.TargetProperty="Background">
+                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Bind DataHolder.Color}" />
+                                                    </ObjectAnimationUsingKeyFrames>
+                                                </Storyboard>
+                                            </VisualState>
+                                                         
+                                        </VisualStateGroup>
+                                    </VisualStateManager.VisualStateGroups>
+                                </Grid>
+                            </ControlTemplate>
                         </Setter.Value>
-                    </Setter>
+                    </Setter>-->
                 </Style>
             </GridView.Resources>
             <Button x:Name="YourClassButton"

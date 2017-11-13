@@ -27,12 +27,14 @@ namespace NewHorizonApp.Views
     public sealed partial class HomePage : Page
     {
         public MainViewModel ViewModel { get; set; }
+        public string AccentColor { get; set; }
 
         public HomePage()
         {
             this.InitializeComponent();
 
             ViewModel = new MainViewModel();
+            AccentColor = "#D13438";
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -51,12 +53,20 @@ namespace NewHorizonApp.Views
 
                 DataHolder.GetDescriptionText(thisName);
             }
-            //SolidColorBrush backgroundBrush = new SolidColorBrush();
-            //backgroundBrush.Color = "#D13438";
-
-            //thisButton.Background = new SolidColorBrush("#D13438");
-            //thisButton.Foreground = "White";
+            //thisButton.Background = GetColorFromHex(AccentColor);
             OnNavigationButtonHover();
+        }
+
+        private SolidColorBrush GetColorFromHex(string accentColor)
+        {
+            return new SolidColorBrush(
+                Color.FromArgb(
+                    255,
+                    Convert.ToByte(accentColor.Substring(1, 2), 16),
+                    Convert.ToByte(accentColor.Substring(3, 2), 16),
+                    Convert.ToByte(accentColor.Substring(5, 2), 16)
+                    )
+                    );
         }
 
         private void MouseExited(object sender, PointerRoutedEventArgs e)
@@ -89,7 +99,7 @@ namespace NewHorizonApp.Views
 
         public void OnNavigationButtonHover()
         {
-            HoverColorAnimation.Begin();
+            //HoverColorAnimation.Begin();
             NavigationButtonHover?.Invoke(this, new EventArgs());
         }
 

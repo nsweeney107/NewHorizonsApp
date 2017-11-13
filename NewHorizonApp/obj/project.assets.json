@@ -24345,10 +24345,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NateDev\\Documents\\Visual Studio 2017\\Projects\\NewHorizonApp\\NewHorizonApp\\NewHorizonApp.csproj",
+      "projectUniqueName": "E:\\GitHub\\NewHorizonsApp\\NewHorizonApp\\NewHorizonApp.csproj",
       "projectName": "NewHorizonApp",
-      "projectPath": "C:\\Users\\NateDev\\Documents\\Visual Studio 2017\\Projects\\NewHorizonApp\\NewHorizonApp\\NewHorizonApp.csproj",
-      "outputPath": "C:\\Users\\NateDev\\Documents\\Visual Studio 2017\\Projects\\NewHorizonApp\\NewHorizonApp\\obj\\",
+      "projectPath": "E:\\GitHub\\NewHorizonsApp\\NewHorizonApp\\NewHorizonApp.csproj",
+      "outputPath": "E:\\GitHub\\NewHorizonsApp\\NewHorizonApp\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "uap10.0.10586"
