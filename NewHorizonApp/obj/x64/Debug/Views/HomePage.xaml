@@ -17,7 +17,7 @@
     <ScrollViewer>
         <GridView x:ConnectionId='2' x:Name="MainGridView"
                   HorizontalAlignment="Center"
-                  Padding="8"
+                  Padding="16"
                   Background="#FFFFFF"
                   BorderThickness="4" BorderBrush="Black">
             <GridView.Transitions>
@@ -33,7 +33,7 @@
                     <Setter Property="Background" Value="#CCCCCC" />
                     <Setter Property="BorderThickness" Value="4" />
                     <Setter Property="BorderBrush" Value="DarkGray" />
-                    <Setter Property="Margin" Value="12" />
+                    <Setter Property="Margin" Value="20" />
                     <Setter Property="Padding" Value="4" />
                     <!--<Setter Property="Template">
                         <Setter.Value>

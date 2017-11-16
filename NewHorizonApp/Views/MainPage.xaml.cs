@@ -64,6 +64,7 @@ namespace NewHorizonApp
         {
             base.OnNavigatedTo(e);
 
+            WaitABit(250);
             ButtonDescriptionTextBlock.Text = "";                        
             MainFrame.Navigate(typeof(HomePage));
 
@@ -72,24 +73,30 @@ namespace NewHorizonApp
 
         public void HandleNavigationButtonClicked(object sender, EventArgs e)
         {
-            ThisCTS.Cancel();
+            CancelTask();
             ButtonDescriptionTextBlock.Text = "";
             HideEverything();
         }
 
+        private void WaitABit(int timeToWait)
+        {
+            var spinWait = new SpinWait();
+            for (int i = 0; i < timeToWait; i++)
+            {
+                spinWait.SpinOnce();
+            }
+        }
+
         public void HandleHomeButtonClicked(object sender, EventArgs e)
         {
+            ButtonDescriptionTextBlock.Text = "";
             UnHideEverything();
         }
 
         public void HandleNavigationButtonHover(object sender, EventArgs e)
         {
             // Clean up previous task (if any exists)
-            if (ThisCTS != null)
-            {
-                ThisCTS.Cancel();
-            }
-            //CleanupCancellationToken();
+            CancelTask();
 
             // Clear textblock
             ButtonDescriptionTextBlock.Text = "";
@@ -107,17 +114,10 @@ namespace NewHorizonApp
 
             var task = Task.Factory.StartNew(async () =>
             {
-                // Were we already cancelled?
-                //if (ThisCT.IsCancellationRequested)
-                //{
-                //    ThisCT.ThrowIfCancellationRequested();
-                //}
-
                 for (int i = 0; i < descriptionText.Length; i++)
                 {
                     if (ThisCT.IsCancellationRequested)
                     {
-                        //ThisCT.ThrowIfCancellationRequested();
                         break;
                     }
 
@@ -132,7 +132,6 @@ namespace NewHorizonApp
                             {
                                 if (ThisCT.IsCancellationRequested)
                                 {
-                                    //ThisCT.ThrowIfCancellationRequested();
                                     break;
                                 }
                                 else
@@ -156,40 +155,18 @@ namespace NewHorizonApp
 
             // Add task to bag
             Tasks.Add(task);
-
-            ////Just continue on this thread, or Wait/ Waitall with try-catch:
-            //try
-            //{
-            //    task.Wait();
-            //}
-            //catch (AggregateException ae)
-            //{
-            //    ButtonDescriptionTextBlock.Text = "";
-            //    ButtonDescriptionTextBlock.Text = "There was an error, here are the details:";
-            //    foreach (var v in ae.InnerExceptions)
-            //    {
-            //        ButtonDescriptionTextBlock.Text += "\n" + ae.Message + " " + v.Message;
-            //    }
-            //}
-            //finally
-            //{
-            //    CleanupCancellationToken();
-            //}
         }
 
         public void HandleNavigationButtonUnHover(object sender, EventArgs e)
         {
-            ThisCTS.Cancel();
+            CancelTask();
         }
 
-        private void CleanupCancellationToken()
+        private void CancelTask()
         {
             if (ThisCTS != null)
             {
                 ThisCTS.Cancel();
-                //ButtonDescriptionTextBlock.Text = "";
-                ThisCTS.Dispose();
-                ThisCTS = null;
             }
         }
 
@@ -213,7 +190,7 @@ namespace NewHorizonApp
 
         private void BlinkingAnimator()
         {
-            var spinWait = new SpinWait();
+            //var spinWait = new SpinWait();
 
             var blinkingTask = Task.Factory.StartNew(async () =>
             {
@@ -229,10 +206,7 @@ namespace NewHorizonApp
                     });
 
                     // Waste some time before checking for animation again
-                    for (int j = 0; j < 200; j++)
-                    {
-                        spinWait.SpinOnce();
-                    }
+                    WaitABit(200);
                 }
             });
 
