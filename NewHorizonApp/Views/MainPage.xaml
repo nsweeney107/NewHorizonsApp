@@ -24,11 +24,22 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <!--<Style x:Name="FadingElementsStyle"
+               TargetType="Image">
+            <Setter Property="Transitions">
+                <Setter.Value>
+                    <TransitionCollection>
+                        <PaneThemeTransition />
+                    </TransitionCollection>
+                </Setter.Value>
+            </Setter>
+        </Style>-->
     </Page.Resources>
 
     <Grid x:Name="MainGrid" 
+          Padding="0,36,0,0"
           MinWidth="800"
-          Background="#F2F2F2">
+          Background="#2B3552">        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -42,13 +53,13 @@
         <TextBlock x:Name="TitleTextBlock" 
                    Text="Welcome To...Your Future"
                    Style="{StaticResource HeaderTextBlockStyle}"
-                   Foreground="{ThemeResource SystemAccentColorDark3}"
+                   Foreground="White"
                    HorizontalAlignment="Center"                   
                    Grid.ColumnSpan="2"/>
         <Image x:Name="PatPortraitImage"
                    HorizontalAlignment="Center"
-                   Width="220"
-                   Height="300"
+                   Width="330"
+                   Height="450"
                    Margin="8"
                    Source="/Assets/Pixel Portrait Riley Small.png"
                    Grid.Row="1"
@@ -57,8 +68,8 @@
         </Image>
         <Image x:Name="MouthImage"
                    HorizontalAlignment="Center"
-                   Width="220"
-                   Height="300"
+                   Width="330"
+                   Height="450"
                    Margin="8"
                    Source="/Assets/Mouth.png" 
                    Grid.Row="1"
@@ -71,8 +82,8 @@
         </Image>
         <Image x:Name="EyelidImage"
                HorizontalAlignment="Center"
-                Width="220"
-                Height="300"
+                Width="330"
+                Height="450"
                 Margin="8"
                 Source="/Assets/Blinking.png" 
                 Grid.Row="1"
@@ -82,7 +93,7 @@
         <TextBlock x:Name="ButtonDescriptionTextBlock"
                        Margin="8"
                        Padding="8"
-                       Foreground="Black"
+                       Foreground="White"
                        Width="500"
                    Style="{StaticResource TitleTextBlockStyle}"
                        Grid.Row="2"

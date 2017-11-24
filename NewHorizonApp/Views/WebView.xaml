@@ -8,32 +8,52 @@
     mc:Ignorable="d">
 
     <Grid>
+        <Grid.Resources>
+            <Style x:Key="DefaultCommandBarButtonStyle" TargetType="Button">
+                <Setter Property="Foreground" Value="White" />
+            </Style>
+            <Style x:Key="CommandBarStyle" TargetType="CommandBar">
+                <Setter Property="Transitions">
+                    <Setter.Value>
+                        <TransitionCollection>
+                            <EdgeUIThemeTransition />
+                        </TransitionCollection>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </Grid.Resources>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <CommandBar x:Name="TopCommandBar"  
                     FontSize="36"
-                    Background="#E6E6E6"
+                    Background="#5F6987"
+                    Foreground="White"
                     Opening="TopCommandBar_Opening"
                     Closing="TopCommandBar_Closing">
-            <AppBarButton Name="HomeButton" 
+            <AppBarButton Name="HomeButton"
+                          Style="{StaticResource DefaultCommandBarButtonStyle}"
                           Icon="Home" 
                           Label="Home" 
                           Click="HomeButton_Click" />
-            <AppBarButton Name="BackButton" 
+            <AppBarButton Name="BackButton"
+                          Style="{StaticResource DefaultCommandBarButtonStyle}" 
                           Icon="Back" 
                           Label="Back" 
                           Click="BackButton_Click" />
-            <AppBarButton Name="ForwardButton"  
+            <AppBarButton Name="ForwardButton" 
+                          Style="{StaticResource DefaultCommandBarButtonStyle}" 
                           Icon="Forward" 
                           Label="Forward" 
                           Click="ForwardButton_Click" />
             <AppBarButton Name="StopButton" 
+                          Style="{StaticResource DefaultCommandBarButtonStyle}"
                           Icon="Stop" 
                           Label="Stop" 
                           Click="StopButton_Click" />
             <AppBarButton Name="RefreshButton" 
+                          Style="{StaticResource DefaultCommandBarButtonStyle}"
                           Icon="Refresh" 
                           Label="Refresh" 
                           Click="RefreshButton_Click" />
@@ -46,7 +66,7 @@
         <WebView x:Name="MainWebView"
                  Grid.Row="1"
                  Margin="4"
-             DefaultBackgroundColor="#FFFFFF">
+             DefaultBackgroundColor="#424D6D">
         </WebView>
     </Grid>
     

@@ -18,7 +18,7 @@
         <GridView x:ConnectionId='2' x:Name="MainGridView"
                   HorizontalAlignment="Center"
                   Padding="16"
-                  Background="#FFFFFF"
+                  Background="#5F6987"
                   BorderThickness="4" BorderBrush="Black">
             <GridView.Transitions>
                 <TransitionCollection>
@@ -26,15 +26,50 @@
                 </TransitionCollection>
             </GridView.Transitions>
             <GridView.Resources>
-                <Style x:Key="DefaultButtonStyle" TargetType="Button">
+                <Style x:Key="BaseButtonStyle" TargetType="Button">
                     <Setter Property="FontSize" Value="24" />
                     <Setter Property="Width" Value="240" />
                     <Setter Property="Height" Value="120" />
-                    <Setter Property="Background" Value="#CCCCCC" />
                     <Setter Property="BorderThickness" Value="4" />
-                    <Setter Property="BorderBrush" Value="DarkGray" />
                     <Setter Property="Margin" Value="20" />
                     <Setter Property="Padding" Value="4" />
+                </Style>
+                <Style x:Key="DefaultButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
+                    <Setter Property="Background" Value="#2B3552" />
+                    <Setter Property="Foreground" Value="#F2F2F2" />
+                    <Setter Property="BorderBrush" Value="#424D6D" />
+                    <!--<Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Grid x:Name="RootGrid"
+                                      Background="{TemplateBinding Background}">
+                                    <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroup x:Name="CommonGroups">
+                                            <VisualState x:Name="Normal">
+                                                <Storyboard>
+                                                    <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
+                                                </Storyboard>
+                                            </VisualState>
+                                            <VisualState x:Name="PointerOver" >
+                                                <Storyboard>
+                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid"
+                                                                                   Storyboard.TargetProperty="Background">
+                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Bind DataHolder.Color}" />
+                                                    </ObjectAnimationUsingKeyFrames>
+                                                </Storyboard>
+                                            </VisualState>
+                                                         
+                                        </VisualStateGroup>
+                                    </VisualStateManager.VisualStateGroups>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>-->
+                </Style>
+                <Style x:Key="ImportantButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
+                    <Setter Property="Background" Value="#795838" />
+                    <Setter Property="Foreground" Value="#F2F2F2" />
+                    <Setter Property="BorderBrush" Value="#A27C5A" />
                     <!--<Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="Button">
@@ -68,7 +103,7 @@
                                                  
                                                
                                       
-                    Style="{StaticResource DefaultButtonStyle}">
+                    Style="{StaticResource ImportantButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="Start Your Class" 
                                 TextWrapping="WrapWholeWords"
@@ -79,9 +114,9 @@
                                                  
                                                
                                       
-                    Style="{StaticResource DefaultButtonStyle}">
+                    Style="{StaticResource ImportantButtonStyle}">
                 <Button.Content>
-                    <TextBlock Text="Open for:  Digital Reading" 
+                    <TextBlock Text="Click here to access your digital courseware" 
                                 TextWrapping="WrapWholeWords"
                                 TextAlignment="Center"/>
                 </Button.Content>
@@ -90,7 +125,7 @@
                                                              
                                                            
                                                   
-                                Style="{StaticResource DefaultButtonStyle}">
+                                Style="{StaticResource ImportantButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="Open your Virtual Lab Here" 
                                 TextWrapping="WrapWholeWords"

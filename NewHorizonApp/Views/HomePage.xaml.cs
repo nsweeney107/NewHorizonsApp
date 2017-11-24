@@ -53,20 +53,7 @@ namespace NewHorizonApp.Views
 
                 DataHolder.GetDescriptionText(thisName);
             }
-            //thisButton.Background = GetColorFromHex(AccentColor);
             OnNavigationButtonHover();
-        }
-
-        private SolidColorBrush GetColorFromHex(string accentColor)
-        {
-            return new SolidColorBrush(
-                Color.FromArgb(
-                    255,
-                    Convert.ToByte(accentColor.Substring(1, 2), 16),
-                    Convert.ToByte(accentColor.Substring(3, 2), 16),
-                    Convert.ToByte(accentColor.Substring(5, 2), 16)
-                    )
-                    );
         }
 
         private void MouseExited(object sender, PointerRoutedEventArgs e)
