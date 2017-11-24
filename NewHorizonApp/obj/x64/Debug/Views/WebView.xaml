@@ -6,20 +6,16 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <Page.Transitions>
+        <TransitionCollection>
+            <PaneThemeTransition />
+        </TransitionCollection>
+    </Page.Transitions>
 
     <Grid>
         <Grid.Resources>
             <Style x:Key="DefaultCommandBarButtonStyle" TargetType="Button">
                 <Setter Property="Foreground" Value="White" />
-            </Style>
-            <Style x:Key="CommandBarStyle" TargetType="CommandBar">
-                <Setter Property="Transitions">
-                    <Setter.Value>
-                        <TransitionCollection>
-                            <EdgeUIThemeTransition />
-                        </TransitionCollection>
-                    </Setter.Value>
-                </Setter>
             </Style>
         </Grid.Resources>
         <Grid.RowDefinitions>

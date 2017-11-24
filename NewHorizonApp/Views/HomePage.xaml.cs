@@ -67,9 +67,8 @@ namespace NewHorizonApp.Views
             if (thisButton != null)
             {
                 var thisName = thisButton.Name.ToString();
-                //ViewModel.GetUrl(thisName);
                 DataHolder.GetUrl(thisName);
-                this.Visibility = Visibility.Collapsed;
+                //this.Visibility = Visibility.Collapsed;
                 Frame.Navigate(typeof(WebView));
                 OnNavigationButtonClicked();
             }            
@@ -95,6 +94,11 @@ namespace NewHorizonApp.Views
         public void OnNavigationButtonUnHover()
         {
             NavigationButtonUnHover?.Invoke(this, new EventArgs());
+        }
+
+        private void ScrollViewer_ViewChanged(object sender, ScrollViewerViewChangedEventArgs e)
+        {
+
         }
     }
 }

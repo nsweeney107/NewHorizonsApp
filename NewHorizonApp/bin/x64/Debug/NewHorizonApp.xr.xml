@@ -30,6 +30,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Resources" />
+      <RootProperty Name="Transitions" />
       <RootProperty Name="Content" />
       <RootProperty Name="RequestedTheme" />
     </RootType>
@@ -44,21 +45,20 @@
       <RootProperty Name="Duration" />
       <RootProperty Name="To" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PaneThemeTransition" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Content" />
+      <RootEvent Name="ViewChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Padding" />
       <RootProperty Name="Background" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="BorderBrush" />
-      <RootProperty Name="Transitions" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Items" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Style" />
       <RootProperty Name="Content" />
@@ -80,6 +80,12 @@
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="NewHorizonApp.Views.HomePage" />
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.FadeInThemeAnimation">
+      <RootProperty Name="TargetName" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.FadeOutThemeAnimation">
+      <RootProperty Name="TargetName" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames">
       <RootProperty Name="KeyFrames" />
     </RootType>
@@ -136,10 +142,6 @@
       <RootEvent Name="Opening" />
       <RootEvent Name="Closing" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.UIElement">
-      <RootProperty Name="Transitions" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.EdgeUIThemeTransition" />
     <RootType FullName="Windows.UI.Xaml.Controls.WebView">
       <RootProperty Name="Margin" />
       <RootProperty Name="DefaultBackgroundColor" />

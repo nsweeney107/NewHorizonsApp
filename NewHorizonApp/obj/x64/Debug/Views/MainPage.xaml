@@ -34,9 +34,21 @@
                 </Setter.Value>
             </Setter>
         </Style>-->
+        <Storyboard x:ConnectionId='3' x:Name="FadeOutStoryboard">
+            <FadeOutThemeAnimation TargetName="TitleTextBlock" />
+            <FadeOutThemeAnimation TargetName="PatPortraitImage" />
+            <FadeOutThemeAnimation TargetName="MouthImage" />
+            <FadeOutThemeAnimation TargetName="EyelidImage" />
+        </Storyboard>
+        <Storyboard x:ConnectionId='4' x:Name="FadeInStoryboard">
+            <FadeInThemeAnimation TargetName="TitleTextBlock" />
+            <FadeInThemeAnimation TargetName="PatPortraitImage" />
+            <FadeInThemeAnimation TargetName="MouthImage" />
+            <FadeInThemeAnimation TargetName="EyelidImage" />
+        </Storyboard>
     </Page.Resources>
 
-    <Grid x:ConnectionId='3' x:Name="MainGrid" 
+    <Grid x:ConnectionId='5' x:Name="MainGrid" 
           Padding="0,36,0,0"
           MinWidth="800"
           Background="#2B3552">        
@@ -50,13 +62,13 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <TextBlock x:ConnectionId='4' x:Name="TitleTextBlock" 
+        <TextBlock x:ConnectionId='6' x:Name="TitleTextBlock" 
                    Text="Welcome To...Your Future"
                    Style="{StaticResource HeaderTextBlockStyle}"
                    Foreground="White"
                    HorizontalAlignment="Center"                   
                    Grid.ColumnSpan="2"/>
-        <Image x:ConnectionId='5' x:Name="PatPortraitImage"
+        <Image x:ConnectionId='7' x:Name="PatPortraitImage"
                    HorizontalAlignment="Center"
                    Width="330"
                    Height="450"
@@ -66,7 +78,7 @@
                    Grid.Column="0"
                    Canvas.ZIndex="0">
         </Image>
-        <Image x:ConnectionId='6' x:Name="MouthImage"
+        <Image x:ConnectionId='8' x:Name="MouthImage"
                    HorizontalAlignment="Center"
                    Width="330"
                    Height="450"
@@ -80,7 +92,7 @@
                 <CompositeTransform/>
             </Image.RenderTransform>
         </Image>
-        <Image x:ConnectionId='7' x:Name="EyelidImage"
+        <Image x:ConnectionId='9' x:Name="EyelidImage"
                HorizontalAlignment="Center"
                 Width="330"
                 Height="450"
@@ -90,7 +102,7 @@
                 Grid.Column="0"
                 Canvas.ZIndex="2"
                Opacity="0" />
-        <TextBlock x:ConnectionId='8' x:Name="ButtonDescriptionTextBlock"
+        <TextBlock x:ConnectionId='10' x:Name="ButtonDescriptionTextBlock"
                        Margin="8"
                        Padding="8"
                        Foreground="White"
@@ -98,15 +110,10 @@
                    Style="{StaticResource TitleTextBlockStyle}"
                        Grid.Row="2"
                        Grid.Column="0" />
-        <Frame x:ConnectionId='9' x:Name="MainFrame"
+        <Frame x:ConnectionId='11' x:Name="MainFrame"
                Grid.Column="1"
                Grid.Row="1"
                Grid.RowSpan="2">
-            <!--<Frame.Transitions>
-                <TransitionCollection>
-                    <ContentThemeTransition />
-                </TransitionCollection>                
-            </Frame.Transitions>-->
 
         </Frame>
     </Grid>

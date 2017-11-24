@@ -75,6 +75,8 @@ namespace NewHorizonApp
         {
             CancelTask();
             ButtonDescriptionTextBlock.Text = "";
+            FadeOutStoryboard.Begin();
+            WaitABit(3000);
             HideEverything();
         }
 
@@ -91,6 +93,8 @@ namespace NewHorizonApp
         {
             ButtonDescriptionTextBlock.Text = "";
             UnHideEverything();
+            //WaitABit(1000);
+            FadeInStoryboard.Begin();
         }
 
         public void HandleNavigationButtonHover(object sender, EventArgs e)

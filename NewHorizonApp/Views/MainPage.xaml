@@ -34,6 +34,18 @@
                 </Setter.Value>
             </Setter>
         </Style>-->
+        <Storyboard x:Name="FadeOutStoryboard">
+            <FadeOutThemeAnimation TargetName="TitleTextBlock" />
+            <FadeOutThemeAnimation TargetName="PatPortraitImage" />
+            <FadeOutThemeAnimation TargetName="MouthImage" />
+            <FadeOutThemeAnimation TargetName="EyelidImage" />
+        </Storyboard>
+        <Storyboard x:Name="FadeInStoryboard">
+            <FadeInThemeAnimation TargetName="TitleTextBlock" />
+            <FadeInThemeAnimation TargetName="PatPortraitImage" />
+            <FadeInThemeAnimation TargetName="MouthImage" />
+            <FadeInThemeAnimation TargetName="EyelidImage" />
+        </Storyboard>
     </Page.Resources>
 
     <Grid x:Name="MainGrid" 
@@ -102,11 +114,6 @@
                Grid.Column="1"
                Grid.Row="1"
                Grid.RowSpan="2">
-            <!--<Frame.Transitions>
-                <TransitionCollection>
-                    <ContentThemeTransition />
-                </TransitionCollection>                
-            </Frame.Transitions>-->
 
         </Frame>
     </Grid>

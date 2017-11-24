@@ -13,18 +13,22 @@
             <ColorAnimation Duration="0:0:0.2" To="White" Storyboard.TargetProperty="(Control.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="YourClassButton" d:IsOptimized="True"/>
         </Storyboard>
     </Page.Resources>
+    <Page.Transitions>
+        <TransitionCollection>
+            <PaneThemeTransition />
+        </TransitionCollection>
+    </Page.Transitions>
 
-    <ScrollViewer>
-        <GridView x:ConnectionId='2' x:Name="MainGridView"
-                  HorizontalAlignment="Center"
+    <ScrollViewer x:ConnectionId='2'                                       >
+        <GridView x:ConnectionId='3' x:Name="MainGridView"
                   Padding="16"
                   Background="#5F6987"
                   BorderThickness="4" BorderBrush="Black">
-            <GridView.Transitions>
+            <!--<GridView.Transitions>
                 <TransitionCollection>
                     <EntranceThemeTransition />
                 </TransitionCollection>
-            </GridView.Transitions>
+            </GridView.Transitions>-->
             <GridView.Resources>
                 <Style x:Key="BaseButtonStyle" TargetType="Button">
                     <Setter Property="FontSize" Value="24" />
@@ -99,7 +103,7 @@
                     </Setter>-->
                 </Style>
             </GridView.Resources>
-            <Button x:ConnectionId='3' x:Name="YourClassButton"
+            <Button x:ConnectionId='4' x:Name="YourClassButton"
                                                  
                                                
                                       
@@ -110,7 +114,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='4' x:Name="DigitalReadingButton"
+            <Button x:ConnectionId='5' x:Name="DigitalReadingButton"
                                                  
                                                
                                       
@@ -121,7 +125,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='5' x:Name="LabsButton"
+            <Button x:ConnectionId='6' x:Name="LabsButton"
                                                              
                                                            
                                                   
@@ -132,7 +136,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='6' x:Name="BrowseClassesButton"
+            <Button x:ConnectionId='7' x:Name="BrowseClassesButton"
                     Style="{StaticResource DefaultButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="You would be AMAZED how many classes we have..." 
@@ -140,7 +144,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='7' x:Name="LaunchGameButton"
+            <Button x:ConnectionId='8' x:Name="LaunchGameButton"
                         Style="{StaticResource DefaultButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="Are you bored?  Click HERE!" 
@@ -148,7 +152,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='8' x:Name="SaveMoneyButton"
+            <Button x:ConnectionId='9' x:Name="SaveMoneyButton"
                     Style="{StaticResource DefaultButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="Want to save $ on your next class?" 
@@ -156,7 +160,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='9' x:Name="HungryButton"
+            <Button x:ConnectionId='10' x:Name="HungryButton"
                         Style="{StaticResource DefaultButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="Are you hungry?" 
@@ -164,7 +168,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='10' x:Name="ShoppingButton"
+            <Button x:ConnectionId='11' x:Name="ShoppingButton"
                     Style="{StaticResource DefaultButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="Would you like to go shopping?" 
@@ -172,7 +176,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='11' x:Name="WhyCookiesButton"
+            <Button x:ConnectionId='12' x:Name="WhyCookiesButton"
                         Style="{StaticResource DefaultButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="Why do we make cookies?" 
@@ -180,7 +184,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='12' x:Name="VitalAcceleratorButton"
+            <Button x:ConnectionId='13' x:Name="VitalAcceleratorButton"
                     Style="{StaticResource DefaultButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="What is the Vital Accelerator" 
@@ -188,7 +192,7 @@
                                 TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='13' x:Name="WhoAreWeButton"
+            <Button x:ConnectionId='14' x:Name="WhoAreWeButton"
                         Style="{StaticResource DefaultButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="Who is Riley Technologies?" 
@@ -196,7 +200,7 @@
                                    TextAlignment="Center"/>
                 </Button.Content>
             </Button>
-            <Button x:ConnectionId='14' x:Name="HeadsetButton"
+            <Button x:ConnectionId='15' x:Name="HeadsetButton"
                         Style="{StaticResource DefaultButtonStyle}">
                 <Button.Content>
                     <TextBlock Text="What will we do with your headset if you don't want it?" 

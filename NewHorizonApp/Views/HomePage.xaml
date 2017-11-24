@@ -13,18 +13,22 @@
             <ColorAnimation Duration="0:0:0.2" To="White" Storyboard.TargetProperty="(Control.Foreground).(SolidColorBrush.Color)" Storyboard.TargetName="YourClassButton" d:IsOptimized="True"/>
         </Storyboard>
     </Page.Resources>
+    <Page.Transitions>
+        <TransitionCollection>
+            <PaneThemeTransition />
+        </TransitionCollection>
+    </Page.Transitions>
 
-    <ScrollViewer>
+    <ScrollViewer ViewChanged="ScrollViewer_ViewChanged">
         <GridView x:Name="MainGridView"
-                  HorizontalAlignment="Center"
                   Padding="16"
                   Background="#5F6987"
                   BorderThickness="4" BorderBrush="Black">
-            <GridView.Transitions>
+            <!--<GridView.Transitions>
                 <TransitionCollection>
                     <EntranceThemeTransition />
                 </TransitionCollection>
-            </GridView.Transitions>
+            </GridView.Transitions>-->
             <GridView.Resources>
                 <Style x:Key="BaseButtonStyle" TargetType="Button">
                     <Setter Property="FontSize" Value="24" />
