@@ -34,8 +34,7 @@ namespace NewHorizonApp
         public CancellationTokenSource ThisCTS { get; set; }
         public CancellationToken ThisCT { get; set; }
         public ConcurrentBag<Task> Tasks { get; set; }
-        public string CurrentButtonColor { get; set; }
-        public string HoverButtonColor { get; set; }
+        public List<Task> TasksList { get; set; }
 
         public MainPage()
         {
@@ -50,14 +49,13 @@ namespace NewHorizonApp
             // Connect to the ViewModel
             ViewModel = new MainViewModel();
 
+            // Create the array
+            TasksList = new List<Task>();
+            
             // Create the Task Bag
-            Tasks = new ConcurrentBag<Task>();
+            //Tasks = new ConcurrentBag<Task>();
 
             ButtonDescriptionTextBlock.Text = "";
-
-            // Set the button colors
-            CurrentButtonColor = "CCCCCC";
-            HoverButtonColor = "D13438";
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -101,6 +99,9 @@ namespace NewHorizonApp
         {
             // Clean up previous task (if any exists)
             CancelTask();
+
+            // Wait for the task to cancel
+            WaitForTypewriterToCancel();
 
             // Clear textblock
             ButtonDescriptionTextBlock.Text = "";
@@ -157,8 +158,24 @@ namespace NewHorizonApp
                 }
             }, ThisCT); // Pass the same token to StartNew
 
+            // Add the task to the second spot of the array
+            TasksList.Add(task);
+
             // Add task to bag
-            Tasks.Add(task);
+            //Tasks.Add(task);
+        }
+
+        private void WaitForTypewriterToCancel()
+        {
+            if (TasksList.Count == 2)
+            {
+                var thisTask = (Task)TasksList.ElementAt(1);
+
+                if (thisTask != null)
+                {
+                    thisTask.Wait();
+                }
+            }                 
         }
 
         public void HandleNavigationButtonUnHover(object sender, EventArgs e)
@@ -214,8 +231,11 @@ namespace NewHorizonApp
                 }
             });
 
+            // Add the task to the list
+            TasksList.Add(blinkingTask);
+
             // Add task to bag
-            Tasks.Add(blinkingTask);
+            //Tasks.Add(blinkingTask);
         }
     }
 }

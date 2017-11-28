@@ -132,7 +132,7 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[12];
+            _typeNameTable = new string[21];
             _typeNameTable[0] = "NewHorizonApp.Views.HomePage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -144,9 +144,18 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             _typeNameTable[8] = "System.Threading.CancellationToken";
             _typeNameTable[9] = "System.ValueType";
             _typeNameTable[10] = "System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>";
-            _typeNameTable[11] = "NewHorizonApp.Views.WebView";
+            _typeNameTable[11] = "System.Collections.Generic.List`1<System.Threading.Tasks.Task>";
+            _typeNameTable[12] = "System.Threading.Tasks.Task";
+            _typeNameTable[13] = "System.Threading.Tasks.TaskCreationOptions";
+            _typeNameTable[14] = "System.Enum";
+            _typeNameTable[15] = "System.AggregateException";
+            _typeNameTable[16] = "System.Exception";
+            _typeNameTable[17] = "Int32";
+            _typeNameTable[18] = "Boolean";
+            _typeNameTable[19] = "System.Threading.Tasks.TaskStatus";
+            _typeNameTable[20] = "NewHorizonApp.Views.WebView";
 
-            _typeTable = new global::System.Type[12];
+            _typeTable = new global::System.Type[21];
             _typeTable[0] = typeof(global::NewHorizonApp.Views.HomePage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -158,7 +167,16 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             _typeTable[8] = typeof(global::System.Threading.CancellationToken);
             _typeTable[9] = typeof(global::System.ValueType);
             _typeTable[10] = typeof(global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>);
-            _typeTable[11] = typeof(global::NewHorizonApp.Views.WebView);
+            _typeTable[11] = typeof(global::System.Collections.Generic.List<global::System.Threading.Tasks.Task>);
+            _typeTable[12] = typeof(global::System.Threading.Tasks.Task);
+            _typeTable[13] = typeof(global::System.Threading.Tasks.TaskCreationOptions);
+            _typeTable[14] = typeof(global::System.Enum);
+            _typeTable[15] = typeof(global::System.AggregateException);
+            _typeTable[16] = typeof(global::System.Exception);
+            _typeTable[17] = typeof(global::System.Int32);
+            _typeTable[18] = typeof(global::System.Boolean);
+            _typeTable[19] = typeof(global::System.Threading.Tasks.TaskStatus);
+            _typeTable[20] = typeof(global::NewHorizonApp.Views.WebView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -198,7 +216,16 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
         private object Activate_6_MainPage() { return new global::NewHorizonApp.MainPage(); }
         private object Activate_7_CancellationTokenSource() { return new global::System.Threading.CancellationTokenSource(); }
         private object Activate_10_ConcurrentBag() { return new global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>(); }
-        private object Activate_11_WebView() { return new global::NewHorizonApp.Views.WebView(); }
+        private object Activate_11_List() { return new global::System.Collections.Generic.List<global::System.Threading.Tasks.Task>(); }
+        private object Activate_15_AggregateException() { return new global::System.AggregateException(); }
+        private object Activate_16_Exception() { return new global::System.Exception(); }
+        private object Activate_20_WebView() { return new global::NewHorizonApp.Views.WebView(); }
+        private void VectorAdd_11_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::System.Threading.Tasks.Task>)instance;
+            var newItem = (global::System.Threading.Tasks.Task)item;
+            collection.Add(newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -249,8 +276,7 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 userType.AddMemberName("ThisCTS");
                 userType.AddMemberName("ThisCT");
                 userType.AddMemberName("Tasks");
-                userType.AddMemberName("CurrentButtonColor");
-                userType.AddMemberName("HoverButtonColor");
+                userType.AddMemberName("TasksList");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -278,9 +304,79 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 11:   //  NewHorizonApp.Views.WebView
+            case 11:   //  System.Collections.Generic.List`1<System.Threading.Tasks.Task>
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.CollectionAdd = VectorAdd_11_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 12:   //  System.Threading.Tasks.Task
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("AsyncState");
+                userType.AddMemberName("CreationOptions");
+                userType.AddMemberName("Exception");
+                userType.AddMemberName("Id");
+                userType.AddMemberName("IsCanceled");
+                userType.AddMemberName("IsCompleted");
+                userType.AddMemberName("IsFaulted");
+                userType.AddMemberName("Status");
+                xamlType = userType;
+                break;
+
+            case 13:   //  System.Threading.Tasks.TaskCreationOptions
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("None", global::System.Threading.Tasks.TaskCreationOptions.None);
+                userType.AddEnumValue("PreferFairness", global::System.Threading.Tasks.TaskCreationOptions.PreferFairness);
+                userType.AddEnumValue("LongRunning", global::System.Threading.Tasks.TaskCreationOptions.LongRunning);
+                userType.AddEnumValue("AttachedToParent", global::System.Threading.Tasks.TaskCreationOptions.AttachedToParent);
+                userType.AddEnumValue("DenyChildAttach", global::System.Threading.Tasks.TaskCreationOptions.DenyChildAttach);
+                userType.AddEnumValue("HideScheduler", global::System.Threading.Tasks.TaskCreationOptions.HideScheduler);
+                userType.AddEnumValue("RunContinuationsAsynchronously", global::System.Threading.Tasks.TaskCreationOptions.RunContinuationsAsynchronously);
+                xamlType = userType;
+                break;
+
+            case 14:   //  System.Enum
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 15:   //  System.AggregateException
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Exception"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 16:   //  System.Exception
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_16_Exception;
+                xamlType = userType;
+                break;
+
+            case 17:   //  Int32
+                xamlType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 18:   //  Boolean
+                xamlType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 19:   //  System.Threading.Tasks.TaskStatus
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Created", global::System.Threading.Tasks.TaskStatus.Created);
+                userType.AddEnumValue("WaitingForActivation", global::System.Threading.Tasks.TaskStatus.WaitingForActivation);
+                userType.AddEnumValue("WaitingToRun", global::System.Threading.Tasks.TaskStatus.WaitingToRun);
+                userType.AddEnumValue("Running", global::System.Threading.Tasks.TaskStatus.Running);
+                userType.AddEnumValue("WaitingForChildrenToComplete", global::System.Threading.Tasks.TaskStatus.WaitingForChildrenToComplete);
+                userType.AddEnumValue("RanToCompletion", global::System.Threading.Tasks.TaskStatus.RanToCompletion);
+                userType.AddEnumValue("Canceled", global::System.Threading.Tasks.TaskStatus.Canceled);
+                userType.AddEnumValue("Faulted", global::System.Threading.Tasks.TaskStatus.Faulted);
+                xamlType = userType;
+                break;
+
+            case 20:   //  NewHorizonApp.Views.WebView
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_WebView;
+                userType.Activator = Activate_20_WebView;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -350,32 +446,62 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             var that = (global::NewHorizonApp.MainPage)instance;
             that.Tasks = (global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>)Value;
         }
-        private object get_6_MainPage_CurrentButtonColor(object instance)
+        private object get_6_MainPage_TasksList(object instance)
         {
             var that = (global::NewHorizonApp.MainPage)instance;
-            return that.CurrentButtonColor;
+            return that.TasksList;
         }
-        private void set_6_MainPage_CurrentButtonColor(object instance, object Value)
+        private void set_6_MainPage_TasksList(object instance, object Value)
         {
             var that = (global::NewHorizonApp.MainPage)instance;
-            that.CurrentButtonColor = (global::System.String)Value;
+            that.TasksList = (global::System.Collections.Generic.List<global::System.Threading.Tasks.Task>)Value;
         }
-        private object get_7_MainPage_HoverButtonColor(object instance)
+        private object get_7_Task_AsyncState(object instance)
         {
-            var that = (global::NewHorizonApp.MainPage)instance;
-            return that.HoverButtonColor;
+            var that = (global::System.Threading.Tasks.Task)instance;
+            return that.AsyncState;
         }
-        private void set_7_MainPage_HoverButtonColor(object instance, object Value)
+        private object get_8_Task_CreationOptions(object instance)
         {
-            var that = (global::NewHorizonApp.MainPage)instance;
-            that.HoverButtonColor = (global::System.String)Value;
+            var that = (global::System.Threading.Tasks.Task)instance;
+            return that.CreationOptions;
         }
-        private object get_8_WebView_ViewModel(object instance)
+        private object get_9_Task_Exception(object instance)
+        {
+            var that = (global::System.Threading.Tasks.Task)instance;
+            return that.Exception;
+        }
+        private object get_10_Task_Id(object instance)
+        {
+            var that = (global::System.Threading.Tasks.Task)instance;
+            return that.Id;
+        }
+        private object get_11_Task_IsCanceled(object instance)
+        {
+            var that = (global::System.Threading.Tasks.Task)instance;
+            return that.IsCanceled;
+        }
+        private object get_12_Task_IsCompleted(object instance)
+        {
+            var that = (global::System.Threading.Tasks.Task)instance;
+            return that.IsCompleted;
+        }
+        private object get_13_Task_IsFaulted(object instance)
+        {
+            var that = (global::System.Threading.Tasks.Task)instance;
+            return that.IsFaulted;
+        }
+        private object get_14_Task_Status(object instance)
+        {
+            var that = (global::System.Threading.Tasks.Task)instance;
+            return that.Status;
+        }
+        private object get_15_WebView_ViewModel(object instance)
         {
             var that = (global::NewHorizonApp.Views.WebView)instance;
             return that.ViewModel;
         }
-        private void set_8_WebView_ViewModel(object instance, object Value)
+        private void set_15_WebView_ViewModel(object instance, object Value)
         {
             var that = (global::NewHorizonApp.Views.WebView)instance;
             that.ViewModel = (global::NewHorizonApp.ViewModel.MainViewModel)Value;
@@ -424,23 +550,65 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 xamlMember.Getter = get_5_MainPage_Tasks;
                 xamlMember.Setter = set_5_MainPage_Tasks;
                 break;
-            case "NewHorizonApp.MainPage.CurrentButtonColor":
+            case "NewHorizonApp.MainPage.TasksList":
                 userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("NewHorizonApp.MainPage");
-                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "CurrentButtonColor", "String");
-                xamlMember.Getter = get_6_MainPage_CurrentButtonColor;
-                xamlMember.Setter = set_6_MainPage_CurrentButtonColor;
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "TasksList", "System.Collections.Generic.List`1<System.Threading.Tasks.Task>");
+                xamlMember.Getter = get_6_MainPage_TasksList;
+                xamlMember.Setter = set_6_MainPage_TasksList;
                 break;
-            case "NewHorizonApp.MainPage.HoverButtonColor":
-                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("NewHorizonApp.MainPage");
-                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "HoverButtonColor", "String");
-                xamlMember.Getter = get_7_MainPage_HoverButtonColor;
-                xamlMember.Setter = set_7_MainPage_HoverButtonColor;
+            case "System.Threading.Tasks.Task.AsyncState":
+                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("System.Threading.Tasks.Task");
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "AsyncState", "Object");
+                xamlMember.Getter = get_7_Task_AsyncState;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "System.Threading.Tasks.Task.CreationOptions":
+                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("System.Threading.Tasks.Task");
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "CreationOptions", "System.Threading.Tasks.TaskCreationOptions");
+                xamlMember.Getter = get_8_Task_CreationOptions;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "System.Threading.Tasks.Task.Exception":
+                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("System.Threading.Tasks.Task");
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "Exception", "System.AggregateException");
+                xamlMember.Getter = get_9_Task_Exception;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "System.Threading.Tasks.Task.Id":
+                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("System.Threading.Tasks.Task");
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "Id", "Int32");
+                xamlMember.Getter = get_10_Task_Id;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "System.Threading.Tasks.Task.IsCanceled":
+                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("System.Threading.Tasks.Task");
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "IsCanceled", "Boolean");
+                xamlMember.Getter = get_11_Task_IsCanceled;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "System.Threading.Tasks.Task.IsCompleted":
+                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("System.Threading.Tasks.Task");
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "IsCompleted", "Boolean");
+                xamlMember.Getter = get_12_Task_IsCompleted;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "System.Threading.Tasks.Task.IsFaulted":
+                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("System.Threading.Tasks.Task");
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "IsFaulted", "Boolean");
+                xamlMember.Getter = get_13_Task_IsFaulted;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "System.Threading.Tasks.Task.Status":
+                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("System.Threading.Tasks.Task");
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "Status", "System.Threading.Tasks.TaskStatus");
+                xamlMember.Getter = get_14_Task_Status;
+                xamlMember.SetIsReadOnly();
                 break;
             case "NewHorizonApp.Views.WebView.ViewModel":
                 userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("NewHorizonApp.Views.WebView");
                 xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "ViewModel", "NewHorizonApp.ViewModel.MainViewModel");
-                xamlMember.Getter = get_8_WebView_ViewModel;
-                xamlMember.Setter = set_8_WebView_ViewModel;
+                xamlMember.Getter = get_15_WebView_ViewModel;
+                xamlMember.Setter = set_15_WebView_ViewModel;
                 break;
             }
             return xamlMember;
