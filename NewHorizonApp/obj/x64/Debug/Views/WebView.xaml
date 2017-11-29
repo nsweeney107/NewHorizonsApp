@@ -8,11 +8,13 @@
     mc:Ignorable="d">
     <Page.Transitions>
         <TransitionCollection>
-            <PaneThemeTransition />
+            <EdgeUIThemeTransition Edge="Right" />
+            <!--<PaneThemeTransition />-->
         </TransitionCollection>
     </Page.Transitions>
 
-    <Grid>
+    <Grid Padding="0,36,0,0"          
+          Background="#2B3552">
         <Grid.Resources>
             <Style x:Key="DefaultCommandBarButtonStyle" TargetType="Button">
                 <Setter Property="Foreground" Value="White" />

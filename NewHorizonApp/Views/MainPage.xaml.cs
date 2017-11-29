@@ -25,35 +25,22 @@ using System.Collections.Concurrent;
 
 namespace NewHorizonApp
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class MainPage : Page
     {
         public MainViewModel ViewModel { get; set; } //= new MainViewModel();
         public CancellationTokenSource ThisCTS { get; set; }
         public CancellationToken ThisCT { get; set; }
         public ConcurrentBag<Task> Tasks { get; set; }
-        public List<Task> TasksList { get; set; }
 
         public MainPage()
         {
-            this.InitializeComponent();            
-
-            // Wire this page up to the button events
-            HomePage.NavigationButtonHover += HandleNavigationButtonHover;
-            HomePage.NavigationButtonUnHover += HandleNavigationButtonUnHover;
-            HomePage.NavigationButtonClicked += HandleNavigationButtonClicked;
-            Views.WebView.HomeButtonClicked += HandleHomeButtonClicked;
+            this.InitializeComponent();
 
             // Connect to the ViewModel
             ViewModel = new MainViewModel();
 
-            // Create the array
-            TasksList = new List<Task>();
-            
             // Create the Task Bag
-            //Tasks = new ConcurrentBag<Task>();
+            Tasks = new ConcurrentBag<Task>();
 
             ButtonDescriptionTextBlock.Text = "";
         }
@@ -62,22 +49,12 @@ namespace NewHorizonApp
         {
             base.OnNavigatedTo(e);
 
-            WaitABit(250);
-            ButtonDescriptionTextBlock.Text = "";                        
-            MainFrame.Navigate(typeof(HomePage));
+            //WaitABit(250);
+            ButtonDescriptionTextBlock.Text = "";
 
             BlinkingAnimator();
         }
-
-        public void HandleNavigationButtonClicked(object sender, EventArgs e)
-        {
-            CancelTask();
-            ButtonDescriptionTextBlock.Text = "";
-            FadeOutStoryboard.Begin();
-            WaitABit(3000);
-            HideEverything();
-        }
-
+        
         private void WaitABit(int timeToWait)
         {
             var spinWait = new SpinWait();
@@ -86,22 +63,58 @@ namespace NewHorizonApp
                 spinWait.SpinOnce();
             }
         }
-
-        public void HandleHomeButtonClicked(object sender, EventArgs e)
+       
+        private void BlinkingAnimator()
         {
-            ButtonDescriptionTextBlock.Text = "";
-            UnHideEverything();
-            //WaitABit(1000);
-            FadeInStoryboard.Begin();
+            //var spinWait = new SpinWait();
+
+            var blinkingTask = Task.Factory.StartNew(async () =>
+            {
+                for (int i = 0; i < 60000; i++)
+                {
+                    await EyelidImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                    {
+                        // Animate the eyelids
+                        if (i % 300 == 0)
+                        {
+                            BlinkingAnimation.Begin();
+                        }                        
+                    });
+
+                    // Waste some time before checking for animation again
+                    WaitABit(200);
+                }
+            });
+
+            // Add task to bag
+            Tasks.Add(blinkingTask);
         }
 
-        public void HandleNavigationButtonHover(object sender, EventArgs e)
+        // These all came from the old HomePage.xaml.cs
+        private void MouseEntered(object sender, PointerRoutedEventArgs e)
+        {
+            GetButtonDescriptionText(sender);
+            TypewriterTextFiller();
+        }
+
+        private static void GetButtonDescriptionText(object sender)
+        {
+            var thisButton = sender as Button;
+            if (thisButton != null)
+            {
+                var thisName = thisButton.Name.ToString();
+
+                DataHolder.GetDescriptionText(thisName);
+            }
+        }
+
+        private void TypewriterTextFiller()
         {
             // Clean up previous task (if any exists)
             CancelTask();
 
             // Wait for the task to cancel
-            WaitForTypewriterToCancel();
+            //WaitForTypewriterToCancel();
 
             // Clear textblock
             ButtonDescriptionTextBlock.Text = "";
@@ -158,27 +171,25 @@ namespace NewHorizonApp
                 }
             }, ThisCT); // Pass the same token to StartNew
 
-            // Add the task to the second spot of the array
-            TasksList.Add(task);
-
             // Add task to bag
-            //Tasks.Add(task);
+            Tasks.Add(task);
         }
 
         private void WaitForTypewriterToCancel()
         {
-            if (TasksList.Count == 2)
-            {
-                var thisTask = (Task)TasksList.ElementAt(1);
+            //if (TasksList.Count == 2)
+            //{
+            //    var thisTask = (Task)TasksList.ElementAt(1);
 
-                if (thisTask != null)
-                {
-                    thisTask.Wait();
-                }
-            }                 
+            //    if (thisTask != null)
+            //    {
+            //        thisTask.Wait();
+            //    }
+            //}                 
         }
 
-        public void HandleNavigationButtonUnHover(object sender, EventArgs e)
+
+        private void MouseExited(object sender, PointerRoutedEventArgs e)
         {
             CancelTask();
         }
@@ -191,51 +202,22 @@ namespace NewHorizonApp
             }
         }
 
-        private void HideEverything()
+        private void MouseClick(object sender, RoutedEventArgs e)
         {
-            TitleTextBlock.Visibility = Visibility.Collapsed;
-            PatPortraitImage.Visibility = Visibility.Collapsed;
-            MouthImage.Visibility = Visibility.Collapsed;
-            EyelidImage.Visibility = Visibility.Collapsed;
-            ButtonDescriptionTextBlock.Visibility = Visibility.Collapsed;
-        }
+            CancelTask();
 
-        private void UnHideEverything()
-        {
-            TitleTextBlock.Visibility = Visibility.Visible;
-            PatPortraitImage.Visibility = Visibility.Visible;
-            MouthImage.Visibility = Visibility.Visible;
-            EyelidImage.Visibility = Visibility.Visible;
-            ButtonDescriptionTextBlock.Visibility = Visibility.Visible;
-        }
-
-        private void BlinkingAnimator()
-        {
-            //var spinWait = new SpinWait();
-
-            var blinkingTask = Task.Factory.StartNew(async () =>
+            var thisButton = sender as Button;
+            if (thisButton != null)
             {
-                for (int i = 0; i < 60000; i++)
-                {
-                    await EyelidImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-                    {
-                        // Animate the eyelids
-                        if (i % 300 == 0)
-                        {
-                            BlinkingAnimation.Begin();
-                        }                        
-                    });
+                var thisName = thisButton.Name.ToString();
+                DataHolder.GetUrl(thisName);
+                Frame.Navigate(typeof(Views.WebView));
+            }
+        }
 
-                    // Waste some time before checking for animation again
-                    WaitABit(200);
-                }
-            });
+        private void ScrollViewer_ViewChanged(object sender, ScrollViewerViewChangedEventArgs e)
+        {
 
-            // Add the task to the list
-            TasksList.Add(blinkingTask);
-
-            // Add task to bag
-            //Tasks.Add(blinkingTask);
         }
     }
 }

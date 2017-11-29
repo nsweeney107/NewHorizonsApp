@@ -10,18 +10,6 @@ namespace NewHorizonApp.ViewModels
 {
     public static class DataHolder //: INotifyPropertyChanged
     {
-        private static string accentColor = "#D13438";
-
-        public static string AccentColor
-        {
-            get { return accentColor; }
-            set
-            {
-                accentColor = value;
-                OnGlobalPropertyChanged("AccentColor");
-            }
-        }
-
         private static Uri navigationTarget = new Uri("https://www.google.com");
 
         public static Uri NavigationTarget
@@ -57,9 +45,6 @@ namespace NewHorizonApp.ViewModels
                 OnGlobalPropertyChanged("UriName");
             }
         }
-        //public Uri NavigationTarget { get; set; } = new Uri("https://www.google.com");
-        //public string ButtonDescription { get; set; } = "";
-        //public string UriName { get; set; } = "";
 
         public static void GetUrl(string buttonName)
         {

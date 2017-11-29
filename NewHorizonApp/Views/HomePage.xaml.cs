@@ -27,14 +27,12 @@ namespace NewHorizonApp.Views
     public sealed partial class HomePage : Page
     {
         public MainViewModel ViewModel { get; set; }
-        public string AccentColor { get; set; }
 
         public HomePage()
         {
             this.InitializeComponent();
 
             ViewModel = new MainViewModel();
-            AccentColor = "#D13438";
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)

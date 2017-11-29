@@ -43,7 +43,7 @@ namespace NewHorizonApp.Views
 
         private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(HomePage));
+            Frame.Navigate(typeof(MainPage));
             OnHomeButtonClicked();
         }
 
