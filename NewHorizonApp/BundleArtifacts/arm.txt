@@ -1,0 +1,2 @@
+MainPackage=E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\ARM\Release\NewHorizonApp_0.7.0.0_ARM.appx
+SymbolPackage=E:\GitHub\NewHorizonsApp\NewHorizonApp\AppPackages\NewHorizonApp_0.7.0.0_Test\NewHorizonApp_0.7.0.0_ARM.appxsym

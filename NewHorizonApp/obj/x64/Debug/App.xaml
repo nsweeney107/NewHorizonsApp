@@ -62,6 +62,12 @@
             <Setter Property="FontSize" Value="12" />
             <Setter Property="FontWeight" Value="Normal" />
         </Style>
+
+        <ResourceDictionary x:Key="StylizedResourceDictionary">
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="StylizedButton.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 
 </Application>

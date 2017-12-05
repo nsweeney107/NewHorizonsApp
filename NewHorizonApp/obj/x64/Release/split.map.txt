@@ -1,0 +1,20 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\split.pri"			"resources.pri"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\WinMetadata\Windows.winmd"			"WinMetadata\Windows.winmd"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Properties\Default.rd.xml"			"Properties\Default.rd.xml"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\NewHorizonApp.xr.xml"			"NewHorizonApp.xr.xml"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\Wide310x150Logo.scale-200.png"			"Assets\Wide310x150Logo.scale-200.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\StoreLogo.png"			"Assets\StoreLogo.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\Square44x44Logo.scale-200.png"			"Assets\Square44x44Logo.scale-200.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\Square44x44Logo.targetsize-24_altform-unplated.png"			"Assets\Square44x44Logo.targetsize-24_altform-unplated.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\Square150x150Logo.scale-200.png"			"Assets\Square150x150Logo.scale-200.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\SplashScreen.scale-200.png"			"Assets\SplashScreen.scale-200.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\PixelPortraitRileySmall.png"			"Assets\PixelPortraitRileySmall.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\Pixel Portrait Riley small.png"			"Assets\Pixel Portrait Riley small.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\Mouth.png"			"Assets\Mouth.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\LockScreenLogo.scale-200.png"			"Assets\LockScreenLogo.scale-200.png"
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\PackageLayout\Assets\Blinking.png"			"Assets\Blinking.png"

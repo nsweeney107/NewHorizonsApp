@@ -20,6 +20,7 @@ using NewHorizonApp.ViewModels;
 using System.Threading.Tasks;
 using Windows.System.Threading;
 using System.Collections.Concurrent;
+using Windows.UI.Xaml.Hosting;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -161,7 +162,7 @@ namespace NewHorizonApp
                     });
 
                     // Animate the mouth
-                    if (i % 5 == 0)
+                    if (i % 8 == 0)
                     {
                         await MouthImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                         {
