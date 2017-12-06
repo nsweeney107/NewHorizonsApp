@@ -282,11 +282,11 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 userType.AddMemberName("BlurRadius");
                 userType.AddMemberName("OffsetX");
                 userType.AddMemberName("OffsetY");
+                userType.AddMemberName("ShadowOpacity");
                 userType.AddMemberName("Color");
                 userType.AddMemberName("DropShadow");
                 userType.AddMemberName("Mask");
                 userType.AddMemberName("OffsetZ");
-                userType.AddMemberName("ShadowOpacity");
                 xamlType = userType;
                 break;
 
@@ -466,50 +466,50 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
             that.OffsetY = (global::System.Double)Value;
         }
-        private object get_4_DropShadowPanel_Color(object instance)
-        {
-            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
-            return that.Color;
-        }
-        private void set_4_DropShadowPanel_Color(object instance, object Value)
-        {
-            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
-            that.Color = (global::Windows.UI.Color)Value;
-        }
-        private object get_5_DropShadowPanel_DropShadow(object instance)
-        {
-            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
-            return that.DropShadow;
-        }
-        private object get_6_DropShadowPanel_Mask(object instance)
-        {
-            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
-            return that.Mask;
-        }
-        private void set_6_DropShadowPanel_Mask(object instance, object Value)
-        {
-            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
-            that.Mask = (global::Windows.UI.Composition.CompositionBrush)Value;
-        }
-        private object get_7_DropShadowPanel_OffsetZ(object instance)
-        {
-            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
-            return that.OffsetZ;
-        }
-        private void set_7_DropShadowPanel_OffsetZ(object instance, object Value)
-        {
-            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
-            that.OffsetZ = (global::System.Double)Value;
-        }
-        private object get_8_DropShadowPanel_ShadowOpacity(object instance)
+        private object get_4_DropShadowPanel_ShadowOpacity(object instance)
         {
             var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
             return that.ShadowOpacity;
         }
-        private void set_8_DropShadowPanel_ShadowOpacity(object instance, object Value)
+        private void set_4_DropShadowPanel_ShadowOpacity(object instance, object Value)
         {
             var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
             that.ShadowOpacity = (global::System.Double)Value;
+        }
+        private object get_5_DropShadowPanel_Color(object instance)
+        {
+            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
+            return that.Color;
+        }
+        private void set_5_DropShadowPanel_Color(object instance, object Value)
+        {
+            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
+            that.Color = (global::Windows.UI.Color)Value;
+        }
+        private object get_6_DropShadowPanel_DropShadow(object instance)
+        {
+            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
+            return that.DropShadow;
+        }
+        private object get_7_DropShadowPanel_Mask(object instance)
+        {
+            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
+            return that.Mask;
+        }
+        private void set_7_DropShadowPanel_Mask(object instance, object Value)
+        {
+            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
+            that.Mask = (global::Windows.UI.Composition.CompositionBrush)Value;
+        }
+        private object get_8_DropShadowPanel_OffsetZ(object instance)
+        {
+            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
+            return that.OffsetZ;
+        }
+        private void set_8_DropShadowPanel_OffsetZ(object instance, object Value)
+        {
+            var that = (global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel)instance;
+            that.OffsetZ = (global::System.Double)Value;
         }
         private object get_9_MainPage_ViewModel(object instance)
         {
@@ -596,38 +596,38 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 xamlMember.Getter = get_3_DropShadowPanel_OffsetY;
                 xamlMember.Setter = set_3_DropShadowPanel_OffsetY;
                 break;
+            case "Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel.ShadowOpacity":
+                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel");
+                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "ShadowOpacity", "Double");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_4_DropShadowPanel_ShadowOpacity;
+                xamlMember.Setter = set_4_DropShadowPanel_ShadowOpacity;
+                break;
             case "Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel.Color":
                 userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel");
                 xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "Color", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_DropShadowPanel_Color;
-                xamlMember.Setter = set_4_DropShadowPanel_Color;
+                xamlMember.Getter = get_5_DropShadowPanel_Color;
+                xamlMember.Setter = set_5_DropShadowPanel_Color;
                 break;
             case "Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel.DropShadow":
                 userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel");
                 xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "DropShadow", "Windows.UI.Composition.DropShadow");
-                xamlMember.Getter = get_5_DropShadowPanel_DropShadow;
+                xamlMember.Getter = get_6_DropShadowPanel_DropShadow;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel.Mask":
                 userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel");
                 xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "Mask", "Windows.UI.Composition.CompositionBrush");
-                xamlMember.Getter = get_6_DropShadowPanel_Mask;
-                xamlMember.Setter = set_6_DropShadowPanel_Mask;
+                xamlMember.Getter = get_7_DropShadowPanel_Mask;
+                xamlMember.Setter = set_7_DropShadowPanel_Mask;
                 break;
             case "Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel.OffsetZ":
                 userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel");
                 xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "OffsetZ", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_DropShadowPanel_OffsetZ;
-                xamlMember.Setter = set_7_DropShadowPanel_OffsetZ;
-                break;
-            case "Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel.ShadowOpacity":
-                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel");
-                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "ShadowOpacity", "Double");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_DropShadowPanel_ShadowOpacity;
-                xamlMember.Setter = set_8_DropShadowPanel_ShadowOpacity;
+                xamlMember.Getter = get_8_DropShadowPanel_OffsetZ;
+                xamlMember.Setter = set_8_DropShadowPanel_OffsetZ;
                 break;
             case "NewHorizonApp.MainPage.ViewModel":
                 userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("NewHorizonApp.MainPage");

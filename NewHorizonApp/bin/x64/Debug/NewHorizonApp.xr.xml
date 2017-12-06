@@ -57,6 +57,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
       <RootProperty Name="Template" />
+      <RootProperty Name="TargetType" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
@@ -182,11 +183,10 @@
       <RootProperty Name="BlurRadius" />
       <RootProperty Name="OffsetX" />
       <RootProperty Name="OffsetY" />
-      <RootProperty Name="Opacity" />
+      <RootProperty Name="ShadowOpacity" />
       <RootProperty Name="Color" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Foreground" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
