@@ -385,13 +385,21 @@
                                 TextAlignment="Center"/>
                     </Button.Content>
                 </Button>
-                <Button x:ConnectionId='22' x:Name="FreeWebinars"
+                <controls:DropShadowPanel BlurRadius="4.0"
+                                          ShadowOpacity="0.70"
+                                          OffsetX="24"
+                                          OffsetY="24"
+                                          Color="Orange"
+                                          HorizontalAlignment="Center"
+                                          VerticalAlignment="Center">
+                <Button x:ConnectionId='23' x:Name="FreeWebinars"
                                                      
                                                            
                                                   
                         Content="Free Webinars"
                         Style="{StaticResource StylizedButtonStyle}" />
-                <Button x:ConnectionId='23' x:Name="HeadsetButton"
+                </controls:DropShadowPanel>
+                <Button x:ConnectionId='22' x:Name="HeadsetButton"
                         Style="{StaticResource DefaultButtonStyle}">
                     <Button.Content>
                         <TextBlock Text="What will we do with your headset if you don't want it?" 

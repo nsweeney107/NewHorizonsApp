@@ -385,12 +385,14 @@
                                 TextAlignment="Center"/>
                     </Button.Content>
                 </Button>
+                
                 <Button x:Name="FreeWebinars"
                         PointerEntered="MouseEntered"
                                 PointerExited="MouseExited"
                                 Click="MouseClick"
                         Content="Free Webinars"
                         Style="{StaticResource StylizedButtonStyle}" />
+                
                 <Button x:Name="HeadsetButton"
                         Style="{StaticResource DefaultButtonStyle}">
                     <Button.Content>
