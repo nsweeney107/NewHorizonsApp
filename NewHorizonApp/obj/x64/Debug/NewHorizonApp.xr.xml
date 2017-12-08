@@ -25,9 +25,9 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Text" />
       <RootProperty Name="TextAlignment" />
-      <RootProperty Name="Style" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Style" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
       <RootProperty Name="MergedDictionaries" />
@@ -154,6 +154,18 @@
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="NewHorizonApp.Views.HomePage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Opacity" />
+      <RootEvent Name="PointerEntered" />
+      <RootEvent Name="PointerExited" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames">
       <RootProperty Name="KeyFrames" />
     </RootType>
@@ -164,15 +176,10 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Source" />
-      <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="RenderTransform" />
-      <RootProperty Name="Opacity" />
+      <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootMethod Name="GetZIndex" />

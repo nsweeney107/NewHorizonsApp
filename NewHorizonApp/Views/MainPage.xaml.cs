@@ -100,13 +100,27 @@ namespace NewHorizonApp
 
         private static void GetButtonDescriptionText(object sender)
         {
-            var thisButton = sender as Button;
-            if (thisButton != null)
-            {
-                var thisName = thisButton.Name.ToString();
+            string thisName = "";
 
-                DataHolder.GetDescriptionText(thisName);
+            if (sender is Button)
+            {
+                var thisButton = sender as Button;
+                if (thisButton != null)
+                {
+                    thisName = thisButton.Name.ToString();                    
+                }
             }
+            else
+            {
+                var thisImage = sender as Image;
+                if (thisImage != null)
+                {
+                    thisName = thisImage.Name.ToString();
+                }
+            }
+
+            DataHolder.GetDescriptionText(thisName);
+
         }
 
         private void TypewriterTextFiller()

@@ -37,12 +37,13 @@ namespace NewHorizonApp.Views
         {
             base.OnNavigatedTo(e);
             MainWebView.Navigate(ViewModel.NavigationTarget);
-            BackButton.IsEnabled = false;
-            ForwardButton.IsEnabled = false;
+            //BackButton.IsEnabled = false;
+            //ForwardButton.IsEnabled = false;
         }
 
         private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
+            MainWebView.Stop();
             Frame.Navigate(typeof(MainPage));
             OnHomeButtonClicked();
         }

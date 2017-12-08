@@ -430,6 +430,24 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Blinking.png">
       <PackagePath>Assets\Blinking.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_hover v2.png">
+      <PackagePath>Assets\Important_hover v2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_hover.png">
+      <PackagePath>Assets\Important_hover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_normal v2.png">
+      <PackagePath>Assets\Important_normal v2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_normal.png">
+      <PackagePath>Assets\Important_normal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_pressed v2.png">
+      <PackagePath>Assets\Important_pressed v2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_pressed.png">
+      <PackagePath>Assets\Important_pressed.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Mouth.png">
       <PackagePath>Assets\Mouth.png</PackagePath>
     </AppxPackagedFile>
@@ -438,6 +456,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\PixelPortraitRileySmall.png">
       <PackagePath>Assets\PixelPortraitRileySmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_hover v2.png">
+      <PackagePath>Assets\Standard_hover v2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_hover.png">
+      <PackagePath>Assets\Standard_hover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_normal v2.png">
+      <PackagePath>Assets\Standard_normal v2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_normal.png">
+      <PackagePath>Assets\Standard_normal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_pressed v2.png">
+      <PackagePath>Assets\Standard_pressed v2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_pressed.png">
+      <PackagePath>Assets\Standard_pressed.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

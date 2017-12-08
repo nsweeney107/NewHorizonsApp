@@ -60,10 +60,22 @@ namespace NewHorizonApp.ViewModels
                 case "LabsButton":
                     thisUri = new Uri("https://drive.google.com/open?id=1nkvsExqH72LtqDC_ABhIWbOQHmQF4URT");
                     break;
+                case "BrowseClassesButton":
+                    thisUri = new Uri("");
+                    break;
                 case "FreeWebinars":
                     thisUri = new Uri("https://www.newhorizonswi.com/resources/free-webinars");
                     break;
-                // TO DO - Implement other buttons
+                case "WhyCookiesButton":
+                    thisUri = new Uri("https://drive.google.com/open?id=0ByY599NSZ0lEOUZ0TmFTeVdDRnM");
+                    break;
+                case "RedStarButton":
+                    thisUri = new Uri("");
+                    break;
+                case "faqButton":
+                    thisUri = new Uri("");
+                    break;
+      // TO DO - Implement other buttons
 
                 default:
                     break;
@@ -78,17 +90,32 @@ namespace NewHorizonApp.ViewModels
             string thisDescription = "";
             switch (buttonName)
             {
+                case "EyelidImage":
+                    thisDescription = "Hi, my name is Pat Riley and I am the president and owner of New Horizons of Wisconsin.  We created this portal to continue our quest to provide you, our student, with the finest experience possible.  On this page you will find a variety of items, each designed to either make your time with us easier, more comfortable, or just more fun.   I really LOVE to hear from our students, and if you click on the “Want to Tell Us Something?” box, you will have the opportunity to talk to me directly, and tell me anything you like.  If you can take just a few moments to tell me about your experience, I would really appreciate it.";
+                    break;
                 case "YourClassButton":
-                    thisDescription = "Class Button";
+                    thisDescription = "Please click here to start your class.";
                     break;
                 case "DigitalReadingButton":
-                    thisDescription = "Digital Reading";
+                    thisDescription = "Please click here to access your digital courseware.";
                     break;
                 case "LabsButton":
                     thisDescription = "Click on this button to access the labs for your class.  Please have your username and password handy as you will need them to log into the portal.";
                     break;
+                case "BrowseClassesButton":
+                    thisDescription = "Here you will find all of our courses, in an easy to navigate form, and you can take a deeper dive from there.  Also, please don’t forget about the “coupon” button, to save money on any other classes you like.";
+                    break;
                 case "FreeWebinars":
-                    thisDescription = "Click here to register for one of our free webinars";
+                    thisDescription = "Click here to register for one of our free webinars.";
+                    break;
+                case "WhyCookiesButton":
+                    thisDescription = "Click here to watch a short, yet entertaining, video on the origins of our daily cookie baking tradition.  It'll make you hungry!";
+                    break;
+                case "RedStarButton":
+                    thisDescription = "If you have a red star on your nametag, then please click here for all of the instructions you need to complete to launch your class experience with us.";
+                    break;
+                case "faqButton":
+                    thisDescription = "Click here for the answers to all kinds of questions, from \"What is that grinding noise I hear?\" to \"How can I save more money on my training?\"";
                     break;
                 // TO DO - Implement other buttons
 

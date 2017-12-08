@@ -775,6 +775,53 @@ namespace __Interop
 		internal static int StdCall__12(
 					global::System.IntPtr pfn, 
 					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Type__Impl.UnsafeType arg1, 
+					global::System.Type__Impl.UnsafeType arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__13(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.IntPtr arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__14(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					global::System.IntPtr arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void HasThisCall__15<TArg0, TArg1>(
+					object __this, 
+					global::System.IntPtr pfn, 
+					TArg0 arg0, 
+					TArg1 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__16(
+					global::System.IntPtr pfn, 
+					void* pthis, 
 					int arg0, 
 					void* arg1, 
 					void* arg2)
@@ -783,7 +830,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__13(
+		internal static int StdCall__17(
 					global::System.IntPtr pfn, 
 					void* pthis)
 		{
@@ -791,14 +838,25 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static void HasThisCall__14(
+		internal static void HasThisCall__18(
 					object __this, 
 					global::System.IntPtr pfn)
 		{
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__15(
+		internal static int StdCall__19(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__20(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					uint arg0, 
@@ -809,7 +867,23 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static void HasThisCall__16<TArg0>(
+		internal static object HasThisCall__21(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(object);
+		}
+
+		internal static bool HasThisCall__22(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(bool);
+		}
+
+		internal static void HasThisCall__23<TArg0>(
 					object __this, 
 					global::System.IntPtr pfn, 
 					object arg0, 
@@ -818,7 +892,27 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__17(
+		internal static int StdCall__24(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Point arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__25(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__26(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::Windows.Foundation.Point arg0, 
@@ -829,97 +923,10 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__18(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.Foundation.Rect arg0, 
-					void* arg1)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__19(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					double arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__20(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.Foundation.Point arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__21(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.Foundation.Point arg0, 
-					global::Windows.Foundation.Rect arg1, 
-					void* arg2)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__22(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					int arg0, 
-					void* arg1)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__23(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.Foundation.Point arg0, 
-					void* arg1)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static void HasThisCall__24<TArg0, TArg1>(
-					object __this, 
-					global::System.IntPtr pfn, 
-					TArg0 arg0, 
-					TArg1 arg1)
-		{
-			// This method is implemented elsewhere in the toolchain
-		}
-
-		internal static int StdCall__25(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.UI.Xaml.Thickness arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__26(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::System.Runtime.InteropServices.HSTRING arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
 		internal static int StdCall__27(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.Foundation.Size arg0, 
-					void* arg1)
+					global::Windows.Foundation.Rect arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -928,33 +935,22 @@ namespace __Interop
 		internal static int StdCall__28(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::System.Runtime.InteropServices.HSTRING arg0, 
-					sbyte arg1, 
-					void* arg2)
+					double arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static void HasThisCall__29<TArg0>(
-					object __this, 
+		internal static int StdCall__29(
 					global::System.IntPtr pfn, 
-					TArg0 arg0, 
-					object arg1)
+					void* pthis, 
+					global::Windows.Foundation.Point arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
+			return 0;
 		}
 
 		internal static int StdCall__30(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.UI.Text.FontWeight arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__31(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					sbyte arg0)
@@ -963,11 +959,19 @@ namespace __Interop
 			return 0;
 		}
 
+		internal static int StdCall__31(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Input.ManipulationModes arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
 		internal static int StdCall__32(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::System.Runtime.InteropServices.HSTRING arg0, 
-					void* arg1)
+					global::Windows.Foundation.Size arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -978,13 +982,493 @@ namespace __Interop
 					void* pthis, 
 					void* arg0, 
 					void* arg1, 
-					void* arg2)
+					sbyte arg2)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
 		internal static int StdCall__34(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Point arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__35(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__36(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__37(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Thickness arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__38(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__39(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Type__Impl.UnsafeType arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__40(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Size arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static global::Windows.Foundation.Size HasThisCall__41(
+					object __this, 
+					global::System.IntPtr pfn, 
+					global::Windows.Foundation.Size arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::Windows.Foundation.Size);
+		}
+
+		internal static int StdCall__42(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					sbyte arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void HasThisCall__43<TArg0>(
+					object __this, 
+					global::System.IntPtr pfn, 
+					TArg0 arg0, 
+					object arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__44(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.IntPtr arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__45(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Color arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__46(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Color arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__47(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Text.FontWeight arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__48(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Text.TextDecorations arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__49(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__50(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Composition.CompositionBatchTypes arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__51(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__52(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector3 arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__53(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__54(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Quaternion arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__55(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Matrix4x4 arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__56(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::Windows.UI.Color arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__57(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Numerics.Matrix3x2 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__58(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Numerics.Matrix4x4 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__59(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Numerics.Quaternion arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__60(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					float arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__61(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Numerics.Vector2 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__62(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Numerics.Vector3 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__63(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Numerics.Vector4 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__64(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					sbyte arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__65(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.TimeSpan arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__66(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__67(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__68(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__69(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					global::System.Numerics.Vector2 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__70(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					global::System.Numerics.Vector3 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__71(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					global::System.Numerics.Vector4 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__72(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					sbyte arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__73(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Type__Impl.UnsafeType arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static TResult HasThisCall__74<TArg0, TResult>(
+					object __this, 
+					global::System.IntPtr pfn, 
+					object arg0, 
+					TArg0 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(TResult);
+		}
+
+		internal static int StdCall__75(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					int arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__76(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					uint arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__77(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.GridLength arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__78(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.CornerRadius arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__79(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Duration arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__80(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__81(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					sbyte arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__82(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Media.Animation.KeyTime arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__83(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.Type__Impl.UnsafeType arg0, 
@@ -995,36 +1479,73 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__35(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::System.Type__Impl.UnsafeType arg0, 
-					void* arg1)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__36(
+		internal static int StdCall__84(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
-					global::System.Runtime.InteropServices.HSTRING arg1)
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static int StdCall__37(
+		internal static int StdCall__85(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Xaml.Duration arg0)
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					sbyte arg3, 
+					void* arg4)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static int StdCall__38(
+		internal static uint HasThisCall__86(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void HasThisCall__87(
+					object __this, 
+					global::System.IntPtr pfn, 
+					global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static bool HasThisCall__88(
+					object __this, 
+					global::System.IntPtr pfn, 
+					object arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(bool);
+		}
+
+		internal static TResult HasThisCall__89<TResult>(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(TResult);
+		}
+
+		internal static void HasThisCall__90(
+					object __this, 
+					global::System.IntPtr pfn, 
+					object arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__91(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1035,44 +1556,112 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__39(
+		internal static int StdCall__92(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Xaml.Media.Animation.KeyTime arg0)
+					uint arg0, 
+					void* arg1)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static int StdCall__40(
+		internal static int StdCall__93(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
-					int arg1)
+					void* arg1, 
+					global::System.Runtime.InteropServices.HSTRING arg2, 
+					void* arg3)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static int StdCall__41(
+		internal static int StdCall__94(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Xaml.GridLength arg0)
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					void* arg1, 
+					global::System.Runtime.InteropServices.HSTRING arg2, 
+					void* arg3)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static int StdCall__42(
+		internal static int StdCall__95(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Color arg0)
+					void* arg0, 
+					double arg1)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static TResult HasThisCall__43<TResult>(
+		internal static int StdCall__96(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					double arg0, 
+					double arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void HasThisCall__97(
+					object __this, 
+					global::System.IntPtr pfn, 
+					double arg0, 
+					double arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__98(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					double arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__99(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					double arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__100(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__101(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					uint arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static TResult HasThisCall__102<TResult>(
 					object __this, 
 					global::System.IntPtr pfn, 
 					string arg0)
@@ -1081,82 +1670,60 @@ namespace __Interop
 			return default(TResult);
 		}
 
-		internal static TResult HasThisCall__44<TResult>(
+		internal static global::System.Type HasThisCall__103(
 					object __this, 
 					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::System.Type);
+		}
+
+		internal static object HasThisCall__104(
+					object __this, 
+					global::System.IntPtr pfn, 
+					string arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(object);
+		}
+
+		internal static object HasThisCall__105(
+					object __this, 
+					global::System.IntPtr pfn, 
+					object arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(object);
+		}
+
+		internal static TResult HasThisCall__106<TResult>(
+					object __this, 
+					global::System.IntPtr pfn, 
+					uint arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return default(TResult);
 		}
 
-		internal static bool HasThisCall__45(
+		internal static global::Windows.UI.Xaml.Data.LoadMoreItemsResult HasThisCall__107(
 					object __this, 
 					global::System.IntPtr pfn)
 		{
 			// This method is implemented elsewhere in the toolchain
-			return default(bool);
+			return default(global::Windows.UI.Xaml.Data.LoadMoreItemsResult);
 		}
 
-		internal static int StdCall__46(
+		internal static int StdCall__108(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					void* arg0, 
-					global::System.TimeSpan arg1, 
-					void* arg2)
+					sbyte arg0, 
+					void* arg1)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static int StdCall__47(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::System.Runtime.InteropServices.HSTRING arg0, 
-					void* arg1, 
-					void* arg2)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__48(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					void* arg0, 
-					int arg1, 
-					global::Windows.System.Threading.WorkItemOptions arg2, 
-					void* arg3)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__49(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					uint arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static uint HasThisCall__50(
-					object __this, 
-					global::System.IntPtr pfn)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static void HasThisCall__51(
-					object __this, 
-					global::System.IntPtr pfn, 
-					uint arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-		}
-
-		internal static int StdCall__52(
+		internal static int StdCall__109(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					ulong arg0)
@@ -1165,7 +1732,116 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__53(
+		internal static int StdCall__110(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					float arg2, 
+					void* arg3, 
+					void* arg4, 
+					int arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__111(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					float arg2, 
+					void* arg3, 
+					void* arg4, 
+					int arg5, 
+					float arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__112(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					float arg2, 
+					void* arg3, 
+					void* arg4, 
+					int arg5, 
+					float arg6, 
+					int arg7, 
+					void* arg8)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__113(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					void* arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__114(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__115(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					ulong arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static ulong HasThisCall__116(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void HasThisCall__117(
+					object __this, 
+					global::System.IntPtr pfn, 
+					ulong arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static TResult HasThisCall__118<TResult>(
+					object __this, 
+					global::System.IntPtr pfn, 
+					ulong arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(TResult);
+		}
+
+		internal static int StdCall__119(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1177,7 +1853,23 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__54(
+		internal static void HasThisCall__120(
+					object __this, 
+					global::System.IntPtr pfn, 
+					uint arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> HasThisCall__121(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint>);
+		}
+
+		internal static int StdCall__122(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1187,7 +1879,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static void HasThisCall__55<TArg0>(
+		internal static void HasThisCall__123<TArg0>(
 					object __this, 
 					global::System.IntPtr pfn, 
 					TArg0 arg0, 
@@ -1196,7 +1888,7 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static void HasThisCall__56<TArg0>(
+		internal static void HasThisCall__124<TArg0>(
 					object __this, 
 					global::System.IntPtr pfn, 
 					TArg0 arg0, 
@@ -1205,7 +1897,4275 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__57(
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> HasThisCall__125(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint>);
+		}
+
+		internal static int StdCall__126(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__127(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					float arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__128(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.UI.Color arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__129(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector4 arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__130(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector4 arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__131(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Matrix3x2 arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__132(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.UI.Color arg1, 
+					global::Windows.UI.Color arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__133(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__134(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__135(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					int arg6, 
+					int arg7, 
+					void* arg8)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__136(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector4 arg1, 
+					global::System.Numerics.Vector4 arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__137(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__138(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__139(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__140(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStop arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__141(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__142(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__143(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Brushes.CanvasGradientStopHdr arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__144(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__145(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					float arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__146(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__147(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					float arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__148(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					float arg6, 
+					int arg7, 
+					void* arg8)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__149(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					int arg2, 
+					int arg3, 
+					int arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__150(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					int arg2, 
+					int arg3, 
+					int arg4, 
+					float arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__151(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					int arg2, 
+					int arg3, 
+					int arg4, 
+					float arg5, 
+					int arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__152(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					float arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__153(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					float arg5, 
+					int arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__154(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__155(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__156(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					float arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__157(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__158(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					int arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__159(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__160(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					int arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__161(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					int arg2, 
+					int arg3, 
+					void* arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__162(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					int arg1, 
+					int arg2, 
+					int arg3, 
+					int arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__163(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					void* arg1, 
+					int arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__164(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					int arg1, 
+					int arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__165(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					int arg1, 
+					int arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					int arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__166(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__167(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Size arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__168(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__169(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__170(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					int arg4, 
+					int arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__171(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__172(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__173(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__174(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.Foundation.Rect arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__175(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.Foundation.Rect arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__176(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::Windows.Foundation.Rect arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__177(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					float arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__178(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.Foundation.Rect arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__179(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					float arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__180(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					float arg3, 
+					int arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__181(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.Foundation.Rect arg3, 
+					float arg4, 
+					int arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__182(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					float arg3, 
+					int arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__183(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					float arg3, 
+					int arg4, 
+					int arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__184(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.Foundation.Rect arg3, 
+					float arg4, 
+					int arg5, 
+					int arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__185(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					float arg3, 
+					int arg4, 
+					int arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__186(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					float arg3, 
+					int arg4, 
+					global::System.Numerics.Matrix4x4 arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__187(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.Foundation.Rect arg3, 
+					float arg4, 
+					int arg5, 
+					global::System.Numerics.Matrix4x4 arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__188(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					float arg3, 
+					int arg4, 
+					global::System.Numerics.Matrix4x4 arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__189(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__190(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.UI.Color arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__191(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					global::Windows.UI.Color arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__192(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					void* arg2, 
+					float arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__193(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					void* arg4, 
+					float arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__194(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.UI.Color arg2, 
+					float arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__195(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					global::Windows.UI.Color arg4, 
+					float arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__196(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					void* arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__197(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					void* arg4, 
+					float arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__198(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.UI.Color arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__199(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					global::Windows.UI.Color arg4, 
+					float arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__200(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					global::Windows.UI.Color arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__201(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					void* arg1, 
+					float arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__202(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					global::Windows.UI.Color arg1, 
+					float arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__203(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					void* arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__204(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					global::Windows.UI.Color arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__205(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__206(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					void* arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__207(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__208(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__209(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__210(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					global::Windows.UI.Color arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__211(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__212(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					void* arg6, 
+					float arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__213(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__214(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					global::Windows.UI.Color arg6, 
+					float arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__215(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__216(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					void* arg6, 
+					float arg7, 
+					void* arg8)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__217(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Rect arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__218(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					global::Windows.UI.Color arg6, 
+					float arg7, 
+					void* arg8)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__219(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__220(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__221(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__222(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__223(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__224(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__225(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__226(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__227(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					global::Windows.UI.Color arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__228(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__229(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					void* arg2, 
+					float arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__230(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__231(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					global::Windows.UI.Color arg2, 
+					float arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__232(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__233(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					void* arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__234(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__235(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					global::Windows.UI.Color arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__236(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__237(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.UI.Color arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__238(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__239(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__240(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__241(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__242(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					void* arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__243(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.UI.Color arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__244(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::Windows.UI.Color arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__245(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__246(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					global::Windows.UI.Color arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__247(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__248(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.UI.Color arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__249(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__250(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.UI.Color arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__251(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					void* arg2, 
+					float arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__252(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.UI.Color arg2, 
+					float arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__253(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__254(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__255(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					float arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__256(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.UI.Color arg1, 
+					float arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__257(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					void* arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__258(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.UI.Color arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__259(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__260(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					global::Windows.UI.Color arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__261(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.UI.Color arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__262(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__263(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__264(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Size arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__265(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Size arg1, 
+					global::System.Numerics.Vector2 arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__266(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Size arg1, 
+					float arg2, 
+					float arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__267(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Graphics.Imaging.BitmapSize arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__268(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__269(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__270(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__271(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					void* arg1, 
+					global::System.Numerics.Matrix3x2 arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__272(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					global::System.Numerics.Matrix3x2 arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__273(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					void* arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					void* arg3, 
+					global::System.Numerics.Matrix3x2 arg4, 
+					global::Microsoft.Graphics.Canvas.CanvasLayerOptions arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__274(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					void* arg1, 
+					float arg2, 
+					uint arg3, 
+					void* arg4, 
+					sbyte arg5, 
+					uint arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__275(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					void* arg1, 
+					float arg2, 
+					uint arg3, 
+					void* arg4, 
+					sbyte arg5, 
+					uint arg6, 
+					void* arg7, 
+					int arg8)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__276(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					void* arg1, 
+					float arg2, 
+					uint arg3, 
+					void* arg4, 
+					sbyte arg5, 
+					uint arg6, 
+					void* arg7, 
+					int arg8, 
+					global::System.Runtime.InteropServices.HSTRING arg9, 
+					global::System.Runtime.InteropServices.HSTRING arg10, 
+					uint arg11, 
+					void* arg12, 
+					uint arg13)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__277(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__278(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					global::Microsoft.Graphics.Canvas.CanvasSpriteOptions arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__279(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasDrawTextOptions arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__280(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					sbyte arg2, 
+					sbyte arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__281(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					int arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__282(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					int arg2, 
+					void* arg3, 
+					global::System.Numerics.Matrix3x2 arg4, 
+					sbyte arg5, 
+					int arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__283(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__284(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					void* arg1, 
+					sbyte arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__285(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					global::System.Numerics.Matrix3x2 arg2, 
+					sbyte arg3, 
+					uint arg4, 
+					void* arg5, 
+					sbyte arg6, 
+					void* arg7, 
+					void* arg8)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__286(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					float arg2, 
+					uint arg3, 
+					void* arg4, 
+					sbyte arg5, 
+					uint arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__287(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					float arg2, 
+					uint arg3, 
+					void* arg4, 
+					sbyte arg5, 
+					uint arg6, 
+					int arg7, 
+					void* arg8)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__288(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__289(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__290(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg0, 
+					int arg1, 
+					uint arg2, 
+					void* arg3, 
+					void* arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__291(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg0, 
+					int arg1, 
+					uint arg2, 
+					void* arg3, 
+					global::System.Runtime.InteropServices.HSTRING arg4, 
+					void* arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__292(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__293(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					float arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__294(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					float arg5, 
+					float arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__295(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					float arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__296(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__297(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__298(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					void* arg2, 
+					float arg3, 
+					uint arg4, 
+					void* arg5, 
+					sbyte arg6, 
+					uint arg7, 
+					int arg8, 
+					int arg9, 
+					void* arg10)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__299(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					global::System.Numerics.Matrix3x2 arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__300(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__301(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					global::System.Numerics.Matrix3x2 arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__302(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					int arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__303(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					int arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__304(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					int arg4, 
+					int arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__305(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__306(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::System.Numerics.Vector2 arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__307(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					global::System.Numerics.Vector2 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__308(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Geometry.CanvasFigureSegmentOptions arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__309(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					void* arg2, 
+					float arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__310(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					sbyte arg1, 
+					global::System.Numerics.Vector2 arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__311(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					global::Windows.UI.Color arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__312(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					global::System.Runtime.InteropServices.HSTRING arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__313(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					float arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__314(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					int arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__315(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					global::Windows.UI.Text.FontWeight arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__316(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					sbyte arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__317(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__318(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__319(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__320(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__321(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					void* arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__322(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					sbyte arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__323(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					sbyte arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__324(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__325(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__326(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasTypographyFeature arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__327(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					uint arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__328(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__329(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					int arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__330(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					void* arg1, 
+					global::System.Numerics.Matrix3x2 arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__331(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Matrix3x2 arg0, 
+					float arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__332(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__333(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Matrix3x2 arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__334(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__335(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					float arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__336(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__337(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__338(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Vector2 arg0, 
+					float arg1, 
+					void* arg2, 
+					global::System.Numerics.Matrix3x2 arg3, 
+					float arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__339(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Numerics.Matrix3x2 arg0, 
+					float arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__340(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__341(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					void* arg2, 
+					float arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__342(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					void* arg1, 
+					uint arg2, 
+					void* arg3, 
+					uint arg4, 
+					void* arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__343(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					global::Windows.UI.Color arg1, 
+					global::System.Runtime.InteropServices.HSTRING arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__344(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					void* arg1, 
+					uint arg2, 
+					void* arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__345(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__346(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					int arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__347(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::Windows.Foundation.Rect arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__348(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					float arg1, 
+					int arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__349(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__350(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					int arg1, 
+					int arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__351(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					uint arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__352(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3, 
+					void* arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__353(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__354(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					uint arg1, 
+					void* arg2, 
+					uint arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__355(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__356(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::System.Numerics.Vector4 arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__357(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::System.Numerics.Vector4 arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__358(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					global::System.Numerics.Vector4 arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__359(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::System.Numerics.Vector4 arg2, 
+					global::Microsoft.Graphics.Canvas.CanvasSpriteFlip arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__360(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					global::System.Numerics.Vector4 arg2, 
+					global::Microsoft.Graphics.Canvas.CanvasSpriteFlip arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__361(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::System.Numerics.Vector4 arg2, 
+					global::System.Numerics.Vector2 arg3, 
+					float arg4, 
+					global::System.Numerics.Vector2 arg5, 
+					global::Microsoft.Graphics.Canvas.CanvasSpriteFlip arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__362(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					global::Windows.Foundation.Rect arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__363(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					global::System.Numerics.Vector4 arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__364(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					global::System.Numerics.Vector4 arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__365(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					global::System.Numerics.Vector4 arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__366(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					global::System.Numerics.Vector4 arg3, 
+					global::Microsoft.Graphics.Canvas.CanvasSpriteFlip arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__367(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Matrix3x2 arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					global::System.Numerics.Vector4 arg3, 
+					global::Microsoft.Graphics.Canvas.CanvasSpriteFlip arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__368(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Numerics.Vector2 arg1, 
+					global::Windows.Foundation.Rect arg2, 
+					global::System.Numerics.Vector4 arg3, 
+					global::System.Numerics.Vector2 arg4, 
+					float arg5, 
+					global::System.Numerics.Vector2 arg6, 
+					global::Microsoft.Graphics.Canvas.CanvasSpriteFlip arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__369(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__370(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					int arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__371(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__372(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					int arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__373(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasTypographyFeature arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__374(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasTypographyFeature arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__375(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasLineMetrics__Impl.UnsafeType arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__376(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasLineMetrics__Impl.UnsafeType arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__377(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasLineMetrics__Impl.UnsafeType arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__378(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasClusterMetrics arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__379(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasClusterMetrics arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__380(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasClusterMetrics arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__381(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasTextLayoutRegion arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__382(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasTextLayoutRegion arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__383(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasTextLayoutRegion arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__384(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Geometry.CanvasTriangleVertices arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__385(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Geometry.CanvasTriangleVertices arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__386(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Geometry.CanvasTriangleVertices arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__387(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatch arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__388(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatch arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__389(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Geometry.CanvasGradientMeshPatch arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__390(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::Windows.UI.Text.FontWeight arg1, 
+					int arg2, 
+					int arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__391(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasFontProperty__Impl.UnsafeType arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__392(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					int arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__393(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__394(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasFontProperty__Impl.UnsafeType arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__395(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasFontProperty__Impl.UnsafeType arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__396(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasFontProperty__Impl.UnsafeType arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__397(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					sbyte arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__398(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					int arg1, 
+					void* arg2, 
+					int arg3, 
+					uint arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__399(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					int arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__400(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__401(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange arg0, 
+					void* arg1, 
+					float arg2, 
+					sbyte arg3, 
+					sbyte arg4, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg5, 
+					void* arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__402(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange arg0, 
+					void* arg1, 
+					float arg2, 
+					sbyte arg3, 
+					sbyte arg4, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg5, 
+					global::System.Runtime.InteropServices.HSTRING arg6, 
+					void* arg7, 
+					void* arg8, 
+					void* arg9, 
+					void* arg10, 
+					void* arg11, 
+					void* arg12, 
+					void* arg13, 
+					void* arg14, 
+					void* arg15, 
+					void* arg16)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__403(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasCharacterRange arg0, 
+					void* arg1, 
+					float arg2, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg3, 
+					uint arg4, 
+					void* arg5, 
+					uint arg6, 
+					void* arg7, 
+					void* arg8, 
+					void* arg9)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__404(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					uint arg1, 
+					void* arg2, 
+					uint arg3, 
+					void* arg4, 
+					void* arg5, 
+					void* arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__405(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg2, 
+					uint arg3, 
+					void* arg4, 
+					uint arg5, 
+					void* arg6, 
+					uint arg7, 
+					void* arg8, 
+					uint arg9, 
+					void* arg10, 
+					void* arg11, 
+					void* arg12)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__406(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript arg2, 
+					uint arg3, 
+					void* arg4, 
+					uint arg5, 
+					void* arg6, 
+					uint arg7, 
+					void* arg8, 
+					uint arg9, 
+					void* arg10, 
+					void* arg11, 
+					void* arg12, 
+					void* arg13, 
+					void* arg14)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__407(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBreakpoint__Impl.UnsafeType arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__408(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBreakpoint__Impl.UnsafeType arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__409(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBreakpoint__Impl.UnsafeType arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__410(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasGlyph arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__411(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasGlyph arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__412(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasGlyph arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__413(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasJustificationOpportunity__Impl.UnsafeType arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__414(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasJustificationOpportunity__Impl.UnsafeType arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__415(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasJustificationOpportunity__Impl.UnsafeType arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__416(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					int arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__417(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					int arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__418(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Color arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__419(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					float arg1, 
+					float arg2, 
+					float arg3, 
+					int arg4, 
+					int arg5, 
+					int arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__420(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					float arg2, 
+					float arg3, 
+					float arg4, 
+					int arg5, 
+					int arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__421(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__422(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					float arg0, 
+					float arg1, 
+					float arg2, 
+					int arg3, 
+					int arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__423(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation__Impl.UnsafeType arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__424(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation__Impl.UnsafeType arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__425(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Core.CoreInputDeviceTypes arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__426(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Foundation.Size arg0, 
+					int arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__427(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					float arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__428(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					global::Windows.Foundation.Rect arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__429(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					void* arg2, 
+					uint arg3, 
+					global::Windows.Foundation.Rect arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__430(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Rect arg1, 
+					uint arg2, 
+					void* arg3, 
+					uint arg4, 
+					void* arg5, 
+					uint arg6, 
+					void* arg7, 
+					void* arg8, 
+					void* arg9)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__431(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Effects.ColorManagementSimpleProfile arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__432(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					void* arg2, 
+					int arg3, 
+					int arg4, 
+					int arg5, 
+					int arg6, 
+					void* arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__433(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Effects.Matrix5x4 arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__434(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Robmikh.CompositionSurfaceFactory.SurfaceFactoryOptions__Impl.UnsafeType arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__435(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Size arg1, 
+					int arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__436(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					float arg1, 
+					float arg2, 
+					global::System.Runtime.InteropServices.HSTRING arg3, 
+					float arg4, 
+					int arg5, 
+					int arg6, 
+					int arg7, 
+					int arg8, 
+					global::Robmikh.CompositionSurfaceFactory.Padding arg9, 
+					global::Windows.UI.Color arg10, 
+					global::Windows.UI.Color arg11, 
+					void* arg12)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__437(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Robmikh.CompositionSurfaceFactory.Padding arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__438(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					global::Windows.UI.Color arg2, 
+					global::Windows.Foundation.Size arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__439(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					global::Windows.UI.Color arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__440(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					global::Windows.Foundation.Size arg3, 
+					int arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__441(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					global::Windows.Foundation.Size arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__442(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					global::Windows.Foundation.Size arg3, 
+					int arg4, 
+					void* arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__443(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					void* arg2, 
+					global::Windows.Foundation.Size arg3, 
+					void* arg4)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__444(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					uint arg2, 
+					void* arg3, 
+					int arg4, 
+					int arg5, 
+					global::Windows.Foundation.Size arg6, 
+					int arg7)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__445(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					uint arg2, 
+					void* arg3, 
+					int arg4, 
+					int arg5, 
+					global::Windows.Foundation.Size arg6)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__446(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					void* arg1, 
+					uint arg2, 
+					void* arg3, 
+					int arg4, 
+					int arg5)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__447(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasUnicodeRange arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__448(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasUnicodeRange arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__449(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasUnicodeRange arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__450(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasGlyphMetrics arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__451(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasGlyphMetrics arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__452(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasGlyphMetrics arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__453(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Media.Matrix arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__454(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::System.Type__Impl.UnsafeType arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__455(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__456(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					ulong arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void HasThisCall__457<TArg0>(
+					object __this, 
+					global::System.IntPtr pfn, 
+					TArg0 arg0, 
+					ulong arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__458(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Web.Http.HttpProgress__Impl.UnsafeType arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static void HasThisCall__459<TArg0>(
+					object __this, 
+					global::System.IntPtr pfn, 
+					TArg0 arg0, 
+					global::Windows.Web.Http.HttpProgress arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+		}
+
+		internal static int StdCall__460(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Guid arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__461(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Storage.StorageItemTypes arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__462(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::Windows.Foundation.Point arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__463(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Text.TextGetOptions arg0, 
+					void* arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__464(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Text.TextSetOptions arg0, 
+					global::System.Runtime.InteropServices.HSTRING arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__465(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__466(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					uint arg0, 
+					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__467(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__468(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					global::System.TimeSpan arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__469(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					int arg0, 
+					int arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static global::System.EventHandler<object> HasThisCall__470(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::System.EventHandler<object>);
+		}
+
+		internal static global::Windows.UI.Core.CoreCursorType HasThisCall__471(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::Windows.UI.Core.CoreCursorType);
+		}
+
+		internal static int StdCall__472(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Media.Imaging.BitmapCreateOptions arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__473(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					int arg1, 
+					global::Windows.System.Threading.WorkItemOptions arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__474(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1219,7 +6179,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__58(
+		internal static int StdCall__475(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1232,18 +6192,77 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__59(
+		internal static int StdCall__476(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					int arg0, 
-					int arg1, 
-					int arg2)
+					global::Windows.Security.Authentication.Web.WebAuthenticationOptions arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
-		internal static int StdCall__60(
+		internal static int StdCall__477(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.Security.Authentication.Web.WebAuthenticationOptions arg0, 
+					void* arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__478(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					ushort arg1, 
+					void* arg2)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken HasThisCall__479(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken);
+		}
+
+		internal static global::Windows.Foundation.Collections.VectorChangedEventHandler<object> HasThisCall__480(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::Windows.Foundation.Collections.VectorChangedEventHandler<object>);
+		}
+
+		internal static global::Windows.UI.Xaml.Data.CurrentChangingEventHandler HasThisCall__481(
+					object __this, 
+					global::System.IntPtr pfn)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return default(global::Windows.UI.Xaml.Data.CurrentChangingEventHandler);
+		}
+
+		internal static int StdCall__482(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
+					uint arg1, 
+					uint arg2, 
+					void* arg3)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__483(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1257,7 +6276,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__61(
+		internal static int StdCall__484(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.IntPtr arg0, 
@@ -1271,7 +6290,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__62(
+		internal static int StdCall__485(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.IntPtr arg0)
@@ -1280,7 +6299,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__63(
+		internal static int StdCall__486(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1292,18 +6311,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__64(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					void* arg0, 
-					int arg1, 
-					void* arg2)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
-		internal static int StdCall__65(
+		internal static int StdCall__487(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1318,7 +6326,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__66(
+		internal static int StdCall__488(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1331,7 +6339,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__67(
+		internal static int StdCall__489(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1344,7 +6352,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__68(
+		internal static int StdCall__490(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					int arg0, 
@@ -1355,7 +6363,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static void StdCall__69(
+		internal static void StdCall__491(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.IntPtr arg0)
@@ -1363,7 +6371,7 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__70(
+		internal static int StdCall__492(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1377,7 +6385,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__71(
+		internal static int StdCall__493(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1389,7 +6397,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__72(
+		internal static int StdCall__494(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1440,26 +6448,27 @@ namespace __Interop
 
 		public delegate int AddrOfTarget7(
 					global::System.IntPtr a0, 
-					global::Windows.UI.Color* a1);
+					void* a1, 
+					void** a2);
 
 		public delegate int AddrOfTarget8(
 					global::System.IntPtr a0, 
-					global::System.Type__Impl.UnsafeType a1, 
-					void** a2);
+					uint* a1);
 
 		public delegate int AddrOfTarget9(
 					global::System.IntPtr a0, 
-					global::System.Runtime.InteropServices.HSTRING a1, 
-					void** a2);
+					void* a1, 
+					sbyte* a2);
 
 		public delegate int AddrOfTarget10(
 					global::System.IntPtr a0, 
-					uint* a1, 
-					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType** a2);
+					void** a1);
 
 		public delegate int AddrOfTarget11(
 					global::System.IntPtr a0, 
-					void** a1);
+					void* a1, 
+					void* a2, 
+					sbyte* a3);
 
 		public delegate int AddrOfTarget12(
 					global::System.IntPtr a0, 
@@ -1467,53 +6476,674 @@ namespace __Interop
 
 		public delegate int AddrOfTarget13(
 					global::System.IntPtr a0, 
-					global::System.Type__Impl.UnsafeType* a1);
+					uint a1, 
+					void** a2, 
+					uint* a3);
 
 		public delegate int AddrOfTarget14(
+					global::System.IntPtr a0, 
+					void** a1, 
+					void** a2);
+
+		public delegate int AddrOfTarget15(
+					global::System.IntPtr a0, 
+					global::Windows.Foundation.Size a1, 
+					global::Windows.Foundation.Size* a2);
+
+		public delegate int AddrOfTarget16(
+					global::System.IntPtr a0, 
+					void* a1, 
+					void* a2, 
+					void** a3);
+
+		public delegate int AddrOfTarget17(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Color* a1);
+
+		public delegate int AddrOfTarget18(
+					global::System.IntPtr a0, 
+					global::Windows.Foundation.Collections.CollectionChange* a1);
+
+		public delegate int AddrOfTarget19(
+					global::System.IntPtr a0, 
+					void* a1, 
+					global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken* a2);
+
+		public delegate int AddrOfTarget20(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken a1);
+
+		public delegate int AddrOfTarget21(
+					global::System.IntPtr a0, 
+					sbyte a1);
+
+		public delegate int AddrOfTarget22(
+					global::System.IntPtr a0, 
+					double a1, 
+					double a2);
+
+		public delegate int AddrOfTarget23(
+					global::System.IntPtr a0, 
+					uint a1, 
+					double* a2);
+
+		public delegate int AddrOfTarget24(
+					global::System.IntPtr a0, 
+					double a1, 
+					uint* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget25(
+					global::System.IntPtr a0, 
+					uint a1, 
+					double a2);
+
+		public delegate int AddrOfTarget26(
+					global::System.IntPtr a0, 
+					uint a1);
+
+		public delegate int AddrOfTarget27(
+					global::System.IntPtr a0, 
+					double a1);
+
+		public delegate int AddrOfTarget28(
+					global::System.IntPtr a0, 
+					uint a1, 
+					uint a2, 
+					double* a3, 
+					uint* a4);
+
+		public delegate int AddrOfTarget29(
+					global::System.IntPtr a0, 
+					double* a1);
+
+		public delegate int AddrOfTarget30(
+					global::System.IntPtr a0, 
+					uint a1, 
+					double* a2, 
+					uint* a3);
+
+		public delegate int AddrOfTarget31(
+					global::System.IntPtr a0, 
+					global::System.Type__Impl.UnsafeType a1, 
+					void** a2);
+
+		public delegate int AddrOfTarget32(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.HSTRING a1, 
+					void** a2);
+
+		public delegate int AddrOfTarget33(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType** a2);
+
+		public delegate int AddrOfTarget34(
+					global::System.IntPtr a0, 
+					global::System.Type__Impl.UnsafeType* a1);
+
+		public delegate int AddrOfTarget35(
 					global::System.IntPtr a0, 
 					void* a1, 
 					void* a2, 
 					void* a3);
 
-		public delegate int AddrOfTarget15(
-					global::System.IntPtr a0, 
-					void* a1, 
-					void** a2);
-
-		public delegate int AddrOfTarget16(
+		public delegate int AddrOfTarget36(
 					global::System.IntPtr a0, 
 					int a1, 
 					void* a2);
 
-		public delegate int AddrOfTarget17(
+		public delegate int AddrOfTarget37(
 					global::System.IntPtr a0, 
 					int a1, 
 					void* a2, 
 					void** a3);
 
-		public delegate int AddrOfTarget18(
+		public delegate int AddrOfTarget38(
 					global::System.IntPtr a0, 
-					uint* a1);
+					int* a1);
 
-		public delegate int AddrOfTarget19(
+		public delegate int AddrOfTarget39(
 					global::System.IntPtr a0, 
-					uint a1);
+					int a1, 
+					sbyte* a2);
 
-		public delegate int AddrOfTarget20(
+		public delegate int AddrOfTarget40(
+					global::System.IntPtr a0, 
+					uint a1, 
+					void** a2);
+
+		public delegate int AddrOfTarget41(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Data.LoadMoreItemsResult* a1);
+
+		public delegate int AddrOfTarget42(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Visibility* a1);
+
+		public delegate int AddrOfTarget43(
+					global::System.IntPtr a0, 
+					ulong* a1);
+
+		public delegate int AddrOfTarget44(
+					global::System.IntPtr a0, 
+					ulong a1);
+
+		public delegate int AddrOfTarget45(
+					global::System.IntPtr a0, 
+					ulong a1, 
+					void** a2);
+
+		public delegate int AddrOfTarget46(
+					global::System.IntPtr a0, 
+					void* a1, 
+					uint a2, 
+					global::Windows.Storage.Streams.InputStreamOptions a3, 
+					void** a4);
+
+		public delegate int AddrOfTarget47(
 					global::System.IntPtr a0, 
 					void* a1, 
 					uint a2);
 
-		public delegate int AddrOfTarget21(
+		public delegate int AddrOfTarget48(
 					global::System.IntPtr a0, 
 					void* a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate int AddrOfTarget22(
+		public delegate int AddrOfTarget49(
+					global::System.IntPtr a0, 
+					uint a1, 
+					float* a2);
+
+		public delegate int AddrOfTarget50(
+					global::System.IntPtr a0, 
+					float a1, 
+					uint* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget51(
+					global::System.IntPtr a0, 
+					uint a1, 
+					float a2);
+
+		public delegate int AddrOfTarget52(
+					global::System.IntPtr a0, 
+					float a1);
+
+		public delegate int AddrOfTarget53(
+					global::System.IntPtr a0, 
+					uint a1, 
+					uint a2, 
+					float* a3, 
+					uint* a4);
+
+		public delegate int AddrOfTarget54(
+					global::System.IntPtr a0, 
+					float* a1);
+
+		public delegate int AddrOfTarget55(
+					global::System.IntPtr a0, 
+					uint a1, 
+					float* a2, 
+					uint* a3);
+
+		public delegate int AddrOfTarget56(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.HSTRING a1, 
+					global::System.Runtime.InteropServices.HSTRING* a2);
+
+		public delegate int AddrOfTarget57(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.HSTRING a1, 
+					sbyte* a2);
+
+		public delegate int AddrOfTarget58(
+					global::System.IntPtr a0, 
+					global::Microsoft.Graphics.Canvas.CanvasBufferPrecision* a1);
+
+		public delegate int AddrOfTarget59(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.HSTRING a1, 
+					void* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget60(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.HSTRING a1);
+
+		public delegate int AddrOfTarget61(
+					global::System.IntPtr a0, 
+					global::Microsoft.Graphics.Canvas.Effects.ColorManagementSimpleProfile* a1);
+
+		public delegate int AddrOfTarget62(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.Type__Impl.UnsafeType* a2);
+
+		public delegate int AddrOfTarget63(
+					global::System.IntPtr a0, 
+					global::System.Type__Impl.UnsafeType a1, 
+					uint* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget64(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.Type__Impl.UnsafeType a2);
+
+		public delegate int AddrOfTarget65(
+					global::System.IntPtr a0, 
+					global::System.Type__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget66(
+					global::System.IntPtr a0, 
+					uint a1, 
+					uint a2, 
+					global::System.Type__Impl.UnsafeType* a3, 
+					uint* a4);
+
+		public delegate int AddrOfTarget67(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.HSTRING a1, 
+					global::System.Runtime.InteropServices.HSTRING a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget68(
+					global::System.IntPtr a0, 
+					void* a1, 
+					ulong a2);
+
+		public delegate int AddrOfTarget69(
+					global::System.IntPtr a0, 
+					void* a1, 
+					global::Windows.Web.Http.HttpProgress__Impl.UnsafeType a2);
+
+		public delegate int AddrOfTarget70(
+					global::System.IntPtr a0, 
+					void* a1, 
+					uint* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget71(
+					global::System.IntPtr a0, 
+					uint a1, 
+					void* a2);
+
+		public delegate int AddrOfTarget72(
+					global::System.IntPtr a0, 
+					uint a1, 
+					uint a2, 
+					void** a3, 
+					uint* a4);
+
+		public delegate int AddrOfTarget73(
+					global::System.IntPtr a0, 
+					void* a1, 
+					global::Windows.UI.Xaml.Visibility a2);
+
+		public delegate int AddrOfTarget74(
+					global::System.IntPtr a0, 
+					global::Windows.System.VirtualKey* a1);
+
+		public delegate int AddrOfTarget75(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.__vtable_IInspectable** a1);
+
+		public delegate int AddrOfTarget76(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.Runtime.InteropServices.__vtable_IInspectable** a2, 
+					uint* a3);
+
+		public delegate int AddrOfTarget77(
+					global::System.IntPtr a0, 
+					global::System.DateTimeOffset__Impl.UnsafeType* a1);
+
+		public delegate int AddrOfTarget78(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.DateTimeOffset__Impl.UnsafeType* a2, 
+					uint* a3);
+
+		public delegate int AddrOfTarget79(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.DateTimeOffset__Impl.UnsafeType* a2);
+
+		public delegate int AddrOfTarget80(
+					global::System.IntPtr a0, 
+					global::System.DateTimeOffset__Impl.UnsafeType a1, 
+					uint* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget81(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.DateTimeOffset__Impl.UnsafeType a2);
+
+		public delegate int AddrOfTarget82(
+					global::System.IntPtr a0, 
+					global::System.DateTimeOffset__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget83(
+					global::System.IntPtr a0, 
+					uint a1, 
+					uint a2, 
+					global::System.DateTimeOffset__Impl.UnsafeType* a3, 
+					uint* a4);
+
+		public delegate int AddrOfTarget84(
+					global::System.IntPtr a0, 
+					global::System.TimeSpan* a1);
+
+		public delegate int AddrOfTarget85(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.TimeSpan* a2, 
+					uint* a3);
+
+		public delegate int AddrOfTarget86(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.TimeSpan* a2);
+
+		public delegate int AddrOfTarget87(
+					global::System.IntPtr a0, 
+					global::System.TimeSpan a1, 
+					uint* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget88(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.TimeSpan a2);
+
+		public delegate int AddrOfTarget89(
+					global::System.IntPtr a0, 
+					global::System.TimeSpan a1);
+
+		public delegate int AddrOfTarget90(
+					global::System.IntPtr a0, 
+					uint a1, 
+					uint a2, 
+					global::System.TimeSpan* a3, 
+					uint* a4);
+
+		public delegate int AddrOfTarget91(
+					global::System.IntPtr a0, 
+					ushort a1, 
+					global::System.Runtime.InteropServices.HSTRING* a2);
+
+		public delegate int AddrOfTarget92(
+					global::System.IntPtr a0, 
+					ushort a1, 
+					sbyte* a2);
+
+		public delegate int AddrOfTarget93(
+					global::System.IntPtr a0, 
+					ushort a1, 
+					global::System.Runtime.InteropServices.HSTRING a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget94(
+					global::System.IntPtr a0, 
+					ushort a1);
+
+		public delegate int AddrOfTarget95(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.CornerRadius* a1);
+
+		public delegate int AddrOfTarget96(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Duration* a1);
+
+		public delegate int AddrOfTarget97(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.GridLength* a1);
+
+		public delegate int AddrOfTarget98(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Thickness* a1);
+
+		public delegate int AddrOfTarget99(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Controls.Primitives.GeneratorPosition* a1);
+
+		public delegate int AddrOfTarget100(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Media.Matrix* a1);
+
+		public delegate int AddrOfTarget101(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Media.Animation.KeyTime* a1);
+
+		public delegate int AddrOfTarget102(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Media.Animation.RepeatBehavior* a1);
+
+		public delegate int AddrOfTarget103(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Media.Media3D.Matrix3D* a1);
+
+		public delegate int AddrOfTarget104(
+					global::System.IntPtr a0, 
+					global::System.Numerics.Vector2* a1);
+
+		public delegate int AddrOfTarget105(
+					global::System.IntPtr a0, 
+					global::System.Numerics.Vector3* a1);
+
+		public delegate int AddrOfTarget106(
+					global::System.IntPtr a0, 
+					global::System.Numerics.Vector4* a1);
+
+		public delegate int AddrOfTarget107(
+					global::System.IntPtr a0, 
+					global::System.Numerics.Matrix3x2* a1);
+
+		public delegate int AddrOfTarget108(
+					global::System.IntPtr a0, 
+					global::System.Numerics.Matrix4x4* a1);
+
+		public delegate int AddrOfTarget109(
+					global::System.IntPtr a0, 
+					global::System.Numerics.Plane* a1);
+
+		public delegate int AddrOfTarget110(
+					global::System.IntPtr a0, 
+					global::System.Numerics.Quaternion* a1);
+
+		public delegate int AddrOfTarget111(
+					global::System.IntPtr a0, 
+					void* a1, 
+					double a2);
+
+		public delegate int AddrOfTarget112(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Controls.SplitViewPanePlacement* a1);
+
+		public delegate int AddrOfTarget113(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Controls.SplitViewDisplayMode* a1);
+
+		public delegate int AddrOfTarget114(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Controls.Orientation* a1);
+
+		public delegate int AddrOfTarget115(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Media.Stretch* a1);
+
+		public delegate int AddrOfTarget116(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Text.FontWeight* a1);
+
+		public delegate int AddrOfTarget117(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.TextWrapping* a1);
+
+		public delegate int AddrOfTarget118(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Controls.Symbol* a1);
+
+		public delegate int AddrOfTarget119(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.HorizontalAlignment* a1);
+
+		public delegate int AddrOfTarget120(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.VerticalAlignment* a1);
+
+		public delegate int AddrOfTarget121(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Core.CoreCursorType* a1);
+
+		public delegate int AddrOfTarget122(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Media.Imaging.DecodePixelType* a1);
+
+		public delegate int AddrOfTarget123(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Controls.Primitives.PlacementMode* a1);
+
+		public delegate int AddrOfTarget124(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Xaml.Controls.Primitives.FlyoutPlacementMode* a1);
+
+		public delegate int AddrOfTarget125(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Input.RadialControllerMenuKnownIcon* a1);
+
+		public delegate int AddrOfTarget126(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					void*** a2);
+
+		public delegate int AddrOfTarget127(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Text.FontStretch* a1);
+
+		public delegate int AddrOfTarget128(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Composition.CompositionStretch* a1);
+
+		public delegate int AddrOfTarget129(
+					global::System.IntPtr a0, 
+					global::Windows.UI.ViewManagement.ApplicationViewState* a1);
+
+		public delegate int AddrOfTarget130(
+					global::System.IntPtr a0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBidi* a1);
+
+		public delegate int AddrOfTarget131(
+					global::System.IntPtr a0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedScript* a1);
+
+		public delegate int AddrOfTarget132(
+					global::System.IntPtr a0, 
+					global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.UnsafeType* a1);
+
+		public delegate int AddrOfTarget133(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken* a1);
+
+		public delegate int AddrOfTarget134(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					global::Windows.Foundation.Size** a2);
+
+		public delegate int AddrOfTarget135(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					global::Windows.UI.Core.CoreCursorType** a2);
+
+		public delegate int AddrOfTarget136(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken** a2);
+
+		public delegate int AddrOfTarget137(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					global::System.DateTimeOffset__Impl.UnsafeType** a2);
+
+		public delegate int AddrOfTarget138(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					double** a2);
+
+		public delegate int AddrOfTarget139(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					short** a2);
+
+		public delegate int AddrOfTarget140(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					long** a2);
+
+		public delegate int AddrOfTarget141(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					sbyte** a2);
+
+		public delegate int AddrOfTarget142(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					float** a2);
+
+		public delegate int AddrOfTarget143(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					global::System.TimeSpan** a2);
+
+		public delegate int AddrOfTarget144(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					ushort** a2);
+
+		public delegate int AddrOfTarget145(
+					global::System.IntPtr a0, 
+					uint* a1, 
+					uint** a2);
+
+		public delegate int AddrOfTarget146(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.Runtime.InteropServices.__vtable_IInspectable** a2);
+
+		public delegate int AddrOfTarget147(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.__vtable_IInspectable* a1, 
+					uint* a2, 
+					sbyte* a3);
+
+		public delegate int AddrOfTarget148(
+					global::System.IntPtr a0, 
+					uint a1, 
+					global::System.Runtime.InteropServices.__vtable_IInspectable* a2);
+
+		public delegate int AddrOfTarget149(
+					global::System.IntPtr a0, 
+					global::System.Runtime.InteropServices.__vtable_IInspectable* a1);
+
+		public delegate int AddrOfTarget150(
+					global::System.IntPtr a0, 
+					uint a1, 
+					uint a2, 
+					global::System.Runtime.InteropServices.__vtable_IInspectable** a3, 
+					uint* a4);
+
+		public delegate int AddrOfTarget151(
+					global::System.IntPtr a0, 
+					global::Windows.Web.Http.HttpStatusCode* a1);
+
+		public delegate int AddrOfTarget152(
 					global::System.IntPtr a0, 
 					global::System.IntPtr* a1);
 
-		public delegate int AddrOfTarget23(
+		public delegate int AddrOfTarget153(
 					global::System.IntPtr a0, 
 					global::System.Guid* a1, 
 					global::System.IntPtr a2, 
@@ -1522,7 +7152,7 @@ namespace __Interop
 					uint a5, 
 					global::System.Guid* a6);
 
-		public delegate int AddrOfTarget24(
+		public delegate int AddrOfTarget154(
 					global::System.IntPtr a0, 
 					global::System.Guid* a1, 
 					global::System.IntPtr a2, 
@@ -1531,7 +7161,7 @@ namespace __Interop
 					uint a5, 
 					uint* a6);
 
-		public delegate int AddrOfTarget25(
+		public delegate int AddrOfTarget155(
 					global::System.IntPtr a0, 
 					global::System.IntPtr a1, 
 					global::System.Guid* a2, 
@@ -1540,429 +7170,1045 @@ namespace __Interop
 					global::System.IntPtr a5, 
 					uint a6);
 
-		public delegate int AddrOfTarget26(
+		public delegate int AddrOfTarget156(
 					global::System.IntPtr a0, 
 					global::System.IntPtr a1, 
 					global::System.Guid* a2, 
 					global::System.IntPtr* a3);
 
-		public delegate void AddrOfTarget27(
+		public delegate void AddrOfTarget157(
 					global::System.__ComObject a0, 
 					object a1, 
 					object a2);
 
-		public delegate void AddrOfTarget28(
+		public delegate void AddrOfTarget158(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.ApplicationInitializationCallbackParams a1);
 
-		public delegate void AddrOfTarget29(global::System.__ComObject a0);
+		public delegate void AddrOfTarget159(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.DependencyObject a1, 
+					global::Windows.UI.Xaml.DependencyPropertyChangedEventArgs a2);
 
-		public delegate void AddrOfTarget30(
+		public delegate void AddrOfTarget160(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreDispatcher a1, 
+					global::Windows.UI.Core.AcceleratorKeyEventArgs a2);
+
+		public delegate void AddrOfTarget161(global::System.__ComObject a0);
+
+		public delegate void AddrOfTarget162(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.DependencyObject a1, 
+					global::Windows.UI.Xaml.DependencyProperty a2);
+
+		public delegate object AddrOfTarget163<T>(global::System.Collections.Generic.IEnumerable<T> a0);
+
+		public delegate void AddrOfTarget164(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.UnhandledExceptionEventArgs a2);
 
-		public delegate void AddrOfTarget31(
+		public delegate void AddrOfTarget165(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.ApplicationModel.SuspendingEventArgs a2);
 
-		public delegate void AddrOfTarget32(
+		public delegate void AddrOfTarget166(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.ApplicationModel.LeavingBackgroundEventArgs a2);
 
-		public delegate void AddrOfTarget33(
+		public delegate void AddrOfTarget167(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.ApplicationModel.EnteredBackgroundEventArgs a2);
 
-		public delegate void AddrOfTarget34(
+		public delegate int AddrOfTarget168<T>(
+					global::Windows.Foundation.Collections.IIterator<T> a0, 
+					global::System.Runtime.InteropServices.Toolbox.IIterator_Oper a1, 
+					ref object a2, 
+					int a3);
+
+		public delegate void AddrOfTarget169(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.KeyRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget35(
+		public delegate void AddrOfTarget170(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.RoutedEventArgs a2);
 
-		public delegate void AddrOfTarget36(
+		public delegate void AddrOfTarget171(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.DragEventArgs a2);
 
-		public delegate void AddrOfTarget37(
+		public delegate void AddrOfTarget172(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.PointerRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget38(
+		public delegate void AddrOfTarget173(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.TappedRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget39(
+		public delegate void AddrOfTarget174(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.DoubleTappedRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget40(
+		public delegate void AddrOfTarget175(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.HoldingRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget41(
+		public delegate void AddrOfTarget176(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.RightTappedRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget42(
+		public delegate void AddrOfTarget177(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget43(
+		public delegate void AddrOfTarget178(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget44(
+		public delegate void AddrOfTarget179(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget45(
+		public delegate void AddrOfTarget180(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget46(
+		public delegate void AddrOfTarget181(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Input.ManipulationCompletedRoutedEventArgs a2);
 
-		public delegate void AddrOfTarget47(
+		public delegate void AddrOfTarget182(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.DragStartingEventArgs a2);
 
-		public delegate void AddrOfTarget48(
+		public delegate void AddrOfTarget183(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.DropCompletedEventArgs a2);
 
-		public delegate void AddrOfTarget49(
+		public delegate void AddrOfTarget184(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.ContextRequestedEventArgs a2);
 
-		public delegate void AddrOfTarget50(
+		public delegate void AddrOfTarget185(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.RoutedEventArgs a2);
 
-		public delegate void AddrOfTarget51(
+		public delegate void AddrOfTarget186(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.AccessKeyDisplayRequestedEventArgs a2);
 
-		public delegate void AddrOfTarget52(
+		public delegate void AddrOfTarget187(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.AccessKeyDisplayDismissedEventArgs a2);
 
-		public delegate void AddrOfTarget53(
+		public delegate void AddrOfTarget188(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs a2);
 
-		public delegate void AddrOfTarget54(
+		public delegate void AddrOfTarget189(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.GettingFocusEventArgs a2);
 
-		public delegate void AddrOfTarget55(
+		public delegate void AddrOfTarget190(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.LosingFocusEventArgs a2);
 
-		public delegate void AddrOfTarget56(
+		public delegate void AddrOfTarget191(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.UIElement a1, 
 					global::Windows.UI.Xaml.Input.NoFocusCandidateFoundEventArgs a2);
 
-		public delegate void AddrOfTarget57(
+		public delegate void AddrOfTarget192(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.SizeChangedEventArgs a2);
 
-		public delegate void AddrOfTarget58(
+		public delegate void AddrOfTarget193(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.FrameworkElement a1, 
 					global::Windows.UI.Xaml.DataContextChangedEventArgs a2);
 
-		public delegate void AddrOfTarget59(
+		public delegate void AddrOfTarget194(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.FrameworkElement a1, 
 					object a2);
 
-		public delegate void AddrOfTarget60(
+		public delegate void AddrOfTarget195(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Documents.TextElement a1, 
+					global::Windows.UI.Xaml.Input.AccessKeyDisplayRequestedEventArgs a2);
+
+		public delegate void AddrOfTarget196(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Documents.TextElement a1, 
+					global::Windows.UI.Xaml.Input.AccessKeyDisplayDismissedEventArgs a2);
+
+		public delegate void AddrOfTarget197(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Documents.TextElement a1, 
+					global::Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs a2);
+
+		public delegate int AddrOfTarget198<T>(
+					global::System.Collections.Generic.IList<T> a0, 
+					global::System.Runtime.InteropServices.Toolbox.IList_Oper a1, 
+					int a2, 
+					ref object a3);
+
+		public delegate int AddrOfTarget199<T>(
+					global::System.Collections.Generic.IReadOnlyList<T> a0, 
+					global::System.Runtime.InteropServices.Toolbox.IList_Oper a1, 
+					int a2, 
+					ref T a3);
+
+		public delegate void AddrOfTarget200(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Controls.ContextMenuEventArgs a2);
 
-		public delegate void AddrOfTarget61(
+		public delegate void AddrOfTarget201(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Composition.CompositionBatchCompletedEventArgs a2);
+
+		public delegate void AddrOfTarget202(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.DependencyPropertyChangedEventArgs a2);
 
-		public delegate void AddrOfTarget62(
+		public delegate void AddrOfTarget203(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.Control a1, 
 					global::Windows.UI.Xaml.Controls.FocusEngagedEventArgs a2);
 
-		public delegate void AddrOfTarget63(
+		public delegate void AddrOfTarget204(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.Control a1, 
 					global::Windows.UI.Xaml.Controls.FocusDisengagedEventArgs a2);
 
-		public delegate void AddrOfTarget64(
+		public delegate void AddrOfTarget205(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.VisualStateChangedEventArgs a2);
+
+		public delegate void AddrOfTarget206(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Navigation.NavigationEventArgs a2);
 
-		public delegate void AddrOfTarget65(
+		public delegate void AddrOfTarget207(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Navigation.NavigatingCancelEventArgs a2);
 
-		public delegate void AddrOfTarget66(
+		public delegate void AddrOfTarget208(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Navigation.NavigationFailedEventArgs a2);
 
-		public delegate void AddrOfTarget67(
+		public delegate void AddrOfTarget209(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangedEventArgs a2);
 
-		public delegate void AddrOfTarget68(
+		public delegate void AddrOfTarget210(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangingEventArgs a2);
 
-		public delegate void AddrOfTarget69(
+		public delegate void AddrOfTarget211(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.Collections.IObservableVector<object> a1, 
 					global::Windows.Foundation.Collections.IVectorChangedEventArgs a2);
 
-		public delegate void AddrOfTarget70(
+		public delegate void AddrOfTarget212(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Controls.SelectionChangedEventArgs a2);
 
-		public delegate void AddrOfTarget71(
+		public delegate void AddrOfTarget213(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Controls.ItemClickEventArgs a2);
 
-		public delegate void AddrOfTarget72(
+		public delegate void AddrOfTarget214(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Controls.DragItemsStartingEventArgs a2);
 
-		public delegate void AddrOfTarget73(
+		public delegate void AddrOfTarget215(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
 					global::Windows.UI.Xaml.Controls.ContainerContentChangingEventArgs a2);
 
-		public delegate void AddrOfTarget74(
+		public delegate void AddrOfTarget216(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
 					global::Windows.UI.Xaml.Controls.DragItemsCompletedEventArgs a2);
 
-		public delegate void AddrOfTarget75(
+		public delegate void AddrOfTarget217(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
 					global::Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs a2);
 
-		public delegate void AddrOfTarget76(
+		public delegate void AddrOfTarget218(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
 					global::Windows.UI.Xaml.Controls.ChoosingGroupHeaderContainerEventArgs a2);
 
-		public delegate void AddrOfTarget77(
+		public delegate void AddrOfTarget219(
 					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.ExceptionRoutedEventArgs a2);
-
-		public delegate void AddrOfTarget78(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.Collections.IObservableVector<global::Windows.UI.Xaml.Controls.ICommandBarElement> a1, 
-					global::Windows.Foundation.Collections.IVectorChangedEventArgs a2);
-
-		public delegate void AddrOfTarget79(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.CommandBar a1, 
-					global::Windows.UI.Xaml.Controls.DynamicOverflowItemsChangingEventArgs a2);
-
-		public delegate void AddrOfTarget80(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Controls.NotifyEventArgs a2);
-
-		public delegate void AddrOfTarget81(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.Controls.WebViewNavigationFailedEventArgs a2);
-
-		public delegate void AddrOfTarget82(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
-					global::Windows.UI.Xaml.Controls.WebViewNavigationStartingEventArgs a2);
-
-		public delegate void AddrOfTarget83(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
-					global::Windows.UI.Xaml.Controls.WebViewContentLoadingEventArgs a2);
-
-		public delegate void AddrOfTarget84(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
-					global::Windows.UI.Xaml.Controls.WebViewDOMContentLoadedEventArgs a2);
-
-		public delegate void AddrOfTarget85(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
-					global::Windows.UI.Xaml.Controls.WebViewNavigationCompletedEventArgs a2);
-
-		public delegate void AddrOfTarget86(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
-					global::Windows.UI.Xaml.Controls.WebViewLongRunningScriptDetectedEventArgs a2);
-
-		public delegate void AddrOfTarget87(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Media.Animation.ConnectedAnimation a1, 
 					object a2);
 
-		public delegate void AddrOfTarget88(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
-					global::Windows.UI.Xaml.Controls.WebViewUnviewableContentIdentifiedEventArgs a2);
-
-		public delegate void AddrOfTarget89(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
-					global::Windows.UI.Xaml.Controls.WebViewUnsupportedUriSchemeIdentifiedEventArgs a2);
-
-		public delegate void AddrOfTarget90(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
-					global::Windows.UI.Xaml.Controls.WebViewNewWindowRequestedEventArgs a2);
-
-		public delegate void AddrOfTarget91(
-					global::System.__ComObject a0, 
-					global::Windows.UI.Xaml.Controls.WebView a1, 
-					global::Windows.UI.Xaml.Controls.WebViewPermissionRequestedEventArgs a2);
-
-		public delegate void AddrOfTarget92(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.Collections.IObservableMap<string, string> a1, 
-					global::Windows.Foundation.Collections.IMapChangedEventArgs<string> a2);
-
-		public delegate void AddrOfTarget93(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncAction a1);
-
-		public delegate void AddrOfTarget94(
-					global::System.__ComObject a0, 
-					global::Windows.System.Threading.ThreadPoolTimer a1);
-
-		public delegate int AddrOfTarget95<T>(
+		public delegate int AddrOfTarget220<T>(
 					global::Windows.Foundation.AsyncOperationCompletedHandler<T> a0, 
 					global::Windows.Foundation.IAsyncOperation<T> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget96(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget97(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.Foundation.Diagnostics.TracingStatusChangedEventArgs a2);
-
-		public delegate void AddrOfTarget98(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
-					uint a2);
-
-		public delegate void AddrOfTarget99(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget100(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
-					uint a2);
-
-		public delegate void AddrOfTarget101(
-					global::System.__ComObject a0, 
-					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
-					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget102(
+		public delegate void AddrOfTarget221(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<bool> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget103(
+		public delegate void AddrOfTarget222(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.ExceptionRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget223(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.Collections.IObservableVector<global::Windows.UI.Xaml.Controls.ICommandBarElement> a1, 
+					global::Windows.Foundation.Collections.IVectorChangedEventArgs a2);
+
+		public delegate void AddrOfTarget224(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.CommandBar a1, 
+					global::Windows.UI.Xaml.Controls.DynamicOverflowItemsChangingEventArgs a2);
+
+		public delegate void AddrOfTarget225(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.NotifyEventArgs a2);
+
+		public delegate void AddrOfTarget226(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.WebViewNavigationFailedEventArgs a2);
+
+		public delegate void AddrOfTarget227(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Controls.WebViewNavigationStartingEventArgs a2);
+
+		public delegate void AddrOfTarget228(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Controls.WebViewContentLoadingEventArgs a2);
+
+		public delegate void AddrOfTarget229(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Controls.WebViewDOMContentLoadedEventArgs a2);
+
+		public delegate void AddrOfTarget230(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Controls.WebViewNavigationCompletedEventArgs a2);
+
+		public delegate void AddrOfTarget231(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Controls.WebViewLongRunningScriptDetectedEventArgs a2);
+
+		public delegate void AddrOfTarget232(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					object a2);
+
+		public delegate void AddrOfTarget233(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Controls.WebViewUnviewableContentIdentifiedEventArgs a2);
+
+		public delegate void AddrOfTarget234(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Controls.WebViewUnsupportedUriSchemeIdentifiedEventArgs a2);
+
+		public delegate void AddrOfTarget235(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Controls.WebViewNewWindowRequestedEventArgs a2);
+
+		public delegate void AddrOfTarget236(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.WebView a1, 
+					global::Windows.UI.Xaml.Controls.WebViewPermissionRequestedEventArgs a2);
+
+		public delegate void AddrOfTarget237(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs a2);
+
+		public delegate void AddrOfTarget238(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.SplitView a1, 
+					global::Windows.UI.Xaml.Controls.SplitViewPaneClosingEventArgs a2);
+
+		public delegate void AddrOfTarget239(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.SplitView a1, 
+					object a2);
+
+		public delegate void AddrOfTarget240(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.Primitives.DragStartedEventArgs a2);
+
+		public delegate void AddrOfTarget241(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.Primitives.DragDeltaEventArgs a2);
+
+		public delegate void AddrOfTarget242(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.Primitives.DragCompletedEventArgs a2);
+
+		public delegate void AddrOfTarget243(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Data.CurrentChangingEventArgs a2);
+
+		public delegate void AddrOfTarget244(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.UI.Xaml.Data.LoadMoreItemsResult> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget245(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.Collections.IObservableVector<global::Windows.UI.Xaml.DependencyObject> a1, 
+					global::Windows.Foundation.Collections.IVectorChangedEventArgs a2);
+
+		public delegate void AddrOfTarget246(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.CanvasDevice a1, 
+					object a2);
+
+		public delegate void AddrOfTarget247(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
+					uint a2);
+
+		public delegate void AddrOfTarget248(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, uint> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget249(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
+					uint a2);
+
+		public delegate void AddrOfTarget250(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget251(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasBitmap> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget252(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget253(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.Svg.CanvasSvgNamedElement> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget254(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Microsoft.Graphics.Canvas.CanvasVirtualBitmap> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate object AddrOfTarget255<T>(
+					global::System.Collections.Generic.IReadOnlyList<T> a0, 
+					global::System.Runtime.InteropServices.Toolbox.IList_Oper a1, 
+					ref int a2, 
+					ref T a3);
+
+		public delegate void AddrOfTarget256(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.KeyEventArgs a2);
+
+		public delegate void AddrOfTarget257(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.PointerEventArgs a2);
+
+		public delegate void AddrOfTarget258(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Core.CoreWindow a1, 
+					global::Windows.UI.Core.VisibilityChangedEventArgs a2);
+
+		public delegate void AddrOfTarget259(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.Printing.CanvasPrintDocument a1, 
+					global::Microsoft.Graphics.Canvas.Printing.CanvasPrintTaskOptionsChangedEventArgs a2);
+
+		public delegate void AddrOfTarget260(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.Printing.CanvasPrintDocument a1, 
+					global::Microsoft.Graphics.Canvas.Printing.CanvasPreviewEventArgs a2);
+
+		public delegate void AddrOfTarget261(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.Printing.CanvasPrintDocument a1, 
+					global::Microsoft.Graphics.Canvas.Printing.CanvasPrintEventArgs a2);
+
+		public delegate void AddrOfTarget262(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl a1, 
+					global::Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs a2);
+
+		public delegate void AddrOfTarget263(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl a1, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedUpdateEventArgs a2);
+
+		public delegate void AddrOfTarget264(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl a1, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedDrawEventArgs a2);
+
+		public delegate void AddrOfTarget265(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.ICanvasAnimatedControl a1, 
+					object a2);
+
+		public delegate void AddrOfTarget266(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl a1, 
+					global::Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs a2);
+
+		public delegate void AddrOfTarget267(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl a1, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasDrawEventArgs a2);
+
+		public delegate void AddrOfTarget268(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.SwapChainPanel a1, 
+					object a2);
+
+		public delegate void AddrOfTarget269(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualImageSource a1, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasRegionsInvalidatedEventArgs a2);
+
+		public delegate void AddrOfTarget270(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualControl a1, 
+					global::Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs a2);
+
+		public delegate void AddrOfTarget271(
+					global::System.__ComObject a0, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualControl a1, 
+					global::Microsoft.Graphics.Canvas.UI.Xaml.CanvasRegionsInvalidatedEventArgs a2);
+
+		public delegate void AddrOfTarget272(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Robmikh.CompositionSurfaceFactory.DeviceLostEventArgs a2);
+
+		public delegate void AddrOfTarget273(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Robmikh.CompositionSurfaceFactory.UriSurface> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget274(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Robmikh.CompositionSurfaceFactory.TextSurfaceRedrawnEventArgs a2);
+
+		public delegate void AddrOfTarget275(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Composition.RenderingDeviceReplacedEventArgs a2);
+
+		public delegate void AddrOfTarget276(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.Collections.IObservableMap<string, object> a1, 
+					global::Windows.Foundation.Collections.IMapChangedEventArgs<string> a2);
+
+		public delegate void AddrOfTarget277(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IInputStream, ulong> a1, 
+					ulong a2);
+
+		public delegate void AddrOfTarget278(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IInputStream, ulong> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget279(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<string, ulong> a1, 
+					ulong a2);
+
+		public delegate void AddrOfTarget280(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<string, ulong> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget281(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Web.Http.HttpResponseMessage, global::Windows.Web.Http.HttpProgress> a1, 
+					global::Windows.Web.Http.HttpProgress a2);
+
+		public delegate void AddrOfTarget282(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Web.Http.HttpResponseMessage, global::Windows.Web.Http.HttpProgress> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget283(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IInputStream, global::Windows.Web.Http.HttpProgress> a1, 
+					global::Windows.Web.Http.HttpProgress a2);
+
+		public delegate void AddrOfTarget284(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IInputStream, global::Windows.Web.Http.HttpProgress> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget285(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IDictionary<string, object>> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget286(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.FileProperties.BasicProperties> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget287(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStreamWithContentType> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget288(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget104(
+		public delegate void AddrOfTarget289(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget105(
+		public delegate void AddrOfTarget290(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget291(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget292(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.StorageFile>> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget293(
+					global::System.__ComObject a0, 
+					global::Windows.Graphics.Printing.PrintTaskSourceRequestedArgs a1);
+
+		public delegate void AddrOfTarget294(
+					global::System.__ComObject a0, 
+					global::Windows.Graphics.Printing.PrintTask a1, 
+					global::Windows.Graphics.Printing.PrintTaskCompletedEventArgs a2);
+
+		public delegate void AddrOfTarget295(
+					global::System.__ComObject a0, 
+					global::Windows.Graphics.Printing.PrintManager a1, 
+					global::Windows.Graphics.Printing.PrintTaskRequestedEventArgs a2);
+
+		public delegate void AddrOfTarget296(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Visibility a2);
+
+		public delegate void AddrOfTarget297(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Documents.Hyperlink a1, 
+					global::Windows.UI.Xaml.Documents.HyperlinkClickEventArgs a2);
+
+		public delegate void AddrOfTarget298(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase a1, 
+					global::Windows.UI.Xaml.Controls.Primitives.FlyoutBaseClosingEventArgs a2);
+
+		public delegate void AddrOfTarget299(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.TextControlPasteEventArgs a2);
+
+		public delegate void AddrOfTarget300(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.RichEditBox a1, 
+					global::Windows.UI.Xaml.Controls.TextCompositionStartedEventArgs a2);
+
+		public delegate void AddrOfTarget301(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.RichEditBox a1, 
+					global::Windows.UI.Xaml.Controls.TextCompositionChangedEventArgs a2);
+
+		public delegate void AddrOfTarget302(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.RichEditBox a1, 
+					global::Windows.UI.Xaml.Controls.TextCompositionEndedEventArgs a2);
+
+		public delegate void AddrOfTarget303(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.RichEditBox a1, 
+					global::Windows.UI.Xaml.Controls.CandidateWindowBoundsChangedEventArgs a2);
+
+		public delegate void AddrOfTarget304(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.RichEditBox a1, 
+					global::Windows.UI.Xaml.Controls.RichEditBoxTextChangingEventArgs a2);
+
+		public delegate void AddrOfTarget305(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Core.BackRequestedEventArgs a2);
+
+		public delegate void AddrOfTarget306(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Input.RadialController a1, 
+					global::Windows.UI.Input.RadialControllerRotationChangedEventArgs a2);
+
+		public delegate void AddrOfTarget307(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Input.RadialController a1, 
+					global::Windows.UI.Input.RadialControllerButtonClickedEventArgs a2);
+
+		public delegate void AddrOfTarget308(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.TextChangedEventArgs a2);
+
+		public delegate void AddrOfTarget309(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.TextBox a1, 
+					global::Windows.UI.Xaml.Controls.TextCompositionStartedEventArgs a2);
+
+		public delegate void AddrOfTarget310(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.TextBox a1, 
+					global::Windows.UI.Xaml.Controls.TextCompositionChangedEventArgs a2);
+
+		public delegate void AddrOfTarget311(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.TextBox a1, 
+					global::Windows.UI.Xaml.Controls.TextCompositionEndedEventArgs a2);
+
+		public delegate void AddrOfTarget312(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.TextBox a1, 
+					global::Windows.UI.Xaml.Controls.CandidateWindowBoundsChangedEventArgs a2);
+
+		public delegate void AddrOfTarget313(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.TextBox a1, 
+					global::Windows.UI.Xaml.Controls.TextBoxTextChangingEventArgs a2);
+
+		public delegate global::System.Array AddrOfTarget314<T>(
+					global::Windows.Foundation.Collections.IIterator<T> a0, 
+					global::System.Runtime.InteropServices.Toolbox.IIterator_Oper a1, 
+					ref T a2, 
+					ref int a3);
+
+		public delegate object AddrOfTarget315<T>(
+					global::System.Collections.Generic.IList<T> a0, 
+					global::System.Runtime.InteropServices.Toolbox.IList_Oper a1, 
+					ref int a2, 
+					ref T a3);
+
+		public delegate void AddrOfTarget316(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.Collections.IObservableMap<string, string> a1, 
+					global::Windows.Foundation.Collections.IMapChangedEventArgs<string> a2);
+
+		public delegate void AddrOfTarget317(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncAction a1);
+
+		public delegate void AddrOfTarget318(
+					global::System.__ComObject a0, 
+					global::Windows.System.Threading.ThreadPoolTimer a1);
+
+		public delegate void AddrOfTarget319(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.Foundation.Diagnostics.TracingStatusChangedEventArgs a2);
+
+		public delegate void AddrOfTarget320(
+					global::System.__ComObject a0, 
+					object a1, 
+					double a2);
+
+		public delegate void AddrOfTarget321(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.Primitives.ScrollEventArgs a2);
+
+		public delegate void AddrOfTarget322(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IBuffer> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget323(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Printing.PaginateEventArgs a2);
+
+		public delegate void AddrOfTarget324(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Printing.GetPreviewPageEventArgs a2);
+
+		public delegate void AddrOfTarget325(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Printing.AddPagesEventArgs a2);
+
+		public delegate void AddrOfTarget326(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Media.TimelineMarkerRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget327(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Media.RateChangedRoutedEventArgs a2);
+
+		public delegate void AddrOfTarget328(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.MediaElement a1, 
+					global::Windows.UI.Xaml.Media.PartialMediaFailureDetectedEventArgs a2);
+
+		public delegate void AddrOfTarget329(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<string> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget330(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.Security.Authentication.Web.WebAuthenticationResult> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget331(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<uint> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget332(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Media.Imaging.DownloadProgressEventArgs a2);
+
+		public delegate void AddrOfTarget333(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.ContentDialog a1, 
+					global::Windows.UI.Xaml.Controls.ContentDialogClosingEventArgs a2);
+
+		public delegate void AddrOfTarget334(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.ContentDialog a1, 
+					global::Windows.UI.Xaml.Controls.ContentDialogClosedEventArgs a2);
+
+		public delegate void AddrOfTarget335(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.ContentDialog a1, 
+					global::Windows.UI.Xaml.Controls.ContentDialogOpenedEventArgs a2);
+
+		public delegate void AddrOfTarget336(
+					global::System.__ComObject a0, 
+					global::Windows.UI.Xaml.Controls.ContentDialog a1, 
+					global::Windows.UI.Xaml.Controls.ContentDialogButtonClickEventArgs a2);
+
+		public delegate void AddrOfTarget337(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::Windows.UI.Xaml.Controls.ContentDialogResult> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
+
+		public delegate void AddrOfTarget338(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.WindowActivatedEventArgs a2);
 
-		public delegate void AddrOfTarget106(
+		public delegate void AddrOfTarget339(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.CoreWindowEventArgs a2);
 
-		public delegate void AddrOfTarget107(
+		public delegate void AddrOfTarget340(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.WindowSizeChangedEventArgs a2);
 
-		public delegate void AddrOfTarget108(
+		public delegate void AddrOfTarget341(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Core.VisibilityChangedEventArgs a2);
 
-		public delegate object AddrOfTarget109(object a0);
+		public delegate void AddrOfTarget342(
+					global::System.__ComObject a0, 
+					global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IReadOnlyList<global::Windows.Security.Cryptography.Certificates.Certificate>> a1, 
+					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate object AddrOfTarget110(global::System.__ComObject a0);
+		public delegate object AddrOfTarget343(object a0);
 
-		public delegate int AddrOfTarget111(
+		public delegate object AddrOfTarget344(global::System.__ComObject a0);
+
+		public delegate int AddrOfTarget345(
+					ref global::Windows.UI.Core.CorePhysicalKeyStatus a0, 
+					out global::Windows.UI.Core.CorePhysicalKeyStatus__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget346(
+					ref global::Windows.UI.Core.CorePhysicalKeyStatus__Impl.UnsafeType a0, 
+					out global::Windows.UI.Core.CorePhysicalKeyStatus a1);
+
+		public delegate int AddrOfTarget347(
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition a0, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a1);
 
-		public delegate int AddrOfTarget112(
+		public delegate int AddrOfTarget348(
 					ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0, 
 					out global::Windows.UI.Xaml.Markup.XmlnsDefinition a1);
 
-		public delegate void AddrOfTarget113(ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0);
+		public delegate void AddrOfTarget349(ref global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType a0);
+
+		public delegate int AddrOfTarget350(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasLineMetrics a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasLineMetrics__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget351(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasLineMetrics__Impl.UnsafeType a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasLineMetrics a1);
+
+		public delegate int AddrOfTarget352(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasFontProperty a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasFontProperty__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget353(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasFontProperty__Impl.UnsafeType a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasFontProperty a1);
+
+		public delegate void AddrOfTarget354(ref global::Microsoft.Graphics.Canvas.Text.CanvasFontProperty__Impl.UnsafeType a0);
+
+		public delegate int AddrOfTarget355(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBreakpoint a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBreakpoint__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget356(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBreakpoint__Impl.UnsafeType a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedBreakpoint a1);
+
+		public delegate int AddrOfTarget357(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget358(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation__Impl.UnsafeType a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasAnalyzedGlyphOrientation a1);
+
+		public delegate int AddrOfTarget359(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasScriptProperties a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasScriptProperties__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget360(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasScriptProperties__Impl.UnsafeType a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasScriptProperties a1);
+
+		public delegate void AddrOfTarget361(ref global::Microsoft.Graphics.Canvas.Text.CanvasScriptProperties__Impl.UnsafeType a0);
+
+		public delegate int AddrOfTarget362(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasGlyphShaping a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasGlyphShaping__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget363(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasGlyphShaping__Impl.UnsafeType a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasGlyphShaping a1);
+
+		public delegate int AddrOfTarget364(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasJustificationOpportunity a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasJustificationOpportunity__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget365(
+					ref global::Microsoft.Graphics.Canvas.Text.CanvasJustificationOpportunity__Impl.UnsafeType a0, 
+					out global::Microsoft.Graphics.Canvas.Text.CanvasJustificationOpportunity a1);
+
+		public delegate int AddrOfTarget366(
+					ref global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation a0, 
+					out global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget367(
+					ref global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation__Impl.UnsafeType a0, 
+					out global::Microsoft.Graphics.Canvas.UI.CanvasTimingInformation a1);
+
+		public delegate int AddrOfTarget368(
+					ref global::Robmikh.CompositionSurfaceFactory.SurfaceFactoryOptions a0, 
+					out global::Robmikh.CompositionSurfaceFactory.SurfaceFactoryOptions__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget369(
+					ref global::Robmikh.CompositionSurfaceFactory.SurfaceFactoryOptions__Impl.UnsafeType a0, 
+					out global::Robmikh.CompositionSurfaceFactory.SurfaceFactoryOptions a1);
+
+		public delegate int AddrOfTarget370(
+					ref global::Windows.Web.Http.HttpProgress a0, 
+					out global::Windows.Web.Http.HttpProgress__Impl.UnsafeType a1);
+
+		public delegate int AddrOfTarget371(
+					ref global::Windows.Web.Http.HttpProgress__Impl.UnsafeType a0, 
+					out global::Windows.Web.Http.HttpProgress a1);
+
+		public delegate void AddrOfTarget372(ref global::Windows.Web.Http.HttpProgress__Impl.UnsafeType a0);
 	}
 }
 

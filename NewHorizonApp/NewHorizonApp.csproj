@@ -121,11 +121,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Blinking.png" />
+    <Content Include="Assets\Important_hover v2.png" />
+    <Content Include="Assets\Important_hover.png" />
+    <Content Include="Assets\Important_normal v2.png" />
+    <Content Include="Assets\Important_normal.png" />
+    <Content Include="Assets\Important_pressed v2.png" />
+    <Content Include="Assets\Important_pressed.png" />
     <Content Include="Assets\Mouth.png" />
     <Content Include="Assets\nhlogo.jpg" />
     <Content Include="Assets\Pixel Portrait Riley small.png" />
     <Content Include="Assets\PixelPortraitRileySmall.png" />
     <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Assets\Standard_hover v2.png" />
+    <Content Include="Assets\Standard_hover.png" />
+    <Content Include="Assets\Standard_normal v2.png" />
+    <Content Include="Assets\Standard_normal.png" />
+    <Content Include="Assets\Standard_pressed v2.png" />
+    <Content Include="Assets\Standard_pressed.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

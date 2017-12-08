@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-07T02:56:42.252</Modified>
+      <Modified>2017-12-08T21:46:35.502</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.exe">
       <PackagePath>entrypoint\NewHorizonApp.exe</PackagePath>
-      <Modified>2017-12-07T02:56:39.624</Modified>
+      <Modified>2017-12-08T21:46:32.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NateDev\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -575,6 +575,30 @@
       <PackagePath>Assets\Blinking.png</PackagePath>
       <Modified>2017-10-17T19:19:04.501</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_hover v2.png">
+      <PackagePath>Assets\Important_hover v2.png</PackagePath>
+      <Modified>2017-12-08T19:10:38.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_hover.png">
+      <PackagePath>Assets\Important_hover.png</PackagePath>
+      <Modified>2017-12-08T15:50:41.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_normal v2.png">
+      <PackagePath>Assets\Important_normal v2.png</PackagePath>
+      <Modified>2017-12-08T18:58:27.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_normal.png">
+      <PackagePath>Assets\Important_normal.png</PackagePath>
+      <Modified>2017-12-08T15:50:46.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_pressed v2.png">
+      <PackagePath>Assets\Important_pressed v2.png</PackagePath>
+      <Modified>2017-12-08T19:14:22.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_pressed.png">
+      <PackagePath>Assets\Important_pressed.png</PackagePath>
+      <Modified>2017-12-08T15:50:50.967</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Mouth.png">
       <PackagePath>Assets\Mouth.png</PackagePath>
       <Modified>2017-10-17T18:42:31.005</Modified>
@@ -586,6 +610,30 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\PixelPortraitRileySmall.png">
       <PackagePath>Assets\PixelPortraitRileySmall.png</PackagePath>
       <Modified>2017-10-11T02:56:16.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_hover v2.png">
+      <PackagePath>Assets\Standard_hover v2.png</PackagePath>
+      <Modified>2017-12-08T18:45:17.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_hover.png">
+      <PackagePath>Assets\Standard_hover.png</PackagePath>
+      <Modified>2017-12-08T15:50:56.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_normal v2.png">
+      <PackagePath>Assets\Standard_normal v2.png</PackagePath>
+      <Modified>2017-12-08T18:37:51.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_normal.png">
+      <PackagePath>Assets\Standard_normal.png</PackagePath>
+      <Modified>2017-12-08T15:51:03.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_pressed v2.png">
+      <PackagePath>Assets\Standard_pressed v2.png</PackagePath>
+      <Modified>2017-12-08T18:54:11.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_pressed.png">
+      <PackagePath>Assets\Standard_pressed.png</PackagePath>
+      <Modified>2017-12-08T15:51:09.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -631,7 +679,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.xr.xml">
       <PackagePath>NewHorizonApp.xr.xml</PackagePath>
-      <Modified>2017-12-06T03:40:11.643</Modified>
+      <Modified>2017-12-08T21:43:32.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -788,11 +836,11 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-07T02:56:40.057</Modified>
+      <Modified>2017-12-08T21:46:33.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2017-12-07T02:56:42.250</Modified>
+      <Modified>2017-12-08T21:46:35.500</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
