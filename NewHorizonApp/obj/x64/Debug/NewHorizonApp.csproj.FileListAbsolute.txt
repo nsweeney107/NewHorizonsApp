@@ -257,3 +257,4 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Microsoft.Toolkit.Uwp.UI.An
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.pri.xml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Microsoft.Xaml.Interactions.pri.xml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Microsoft.Xaml.Interactivity.pri.xml
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\NewHorizonApp.csproj.CoreCompileInputs.cache
