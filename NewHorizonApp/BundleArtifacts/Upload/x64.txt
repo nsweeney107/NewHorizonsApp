@@ -1,2 +1,2 @@
-MainPackage=E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Upload\NewHorizonApp_0.7.0.0_x64.appx
-SymbolPackage=E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Upload\NewHorizonApp_0.7.0.0\NewHorizonApp_0.7.0.0_x64.appxsym
+MainPackage=E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Upload\NewHorizonApp_0.7.1.0_x64.appx
+SymbolPackage=E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Upload\NewHorizonApp_0.7.1.0\NewHorizonApp_0.7.1.0_x64.appxsym

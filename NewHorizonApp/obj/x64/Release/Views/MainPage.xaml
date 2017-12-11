@@ -31,7 +31,7 @@
             <Setter Property="Width" Value="240" />
             <Setter Property="Height" Value="120" />
             <Setter Property="Margin" Value="20" />
-            <Setter Property="UseSystemFocusVisuals" Value="True" />
+            <!--<Setter Property="UseSystemFocusVisuals" Value="True" />-->
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
@@ -40,43 +40,104 @@
                                 <VisualStateGroup x:Name="CommonStates">
                                     <VisualState x:Name="Normal">
                                         <Storyboard>
-                                            <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
+                                            <!--<PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />-->
                                         </Storyboard>
                                     </VisualState>
                                     <VisualState x:Name="Pressed">
                                         <Storyboard>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetName="StandardButtonImage"
                                                                                        Storyboard.TargetProperty="Source">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Standard_pressed.png" />
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Standard_pressed v2.png" />
                                             </ObjectAnimationUsingKeyFrames>
+                                            
+                                            <!--<PointerDownThemeAnimation Storyboard.TargetName="RootGrid" />-->
                                         </Storyboard>
                                     </VisualState>
                                     <VisualState x:Name="PointerOver">
                                         <Storyboard>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetName="StandardButtonImage"
                                                                                        Storyboard.TargetProperty="Source">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Standard_hover.png" />
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Standard_hover v2.png" />
                                             </ObjectAnimationUsingKeyFrames>
 
-                                            <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
+                                            <!--<PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />-->
                                         </Storyboard>
                                     </VisualState>
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
-                            <Border CornerRadius="16"
+                            <!--<Border CornerRadius="16"
                                     Background="White"
-                                    Margin="16,7,16,7"/>
+                                    Margin="16,8,16,8"/>-->
                             <Image x:Name="StandardButtonImage"
-                                Source="/Assets/Standard_normal.png" 
-                                   HorizontalAlignment="Stretch"
-                                   VerticalAlignment="Stretch"/>
+                                Source="/Assets/Standard_normal v2.png"/>
                             <ContentPresenter>
                                 <TextBlock  HorizontalAlignment="Center"
                                             VerticalAlignment="Center"
-                                            TextWrapping="Wrap"
+                                            TextWrapping="WrapWholeWords"
                                             Height="Auto"
                                             Width="Auto"
                                             Padding="20"
+                                            TextAlignment="Center"
+                                            Text="{Binding Content, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                            </ContentPresenter>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="CustomImportantButton" TargetType="Button">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="Width" Value="240" />
+            <Setter Property="Height" Value="120" />
+            <Setter Property="Margin" Value="20" />
+            <!--<Setter Property="UseSystemFocusVisuals" Value="True" />-->
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="RootGrid">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <!--<PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />-->
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ImportantButtonImage"
+                                                                                       Storyboard.TargetProperty="Source">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Important_pressed v2.png" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                            <!--<PointerDownThemeAnimation Storyboard.TargetName="RootGrid" />-->
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ImportantButtonImage"
+                                                                                       Storyboard.TargetProperty="Source">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Important_hover v2.png" />
+                                            </ObjectAnimationUsingKeyFrames>
+
+                                            <!--<PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />-->
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <!--<Border CornerRadius="16"
+                                    Background="White"
+                                    Margin="16,8,16,8"/>-->
+                            <Image x:Name="ImportantButtonImage"
+                                Source="/Assets/Important_normal v2.png"/>
+                            <ContentPresenter>
+                                <TextBlock  HorizontalAlignment="Center"
+                                            VerticalAlignment="Center"
+                                            TextWrapping="WrapWholeWords"
+                                            Height="Auto"
+                                            Width="Auto"
+                                            Padding="20"
+                                            TextAlignment="Center"
                                             Text="{Binding Content, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
                             </ContentPresenter>
                         </Grid>
@@ -90,13 +151,13 @@
             <!--<EntranceThemeTransition />-->
             <!--<EdgeUIThemeTransition Edge="Left" />
             <PaneThemeTransition />-->
-        </TransitionCollection>        
+        </TransitionCollection>
     </Page.Transitions>
 
     <Grid x:ConnectionId='3' x:Name="MainGrid" 
           Padding="0,36,0,0"
           MinWidth="800"
-          Background="#2B3552">        
+          Background="#2B3552">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -108,13 +169,22 @@
             <ColumnDefinition />
             <ColumnDefinition Width="24" />
         </Grid.ColumnDefinitions>
-        <TextBlock x:ConnectionId='4' x:Name="TitleTextBlock" 
-                   Text="Welcome To...Your Future"
+        <StackPanel Orientation="Vertical" 
+                    Grid.ColumnSpan="2" 
+                    HorizontalAlignment="Center">
+            <TextBlock x:ConnectionId='25' x:Name="TitleTextBlock" 
+                   Text="New Horizons of Wisconsin"
                    Style="{StaticResource HeaderTextBlockStyle}"
-                   Foreground="White"
-                   HorizontalAlignment="Center"                   
-                   Grid.ColumnSpan="2"/>
-        <Image x:ConnectionId='5' x:Name="Logo"
+                       HorizontalAlignment="Center"
+                   Foreground="White"/>
+            <TextBlock x:ConnectionId='26' x:Name="SubtitleTextBlock"
+                       Text="Student Portal"
+                       Style="{StaticResource SubheaderTextBlockStyle}"
+                       HorizontalAlignment="Center"
+                       Foreground="White" />
+        </StackPanel>
+
+        <Image x:ConnectionId='4' x:Name="Logo"
                HorizontalAlignment="Right"
                Height="111"
                Width="215"
@@ -122,7 +192,7 @@
                Grid.Row="0"
                Grid.Column="1"
                Source="/Assets/nhlogo.jpg"/>
-        <Image x:ConnectionId='6' x:Name="PatPortraitImage"
+        <Image x:ConnectionId='5' x:Name="PatPortraitImage"
                    HorizontalAlignment="Center"
                    Width="330"
                    Height="450"
@@ -131,7 +201,7 @@
                    Grid.Row="1"
                    Grid.Column="0"
                    Canvas.ZIndex="0" />
-        <Image x:ConnectionId='7' x:Name="MouthImage"
+        <Image x:ConnectionId='6' x:Name="MouthImage"
                    HorizontalAlignment="Center"
                    Width="330"
                    Height="450"
@@ -140,12 +210,12 @@
                    Grid.Row="1"
                    Grid.Column="0"
                    Canvas.ZIndex="1" 
-               RenderTransformOrigin="0.5,0.5">            
+               RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <CompositeTransform/>
             </Image.RenderTransform>
         </Image>
-        <Image x:ConnectionId='8' x:Name="EyelidImage"
+        <Image x:ConnectionId='7' x:Name="EyelidImage"
                HorizontalAlignment="Center"
                 Width="330"
                 Height="450"
@@ -154,23 +224,26 @@
                 Grid.Row="1"
                 Grid.Column="0"
                 Canvas.ZIndex="2"
-               Opacity="0" />
-        <TextBlock x:ConnectionId='9' x:Name="ButtonDescriptionTextBlock"
-                       Margin="8"
-                       Padding="8"
-                       Foreground="White"
-                       Width="500"
-                   Style="{StaticResource TitleTextBlockStyle}"
-                       Grid.Row="2"
-                       Grid.Column="0" />
-        
-        <ScrollViewer x:ConnectionId='10'                                       
+               Opacity="0"
+                                            
+                                           />
+        <ScrollViewer Grid.Row="2"
+                         Grid.Column="0">
+            <TextBlock x:ConnectionId='24' x:Name="ButtonDescriptionTextBlock"
+                           Margin="8"
+                           Padding="8"
+                           Foreground="White"
+                           Width="500"
+                       Style="{StaticResource TitleTextBlockStyle}" />
+        </ScrollViewer>
+
+        <ScrollViewer x:ConnectionId='8'                                       
                       Grid.Column="1"
                Grid.Row="1"
                Grid.RowSpan="2" 
                       HorizontalContentAlignment="Center" 
                       VerticalContentAlignment="Top">
-            <GridView x:ConnectionId='11' x:Name="MainGridView"
+            <GridView x:ConnectionId='9' x:Name="MainGridView"
                   Padding="16"
                   Background="#5F6987">
                 <GridView.Resources>
@@ -305,19 +378,19 @@
                                                             BorderThickness="1"
                                                             CornerRadius="6"
                                                             Background="{TemplateBinding Background}"/>
-                                                
+
                                                 <Border BorderBrush="{TemplateBinding Background}"
                                                         BorderThickness="1"
                                                         CornerRadius="6"
-                                                        Background="{TemplateBinding Background}"/>                                                
-                                                
+                                                        Background="{TemplateBinding Background}"/>
+
                                                 <Border Background="Black" 
                                                         Opacity="0.25" 
                                                         BorderBrush="Black" 
                                                         CornerRadius="6" />
                                             </Grid>
                                             <Grid x:Name="grid" Margin="0" Grid.Row="0" Grid.RowSpan="2">
-                                                    <Border     BorderBrush="{TemplateBinding Background}"
+                                                <Border     BorderBrush="{TemplateBinding Background}"
                                                             BorderThickness="1"
                                                             CornerRadius="6"
                                                             Background="{TemplateBinding Background}"/>
@@ -354,108 +427,103 @@
                         <EntranceThemeTransition />
                     </TransitionCollection>
                 </GridView.Transitions>
-                <Button x:ConnectionId='12' x:Name="YourClassButton"
+                <Button x:ConnectionId='10' x:Name="YourClassButton"
                                                  
                                                
                                       
-                    Style="{StaticResource ImportantButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="Start Your Class" 
-                                TextWrapping="WrapWholeWords"
-                                TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
-                <Button x:ConnectionId='13' x:Name="DigitalReadingButton"
+                    Style="{StaticResource CustomImportantButton}"
+                        Content="Start my Class" />
+
+                <Button x:ConnectionId='11' x:Name="DigitalReadingButton"
                                                  
                                                
                                       
-                    Style="{StaticResource ImportantButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="Click here to access your digital courseware" 
-                                TextWrapping="WrapWholeWords"
-                                TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
-                <Button x:ConnectionId='14' x:Name="LabsButton"
+                    Style="{StaticResource CustomImportantButton}"
+                        Content="Open my Courseware" />
+
+                <Button x:ConnectionId='12' x:Name="LabsButton"
                                                              
                                                            
                                                   
-                                Style="{StaticResource ImportantButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="Open your Virtual Lab Here" 
-                                TextWrapping="WrapWholeWords"
-                                TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
-                
-                <Button x:ConnectionId='15' x:Name="BrowseClassesButton"
-                    Style="{StaticResource CustomButton}"
-                        Content="Browse Classes" />
+                                Style="{StaticResource CustomImportantButton}"
+                        Content="Labs"/>
 
-                <Button x:ConnectionId='16' x:Name="LaunchGameButton"
-                        Style="{StaticResource DefaultButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="Are you bored?  Click HERE!" 
-                                TextWrapping="WrapWholeWords"
-                                TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
-                <Button x:ConnectionId='17' x:Name="SaveMoneyButton"
-                    Style="{StaticResource DefaultButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="Want to save $ on your next class?" 
-                                TextWrapping="WrapWholeWords"
-                                TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
-                <Button x:ConnectionId='18' x:Name="HungryButton"
-                        Style="{StaticResource DefaultButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="Are you hungry?" 
-                                TextWrapping="WrapWholeWords"
-                                TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
-                <Button x:ConnectionId='19' x:Name="ShoppingButton"
-                    Style="{StaticResource DefaultButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="Would you like to go shopping?" 
-                                TextWrapping="WrapWholeWords"
-                                TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
-                <Button x:ConnectionId='20' x:Name="WhyCookiesButton"
-                        Style="{StaticResource DefaultButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="Why do we make cookies?" 
-                                TextWrapping="WrapWholeWords"
-                                TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
-                <Button x:ConnectionId='21' x:Name="VitalAcceleratorButton"
-                    Style="{StaticResource DefaultButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="What is the Vital Accelerator" 
-                                TextWrapping="WrapWholeWords"
-                                TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
+                <Button x:ConnectionId='13' x:Name="RedStarButton"
+                    Style="{StaticResource CustomButton}"
+                                                     
+                                                   
+                                          
+                        Content="I have a Red Star!" />
                 
-                <Button x:ConnectionId='22' x:Name="FreeWebinars"
+                <Button x:ConnectionId='14' x:Name="BrowseClassesButton"
+                    Style="{StaticResource CustomButton}"
+                                                     
+                                                   
+                                          
+                        Content="What Other Courses Do you Have?" />
+
+                <Button x:ConnectionId='15' x:Name="LaunchGameButton"
+                        Style="{StaticResource CustomButton}"
+                                                     
+                                                   
+                                          
+                        Content="Bored?"/>
+
+                <Button x:ConnectionId='16' x:Name="SaveMoneyButton"
+                    Style="{StaticResource CustomButton}"
+                                                     
+                                                   
+                                          
+                        Content="Want to Save $?"/>
+
+                <Button x:ConnectionId='17' x:Name="HungryButton"
+                        Style="{StaticResource CustomButton}"
+                                                     
+                                                   
+                                          
+                        Content="Hungry?" />
+
+                <Button x:ConnectionId='18' x:Name="ShoppingButton"
+                    Style="{StaticResource CustomButton}"
+                                                     
+                                                   
+                                          
+                        Content="Like Shopping?" />
+
+                <Button x:ConnectionId='19' x:Name="WhyCookiesButton"                        
+                                                     
+                                                   
+                                          
+                        Style="{StaticResource CustomButton}"
+                        Content="Why do we make Cookies?"/>
+
+                <Button x:ConnectionId='20' x:Name="VitalAcceleratorButton"
+                    Style="{StaticResource CustomButton}"
+                                                     
+                                                   
+                                          
+                        Content="What is the Vital Accelerator?" />
+
+                <Button x:ConnectionId='21' x:Name="FreeWebinars"
                                                      
                                                            
                                                   
                         Content="Free Webinars"
                         Style="{StaticResource StylizedButtonStyle}" />
-                
-                <Button x:ConnectionId='23' x:Name="HeadsetButton"
-                        Style="{StaticResource DefaultButtonStyle}">
-                    <Button.Content>
-                        <TextBlock Text="What will we do with your headset if you don't want it?" 
-                                   TextWrapping="WrapWholeWords"
-                                   TextAlignment="Center"/>
-                    </Button.Content>
-                </Button>
+
+                <Button x:ConnectionId='22' x:Name="HeadsetButton"
+                                                     
+                                                   
+                                          
+                        Style="{StaticResource CustomButton}"
+                        Content="Don't want your Headset?" />
+
+                <Button x:ConnectionId='23' x:Name="faqButton"
+                    Style="{StaticResource CustomButton}"
+                                                     
+                                                   
+                                          
+                        Content="FAQ" />
             </GridView>
         </ScrollViewer>
     </Grid>

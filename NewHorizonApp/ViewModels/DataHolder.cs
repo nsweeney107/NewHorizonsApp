@@ -52,13 +52,13 @@ namespace NewHorizonApp.ViewModels
             switch (buttonName)
             {
                 case "YourClassButton":
-                    thisUri = new Uri("http://www.ClassButton.com");
+                    thisUri = new Uri("https://lms.nhcms.net");
                     break;
                 case "DigitalReadingButton":
                     thisUri = new Uri("http://www.DigitalReading.com");
                     break;
                 case "LabsButton":
-                    thisUri = new Uri("https://drive.google.com/open?id=1nkvsExqH72LtqDC_ABhIWbOQHmQF4URT");
+                    goto case "YourClassButton";
                     break;
                 case "BrowseClassesButton":
                     thisUri = new Uri("");
@@ -70,13 +70,31 @@ namespace NewHorizonApp.ViewModels
                     thisUri = new Uri("https://drive.google.com/open?id=0ByY599NSZ0lEOUZ0TmFTeVdDRnM");
                     break;
                 case "RedStarButton":
-                    thisUri = new Uri("");
+                    thisUri = new Uri("https://www.google.com");
                     break;
                 case "faqButton":
-                    thisUri = new Uri("");
+                    thisUri = new Uri("https://www.google.com");
                     break;
-      // TO DO - Implement other buttons
-
+                case "VitalAcceleratorButton":
+                    thisUri = new Uri("http://wwww.vitalaccelerator.com");
+                    break;
+                // TO DO - Implement other buttons
+                // These are the buttons from the Courseware.xaml page
+                case "skillpipeButton":
+                    thisUri = new Uri("http://skillpipe.courseware-marketplace.com/reader");
+                    break;
+                case "nhChoiceButton":
+                    thisUri = new Uri("http://www.nh-choice.com");
+                    break;
+                case "vitalsourceButton":
+                    thisUri = new Uri("http://online.vitalsourcde.com/signin");
+                    break;
+                case "ciscoToolsButton":
+                    thisUri = new Uri("http://online.vitalsourcde.com/signin");
+                    break;
+                case "ciscoLearningButton":
+                    thisUri = new Uri("https://learningspace.cisco.com/");
+                    break;
                 default:
                     break;
             }
@@ -94,13 +112,13 @@ namespace NewHorizonApp.ViewModels
                     thisDescription = "Hi, my name is Pat Riley and I am the president and owner of New Horizons of Wisconsin.  We created this portal to continue our quest to provide you, our student, with the finest experience possible.  On this page you will find a variety of items, each designed to either make your time with us easier, more comfortable, or just more fun.   I really LOVE to hear from our students, and if you click on the “Want to Tell Us Something?” box, you will have the opportunity to talk to me directly, and tell me anything you like.  If you can take just a few moments to tell me about your experience, I would really appreciate it.";
                     break;
                 case "YourClassButton":
-                    thisDescription = "Please click here to start your class.";
+                    thisDescription = "Please click here to start your class.\rPlease note that your username is your email address and your password is P@ssword1";
                     break;
                 case "DigitalReadingButton":
                     thisDescription = "Please click here to access your digital courseware.";
                     break;
                 case "LabsButton":
-                    thisDescription = "Click on this button to access the labs for your class.  Please have your username and password handy as you will need them to log into the portal.";
+                    thisDescription = "Please click here to start your labs.\rPlease note that your username is your email address and your password is P@ssword1";
                     break;
                 case "BrowseClassesButton":
                     thisDescription = "Here you will find all of our courses, in an easy to navigate form, and you can take a deeper dive from there.  Also, please don’t forget about the “coupon” button, to save money on any other classes you like.";
@@ -116,6 +134,8 @@ namespace NewHorizonApp.ViewModels
                     break;
                 case "faqButton":
                     thisDescription = "Click here for the answers to all kinds of questions, from \"What is that grinding noise I hear?\" to \"How can I save more money on my training?\"";
+                    break;
+                case "VitalAcceleratorButton":
                     break;
                 // TO DO - Implement other buttons
 

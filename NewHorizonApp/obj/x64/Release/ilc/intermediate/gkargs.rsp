@@ -2,5 +2,6 @@
 /Lib:"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in"
 /Lib:"C:\Users\NateDev\.nuget\packages\microsoft.net.native.compiler\1.7.2\tools\x64\ilc\lib\Private"
 /WinMD:"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"AppId":1001,"AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","HostName":"Dev14","Id":"e0b4101b-761a-4a34-8736-714d9adeb2e2","IsOptedIn":true,"ProcessStartTime":636485474099610426,"UserId":"bbcc4824-51d4-45f5-9038-a8a8fcffe14c"}"
 /RdXmlPath:"C:\Users\NateDev\.nuget\packages\microsoft.net.native.compiler\1.7.2\tools\LibraryXML"
 /RunOnlyPreDR

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.0.0" />
+  <Identity Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.1.0" />
   <mp:PhoneIdentity PhoneProductId="9246de21-105e-47c3-b080-09bd3e88773e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>New Horizons of Wisconsin Portal App</DisplayName>

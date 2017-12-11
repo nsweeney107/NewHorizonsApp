@@ -3125,10 +3125,35 @@ namespace __Interop
 			return value__retval;
 		}
 
+		// Signature, Windows.UI.Xaml.Controls.IStackPanel.get_Orientation, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_UI_Xaml_Controls_Orientation__Windows_UI_Xaml_Controls__Orientation, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		internal static global::Windows.UI.Xaml.Controls.Orientation Stub_99<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			global::Windows.UI.Xaml.Controls.Orientation unsafe_value__retval;
+			global::Windows.UI.Xaml.Controls.Orientation value__retval;
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								&(unsafe_value__retval)
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			value__retval = unsafe_value__retval;
+			// Return
+			return value__retval;
+		}
+
 		// Signature, Windows.UI.Xaml.Media.Animation.IColorAnimation.get_To, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTReferenceMarshaller] System_Nullable_1_Windows_UI_Color___Windows_Foundation__IReference_A__w_UI_Color_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::System.Nullable<global::Windows.UI.Color> Stub_99<TThis>(
+		internal static global::System.Nullable<global::Windows.UI.Color> Stub_100<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3171,7 +3196,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Media.Animation.IColorAnimation.put_To, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTReferenceMarshaller] System_Nullable_1_Windows_UI_Color___Windows_Foundation__IReference_A__w_UI_Color_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static void Stub_100<TThis>(
+		internal static void Stub_101<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Nullable<global::Windows.UI.Color> value, 
 					int __targetIndex)
@@ -3212,7 +3237,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IScrollViewerStatics.GetHorizontalScrollBarVisibility, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_UI_Xaml_Controls_ScrollBarVisibility__Windows_UI_Xaml_Controls__ScrollBarVisibility, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::Windows.UI.Xaml.Controls.ScrollBarVisibility Stub_101<TThis, TArg0>(
+		internal static global::Windows.UI.Xaml.Controls.ScrollBarVisibility Stub_102<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int __targetIndex)
@@ -3253,7 +3278,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IScrollViewerStatics.SetHorizontalScrollBarVisibility, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [Mcg.CodeGen.EnumMarshaller]  -> int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static void Stub_102<TThis, TArg0>(
+		internal static void Stub_103<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int horizontalScrollBarVisibility, 
@@ -3291,7 +3316,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IScrollViewerStatics.GetHorizontalScrollMode, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_UI_Xaml_Controls_ScrollMode__Windows_UI_Xaml_Controls__ScrollMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::Windows.UI.Xaml.Controls.ScrollMode Stub_103<TThis, TArg0>(
+		internal static global::Windows.UI.Xaml.Controls.ScrollMode Stub_104<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int __targetIndex)
@@ -3332,7 +3357,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalScrollBarVisibility, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_UI_Xaml_Controls_ScrollBarVisibility__Windows_UI_Xaml_Controls__ScrollBarVisibility, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::Windows.UI.Xaml.Controls.ScrollBarVisibility Stub_104<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.ScrollBarVisibility Stub_105<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3357,7 +3382,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IScrollViewer.get_HorizontalScrollMode, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_UI_Xaml_Controls_ScrollMode__Windows_UI_Xaml_Controls__ScrollMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::Windows.UI.Xaml.Controls.ScrollMode Stub_105<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.ScrollMode Stub_106<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3382,7 +3407,7 @@ namespace __Interop
 		// Signature, Windows.Foundation.Collections.IVectorChangedEventArgs.get_Index, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static uint Stub_106<TThis>(
+		internal static uint Stub_107<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3407,7 +3432,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IItemContainerMapping.ContainerFromIndex, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static TResult Stub_107<TThis, TResult>(
+		internal static TResult Stub_108<TThis, TResult>(
 					global::System.__ComObject __this, 
 					int index, 
 					int __targetIndex)
@@ -3446,7 +3471,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IImage.get_Stretch, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_UI_Xaml_Media_Stretch__Windows_UI_Xaml_Media__Stretch, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::Windows.UI.Xaml.Media.Stretch Stub_108<TThis>(
+		internal static global::Windows.UI.Xaml.Media.Stretch Stub_109<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3471,7 +3496,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IImage.add_ImageFailed, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_UI_Xaml_ExceptionRoutedEventHandler__Windows_UI_Xaml__ExceptionRoutedEventHandler *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_109<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_110<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.ExceptionRoutedEventHandler value, 
 					int __targetIndex)
@@ -3511,7 +3536,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.ICanvasStatics.SetLeft, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] double__double, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static void Stub_110<TThis, TArg0>(
+		internal static void Stub_111<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					double length, 
@@ -3549,7 +3574,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_NavigationStarting, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewNavigationStartingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewNavigationStartingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_111<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_112<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, global::Windows.UI.Xaml.Controls.WebViewNavigationStartingEventArgs> value, 
 					int __targetIndex)
@@ -3589,7 +3614,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_ContentLoading, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewContentLoadingEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewContentLoadingEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_112<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_113<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, global::Windows.UI.Xaml.Controls.WebViewContentLoadingEventArgs> value, 
 					int __targetIndex)
@@ -3629,7 +3654,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_DOMContentLoaded, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewDOMContentLoadedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewDOMContentLoadedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_113<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_114<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, global::Windows.UI.Xaml.Controls.WebViewDOMContentLoadedEventArgs> value, 
 					int __targetIndex)
@@ -3669,7 +3694,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_NavigationCompleted, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__Windows_UI_Xaml_Controls_WebViewNavigationCompletedEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j__wux__Controls_WebViewNavigationCompletedEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_114<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_115<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, global::Windows.UI.Xaml.Controls.WebViewNavigationCompletedEventArgs> value, 
 					int __targetIndex)
@@ -3709,7 +3734,7 @@ namespace __Interop
 		// Signature, Windows.UI.Xaml.Controls.IWebView2.add_UnsafeContentWarningDisplaying, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.WinRTDelegateMarshaller] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_WebView__object___Windows_Foundation__TypedEventHandler_A__wux__Controls_WebView_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_115<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_116<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.WebView, object> value, 
 					int __targetIndex)
@@ -3744,31 +3769,6 @@ namespace __Interop
 				// Cleanup
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value)));
 			}
-		}
-
-		// Signature, Windows.UI.Xaml.Controls.IItemsStackPanel.get_Orientation, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.EnumMarshaller] Windows_UI_Xaml_Controls_Orientation__Windows_UI_Xaml_Controls__Orientation, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static global::Windows.UI.Xaml.Controls.Orientation Stub_116<TThis>(
-					global::System.__ComObject __this, 
-					int __targetIndex)
-		{
-			// Setup
-			global::Windows.UI.Xaml.Controls.Orientation unsafe_value__retval;
-			global::Windows.UI.Xaml.Controls.Orientation value__retval;
-			int unsafe___hr;
-			// Marshalling
-			// Call to native method
-			unsafe___hr = global::__Interop.ComCallHelpers.Call(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								&(unsafe_value__retval)
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			value__retval = unsafe_value__retval;
-			// Return
-			return value__retval;
 		}
 
 		// Signature, Windows.UI.Xaml.Media.Animation.IDoubleAnimation.get_From, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTReferenceMarshaller] System_Nullable_1_double___Windows_Foundation__IReference_A_double_V_ *, 

@@ -225,8 +225,15 @@ namespace NewHorizonApp
             if (thisButton != null)
             {
                 var thisName = thisButton.Name.ToString();
-                DataHolder.GetUrl(thisName);
-                Frame.Navigate(typeof(Views.WebView));
+                if (thisName == "DigitalReadingButton")
+                {
+                    Frame.Navigate(typeof(Views.Courseware));
+                }
+                else
+                {
+                    DataHolder.GetUrl(thisName);
+                    Frame.Navigate(typeof(Views.WebView));
+                }                
             }
         }
 

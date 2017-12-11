@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ru"
+"ResourceDimensions"		"language-ru-ru"
+
+[Files]
+"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\split.language-ru.pri"			"resources.pri"

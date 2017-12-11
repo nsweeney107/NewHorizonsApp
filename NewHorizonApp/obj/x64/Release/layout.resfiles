@@ -1,7 +1,10 @@
 WinMetadata\Windows.winmd
 Assets\Blinking.png
+Assets\Important_hover v2.png
 Assets\Important_hover.png
+Assets\Important_normal v2.png
 Assets\Important_normal.png
+Assets\Important_pressed v2.png
 Assets\Important_pressed.png
 Assets\LockScreenLogo.scale-200.png
 Assets\Mouth.png
@@ -12,8 +15,11 @@ Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+Assets\Standard_hover v2.png
 Assets\Standard_hover.png
+Assets\Standard_normal v2.png
 Assets\Standard_normal.png
+Assets\Standard_pressed v2.png
 Assets\Standard_pressed.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png

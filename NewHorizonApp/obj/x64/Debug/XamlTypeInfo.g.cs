@@ -156,47 +156,51 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[19];
-            _typeNameTable[0] = "NewHorizonApp.Views.HomePage";
+            _typeNameTable = new string[21];
+            _typeNameTable[0] = "NewHorizonApp.Views.Courseware";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "NewHorizonApp.ViewModel.MainViewModel";
-            _typeNameTable[4] = "Object";
-            _typeNameTable[5] = "Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel";
-            _typeNameTable[6] = "Windows.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[7] = "Double";
-            _typeNameTable[8] = "Windows.UI.Color";
-            _typeNameTable[9] = "System.ValueType";
-            _typeNameTable[10] = "Windows.UI.Composition.DropShadow";
-            _typeNameTable[11] = "Windows.UI.Composition.CompositionShadow";
-            _typeNameTable[12] = "Windows.UI.Composition.CompositionObject";
-            _typeNameTable[13] = "Windows.UI.Composition.CompositionBrush";
-            _typeNameTable[14] = "NewHorizonApp.MainPage";
-            _typeNameTable[15] = "System.Threading.CancellationTokenSource";
-            _typeNameTable[16] = "System.Threading.CancellationToken";
-            _typeNameTable[17] = "System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>";
-            _typeNameTable[18] = "NewHorizonApp.Views.WebView";
+            _typeNameTable[3] = "NewHorizonApp.Courseware";
+            _typeNameTable[4] = "NewHorizonApp.Views.HomePage";
+            _typeNameTable[5] = "NewHorizonApp.ViewModel.MainViewModel";
+            _typeNameTable[6] = "Object";
+            _typeNameTable[7] = "Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel";
+            _typeNameTable[8] = "Windows.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[9] = "Double";
+            _typeNameTable[10] = "Windows.UI.Color";
+            _typeNameTable[11] = "System.ValueType";
+            _typeNameTable[12] = "Windows.UI.Composition.DropShadow";
+            _typeNameTable[13] = "Windows.UI.Composition.CompositionShadow";
+            _typeNameTable[14] = "Windows.UI.Composition.CompositionObject";
+            _typeNameTable[15] = "Windows.UI.Composition.CompositionBrush";
+            _typeNameTable[16] = "NewHorizonApp.MainPage";
+            _typeNameTable[17] = "System.Threading.CancellationTokenSource";
+            _typeNameTable[18] = "System.Threading.CancellationToken";
+            _typeNameTable[19] = "System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>";
+            _typeNameTable[20] = "NewHorizonApp.Views.WebView";
 
-            _typeTable = new global::System.Type[19];
-            _typeTable[0] = typeof(global::NewHorizonApp.Views.HomePage);
+            _typeTable = new global::System.Type[21];
+            _typeTable[0] = typeof(global::NewHorizonApp.Views.Courseware);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::NewHorizonApp.ViewModel.MainViewModel);
-            _typeTable[4] = typeof(global::System.Object);
-            _typeTable[5] = typeof(global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel);
-            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
-            _typeTable[7] = typeof(global::System.Double);
-            _typeTable[8] = typeof(global::Windows.UI.Color);
-            _typeTable[9] = typeof(global::System.ValueType);
-            _typeTable[10] = typeof(global::Windows.UI.Composition.DropShadow);
-            _typeTable[11] = typeof(global::Windows.UI.Composition.CompositionShadow);
-            _typeTable[12] = typeof(global::Windows.UI.Composition.CompositionObject);
-            _typeTable[13] = typeof(global::Windows.UI.Composition.CompositionBrush);
-            _typeTable[14] = typeof(global::NewHorizonApp.MainPage);
-            _typeTable[15] = typeof(global::System.Threading.CancellationTokenSource);
-            _typeTable[16] = typeof(global::System.Threading.CancellationToken);
-            _typeTable[17] = typeof(global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>);
-            _typeTable[18] = typeof(global::NewHorizonApp.Views.WebView);
+            _typeTable[3] = typeof(global::NewHorizonApp.Courseware);
+            _typeTable[4] = typeof(global::NewHorizonApp.Views.HomePage);
+            _typeTable[5] = typeof(global::NewHorizonApp.ViewModel.MainViewModel);
+            _typeTable[6] = typeof(global::System.Object);
+            _typeTable[7] = typeof(global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel);
+            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.ContentControl);
+            _typeTable[9] = typeof(global::System.Double);
+            _typeTable[10] = typeof(global::Windows.UI.Color);
+            _typeTable[11] = typeof(global::System.ValueType);
+            _typeTable[12] = typeof(global::Windows.UI.Composition.DropShadow);
+            _typeTable[13] = typeof(global::Windows.UI.Composition.CompositionShadow);
+            _typeTable[14] = typeof(global::Windows.UI.Composition.CompositionObject);
+            _typeTable[15] = typeof(global::Windows.UI.Composition.CompositionBrush);
+            _typeTable[16] = typeof(global::NewHorizonApp.MainPage);
+            _typeTable[17] = typeof(global::System.Threading.CancellationTokenSource);
+            _typeTable[18] = typeof(global::System.Threading.CancellationToken);
+            _typeTable[19] = typeof(global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>);
+            _typeTable[20] = typeof(global::NewHorizonApp.Views.WebView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -231,13 +235,15 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_HomePage() { return new global::NewHorizonApp.Views.HomePage(); }
-        private object Activate_3_MainViewModel() { return new global::NewHorizonApp.ViewModel.MainViewModel(); }
-        private object Activate_5_DropShadowPanel() { return new global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel(); }
-        private object Activate_14_MainPage() { return new global::NewHorizonApp.MainPage(); }
-        private object Activate_15_CancellationTokenSource() { return new global::System.Threading.CancellationTokenSource(); }
-        private object Activate_17_ConcurrentBag() { return new global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>(); }
-        private object Activate_18_WebView() { return new global::NewHorizonApp.Views.WebView(); }
+        private object Activate_0_Courseware() { return new global::NewHorizonApp.Views.Courseware(); }
+        private object Activate_3_Courseware() { return new global::NewHorizonApp.Courseware(); }
+        private object Activate_4_HomePage() { return new global::NewHorizonApp.Views.HomePage(); }
+        private object Activate_5_MainViewModel() { return new global::NewHorizonApp.ViewModel.MainViewModel(); }
+        private object Activate_7_DropShadowPanel() { return new global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel(); }
+        private object Activate_16_MainPage() { return new global::NewHorizonApp.MainPage(); }
+        private object Activate_17_CancellationTokenSource() { return new global::System.Threading.CancellationTokenSource(); }
+        private object Activate_19_ConcurrentBag() { return new global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>(); }
+        private object Activate_20_WebView() { return new global::NewHorizonApp.Views.WebView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -249,10 +255,9 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  NewHorizonApp.Views.HomePage
+            case 0:   //  NewHorizonApp.Views.Courseware
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_HomePage;
-                userType.AddMemberName("ViewModel");
+                userType.Activator = Activate_0_Courseware;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -265,20 +270,35 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 xamlType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  NewHorizonApp.ViewModel.MainViewModel
+            case 3:   //  NewHorizonApp.Courseware
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_Courseware;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  NewHorizonApp.Views.HomePage
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_HomePage;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  NewHorizonApp.ViewModel.MainViewModel
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Object
+            case 6:   //  Object
                 xamlType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel
+            case 7:   //  Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_5_DropShadowPanel;
+                userType.Activator = Activate_7_DropShadowPanel;
                 userType.AddMemberName("BlurRadius");
                 userType.AddMemberName("OffsetX");
                 userType.AddMemberName("OffsetY");
@@ -290,50 +310,50 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 6:   //  Windows.UI.Xaml.Controls.ContentControl
+            case 8:   //  Windows.UI.Xaml.Controls.ContentControl
                 xamlType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  Double
+            case 9:   //  Double
                 xamlType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  Windows.UI.Color
+            case 10:   //  Windows.UI.Color
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 9:   //  System.ValueType
+            case 11:   //  System.ValueType
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 10:   //  Windows.UI.Composition.DropShadow
+            case 12:   //  Windows.UI.Composition.DropShadow
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Composition.CompositionShadow"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 11:   //  Windows.UI.Composition.CompositionShadow
+            case 13:   //  Windows.UI.Composition.CompositionShadow
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Composition.CompositionObject"));
                 xamlType = userType;
                 break;
 
-            case 12:   //  Windows.UI.Composition.CompositionObject
+            case 14:   //  Windows.UI.Composition.CompositionObject
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 13:   //  Windows.UI.Composition.CompositionBrush
+            case 15:   //  Windows.UI.Composition.CompositionBrush
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Composition.CompositionObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 14:   //  NewHorizonApp.MainPage
+            case 16:   //  NewHorizonApp.MainPage
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_MainPage;
+                userType.Activator = Activate_16_MainPage;
                 userType.AddMemberName("ViewModel");
                 userType.AddMemberName("ThisCTS");
                 userType.AddMemberName("ThisCT");
@@ -342,27 +362,27 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 15:   //  System.Threading.CancellationTokenSource
+            case 17:   //  System.Threading.CancellationTokenSource
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 16:   //  System.Threading.CancellationToken
+            case 18:   //  System.Threading.CancellationToken
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 17:   //  System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>
+            case 19:   //  System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 18:   //  NewHorizonApp.Views.WebView
+            case 20:   //  NewHorizonApp.Views.WebView
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_18_WebView;
+                userType.Activator = Activate_20_WebView;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;

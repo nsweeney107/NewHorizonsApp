@@ -28,11 +28,20 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Blinking.png">
       <PackagePath>Assets\Blinking.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_hover v2.png">
+      <PackagePath>Assets\Important_hover v2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_hover.png">
       <PackagePath>Assets\Important_hover.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_normal v2.png">
+      <PackagePath>Assets\Important_normal v2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_normal.png">
       <PackagePath>Assets\Important_normal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_pressed v2.png">
+      <PackagePath>Assets\Important_pressed v2.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_pressed.png">
       <PackagePath>Assets\Important_pressed.png</PackagePath>
@@ -68,11 +77,20 @@
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_hover v2.png">
+      <PackagePath>Assets\Standard_hover v2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_hover.png">
       <PackagePath>Assets\Standard_hover.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_normal v2.png">
+      <PackagePath>Assets\Standard_normal v2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_normal.png">
       <PackagePath>Assets\Standard_normal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_pressed v2.png">
+      <PackagePath>Assets\Standard_pressed v2.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_pressed.png">
       <PackagePath>Assets\Standard_pressed.png</PackagePath>
@@ -276,25 +294,25 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.24123.0</Version>
+      <Version>14.0.25426.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.24123.0</Version>
+      <Version>14.0.25426.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.24123.0</Version>
+      <Version>14.0.25426.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>

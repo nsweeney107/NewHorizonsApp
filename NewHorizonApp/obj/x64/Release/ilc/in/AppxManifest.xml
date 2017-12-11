@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.0.0" ProcessorArchitecture="x64" />
+  <Identity Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.1.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="9246de21-105e-47c3-b080-09bd3e88773e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>New Horizons of Wisconsin Portal App</DisplayName>
@@ -153,14 +153,14 @@
     <build:Item Name="VisualStudio" Version="15.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017" />
     <build:Item Name="OperatingSystem" Version="10.0.15063.0 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26419.1" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.27128.1" />
     <build:Item Name="ProjectGUID" Value="{28AE1620-11FB-4216-8F37-416E17B62FC3}" />
     <build:Item Name="ilc.exe" Version="1.7.25916.00 built by: PROJECTNGDR2" />
     <build:Item Name="OptimizingToolset" Value="ilc.exe" />
     <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True" />
     <build:Item Name="UniversalGenericsOptOut" Value="false" />
     <build:Item Name="ShortcutGenericAnalysis" Value="false" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26419.1" />
-    <build:Item Name="MakePri.exe" Version="10.0.15063.137 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.27128.1" />
+    <build:Item Name="MakePri.exe" Version="10.0.15063.674 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

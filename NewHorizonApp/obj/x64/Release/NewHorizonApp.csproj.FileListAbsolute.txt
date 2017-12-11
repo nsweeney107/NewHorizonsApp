@@ -653,3 +653,26 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\intermediate\PreMerge
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\intermediate\SgGenerated\System.Runtime.Serialization.Generated.dll
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\intermediate\SgGenerated\System.Runtime.Serialization.Generated.Intermediate.dll
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\intermediate\SgGenerated\System.Runtime.Serialization.Generated.pdb
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Views\Courseware.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Views\Courseware2.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_hover v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_normal v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_pressed v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_hover v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_normal v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_pressed v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware.g.i.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware.g.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware2.g.i.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware2.g.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware.xaml
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware2.xaml
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware2.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\NewHorizonApp.csproj.CoreCompileInputs.cache
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\Assets\Important_hover v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\Assets\Important_normal v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\Assets\Important_pressed v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\Assets\Standard_hover v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\Assets\Standard_normal v2.png
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\Assets\Standard_pressed v2.png
