@@ -1,5 +1,4 @@
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\App.xbf
-E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Views\HomePage.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Views\MainPage.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Views\WebView.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.xr.xml
@@ -126,19 +125,15 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\System.Xml.XmlDocument.dll
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\System.Xml.XmlSerializer.dll
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\App.g.i.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\App.g.cs
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\HomePage.g.i.cs
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\HomePage.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\MainPage.g.i.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\MainPage.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\WebView.g.i.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\WebView.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\XamlTypeInfo.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\App.xaml
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\HomePage.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\MainPage.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\WebView.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\App.xbf
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\HomePage.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\MainPage.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\WebView.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\XamlSaveStateFile.xml
@@ -263,8 +258,3 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Courseware.g.i.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Courseware.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Courseware.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Courseware.xbf
-E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Views\Courseware2.xbf
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Courseware2.g.i.cs
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Courseware2.g.cs
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Courseware2.xaml
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Courseware2.xbf

@@ -1,5 +1,4 @@
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\App.xbf
-E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Views\HomePage.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Views\MainPage.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Views\WebView.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\NewHorizonApp.xr.xml
@@ -149,19 +148,15 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\System.Xml.XmlSerializer.
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\NewHorizonApp.csprojResolveAssemblyReference.cache
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\App.g.i.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\App.g.cs
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\HomePage.g.i.cs
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\HomePage.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\MainPage.g.i.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\MainPage.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\WebView.g.i.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\WebView.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\XamlTypeInfo.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\App.xaml
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\HomePage.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\MainPage.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\WebView.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\App.xbf
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\HomePage.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\MainPage.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\WebView.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\XamlSaveStateFile.xml
@@ -654,7 +649,6 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\intermediate\SgGenera
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\intermediate\SgGenerated\System.Runtime.Serialization.Generated.Intermediate.dll
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\intermediate\SgGenerated\System.Runtime.Serialization.Generated.pdb
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Views\Courseware.xbf
-E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Views\Courseware2.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_hover v2.png
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_normal v2.png
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_pressed v2.png
@@ -663,12 +657,8 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_norma
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_pressed v2.png
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware.g.i.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware.g.cs
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware2.g.i.cs
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware2.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware.xaml
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware2.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware.xbf
-E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\Views\Courseware2.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\NewHorizonApp.csproj.CoreCompileInputs.cache
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\Assets\Important_hover v2.png
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\Assets\Important_normal v2.png

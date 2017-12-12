@@ -583,16 +583,6 @@
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Courseware2.xbf" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/Views/Courseware2.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="HomePage.xbf" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/Views/HomePage.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
 				<NamedResource name="MainPage.xbf" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/Views/MainPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>

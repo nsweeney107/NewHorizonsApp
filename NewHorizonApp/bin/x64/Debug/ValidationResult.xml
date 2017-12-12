@@ -1,43 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="en-US" OVERALL_RESULT="PASS" VERSION="10.0.16299.15" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="UapApp" PUBLISHER_DISPLAY_NAME="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" APP_NAME="" APP_VERSION="" OSVERSION="10.0.15063.0" OS="Microsoft Windows 10 Home" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1033" VALIDATION_TYPE="UI" ReportGenerationTime="12/10/2017 8:56:20 PM" ID="8eec0d822eb581a5179cff6b7c159845">
+<REPORT xml:lang="en-US" OVERALL_RESULT="PASS" VERSION="10.0.16299.15" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="UapApp" PUBLISHER_DISPLAY_NAME="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" APP_NAME="" APP_VERSION="" OSVERSION="10.0.15063.0" OS="Microsoft Windows 10 Home" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1033" VALIDATION_TYPE="UI" ReportGenerationTime="12/11/2017 10:16:18 PM" ID="8e37861802c6e53ecc975cc07612030d">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="10" TITLE="Deployment and launch tests" RATIONALE="Application failures such as crashes and hangs are a major disruption to users and cause frustration. Eliminating such failures improves application stability and reliability, and overall, provides users with a better application experience.">
-      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:01s.05ms" OPTIONAL="FALSE">
+      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:01s.07ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="79" NAME="Background tasks cancelation handler" DESCRIPTION="App should implement event handler to handle background task cancelation request." EXECUTIONTIME="00h:00m:20s.98ms" OPTIONAL="FALSE">
+      <TEST INDEX="79" NAME="Background tasks cancelation handler" DESCRIPTION="App should implement event handler to handle background task cancelation request." EXECUTIONTIME="00h:00m:20s.83ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="81" NAME="Platform version launch" DESCRIPTION="App should not mis-use OSVersionInfo API to provide users functionality that is specific to the OS." EXECUTIONTIME="00h:00m:18s.15ms" OPTIONAL="FALSE">
+      <TEST INDEX="81" NAME="Platform version launch" DESCRIPTION="App should not mis-use OSVersionInfo API to provide users functionality that is specific to the OS." EXECUTIONTIME="00h:00m:18s.17ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="47" NAME="App launch" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:17s.64ms" OPTIONAL="FALSE">
+      <TEST INDEX="47" NAME="App launch" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:17s.63ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:03s.30ms" OPTIONAL="FALSE">
+      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:03s.38ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
-      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:01s.03ms" OPTIONAL="FALSE">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:01s.04ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.98ms" OPTIONAL="FALSE">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:02s.02ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="74" NAME="Bundle manifest" DESCRIPTION="Bundle manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.55ms" OPTIONAL="FALSE">
+      <TEST INDEX="74" NAME="Bundle manifest" DESCRIPTION="Bundle manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.53ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="75" NAME="Package size" DESCRIPTION="Package file size should not be greater than 4 gigabytes." EXECUTIONTIME="00h:00m:01s.63ms" OPTIONAL="FALSE">
+      <TEST INDEX="75" NAME="Package size" DESCRIPTION="Package file size should not be greater than 4 gigabytes." EXECUTIONTIME="00h:00m:01s.66ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -47,59 +47,59 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
-      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:01s.64ms" OPTIONAL="FALSE">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:01s.75ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.27ms" OPTIONAL="FALSE">
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.26ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.33ms" OPTIONAL="FALSE">
+      <TEST INDEX="62" NAME="Private code signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.34ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
-      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:06s.54ms" OPTIONAL="FALSE">
+      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:06s.55ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
-      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.68ms" OPTIONAL="FALSE">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.66ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.79ms" OPTIONAL="FALSE">
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:01s.76ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
-      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.44ms" OPTIONAL="FALSE">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.45ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="21" TITLE="File encoding test" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
-      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:01s.06ms" OPTIONAL="FALSE">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:01s.07ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
-      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:01s.09ms" OPTIONAL="FALSE">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:01s.04ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
-      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.76ms" OPTIONAL="FALSE">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.83ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:00s.91ms" OPTIONAL="FALSE">
+      <TEST INDEX="57" NAME="Type location" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:00s.89ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -107,31 +107,31 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.86ms" OPTIONAL="FALSE">
+      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.87ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:08s.57ms" OPTIONAL="FALSE">
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:08s.66ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.87ms" OPTIONAL="FALSE">
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.85ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
-      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.27ms" OPTIONAL="FALSE">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.24ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="66" NAME="Supported directory structure check" DESCRIPTION="Validate each file in the package for that the file name length should be less than MAX_PATH." EXECUTIONTIME="00h:00m:00s.96ms" OPTIONAL="FALSE">
+      <TEST INDEX="66" NAME="Supported directory structure check" DESCRIPTION="Validate each file in the package for that the file name length should be less than MAX_PATH." EXECUTIONTIME="00h:00m:00s.99ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="27" TITLE="Resource Usage Test" RATIONALE="WinJS background tasks need to call close() to free resource.">
-      <TEST INDEX="68" NAME="WinJS background task" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:01s.90ms" OPTIONAL="FALSE">
+      <TEST INDEX="68" NAME="WinJS background task" DESCRIPTION="WinJS background tasks need to call close() to free resource." EXECUTIONTIME="00h:00m:01s.87ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -139,12 +139,12 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Type="Application" Source="AppxPackage" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.1.0" Language="1033" InstallDate="" OSVersionAtInstallTime="10.0.0.15063" RootDirPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.1.0_x64__6x7jhkn3vq95c" Id="000009b8dfee7c2936884368cdfc8afd6cf200000904" HiddenArp="false">
+      <Program Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Type="Application" Source="AppxPackage" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.2.0" Language="1033" InstallDate="" OSVersionAtInstallTime="10.0.0.15063" RootDirPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.2.0_x64__6x7jhkn3vq95c" Id="00001e0f6a473742e69a98d1b6a0f9d0508800000904" HiddenArp="false">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
-            <PackageManifest PackageFullName="8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.1.0_x64__6x7jhkn3vq95c">
+            <PackageManifest PackageFullName="8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.2.0_x64__6x7jhkn3vq95c">
               <Package>
-                <Identity Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.1.0" ProcessorArchitecture="x64" />
+                <Identity Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.2.0" ProcessorArchitecture="x64" />
                 <PhoneIdentity PhoneProductId="9246de21-105e-47c3-b080-09bd3e88773e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
                 <Properties>
                   <DisplayName>New Horizons of Wisconsin Portal App</DisplayName>
@@ -291,9 +291,9 @@
             </PackageManifest>
             <BundleManifest PackageFamilyName="8504N8Software.NewHorizonsofWisconsinPortalApp_6x7jhkn3vq95c">
               <Bundle SchemaVersion="3.0">
-                <Identity Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.1.0" />
+                <Identity Name="8504N8Software.NewHorizonsofWisconsinPortalApp" Publisher="CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8" Version="0.7.2.0" />
                 <Packages>
-                  <Package Type="application" Version="0.7.1.0" Architecture="x64" FileName="NewHorizonApp_0.7.1.0_x64.appx" Offset="60" Size="6350013">
+                  <Package Type="application" Version="0.7.2.0" Architecture="x64" FileName="NewHorizonApp_0.7.2.0_x64.appx" Offset="60" Size="6343864">
                     <Resources>
                       <Resource Language="EN-US" />
                       <Resource Scale="200" />
@@ -306,22 +306,21 @@
         </Indicators>
         <StaticProperties>
           <Files Id="0000da39a3ee5e6b4b0d3255bfef95601890afd80709">
-            <File Id="0000d3a784a0b601ab8905ec06f7c8f1e00f131425c2" Name="clrcompression.dll" ProductName="microsoft® .net framework" CompanyName="microsoft corporation" ProductVersion="1.0.24214.00 built by: projectkrel" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.0.24214.00 built by: projectkrel" Size="69632" SizeOfImage="69632" PeHeaderHash="01017c90ae133bd09e28a4d27f7f6b651b82da84e020" PeChecksum="104676" CrcChecksum="-369591944" BinProductVersion="1.0.24214.00 built by: projectkrel" BinFileVersion="1.0.24214.0" FileDescription="clrcompression" LegalCopyright="© microsoft corporation.  all rights reserved." LinkDate="06/14/2016 03:31:30" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.1.0_x64__6x7jhkn3vq95c\clrcompression.dll" />
-            <File Id="000092ff64bbd490393dd3a99a7585d1ebec0e6aceed" Name="Microsoft.Graphics.Canvas.dll" ProductName="win2d" CompanyName="microsoft corporation" ProductVersion="1.21.0 (6530cfa55777af5fb58fad598f24149b41153458)" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.21.0" Size="1925120" SizeOfImage="1925120" PeHeaderHash="01014f64b2e4e1236097a6773b9fd27368a1406c2cde" PeChecksum="1922092" CrcChecksum="944330311" BinProductVersion="1.21.0 (6530cfa55777af5fb58fad598f24149b41153458)" BinFileVersion="1.21.0.0" FileDescription="microsoft.graphics.canvas" LegalCopyright="copyright (c) microsoft corporation" LinkDate="06/26/2017 09:07:53" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.1.0_x64__6x7jhkn3vq95c\microsoft.graphics.canvas.dll" />
-            <File Id="0000457f342c61e2ea3f55ab574fb6fa788f95c9cbd8" Name="Microsoft.Graphics.Canvas.winmd" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="278528" SizeOfImage="278528" PeHeaderHash="0101a319980d9a7c66e13950e7ad1fc54dd1f4dfdaaf" PeChecksum="304334" CrcChecksum="580199105" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="06/26/2017 09:03:17" BinaryType="pe32_clr_il" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.1.0_x64__6x7jhkn3vq95c\microsoft.graphics.canvas.winmd" />
-            <File Id="0000760702f09cf7694584b43fb7727722957393189f" Name="NewHorizonApp.dll" ProductName="newhorizonapp" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="12865536" SizeOfImage="12865536" PeHeaderHash="0101c88515f0f01ec0f1052514b37f5108cb06e39362" PeChecksum="0" CrcChecksum="382865570" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="newhorizonapp" LegalCopyright="copyright ©  2017" LinkDate="12/11/2017 01:47:25" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.1.0_x64__6x7jhkn3vq95c\newhorizonapp.dll" />
-            <File Id="00003bda8d284c80943b9721dfb0107a281ef19d4787" Name="NewHorizonApp.exe" ProductName="newhorizonapp" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="32768" SizeOfImage="32768" PeHeaderHash="01015d361f21a5b7034799b7af1b0b94c54b27cab250" PeChecksum="0" CrcChecksum="773712056" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="newhorizonapp" LegalCopyright="copyright ©  2017" LinkDate="12/11/2017 01:47:25" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.1.0_x64__6x7jhkn3vq95c\newhorizonapp.exe" />
-            <File Id="00008e1dab9fbff74bd7139c17804546f8bf244a47b9" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-1718981941" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.1.0_x64__6x7jhkn3vq95c\resources.pri" />
-            <File Id="0000973c0e0ea058f857ce685e6c06b3bb3a3aa7a49c" Name="Robmikh.CompositionSurfaceFactory.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="454656" SizeOfImage="454656" PeHeaderHash="01014f9e85f73dcd8046eb3645ce032ccdef7c04fc6e" PeChecksum="0" CrcChecksum="-1449316627" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="09/28/2017 02:20:52" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.1.0_x64__6x7jhkn3vq95c\robmikh.compositionsurfacefactory.dll" />
-            <File Id="000068668ecb5761a856b4691218dbe1e10b05db26cb" Name="Robmikh.CompositionSurfaceFactory.winmd" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="20480" SizeOfImage="20480" PeHeaderHash="01017e324d29ec845febb7ea4083345d666432b6aa55" PeChecksum="0" CrcChecksum="-706022723" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="05/26/2017 07:42:02" BinaryType="pe32_clr_il" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.1.0_x64__6x7jhkn3vq95c\robmikh.compositionsurfacefactory.winmd" />
+            <File Id="0000d3a784a0b601ab8905ec06f7c8f1e00f131425c2" Name="clrcompression.dll" ProductName="microsoft® .net framework" CompanyName="microsoft corporation" ProductVersion="1.0.24214.00 built by: projectkrel" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.0.24214.00 built by: projectkrel" Size="69632" SizeOfImage="69632" PeHeaderHash="01017c90ae133bd09e28a4d27f7f6b651b82da84e020" PeChecksum="104676" CrcChecksum="-369591944" BinProductVersion="1.0.24214.00 built by: projectkrel" BinFileVersion="1.0.24214.0" FileDescription="clrcompression" LegalCopyright="© microsoft corporation.  all rights reserved." LinkDate="06/14/2016 03:31:30" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.2.0_x64__6x7jhkn3vq95c\clrcompression.dll" />
+            <File Id="000092ff64bbd490393dd3a99a7585d1ebec0e6aceed" Name="Microsoft.Graphics.Canvas.dll" ProductName="win2d" CompanyName="microsoft corporation" ProductVersion="1.21.0 (6530cfa55777af5fb58fad598f24149b41153458)" VerLanguage="1033" SwitchBackContext="0" FileVersion="1.21.0" Size="1925120" SizeOfImage="1925120" PeHeaderHash="01014f64b2e4e1236097a6773b9fd27368a1406c2cde" PeChecksum="1922092" CrcChecksum="944330311" BinProductVersion="1.21.0 (6530cfa55777af5fb58fad598f24149b41153458)" BinFileVersion="1.21.0.0" FileDescription="microsoft.graphics.canvas" LegalCopyright="copyright (c) microsoft corporation" LinkDate="06/26/2017 09:07:53" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.2.0_x64__6x7jhkn3vq95c\microsoft.graphics.canvas.dll" />
+            <File Id="0000457f342c61e2ea3f55ab574fb6fa788f95c9cbd8" Name="Microsoft.Graphics.Canvas.winmd" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="278528" SizeOfImage="278528" PeHeaderHash="0101a319980d9a7c66e13950e7ad1fc54dd1f4dfdaaf" PeChecksum="304334" CrcChecksum="580199105" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="06/26/2017 09:03:17" BinaryType="pe32_clr_il" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.2.0_x64__6x7jhkn3vq95c\microsoft.graphics.canvas.winmd" />
+            <File Id="000091e1c48ac6038289ebce46947203ff86122b1382" Name="NewHorizonApp.dll" ProductName="newhorizonapp" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="12857344" SizeOfImage="12857344" PeHeaderHash="0101ab03338d1917f3cd4b8ca116500634684589ddfc" PeChecksum="0" CrcChecksum="-984403767" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="newhorizonapp" LegalCopyright="copyright ©  2017" LinkDate="12/12/2017 03:55:27" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.2.0_x64__6x7jhkn3vq95c\newhorizonapp.dll" />
+            <File Id="0000eb7085da75767d92c5c52dbc2ab7fd56d5fd77d9" Name="NewHorizonApp.exe" ProductName="newhorizonapp" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="32768" SizeOfImage="32768" PeHeaderHash="0101b6c85439dac2af74fc13f0078d06578c000e3df5" PeChecksum="0" CrcChecksum="-401240861" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="newhorizonapp" LegalCopyright="copyright ©  2017" LinkDate="12/12/2017 03:55:27" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.2.0_x64__6x7jhkn3vq95c\newhorizonapp.exe" />
+            <File Id="00004bd7b9df6752ac13acddfdce48cd3be9c16a8ff1" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-1779034546" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.2.0_x64__6x7jhkn3vq95c\resources.pri" />
+            <File Id="0000973c0e0ea058f857ce685e6c06b3bb3a3aa7a49c" Name="Robmikh.CompositionSurfaceFactory.dll" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="454656" SizeOfImage="454656" PeHeaderHash="01014f9e85f73dcd8046eb3645ce032ccdef7c04fc6e" PeChecksum="0" CrcChecksum="-1449316627" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="09/28/2017 02:20:52" BinaryType="pe64_amd64" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.2.0_x64__6x7jhkn3vq95c\robmikh.compositionsurfacefactory.dll" />
+            <File Id="000068668ecb5761a856b4691218dbe1e10b05db26cb" Name="Robmikh.CompositionSurfaceFactory.winmd" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="20480" SizeOfImage="20480" PeHeaderHash="01017e324d29ec845febb7ea4083345d666432b6aa55" PeChecksum="0" CrcChecksum="-706022723" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="05/26/2017 07:42:02" BinaryType="pe32_clr_il" LowerCaseLongPath="C:\Program Files\windowsapps\8504n8software.newhorizonsofwisconsinportalapp_0.7.2.0_x64__6x7jhkn3vq95c\robmikh.compositionsurfacefactory.winmd" />
           </Files>
         </StaticProperties>
       </Program>
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="000009b8dfee7c2936884368cdfc8afd6cf200000904" AnalysisVersion="1.60" DictionaryVersion="3.2" Type="Package" Id="8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.1.0_x64__6x7jhkn3vq95c">
-      <AitFile ErrorCode="0" Name="NewHorizonApp.exe" Id="00003bda8d284c80943b9721dfb0107a281ef19d4787" />
+    <AitStaticAnalysis ProgramId="00001e0f6a473742e69a98d1b6a0f9d0508800000904" AnalysisVersion="1.60" DictionaryVersion="3.2" Type="Package" Id="8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.2.0_x64__6x7jhkn3vq95c">
       <AitFile ErrorCode="0" Name="Microsoft.Graphics.Canvas.winmd" Id="0000457f342c61e2ea3f55ab574fb6fa788f95c9cbd8">
         <AitCategory Id="Com">
           <AitFeature Name="{25f942c7-7fee-518a-ba7b-22a0060af7f6}" />
@@ -485,7 +484,7 @@
           <AitFeature Name="Windows.UI.Text.FontStyle" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="NewHorizonApp.dll" Id="0000760702f09cf7694584b43fb7727722957393189f">
+      <AitFile ErrorCode="0" Name="NewHorizonApp.dll" Id="000091e1c48ac6038289ebce46947203ff86122b1382">
         <AitCategory Id="Com">
           <AitFeature Name="{00000003-0000-0000-c000-000000000046}" />
           <AitFeature Name="{00020401-0000-0000-c000-000000000046}" />
@@ -1363,7 +1362,6 @@
           <AitFeature Name="{b79b774b-7c7f-580c-8914-e9cb2642432e}" />
           <AitFeature Name="{b7bb4305-3dd9-43de-a8c0-c472f085bc11}" />
           <AitFeature Name="{b89ca96c-ded1-53bd-8744-caa84e87ba87}" />
-          <AitFeature Name="{b8ae8a15-0f63-4694-9467-bdafac1253ea}" />
           <AitFeature Name="{b8ae8fe2-d641-4fd7-80b4-7439207d2798}" />
           <AitFeature Name="{b91a7342-3fcb-512b-aef1-fda4712e5817}" />
           <AitFeature Name="{b9ac0e9e-5b32-52b7-a8f9-b85e4be14b16}" />
@@ -2553,6 +2551,7 @@
           <AitFeature Name="api-ms-win-core-processthreads-l1-1-0.dll!GetCurrentThreadId" />
         </AitCategory>
       </AitFile>
+      <AitFile ErrorCode="0" Name="NewHorizonApp.exe" Id="0000eb7085da75767d92c5c52dbc2ab7fd56d5fd77d9" />
     </AitStaticAnalysis>
   </DEPENDENCY_INFORMATION>
 </REPORT>

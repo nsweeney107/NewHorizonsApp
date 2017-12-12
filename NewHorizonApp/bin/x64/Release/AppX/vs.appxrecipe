@@ -19,19 +19,19 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>33620C439B735C4F766CB98110F4B918E7646880A6F0BAAB531E82AC4EBD6060</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.0.0_x64__6x7jhkn3vq95c</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>ACE252E2F2723C31B1102B4A09F4AC22ACBD855A017F3A982D14EA3778E02676</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.1.0_x64__6x7jhkn3vq95c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8504N8Software.NewHorizonsofWisconsinPortalApp_6x7jhkn3vq95c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>8504N8Software.NewHorizonsofWisconsinPortalApp</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8</RegisteredPackagePublisher>
-    <RegisteredVersion>0.7.0.0</RegisteredVersion>
+    <RegisteredVersion>0.7.1.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-08T16:32:27.220</Modified>
+      <Modified>2017-12-12T03:51:45.735</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -39,13 +39,25 @@
       <PackagePath>Assets\Blinking.png</PackagePath>
       <Modified>2017-10-17T19:19:04.501</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_hover v2.png">
+      <PackagePath>Assets\Important_hover v2.png</PackagePath>
+      <Modified>2017-12-08T19:10:38.940</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_hover.png">
       <PackagePath>Assets\Important_hover.png</PackagePath>
       <Modified>2017-12-08T15:50:41.118</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_normal v2.png">
+      <PackagePath>Assets\Important_normal v2.png</PackagePath>
+      <Modified>2017-12-08T18:58:27.262</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_normal.png">
       <PackagePath>Assets\Important_normal.png</PackagePath>
       <Modified>2017-12-08T15:50:46.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_pressed v2.png">
+      <PackagePath>Assets\Important_pressed v2.png</PackagePath>
+      <Modified>2017-12-08T19:14:22.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_pressed.png">
       <PackagePath>Assets\Important_pressed.png</PackagePath>
@@ -74,30 +86,42 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-03T02:34:02.845</Modified>
+      <Modified>2017-12-09T04:16:20.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-03T02:34:02.845</Modified>
+      <Modified>2017-12-09T04:34:36.242</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-03T02:34:02.845</Modified>
+      <Modified>2017-12-09T04:24:31.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-03T02:34:02.845</Modified>
+      <Modified>2017-12-09T04:21:40.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_hover v2.png">
+      <PackagePath>Assets\Standard_hover v2.png</PackagePath>
+      <Modified>2017-12-08T18:45:17.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_hover.png">
       <PackagePath>Assets\Standard_hover.png</PackagePath>
       <Modified>2017-12-08T15:50:56.876</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_normal v2.png">
+      <PackagePath>Assets\Standard_normal v2.png</PackagePath>
+      <Modified>2017-12-08T18:37:51.721</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_normal.png">
       <PackagePath>Assets\Standard_normal.png</PackagePath>
       <Modified>2017-12-08T15:51:03.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_pressed v2.png">
+      <PackagePath>Assets\Standard_pressed v2.png</PackagePath>
+      <Modified>2017-12-08T18:54:11.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_pressed.png">
       <PackagePath>Assets\Standard_pressed.png</PackagePath>
@@ -106,12 +130,12 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-03T02:34:02.845</Modified>
+      <Modified>2017-12-09T04:25:57.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-03T02:34:02.845</Modified>
+      <Modified>2017-12-09T04:38:30.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -271,20 +295,20 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.dll">
       <PackagePath>NewHorizonApp.dll</PackagePath>
-      <Modified>2017-12-08T16:32:25.975</Modified>
+      <Modified>2017-12-12T03:51:44.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2017-12-08T16:32:27.185</Modified>
+      <Modified>2017-12-12T03:51:45.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.pdb">
       <PackagePath>NewHorizonApp.pdb</PackagePath>
-      <Modified>2017-12-08T16:32:27.175</Modified>
+      <Modified>2017-12-12T03:51:45.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-08T16:31:03.477</Modified>
+      <Modified>2017-12-12T03:50:31.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Robmikh.CompositionSurfaceFactory.dll">
       <PackagePath>Robmikh.CompositionSurfaceFactory.dll</PackagePath>
@@ -356,27 +380,27 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.24123.0</Version>
+      <Version>14.0.25426.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.24123.0</Version>
+      <Version>14.0.25426.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.24123.0</Version>
+      <Version>14.0.25426.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

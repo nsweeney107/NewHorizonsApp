@@ -244,6 +244,7 @@
                       HorizontalContentAlignment="Center" 
                       VerticalContentAlignment="Top">
             <GridView x:ConnectionId='9' x:Name="MainGridView"
+                      HorizontalContentAlignment="Center"
                   Padding="16"
                   Background="#5F6987">
                 <GridView.Resources>
@@ -509,7 +510,7 @@
                                                            
                                                   
                         Content="Free Webinars"
-                        Style="{StaticResource StylizedButtonStyle}" />
+                        Style="{StaticResource CustomButton}" />
 
                 <Button x:ConnectionId='22' x:Name="HeadsetButton"
                                                      

@@ -1483,6 +1483,16 @@ namespace __Interop
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
+					double arg1)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__85(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					void* arg0, 
 					void* arg1, 
 					void* arg2, 
 					void* arg3)
@@ -1491,7 +1501,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__85(
+		internal static int StdCall__86(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1504,7 +1514,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static uint HasThisCall__86(
+		internal static uint HasThisCall__87(
 					object __this, 
 					global::System.IntPtr pfn)
 		{
@@ -1512,7 +1522,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static void HasThisCall__87(
+		internal static void HasThisCall__88(
 					object __this, 
 					global::System.IntPtr pfn, 
 					global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken arg0)
@@ -1520,7 +1530,7 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static bool HasThisCall__88(
+		internal static bool HasThisCall__89(
 					object __this, 
 					global::System.IntPtr pfn, 
 					object arg0)
@@ -1529,7 +1539,7 @@ namespace __Interop
 			return default(bool);
 		}
 
-		internal static TResult HasThisCall__89<TResult>(
+		internal static TResult HasThisCall__90<TResult>(
 					object __this, 
 					global::System.IntPtr pfn)
 		{
@@ -1537,7 +1547,7 @@ namespace __Interop
 			return default(TResult);
 		}
 
-		internal static void HasThisCall__90(
+		internal static void HasThisCall__91(
 					object __this, 
 					global::System.IntPtr pfn, 
 					object arg0)
@@ -1545,7 +1555,7 @@ namespace __Interop
 			// This method is implemented elsewhere in the toolchain
 		}
 
-		internal static int StdCall__91(
+		internal static int StdCall__92(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1556,7 +1566,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__92(
+		internal static int StdCall__93(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					uint arg0, 
@@ -1566,22 +1576,10 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__93(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					void* arg0, 
-					void* arg1, 
-					global::System.Runtime.InteropServices.HSTRING arg2, 
-					void* arg3)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
 		internal static int StdCall__94(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::System.Runtime.InteropServices.HSTRING arg0, 
+					void* arg0, 
 					void* arg1, 
 					global::System.Runtime.InteropServices.HSTRING arg2, 
 					void* arg3)
@@ -1593,8 +1591,10 @@ namespace __Interop
 		internal static int StdCall__95(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					void* arg0, 
-					double arg1)
+					global::System.Runtime.InteropServices.HSTRING arg0, 
+					void* arg1, 
+					global::System.Runtime.InteropServices.HSTRING arg2, 
+					void* arg3)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -6498,303 +6498,303 @@ namespace __Interop
 
 		public delegate int AddrOfTarget17(
 					global::System.IntPtr a0, 
-					global::Windows.UI.Color* a1);
-
-		public delegate int AddrOfTarget18(
-					global::System.IntPtr a0, 
 					global::Windows.Foundation.Collections.CollectionChange* a1);
 
-		public delegate int AddrOfTarget19(
+		public delegate int AddrOfTarget18(
 					global::System.IntPtr a0, 
 					void* a1, 
 					global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken* a2);
 
-		public delegate int AddrOfTarget20(
+		public delegate int AddrOfTarget19(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken a1);
 
-		public delegate int AddrOfTarget21(
+		public delegate int AddrOfTarget20(
 					global::System.IntPtr a0, 
 					sbyte a1);
 
-		public delegate int AddrOfTarget22(
+		public delegate int AddrOfTarget21(
 					global::System.IntPtr a0, 
 					double a1, 
 					double a2);
 
-		public delegate int AddrOfTarget23(
+		public delegate int AddrOfTarget22(
 					global::System.IntPtr a0, 
 					uint a1, 
 					double* a2);
 
-		public delegate int AddrOfTarget24(
+		public delegate int AddrOfTarget23(
 					global::System.IntPtr a0, 
 					double a1, 
 					uint* a2, 
 					sbyte* a3);
 
-		public delegate int AddrOfTarget25(
+		public delegate int AddrOfTarget24(
 					global::System.IntPtr a0, 
 					uint a1, 
 					double a2);
 
-		public delegate int AddrOfTarget26(
+		public delegate int AddrOfTarget25(
 					global::System.IntPtr a0, 
 					uint a1);
 
-		public delegate int AddrOfTarget27(
+		public delegate int AddrOfTarget26(
 					global::System.IntPtr a0, 
 					double a1);
 
-		public delegate int AddrOfTarget28(
+		public delegate int AddrOfTarget27(
 					global::System.IntPtr a0, 
 					uint a1, 
 					uint a2, 
 					double* a3, 
 					uint* a4);
 
-		public delegate int AddrOfTarget29(
+		public delegate int AddrOfTarget28(
 					global::System.IntPtr a0, 
 					double* a1);
 
-		public delegate int AddrOfTarget30(
+		public delegate int AddrOfTarget29(
 					global::System.IntPtr a0, 
 					uint a1, 
 					double* a2, 
 					uint* a3);
 
-		public delegate int AddrOfTarget31(
+		public delegate int AddrOfTarget30(
 					global::System.IntPtr a0, 
 					global::System.Type__Impl.UnsafeType a1, 
 					void** a2);
 
-		public delegate int AddrOfTarget32(
+		public delegate int AddrOfTarget31(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.HSTRING a1, 
 					void** a2);
 
-		public delegate int AddrOfTarget33(
+		public delegate int AddrOfTarget32(
 					global::System.IntPtr a0, 
 					uint* a1, 
 					global::Windows.UI.Xaml.Markup.XmlnsDefinition__Impl.UnsafeType** a2);
 
-		public delegate int AddrOfTarget34(
+		public delegate int AddrOfTarget33(
 					global::System.IntPtr a0, 
 					global::System.Type__Impl.UnsafeType* a1);
 
-		public delegate int AddrOfTarget35(
+		public delegate int AddrOfTarget34(
 					global::System.IntPtr a0, 
 					void* a1, 
 					void* a2, 
 					void* a3);
 
-		public delegate int AddrOfTarget36(
+		public delegate int AddrOfTarget35(
 					global::System.IntPtr a0, 
 					int a1, 
 					void* a2);
 
-		public delegate int AddrOfTarget37(
+		public delegate int AddrOfTarget36(
 					global::System.IntPtr a0, 
 					int a1, 
 					void* a2, 
 					void** a3);
 
-		public delegate int AddrOfTarget38(
+		public delegate int AddrOfTarget37(
 					global::System.IntPtr a0, 
 					int* a1);
 
-		public delegate int AddrOfTarget39(
+		public delegate int AddrOfTarget38(
 					global::System.IntPtr a0, 
 					int a1, 
 					sbyte* a2);
 
-		public delegate int AddrOfTarget40(
+		public delegate int AddrOfTarget39(
 					global::System.IntPtr a0, 
 					uint a1, 
 					void** a2);
 
-		public delegate int AddrOfTarget41(
+		public delegate int AddrOfTarget40(
 					global::System.IntPtr a0, 
 					global::Windows.UI.Xaml.Data.LoadMoreItemsResult* a1);
 
-		public delegate int AddrOfTarget42(
+		public delegate int AddrOfTarget41(
 					global::System.IntPtr a0, 
 					global::Windows.UI.Xaml.Visibility* a1);
 
-		public delegate int AddrOfTarget43(
+		public delegate int AddrOfTarget42(
 					global::System.IntPtr a0, 
 					ulong* a1);
 
-		public delegate int AddrOfTarget44(
+		public delegate int AddrOfTarget43(
 					global::System.IntPtr a0, 
 					ulong a1);
 
-		public delegate int AddrOfTarget45(
+		public delegate int AddrOfTarget44(
 					global::System.IntPtr a0, 
 					ulong a1, 
 					void** a2);
 
-		public delegate int AddrOfTarget46(
+		public delegate int AddrOfTarget45(
 					global::System.IntPtr a0, 
 					void* a1, 
 					uint a2, 
 					global::Windows.Storage.Streams.InputStreamOptions a3, 
 					void** a4);
 
-		public delegate int AddrOfTarget47(
+		public delegate int AddrOfTarget46(
 					global::System.IntPtr a0, 
 					void* a1, 
 					uint a2);
 
-		public delegate int AddrOfTarget48(
+		public delegate int AddrOfTarget47(
 					global::System.IntPtr a0, 
 					void* a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate int AddrOfTarget49(
+		public delegate int AddrOfTarget48(
 					global::System.IntPtr a0, 
 					uint a1, 
 					float* a2);
 
-		public delegate int AddrOfTarget50(
+		public delegate int AddrOfTarget49(
 					global::System.IntPtr a0, 
 					float a1, 
 					uint* a2, 
 					sbyte* a3);
 
-		public delegate int AddrOfTarget51(
+		public delegate int AddrOfTarget50(
 					global::System.IntPtr a0, 
 					uint a1, 
 					float a2);
 
-		public delegate int AddrOfTarget52(
+		public delegate int AddrOfTarget51(
 					global::System.IntPtr a0, 
 					float a1);
 
-		public delegate int AddrOfTarget53(
+		public delegate int AddrOfTarget52(
 					global::System.IntPtr a0, 
 					uint a1, 
 					uint a2, 
 					float* a3, 
 					uint* a4);
 
-		public delegate int AddrOfTarget54(
+		public delegate int AddrOfTarget53(
 					global::System.IntPtr a0, 
 					float* a1);
 
-		public delegate int AddrOfTarget55(
+		public delegate int AddrOfTarget54(
 					global::System.IntPtr a0, 
 					uint a1, 
 					float* a2, 
 					uint* a3);
 
-		public delegate int AddrOfTarget56(
+		public delegate int AddrOfTarget55(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.HSTRING a1, 
 					global::System.Runtime.InteropServices.HSTRING* a2);
 
-		public delegate int AddrOfTarget57(
+		public delegate int AddrOfTarget56(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.HSTRING a1, 
 					sbyte* a2);
 
-		public delegate int AddrOfTarget58(
+		public delegate int AddrOfTarget57(
 					global::System.IntPtr a0, 
 					global::Microsoft.Graphics.Canvas.CanvasBufferPrecision* a1);
 
-		public delegate int AddrOfTarget59(
+		public delegate int AddrOfTarget58(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.HSTRING a1, 
 					void* a2, 
 					sbyte* a3);
 
-		public delegate int AddrOfTarget60(
+		public delegate int AddrOfTarget59(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.HSTRING a1);
 
-		public delegate int AddrOfTarget61(
+		public delegate int AddrOfTarget60(
 					global::System.IntPtr a0, 
 					global::Microsoft.Graphics.Canvas.Effects.ColorManagementSimpleProfile* a1);
 
-		public delegate int AddrOfTarget62(
+		public delegate int AddrOfTarget61(
 					global::System.IntPtr a0, 
 					uint a1, 
 					global::System.Type__Impl.UnsafeType* a2);
 
-		public delegate int AddrOfTarget63(
+		public delegate int AddrOfTarget62(
 					global::System.IntPtr a0, 
 					global::System.Type__Impl.UnsafeType a1, 
 					uint* a2, 
 					sbyte* a3);
 
-		public delegate int AddrOfTarget64(
+		public delegate int AddrOfTarget63(
 					global::System.IntPtr a0, 
 					uint a1, 
 					global::System.Type__Impl.UnsafeType a2);
 
-		public delegate int AddrOfTarget65(
+		public delegate int AddrOfTarget64(
 					global::System.IntPtr a0, 
 					global::System.Type__Impl.UnsafeType a1);
 
-		public delegate int AddrOfTarget66(
+		public delegate int AddrOfTarget65(
 					global::System.IntPtr a0, 
 					uint a1, 
 					uint a2, 
 					global::System.Type__Impl.UnsafeType* a3, 
 					uint* a4);
 
-		public delegate int AddrOfTarget67(
+		public delegate int AddrOfTarget66(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.HSTRING a1, 
 					global::System.Runtime.InteropServices.HSTRING a2, 
 					sbyte* a3);
 
-		public delegate int AddrOfTarget68(
+		public delegate int AddrOfTarget67(
 					global::System.IntPtr a0, 
 					void* a1, 
 					ulong a2);
 
-		public delegate int AddrOfTarget69(
+		public delegate int AddrOfTarget68(
 					global::System.IntPtr a0, 
 					void* a1, 
 					global::Windows.Web.Http.HttpProgress__Impl.UnsafeType a2);
 
-		public delegate int AddrOfTarget70(
+		public delegate int AddrOfTarget69(
 					global::System.IntPtr a0, 
 					void* a1, 
 					uint* a2, 
 					sbyte* a3);
 
-		public delegate int AddrOfTarget71(
+		public delegate int AddrOfTarget70(
 					global::System.IntPtr a0, 
 					uint a1, 
 					void* a2);
 
-		public delegate int AddrOfTarget72(
+		public delegate int AddrOfTarget71(
 					global::System.IntPtr a0, 
 					uint a1, 
 					uint a2, 
 					void** a3, 
 					uint* a4);
 
-		public delegate int AddrOfTarget73(
+		public delegate int AddrOfTarget72(
 					global::System.IntPtr a0, 
 					void* a1, 
 					global::Windows.UI.Xaml.Visibility a2);
 
-		public delegate int AddrOfTarget74(
+		public delegate int AddrOfTarget73(
 					global::System.IntPtr a0, 
 					global::Windows.System.VirtualKey* a1);
 
-		public delegate int AddrOfTarget75(
+		public delegate int AddrOfTarget74(
 					global::System.IntPtr a0, 
 					global::System.Runtime.InteropServices.__vtable_IInspectable** a1);
 
-		public delegate int AddrOfTarget76(
+		public delegate int AddrOfTarget75(
 					global::System.IntPtr a0, 
 					uint a1, 
 					global::System.Runtime.InteropServices.__vtable_IInspectable** a2, 
 					uint* a3);
+
+		public delegate int AddrOfTarget76(
+					global::System.IntPtr a0, 
+					global::Windows.UI.Color* a1);
 
 		public delegate int AddrOfTarget77(
 					global::System.IntPtr a0, 
@@ -7435,72 +7435,72 @@ namespace __Interop
 		public delegate void AddrOfTarget209(
 					global::System.__ComObject a0, 
 					object a1, 
-					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangedEventArgs a2);
+					global::Windows.UI.Xaml.ExceptionRoutedEventArgs a2);
 
 		public delegate void AddrOfTarget210(
 					global::System.__ComObject a0, 
 					object a1, 
-					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangingEventArgs a2);
+					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangedEventArgs a2);
 
 		public delegate void AddrOfTarget211(
+					global::System.__ComObject a0, 
+					object a1, 
+					global::Windows.UI.Xaml.Controls.ScrollViewerViewChangingEventArgs a2);
+
+		public delegate void AddrOfTarget212(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.Collections.IObservableVector<object> a1, 
 					global::Windows.Foundation.Collections.IVectorChangedEventArgs a2);
 
-		public delegate void AddrOfTarget212(
+		public delegate void AddrOfTarget213(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Controls.SelectionChangedEventArgs a2);
 
-		public delegate void AddrOfTarget213(
+		public delegate void AddrOfTarget214(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Controls.ItemClickEventArgs a2);
 
-		public delegate void AddrOfTarget214(
+		public delegate void AddrOfTarget215(
 					global::System.__ComObject a0, 
 					object a1, 
 					global::Windows.UI.Xaml.Controls.DragItemsStartingEventArgs a2);
 
-		public delegate void AddrOfTarget215(
+		public delegate void AddrOfTarget216(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
 					global::Windows.UI.Xaml.Controls.ContainerContentChangingEventArgs a2);
 
-		public delegate void AddrOfTarget216(
+		public delegate void AddrOfTarget217(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
 					global::Windows.UI.Xaml.Controls.DragItemsCompletedEventArgs a2);
 
-		public delegate void AddrOfTarget217(
+		public delegate void AddrOfTarget218(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
 					global::Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs a2);
 
-		public delegate void AddrOfTarget218(
+		public delegate void AddrOfTarget219(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Controls.ListViewBase a1, 
 					global::Windows.UI.Xaml.Controls.ChoosingGroupHeaderContainerEventArgs a2);
 
-		public delegate void AddrOfTarget219(
+		public delegate void AddrOfTarget220(
 					global::System.__ComObject a0, 
 					global::Windows.UI.Xaml.Media.Animation.ConnectedAnimation a1, 
 					object a2);
 
-		public delegate int AddrOfTarget220<T>(
+		public delegate int AddrOfTarget221<T>(
 					global::Windows.Foundation.AsyncOperationCompletedHandler<T> a0, 
 					global::Windows.Foundation.IAsyncOperation<T> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
 
-		public delegate void AddrOfTarget221(
+		public delegate void AddrOfTarget222(
 					global::System.__ComObject a0, 
 					global::Windows.Foundation.IAsyncOperation<bool> a1, 
 					global::Windows.Foundation.AsyncStatus a2);
-
-		public delegate void AddrOfTarget222(
-					global::System.__ComObject a0, 
-					object a1, 
-					global::Windows.UI.Xaml.ExceptionRoutedEventArgs a2);
 
 		public delegate void AddrOfTarget223(
 					global::System.__ComObject a0, 
