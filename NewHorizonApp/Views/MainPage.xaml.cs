@@ -37,6 +37,7 @@ namespace NewHorizonApp
         public string _descriptionText = "";
         public bool _descriptionUpdate = false;
         public bool _running = true;
+        public MediaElement mediaElement = new MediaElement();
 
 
         public MainPage()
@@ -70,9 +71,6 @@ namespace NewHorizonApp
                                 descriptionText = _descriptionText;
                                 break;
                             }
-
-                            // Start the speech method
-                            //SpeakText(_descriptionText);
                             
                             // Update the textblock
                             await ButtonDescriptionTextBlock.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
@@ -128,22 +126,6 @@ namespace NewHorizonApp
             BlinkingAnimator();
         }
 
-        private async void SpeakText(string textToSpeak)
-        {
-            // The media object for controlling and playing audio
-            MediaElement mediaElement = new MediaElement();
-
-            // The object for controlling the speech synthesis engine
-            var synth = new SpeechSynthesizer();
-
-            // Generate the audio stream from the passed in string
-            SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync(textToSpeak);
-
-            // Send the stream to the media object
-            mediaElement.SetSource(stream, stream.ContentType);
-            mediaElement.Play();
-        }
-
         private void WaitABit(int timeToWait)
         {
             var spinWait = new SpinWait();
@@ -183,17 +165,56 @@ namespace NewHorizonApp
         private void MouseEntered(object sender, PointerRoutedEventArgs e)
         {
             GetButtonDescriptionText(sender);
+            SpeakText(DataHolder.ButtonDescription);
             TypewriterTextFiller();
         }
 
         private static void GetButtonDescriptionText(object sender)
         {
-            var thisButton = sender as Button;
-            if (thisButton != null)
+            string thisName = "";
+            if (sender is Button)
             {
-                var thisName = thisButton.Name.ToString();
-
+                var thisButton = sender as Button;
+                if (thisButton != null)
+                {
+                    thisName = thisButton.Name.ToString();
+                }                
+            }
+            else if (sender is Image)
+            {
+                var thisImage = sender as Image;
+                if (thisImage != null)
+                {
+                    thisName = thisImage.Name.ToString();
+                }
+            }
+            if (thisName != "")
+            {
                 DataHolder.GetDescriptionText(thisName);
+            }
+            //var thisButton = sender as Button;
+            //if (thisButton != null)
+            //{
+            //    var thisName = thisButton.Name.ToString();
+
+            //    DataHolder.GetDescriptionText(thisName);
+            //}
+        }
+
+        private async void SpeakText(string textToSpeak)
+        {
+            // The object for controlling the speech synthesis engine
+            using (var synth = new SpeechSynthesizer())
+            {
+                // Set the voice
+                synth.Voice = SpeechSynthesizer.AllVoices.First(gender => gender.Gender == VoiceGender.Male);
+
+                // Generate the audio stream from the passed in string
+                SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync(textToSpeak);
+
+                // Send the stream to the media object
+                mediaElement.SetSource(stream, stream.ContentType);
+                mediaElement.Play();
             }
         }
 
@@ -214,6 +235,7 @@ namespace NewHorizonApp
         private void MouseExited(object sender, PointerRoutedEventArgs e)
         {
             CancelTask();
+            mediaElement.Stop();
         }
 
         private void CancelTask()

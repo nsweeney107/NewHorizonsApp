@@ -73,10 +73,13 @@ namespace NewHorizonApp.ViewModels
                     thisUri = new Uri("https://www.google.com");
                     break;
                 case "faqButton":
-                    thisUri = new Uri("https://www.google.com");
+                    thisUri = new Uri("https://drive.google.com/open?id=1Gx7ATClPOXmcgr-6pNTzjHhZqd8wHOE6");
                     break;
                 case "VitalAcceleratorButton":
                     thisUri = new Uri("http://wwww.vitalaccelerator.com");
+                    break;
+                case "HeadsetButton":
+                    thisUri = new Uri("https://drive.google.com/open?id=132vVkM_-pwuR3lHGFQWBzDBXhsqIbjif");
                     break;
                 // TO DO - Implement other buttons
                 // These are the buttons from the Courseware.xaml page
@@ -136,6 +139,8 @@ namespace NewHorizonApp.ViewModels
                     thisDescription = "Click here for the answers to all kinds of questions, from \"What is that grinding noise I hear?\" to \"How can I save more money on my training?\"";
                     break;
                 case "VitalAcceleratorButton":
+                    break;
+                case "HeadsetButton":
                     break;
                 // TO DO - Implement other buttons
 
