@@ -14,12 +14,12 @@
         </TransitionCollection>
     </Page.Transitions>
     <Page.Resources>
-        <Style x:Key="ButtonStyle" TargetType="Button">
+        <!--<Style x:Key="ButtonStyle" TargetType="Button">
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="FontSize" Value="24"/>
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="Padding" Value="16" />
-        </Style>
+        </Style>-->
     </Page.Resources>
 
     <Grid Background="#5F6987"

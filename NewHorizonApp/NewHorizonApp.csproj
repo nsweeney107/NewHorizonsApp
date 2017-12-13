@@ -104,6 +104,9 @@
     <Compile Include="Views\Courseware.xaml.cs">
       <DependentUpon>Courseware.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\EmailQuestionPage.xaml.cs">
+      <DependentUpon>EmailQuestionPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -158,6 +161,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Page>
     <Page Include="Views\Courseware.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmailQuestionPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

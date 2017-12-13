@@ -21,6 +21,7 @@ using System.Threading.Tasks;
 using Windows.System.Threading;
 using System.Collections.Concurrent;
 using Windows.UI.Xaml.Hosting;
+using Windows.Media.SpeechSynthesis;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -36,6 +37,8 @@ namespace NewHorizonApp
         public string _descriptionText = "";
         public bool _descriptionUpdate = false;
         public bool _running = true;
+
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -68,6 +71,9 @@ namespace NewHorizonApp
                                 break;
                             }
 
+                            // Start the speech method
+                            //SpeakText(_descriptionText);
+                            
                             // Update the textblock
                             await ButtonDescriptionTextBlock.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                             {
@@ -120,6 +126,22 @@ namespace NewHorizonApp
             ButtonDescriptionTextBlock.Text = "";
 
             BlinkingAnimator();
+        }
+
+        private async void SpeakText(string textToSpeak)
+        {
+            // The media object for controlling and playing audio
+            MediaElement mediaElement = new MediaElement();
+
+            // The object for controlling the speech synthesis engine
+            var synth = new SpeechSynthesizer();
+
+            // Generate the audio stream from the passed in string
+            SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync(textToSpeak);
+
+            // Send the stream to the media object
+            mediaElement.SetSource(stream, stream.ContentType);
+            mediaElement.Play();
         }
 
         private void WaitABit(int timeToWait)
@@ -208,8 +230,29 @@ namespace NewHorizonApp
             if (thisButton != null)
             {
                 var thisName = thisButton.Name.ToString();
-                DataHolder.GetUrl(thisName);
-                Frame.Navigate(typeof(Views.WebView));
+
+                switch (thisName)
+                {
+                    case "DigitalReadingButton":
+                        Frame.Navigate(typeof(Courseware));
+                        break;
+                    case "questionButton":
+                        Frame.Navigate(typeof(EmailQuestionPage));
+                        break;
+                    default:
+                        DataHolder.GetUrl(thisName);
+                        Frame.Navigate(typeof(Views.WebView));
+                        break;
+                }
+                //if (thisName == "DigitalReadingButton")
+                //{
+                //    Frame.Navigate(typeof(Courseware));
+                //}
+                //else
+                //{
+                //    DataHolder.GetUrl(thisName);
+                //    Frame.Navigate(typeof(Views.WebView));
+                //}
             }
         }
 
