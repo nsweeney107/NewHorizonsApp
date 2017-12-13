@@ -78,7 +78,7 @@ namespace NewHorizonApp
                                 if (_descriptionText == descriptionText)
                                 {
                                     ButtonDescriptionTextBlock.Text += descriptionText[i];
-                                    System.Diagnostics.Debug.WriteLine("descriptionText: " + descriptionText[i].ToString());
+                                    //System.Diagnostics.Debug.WriteLine("descriptionText: " + descriptionText[i].ToString());
                                 }
                             });
                             if (_descriptionText == descriptionText && descriptionText[i] != ' ')

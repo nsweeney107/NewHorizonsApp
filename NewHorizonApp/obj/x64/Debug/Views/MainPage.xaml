@@ -172,12 +172,12 @@
         <StackPanel Orientation="Vertical" 
                     Grid.ColumnSpan="2" 
                     HorizontalAlignment="Center">
-            <TextBlock x:ConnectionId='26' x:Name="TitleTextBlock" 
+            <TextBlock x:ConnectionId='27' x:Name="TitleTextBlock" 
                    Text="New Horizons of Wisconsin"
                    Style="{StaticResource HeaderTextBlockStyle}"
                        HorizontalAlignment="Center"
                    Foreground="White"/>
-            <TextBlock x:ConnectionId='27' x:Name="SubtitleTextBlock"
+            <TextBlock x:ConnectionId='28' x:Name="SubtitleTextBlock"
                        Text="Student Portal"
                        Style="{StaticResource SubheaderTextBlockStyle}"
                        HorizontalAlignment="Center"
@@ -227,23 +227,39 @@
                Opacity="0"
                                             
                                            />
-        <ScrollViewer Grid.Row="2"
-                         Grid.Column="0">
-            <TextBlock x:ConnectionId='25' x:Name="ButtonDescriptionTextBlock"
-                           Margin="8"
-                           Padding="8"
-                           Foreground="White"
-                           Width="500"
-                       Style="{StaticResource TitleTextBlockStyle}" />
-        </ScrollViewer>
+        <Grid x:ConnectionId='8' x:Name="TextBubbleGrid" 
+              Padding="12"
+                Grid.Row="2"
+                Grid.Column="0">
+            <Polygon Points="0 15,0,0 15,15"
+                        Fill="#C8A686"
+                        Stroke="#47280B"
+                        Margin="300,0,0,0"/>
+            <Border Background="#C8A686"
+                    BorderBrush="#47280B"
+                    CornerRadius="3"
+                    Padding="4"
+                    VerticalAlignment="Top"
+                    Margin="0,14,0,0">
+                <TextBlock x:ConnectionId='26' x:Name="ButtonDescriptionTextBlock"
+                        Margin="8"
+                        Padding="8"
+                        Width="500"
+                           Foreground="#2B3552"
+                    Style="{StaticResource TitleTextBlockStyle}" />
+            </Border>
+            <Polygon Points="0 15,0,0 15,15"
+                        Fill="#C8A686"
+                        Margin="300,0,0,0"/>
+        </Grid>
 
-        <ScrollViewer x:ConnectionId='8'                                       
+        <ScrollViewer x:ConnectionId='9'                                       
                       Grid.Column="1"
                Grid.Row="1"
                Grid.RowSpan="2" 
                       HorizontalContentAlignment="Center" 
                       VerticalContentAlignment="Top">
-            <GridView x:ConnectionId='9' x:Name="MainGridView"
+            <GridView x:ConnectionId='10' x:Name="MainGridView"
                       HorizontalContentAlignment="Center"
                   Padding="16"
                   Background="#5F6987">
@@ -428,105 +444,105 @@
                         <EntranceThemeTransition />
                     </TransitionCollection>
                 </GridView.Transitions>
-                <Button x:ConnectionId='10' x:Name="YourClassButton"
+                <Button x:ConnectionId='11' x:Name="YourClassButton"
                                                  
                                                
                                       
                     Style="{StaticResource CustomImportantButton}"
                         Content="Start my Class" />
 
-                <Button x:ConnectionId='11' x:Name="DigitalReadingButton"
+                <Button x:ConnectionId='12' x:Name="DigitalReadingButton"
                                                  
                                                
                                       
                     Style="{StaticResource CustomImportantButton}"
                         Content="Open my Courseware" />
 
-                <Button x:ConnectionId='12' x:Name="LabsButton"
+                <Button x:ConnectionId='13' x:Name="LabsButton"
                                                              
                                                            
                                                   
                                 Style="{StaticResource CustomImportantButton}"
                         Content="Labs"/>
 
-                <Button x:ConnectionId='13' x:Name="RedStarButton"
+                <Button x:ConnectionId='14' x:Name="RedStarButton"
                     Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="I have a Red Star!" />
                 
-                <Button x:ConnectionId='14' x:Name="BrowseClassesButton"
+                <Button x:ConnectionId='15' x:Name="BrowseClassesButton"
                     Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="What Other Courses Do you Have?" />
 
-                <Button x:ConnectionId='15' x:Name="LaunchGameButton"
+                <Button x:ConnectionId='16' x:Name="LaunchGameButton"
                         Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="Bored?"/>
 
-                <Button x:ConnectionId='16' x:Name="SaveMoneyButton"
+                <Button x:ConnectionId='17' x:Name="SaveMoneyButton"
                     Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="Want to Save $?"/>
 
-                <Button x:ConnectionId='17' x:Name="HungryButton"
+                <Button x:ConnectionId='18' x:Name="HungryButton"
                         Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="Hungry?" />
 
-                <Button x:ConnectionId='18' x:Name="ShoppingButton"
+                <Button x:ConnectionId='19' x:Name="ShoppingButton"
                     Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="Like Shopping?" />
 
-                <Button x:ConnectionId='19' x:Name="WhyCookiesButton"                        
+                <Button x:ConnectionId='20' x:Name="WhyCookiesButton"                        
                                                      
                                                    
                                           
                         Style="{StaticResource CustomButton}"
                         Content="Why do we make Cookies?"/>
 
-                <Button x:ConnectionId='20' x:Name="VitalAcceleratorButton"
+                <Button x:ConnectionId='21' x:Name="VitalAcceleratorButton"
                     Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="What is the Vital Accelerator?" />
 
-                <Button x:ConnectionId='21' x:Name="FreeWebinars"
+                <Button x:ConnectionId='22' x:Name="FreeWebinars"
                                                      
                                                            
                                                   
                         Content="Free Webinars"
                         Style="{StaticResource CustomButton}" />
 
-                <Button x:ConnectionId='22' x:Name="HeadsetButton"
+                <Button x:ConnectionId='23' x:Name="HeadsetButton"
                                                      
                                                    
                                           
                         Style="{StaticResource CustomButton}"
                         Content="Don't want your Headset?" />
 
-                <Button x:ConnectionId='23' x:Name="faqButton"
+                <Button x:ConnectionId='24' x:Name="faqButton"
                     Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="FAQ" />
 
-                <Button x:ConnectionId='24' x:Name="questionButton"
+                <Button x:ConnectionId='25' x:Name="questionButton"
                         Style="{StaticResource CustomButton}"
                                                      
                                                    

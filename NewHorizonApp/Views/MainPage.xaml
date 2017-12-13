@@ -227,15 +227,31 @@
                Opacity="0"
                PointerEntered="MouseEntered"
                 PointerExited="MouseExited"/>
-        <ScrollViewer Grid.Row="2"
-                         Grid.Column="0">
-            <TextBlock x:Name="ButtonDescriptionTextBlock"
-                           Margin="8"
-                           Padding="8"
-                           Foreground="White"
-                           Width="500"
-                       Style="{StaticResource TitleTextBlockStyle}" />
-        </ScrollViewer>
+        <Grid x:Name="TextBubbleGrid" 
+              Padding="12"
+                Grid.Row="2"
+                Grid.Column="0">
+            <Polygon Points="0 15,0,0 15,15"
+                        Fill="#C8A686"
+                        Stroke="#47280B"
+                        Margin="300,0,0,0"/>
+            <Border Background="#C8A686"
+                    BorderBrush="#47280B"
+                    CornerRadius="3"
+                    Padding="4"
+                    VerticalAlignment="Top"
+                    Margin="0,14,0,0">
+                <TextBlock x:Name="ButtonDescriptionTextBlock"
+                        Margin="8"
+                        Padding="8"
+                        Width="500"
+                           Foreground="#2B3552"
+                    Style="{StaticResource TitleTextBlockStyle}" />
+            </Border>
+            <Polygon Points="0 15,0,0 15,15"
+                        Fill="#C8A686"
+                        Margin="300,0,0,0"/>
+        </Grid>
 
         <ScrollViewer ViewChanged="ScrollViewer_ViewChanged"
                       Grid.Column="1"
