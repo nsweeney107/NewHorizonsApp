@@ -30,14 +30,13 @@ namespace NewHorizonApp
     public sealed partial class MainPage : Page
     {
         public MainViewModel ViewModel { get; set; } //= new MainViewModel();
-        public CancellationTokenSource ThisCTS { get; set; }
         public string ThisGuid;
-        public CancellationToken ThisCT { get; set; }
         public ConcurrentBag<Task> Tasks { get; set; }
         public string _descriptionText = "";
         public bool _descriptionUpdate = false;
         public bool _running = true;
         public MediaElement mediaElement = new MediaElement();
+        public bool _speaking = false;
 
 
         public MainPage()
@@ -46,6 +45,9 @@ namespace NewHorizonApp
 
             // Connect to the ViewModel
             ViewModel = new MainViewModel();
+
+            // Wire up to speaking event
+            Speaking += HandleSpeakingEvent;
 
             // Create the Task Bag
             Tasks = new ConcurrentBag<Task>();
@@ -60,10 +62,12 @@ namespace NewHorizonApp
                     {
                         string descriptionText = _descriptionText;
                         _descriptionUpdate = false;
+
                         await ButtonDescriptionTextBlock.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
                         {
                             ButtonDescriptionTextBlock.Text = "";
                         });
+
                         for (int i = 0; i < descriptionText.Length; i++)
                         {
                             if (_descriptionText != descriptionText)
@@ -81,29 +85,30 @@ namespace NewHorizonApp
                                     //System.Diagnostics.Debug.WriteLine("descriptionText: " + descriptionText[i].ToString());
                                 }
                             });
+
                             if (_descriptionText == descriptionText && descriptionText[i] != ' ')
                                 System.Threading.Tasks.Task.Delay(50).Wait();
 
-
                             if (_descriptionText != descriptionText)
                                 break;
+
                             // Animate the mouth
-                            if (i % 5 == 0)
-                            {
-                                //                                System.Diagnostics.Debug.WriteLine("Animation Start: " + ThisCT.IsCancellationRequested.ToString());
-                                await MouthImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-                                {
-                                    TalkingAnimation.Begin();
-                                });
-                                //                              System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());
-                            }
+                            //if (i % 5 == 0)
+                            //{
+                            //    //                                System.Diagnostics.Debug.WriteLine("Animation Start: " + ThisCT.IsCancellationRequested.ToString());
+                            //    await MouthImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                            //    {
+                            //        TalkingAnimation.Begin();
+                            //    });
+                            //    //                              System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());
+                            //}
                         }
+
                         if (_descriptionText == descriptionText)
                             _descriptionText = descriptionText = "";
 
                         while (_descriptionUpdate == false)
-                            System.Threading.Tasks.Task.Delay(50).Wait();
-
+                            System.Threading.Tasks.Task.Delay(50).Wait(); 
                     }
                     catch (Exception ee)
                     {
@@ -112,7 +117,7 @@ namespace NewHorizonApp
                     }
                 }
 
-            }); // Pass the same token to StartNew
+            });
         }
 
 
@@ -167,6 +172,8 @@ namespace NewHorizonApp
             GetButtonDescriptionText(sender);
             SpeakText(DataHolder.ButtonDescription);
             TypewriterTextFiller();
+            OnSpeaking();
+            AnimateMouth();
         }
 
         private static void GetButtonDescriptionText(object sender)
@@ -218,6 +225,56 @@ namespace NewHorizonApp
             }
         }
 
+        public event EventHandler Speaking = delegate { };
+
+        protected void OnSpeaking()
+        {
+            Speaking?.Invoke(this, new EventArgs());
+        }
+
+        private void HandleSpeakingEvent(object sender, EventArgs e)
+        {
+            if (_speaking == true)
+            {
+                _speaking = false;
+            }
+            else
+            {
+                _speaking = true;
+            }
+        }
+
+        private async void AnimateMouth()
+        {
+            //var descriptionText = _descriptionText;
+
+            var animationTask = Task.Factory.StartNew(async () =>
+            {
+                while (_speaking)
+                {
+                    for (int i = 0; i < 3000; i++)
+                    {
+                        if (!_speaking)
+                            break;
+
+                        // Animate the mouth
+                        if (i % 5 == 0)
+                        {
+                            //                                System.Diagnostics.Debug.WriteLine("Animation Start: " + ThisCT.IsCancellationRequested.ToString());
+                            await MouthImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                            {
+                                TalkingAnimation.Begin();
+                            });
+                            // System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());
+                        }
+                        System.Threading.Tasks.Task.Delay(50).Wait();
+                    };
+                }
+            });
+
+            //Tasks.Add(animationTask);
+        }
+
         private void TypewriterTextFiller()
         {
             try
@@ -236,6 +293,7 @@ namespace NewHorizonApp
         {
             CancelTask();
             mediaElement.Stop();
+            OnSpeaking();
         }
 
         private void CancelTask()

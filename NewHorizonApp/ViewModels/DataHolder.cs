@@ -59,9 +59,8 @@ namespace NewHorizonApp.ViewModels
                     break;
                 case "LabsButton":
                     goto case "YourClassButton";
-                    break;
                 case "BrowseClassesButton":
-                    thisUri = new Uri("");
+                    thisUri = new Uri("https://wwww.google.com");
                     break;
                 case "FreeWebinars":
                     thisUri = new Uri("https://www.newhorizonswi.com/resources/free-webinars");

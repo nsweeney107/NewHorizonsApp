@@ -156,7 +156,7 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[20];
+            _typeNameTable = new string[18];
             _typeNameTable[0] = "NewHorizonApp.Views.Courseware";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -173,12 +173,10 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             _typeNameTable[13] = "Windows.UI.Composition.CompositionBrush";
             _typeNameTable[14] = "NewHorizonApp.MainPage";
             _typeNameTable[15] = "NewHorizonApp.ViewModel.MainViewModel";
-            _typeNameTable[16] = "System.Threading.CancellationTokenSource";
-            _typeNameTable[17] = "System.Threading.CancellationToken";
-            _typeNameTable[18] = "System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>";
-            _typeNameTable[19] = "NewHorizonApp.Views.WebView";
+            _typeNameTable[16] = "System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>";
+            _typeNameTable[17] = "NewHorizonApp.Views.WebView";
 
-            _typeTable = new global::System.Type[20];
+            _typeTable = new global::System.Type[18];
             _typeTable[0] = typeof(global::NewHorizonApp.Views.Courseware);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -195,10 +193,8 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             _typeTable[13] = typeof(global::Windows.UI.Composition.CompositionBrush);
             _typeTable[14] = typeof(global::NewHorizonApp.MainPage);
             _typeTable[15] = typeof(global::NewHorizonApp.ViewModel.MainViewModel);
-            _typeTable[16] = typeof(global::System.Threading.CancellationTokenSource);
-            _typeTable[17] = typeof(global::System.Threading.CancellationToken);
-            _typeTable[18] = typeof(global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>);
-            _typeTable[19] = typeof(global::NewHorizonApp.Views.WebView);
+            _typeTable[16] = typeof(global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>);
+            _typeTable[17] = typeof(global::NewHorizonApp.Views.WebView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -238,9 +234,8 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
         private object Activate_4_DropShadowPanel() { return new global::Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel(); }
         private object Activate_14_MainPage() { return new global::NewHorizonApp.MainPage(); }
         private object Activate_15_MainViewModel() { return new global::NewHorizonApp.ViewModel.MainViewModel(); }
-        private object Activate_16_CancellationTokenSource() { return new global::System.Threading.CancellationTokenSource(); }
-        private object Activate_18_ConcurrentBag() { return new global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>(); }
-        private object Activate_19_WebView() { return new global::NewHorizonApp.Views.WebView(); }
+        private object Activate_16_ConcurrentBag() { return new global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>(); }
+        private object Activate_17_WebView() { return new global::NewHorizonApp.Views.WebView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -337,8 +332,6 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_14_MainPage;
                 userType.AddMemberName("ViewModel");
-                userType.AddMemberName("ThisCTS");
-                userType.AddMemberName("ThisCT");
                 userType.AddMemberName("Tasks");
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -351,27 +344,15 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 16:   //  System.Threading.CancellationTokenSource
+            case 16:   //  System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 17:   //  System.Threading.CancellationToken
-                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 18:   //  System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>
-                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 19:   //  NewHorizonApp.Views.WebView
+            case 17:   //  NewHorizonApp.Views.WebView
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_19_WebView;
+                userType.Activator = Activate_17_WebView;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -520,42 +501,22 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             var that = (global::NewHorizonApp.MainPage)instance;
             that.ViewModel = (global::NewHorizonApp.ViewModel.MainViewModel)Value;
         }
-        private object get_9_MainPage_ThisCTS(object instance)
-        {
-            var that = (global::NewHorizonApp.MainPage)instance;
-            return that.ThisCTS;
-        }
-        private void set_9_MainPage_ThisCTS(object instance, object Value)
-        {
-            var that = (global::NewHorizonApp.MainPage)instance;
-            that.ThisCTS = (global::System.Threading.CancellationTokenSource)Value;
-        }
-        private object get_10_MainPage_ThisCT(object instance)
-        {
-            var that = (global::NewHorizonApp.MainPage)instance;
-            return that.ThisCT;
-        }
-        private void set_10_MainPage_ThisCT(object instance, object Value)
-        {
-            var that = (global::NewHorizonApp.MainPage)instance;
-            that.ThisCT = (global::System.Threading.CancellationToken)Value;
-        }
-        private object get_11_MainPage_Tasks(object instance)
+        private object get_9_MainPage_Tasks(object instance)
         {
             var that = (global::NewHorizonApp.MainPage)instance;
             return that.Tasks;
         }
-        private void set_11_MainPage_Tasks(object instance, object Value)
+        private void set_9_MainPage_Tasks(object instance, object Value)
         {
             var that = (global::NewHorizonApp.MainPage)instance;
             that.Tasks = (global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>)Value;
         }
-        private object get_12_WebView_ViewModel(object instance)
+        private object get_10_WebView_ViewModel(object instance)
         {
             var that = (global::NewHorizonApp.Views.WebView)instance;
             return that.ViewModel;
         }
-        private void set_12_WebView_ViewModel(object instance, object Value)
+        private void set_10_WebView_ViewModel(object instance, object Value)
         {
             var that = (global::NewHorizonApp.Views.WebView)instance;
             that.ViewModel = (global::NewHorizonApp.ViewModel.MainViewModel)Value;
@@ -628,29 +589,17 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 xamlMember.Getter = get_8_MainPage_ViewModel;
                 xamlMember.Setter = set_8_MainPage_ViewModel;
                 break;
-            case "NewHorizonApp.MainPage.ThisCTS":
-                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("NewHorizonApp.MainPage");
-                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "ThisCTS", "System.Threading.CancellationTokenSource");
-                xamlMember.Getter = get_9_MainPage_ThisCTS;
-                xamlMember.Setter = set_9_MainPage_ThisCTS;
-                break;
-            case "NewHorizonApp.MainPage.ThisCT":
-                userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("NewHorizonApp.MainPage");
-                xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "ThisCT", "System.Threading.CancellationToken");
-                xamlMember.Getter = get_10_MainPage_ThisCT;
-                xamlMember.Setter = set_10_MainPage_ThisCT;
-                break;
             case "NewHorizonApp.MainPage.Tasks":
                 userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("NewHorizonApp.MainPage");
                 xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "Tasks", "System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>");
-                xamlMember.Getter = get_11_MainPage_Tasks;
-                xamlMember.Setter = set_11_MainPage_Tasks;
+                xamlMember.Getter = get_9_MainPage_Tasks;
+                xamlMember.Setter = set_9_MainPage_Tasks;
                 break;
             case "NewHorizonApp.Views.WebView.ViewModel":
                 userType = (global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("NewHorizonApp.Views.WebView");
                 xamlMember = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlMember(this, "ViewModel", "NewHorizonApp.ViewModel.MainViewModel");
-                xamlMember.Getter = get_12_WebView_ViewModel;
-                xamlMember.Setter = set_12_WebView_ViewModel;
+                xamlMember.Getter = get_10_WebView_ViewModel;
+                xamlMember.Setter = set_10_WebView_ViewModel;
                 break;
             }
             return xamlMember;
