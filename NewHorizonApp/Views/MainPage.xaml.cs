@@ -35,7 +35,7 @@ namespace NewHorizonApp
         public string _descriptionText = "";
         public bool _descriptionUpdate = false;
         public bool _running = true;
-        public MediaElement mediaElement = new MediaElement();
+        //public MediaElement mediaElement = new MediaElement();
         public bool _speaking = false;
 
 
@@ -47,7 +47,13 @@ namespace NewHorizonApp
             ViewModel = new MainViewModel();
 
             // Wire up to speaking event
-            Speaking += HandleSpeakingEvent;
+            SpeakingStart += HandleSpeakingStartEvent;
+            SpeakingEnd += HandleSpeakingEndEvent;
+
+            // Wire up to media events
+            //MainMediaElement.MediaOpened += HandleMediaOpened;
+            MainMediaElement.MediaEnded += HandleMediaEnded;
+            MainMediaElement.MediaFailed += HandleMediaFailed;
 
             // Create the Task Bag
             Tasks = new ConcurrentBag<Task>();
@@ -60,6 +66,8 @@ namespace NewHorizonApp
                 {
                     try
                     {
+                        AnimateMouth();
+
                         string descriptionText = _descriptionText;
                         _descriptionUpdate = false;
 
@@ -116,7 +124,6 @@ namespace NewHorizonApp
                         System.Diagnostics.Debug.WriteLine("Task StackTrace: " + ee.StackTrace.ToString());
                     }
                 }
-
             });
         }
 
@@ -172,8 +179,8 @@ namespace NewHorizonApp
             GetButtonDescriptionText(sender);
             SpeakText(DataHolder.ButtonDescription);
             TypewriterTextFiller();
-            OnSpeaking();
-            AnimateMouth();
+            OnSpeakingStart();
+            //AnimateMouth();
         }
 
         private static void GetButtonDescriptionText(object sender)
@@ -220,28 +227,63 @@ namespace NewHorizonApp
                 SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync(textToSpeak);
 
                 // Send the stream to the media object
-                mediaElement.SetSource(stream, stream.ContentType);
-                mediaElement.Play();
+                //mediaElement.SetSource(stream, stream.ContentType);
+                //mediaElement.Play();
+
+                MainMediaElement.SetSource(stream, stream.ContentType);
+                MainMediaElement.Play();
             }
         }
 
-        public event EventHandler Speaking = delegate { };
+        public event EventHandler SpeakingStart = delegate { };
 
-        protected void OnSpeaking()
+        protected void OnSpeakingStart()
         {
-            Speaking?.Invoke(this, new EventArgs());
+            SpeakingStart?.Invoke(this, new EventArgs());
         }
 
-        private void HandleSpeakingEvent(object sender, EventArgs e)
+        private void HandleSpeakingStartEvent(object sender, EventArgs e)
+        {
+            if (_speaking == false)
+            {
+                _speaking = true;
+            }
+        }
+
+        public event EventHandler SpeakingEnd = delegate { };
+
+        protected void OnSpeakingEnd()
+        {
+            SpeakingEnd?.Invoke(this, new EventArgs());
+        }
+
+        private void HandleSpeakingEndEvent(object sender, EventArgs e)
         {
             if (_speaking == true)
             {
                 _speaking = false;
             }
-            else
+        }
+
+        //private void HandleMediaOpened(object sender, RoutedEventArgs re)
+        //{
+        //    if (_speaking == false)
+        //    {
+        //        _speaking = true;
+        //    }
+        //}
+
+        private void HandleMediaEnded(object sender, RoutedEventArgs re)
+        {
+            if (_speaking == true)
             {
-                _speaking = true;
+                _speaking = false;
             }
+        }
+
+        private void HandleMediaFailed(object sender, RoutedEventArgs re)
+        {
+            HandleMediaEnded(sender, re);
         }
 
         private async void AnimateMouth()
@@ -292,8 +334,9 @@ namespace NewHorizonApp
         private void MouseExited(object sender, PointerRoutedEventArgs e)
         {
             CancelTask();
-            mediaElement.Stop();
-            OnSpeaking();
+            //mediaElement.Stop();
+            MainMediaElement.Stop();
+            OnSpeakingEnd();
         }
 
         private void CancelTask()

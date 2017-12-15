@@ -154,6 +154,8 @@
         </TransitionCollection>
     </Page.Transitions>
 
+    
+
     <Grid x:Name="MainGrid" 
           Padding="0,36,0,0"
           MinWidth="800"
@@ -169,6 +171,11 @@
             <ColumnDefinition />
             <ColumnDefinition Width="24" />
         </Grid.ColumnDefinitions>
+
+        <MediaElement x:Name="MainMediaElement"
+                  MediaEnded="HandleMediaEnded"
+                  MediaFailed="HandleMediaFailed"/>
+        
         <StackPanel Orientation="Vertical" 
                     Grid.ColumnSpan="2" 
                     HorizontalAlignment="Center">
