@@ -60,7 +60,7 @@ namespace NewHorizonApp.ViewModels
                 case "LabsButton":
                     goto case "YourClassButton";
                 case "BrowseClassesButton":
-                    thisUri = new Uri("https://wwww.google.com");
+                    thisUri = new Uri("https://drive.google.com/open?id=1ic7ZKOjrgjyr6D35dC_xIDggAoc4VE0a");
                     break;
                 case "FreeWebinars":
                     thisUri = new Uri("https://www.newhorizonswi.com/resources/free-webinars");
@@ -79,6 +79,12 @@ namespace NewHorizonApp.ViewModels
                     break;
                 case "HeadsetButton":
                     thisUri = new Uri("https://drive.google.com/open?id=132vVkM_-pwuR3lHGFQWBzDBXhsqIbjif");
+                    break;
+                case "ShoppingButton":
+                    thisUri = new Uri("https://drive.google.com/open?id=1fFGLLUBLf2zihM9q4VfFCsWBpHqzfMvw");
+                    break;
+                case "HungryButton":
+                    thisUri = new Uri("https://drive.google.com/open?id=1MuGdyRfAG3aQDRcgWY86lrhzf45MN-77");
                     break;
                 // TO DO - Implement other buttons
                 // These are the buttons from the Courseware.xaml page
@@ -140,6 +146,10 @@ namespace NewHorizonApp.ViewModels
                 case "VitalAcceleratorButton":
                     break;
                 case "HeadsetButton":
+                    break;
+                case "ShoppingButton":
+                    break;
+                case "HungryButton":
                     break;
                 // TO DO - Implement other buttons
 
