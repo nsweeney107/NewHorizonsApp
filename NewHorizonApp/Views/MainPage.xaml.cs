@@ -108,7 +108,15 @@ namespace NewHorizonApp
                                 {
                                     TalkingAnimation.Begin();
                                 });
-                                //                              System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());
+                                //                              System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());                                
+                            }
+
+                            if (i % 1 == 0)
+                            {
+                                await MainMediaElement.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                                {
+                                    PlayTextBeepSound();
+                                });                                
                             }
                         }
 
@@ -127,6 +135,10 @@ namespace NewHorizonApp
             });
         }
 
+        private void PlayTextBeepSound()
+        {
+            MainMediaElement.Play();
+        }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
