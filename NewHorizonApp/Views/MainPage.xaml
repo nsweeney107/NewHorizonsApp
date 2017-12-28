@@ -172,9 +172,9 @@
             <ColumnDefinition Width="24" />
         </Grid.ColumnDefinitions>
 
-        <MediaElement x:Name="MainMediaElement"
+        <!--<MediaElement x:Name="MainMediaElement"
                   MediaEnded="HandleMediaEnded"
-                  MediaFailed="HandleMediaFailed"/>
+                  MediaFailed="HandleMediaFailed"/>-->
         
         <StackPanel Orientation="Vertical" 
                     Grid.ColumnSpan="2" 

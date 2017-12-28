@@ -36,7 +36,7 @@ namespace NewHorizonApp
         public bool _descriptionUpdate = false;
         public bool _running = true;
         //public MediaElement mediaElement = new MediaElement();
-        public bool _speaking = false;
+        //public bool _speaking = false;
 
 
         public MainPage()
@@ -47,13 +47,13 @@ namespace NewHorizonApp
             ViewModel = new MainViewModel();
 
             // Wire up to speaking event
-            SpeakingStart += HandleSpeakingStartEvent;
-            SpeakingEnd += HandleSpeakingEndEvent;
+            //SpeakingStart += HandleSpeakingStartEvent;
+            //SpeakingEnd += HandleSpeakingEndEvent;
 
             // Wire up to media events
             //MainMediaElement.MediaOpened += HandleMediaOpened;
-            MainMediaElement.MediaEnded += HandleMediaEnded;
-            MainMediaElement.MediaFailed += HandleMediaFailed;
+            //MainMediaElement.MediaEnded += HandleMediaEnded;
+            //MainMediaElement.MediaFailed += HandleMediaFailed;
 
             // Create the Task Bag
             Tasks = new ConcurrentBag<Task>();
@@ -66,7 +66,7 @@ namespace NewHorizonApp
                 {
                     try
                     {
-                        AnimateMouth();
+                        //AnimateMouth();
 
                         string descriptionText = _descriptionText;
                         _descriptionUpdate = false;
@@ -101,15 +101,15 @@ namespace NewHorizonApp
                                 break;
 
                             // Animate the mouth
-                            //if (i % 5 == 0)
-                            //{
-                            //    //                                System.Diagnostics.Debug.WriteLine("Animation Start: " + ThisCT.IsCancellationRequested.ToString());
-                            //    await MouthImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-                            //    {
-                            //        TalkingAnimation.Begin();
-                            //    });
-                            //    //                              System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());
-                            //}
+                            if (i % 5 == 0)
+                            {
+                                //                                System.Diagnostics.Debug.WriteLine("Animation Start: " + ThisCT.IsCancellationRequested.ToString());
+                                await MouthImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                                {
+                                    TalkingAnimation.Begin();
+                                });
+                                //                              System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());
+                            }
                         }
 
                         if (_descriptionText == descriptionText)
@@ -177,9 +177,9 @@ namespace NewHorizonApp
         private void MouseEntered(object sender, PointerRoutedEventArgs e)
         {
             GetButtonDescriptionText(sender);
-            SpeakText(DataHolder.ButtonDescription);
+            //SpeakText(DataHolder.ButtonDescription);
             TypewriterTextFiller();
-            OnSpeakingStart();
+            //OnSpeakingStart();
             //AnimateMouth();
         }
 
@@ -215,55 +215,55 @@ namespace NewHorizonApp
             //}
         }
 
-        private async void SpeakText(string textToSpeak)
-        {
-            // The object for controlling the speech synthesis engine
-            using (var synth = new SpeechSynthesizer())
-            {
-                // Set the voice
-                synth.Voice = SpeechSynthesizer.AllVoices.First(gender => gender.Gender == VoiceGender.Male);
+        //private async void SpeakText(string textToSpeak)
+        //{
+        //    // The object for controlling the speech synthesis engine
+        //    using (var synth = new SpeechSynthesizer())
+        //    {
+        //        // Set the voice
+        //        synth.Voice = SpeechSynthesizer.AllVoices.First(gender => gender.Gender == VoiceGender.Male);
 
-                // Generate the audio stream from the passed in string
-                SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync(textToSpeak);
+        //        // Generate the audio stream from the passed in string
+        //        SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync(textToSpeak);
 
-                // Send the stream to the media object
-                //mediaElement.SetSource(stream, stream.ContentType);
-                //mediaElement.Play();
+        //        // Send the stream to the media object
+        //        //mediaElement.SetSource(stream, stream.ContentType);
+        //        //mediaElement.Play();
 
-                MainMediaElement.SetSource(stream, stream.ContentType);
-                MainMediaElement.Play();
-            }
-        }
+        //        MainMediaElement.SetSource(stream, stream.ContentType);
+        //        MainMediaElement.Play();
+        //    }
+        //}
 
-        public event EventHandler SpeakingStart = delegate { };
+        //public event EventHandler SpeakingStart = delegate { };
 
-        protected void OnSpeakingStart()
-        {
-            SpeakingStart?.Invoke(this, new EventArgs());
-        }
+        //protected void OnSpeakingStart()
+        //{
+        //    SpeakingStart?.Invoke(this, new EventArgs());
+        //}
 
-        private void HandleSpeakingStartEvent(object sender, EventArgs e)
-        {
-            if (_speaking == false)
-            {
-                _speaking = true;
-            }
-        }
+        //private void HandleSpeakingStartEvent(object sender, EventArgs e)
+        //{
+        //    if (_speaking == false)
+        //    {
+        //        _speaking = true;
+        //    }
+        //}
 
-        public event EventHandler SpeakingEnd = delegate { };
+        //public event EventHandler SpeakingEnd = delegate { };
 
-        protected void OnSpeakingEnd()
-        {
-            SpeakingEnd?.Invoke(this, new EventArgs());
-        }
+        //protected void OnSpeakingEnd()
+        //{
+        //    SpeakingEnd?.Invoke(this, new EventArgs());
+        //}
 
-        private void HandleSpeakingEndEvent(object sender, EventArgs e)
-        {
-            if (_speaking == true)
-            {
-                _speaking = false;
-            }
-        }
+        //private void HandleSpeakingEndEvent(object sender, EventArgs e)
+        //{
+        //    if (_speaking == true)
+        //    {
+        //        _speaking = false;
+        //    }
+        //}
 
         //private void HandleMediaOpened(object sender, RoutedEventArgs re)
         //{
@@ -273,49 +273,49 @@ namespace NewHorizonApp
         //    }
         //}
 
-        private void HandleMediaEnded(object sender, RoutedEventArgs re)
-        {
-            if (_speaking == true)
-            {
-                _speaking = false;
-            }
-        }
+        //private void HandleMediaEnded(object sender, RoutedEventArgs re)
+        //{
+        //    if (_speaking == true)
+        //    {
+        //        _speaking = false;
+        //    }
+        //}
 
-        private void HandleMediaFailed(object sender, RoutedEventArgs re)
-        {
-            HandleMediaEnded(sender, re);
-        }
+        //private void HandleMediaFailed(object sender, RoutedEventArgs re)
+        //{
+        //    HandleMediaEnded(sender, re);
+        //}
 
-        private async void AnimateMouth()
-        {
-            //var descriptionText = _descriptionText;
+        //private async void AnimateMouth()
+        //{
+        //    //var descriptionText = _descriptionText;
 
-            var animationTask = Task.Factory.StartNew(async () =>
-            {
-                while (_speaking)
-                {
-                    for (int i = 0; i < 3000; i++)
-                    {
-                        if (!_speaking)
-                            break;
+        //    var animationTask = Task.Factory.StartNew(async () =>
+        //    {
+        //        while (_speaking)
+        //        {
+        //            for (int i = 0; i < 3000; i++)
+        //            {
+        //                if (!_speaking)
+        //                    break;
 
-                        // Animate the mouth
-                        if (i % 5 == 0)
-                        {
-                            //                                System.Diagnostics.Debug.WriteLine("Animation Start: " + ThisCT.IsCancellationRequested.ToString());
-                            await MouthImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-                            {
-                                TalkingAnimation.Begin();
-                            });
-                            // System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());
-                        }
-                        System.Threading.Tasks.Task.Delay(50).Wait();
-                    };
-                }
-            });
+        //                // Animate the mouth
+        //                if (i % 5 == 0)
+        //                {
+        //                    //                                System.Diagnostics.Debug.WriteLine("Animation Start: " + ThisCT.IsCancellationRequested.ToString());
+        //                    await MouthImage.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+        //                    {
+        //                        TalkingAnimation.Begin();
+        //                    });
+        //                    // System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());
+        //                }
+        //                System.Threading.Tasks.Task.Delay(50).Wait();
+        //            };
+        //        }
+        //    });
 
-            //Tasks.Add(animationTask);
-        }
+        //    //Tasks.Add(animationTask);
+        //}
 
         private void TypewriterTextFiller()
         {
@@ -335,8 +335,8 @@ namespace NewHorizonApp
         {
             CancelTask();
             //mediaElement.Stop();
-            MainMediaElement.Stop();
-            OnSpeakingEnd();
+            //MainMediaElement.Stop();
+            //OnSpeakingEnd();
         }
 
         private void CancelTask()
