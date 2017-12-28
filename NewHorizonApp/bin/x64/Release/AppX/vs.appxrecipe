@@ -19,19 +19,19 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>ACE252E2F2723C31B1102B4A09F4AC22ACBD855A017F3A982D14EA3778E02676</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.1.0_x64__6x7jhkn3vq95c</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>D06EF488D833D7962CD96A4529E4729DAF0AEEFD0B227D3B5E44BEAFD95EC8B6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.2.0_x64__6x7jhkn3vq95c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8504N8Software.NewHorizonsofWisconsinPortalApp_6x7jhkn3vq95c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>8504N8Software.NewHorizonsofWisconsinPortalApp</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8</RegisteredPackagePublisher>
-    <RegisteredVersion>0.7.1.0</RegisteredVersion>
+    <RegisteredVersion>0.7.2.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-12T03:51:45.735</Modified>
+      <Modified>2017-12-28T05:23:28.148</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -41,27 +41,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_hover v2.png">
       <PackagePath>Assets\Important_hover v2.png</PackagePath>
-      <Modified>2017-12-08T19:10:38.940</Modified>
+      <Modified>2017-12-12T23:11:49.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_hover.png">
       <PackagePath>Assets\Important_hover.png</PackagePath>
-      <Modified>2017-12-08T15:50:41.118</Modified>
+      <Modified>2017-12-12T23:11:49.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_normal v2.png">
       <PackagePath>Assets\Important_normal v2.png</PackagePath>
-      <Modified>2017-12-08T18:58:27.262</Modified>
+      <Modified>2017-12-12T23:11:49.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_normal.png">
       <PackagePath>Assets\Important_normal.png</PackagePath>
-      <Modified>2017-12-08T15:50:46.131</Modified>
+      <Modified>2017-12-12T23:11:49.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_pressed v2.png">
       <PackagePath>Assets\Important_pressed v2.png</PackagePath>
-      <Modified>2017-12-08T19:14:22.382</Modified>
+      <Modified>2017-12-12T23:11:49.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Important_pressed.png">
       <PackagePath>Assets\Important_pressed.png</PackagePath>
-      <Modified>2017-12-08T15:50:50.967</Modified>
+      <Modified>2017-12-12T23:11:50.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -73,7 +73,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\nhlogo.jpg">
       <PackagePath>Assets\nhlogo.jpg</PackagePath>
-      <Modified>2017-12-05T19:22:58.149</Modified>
+      <Modified>2017-12-12T23:11:50.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Pixel Portrait Riley small.png">
       <PackagePath>Assets\Pixel Portrait Riley small.png</PackagePath>
@@ -86,241 +86,81 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-09T04:16:20.566</Modified>
+      <Modified>2017-12-12T23:11:50.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-09T04:34:36.242</Modified>
+      <Modified>2017-12-12T23:11:50.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-09T04:24:31.915</Modified>
+      <Modified>2017-12-12T23:11:50.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-09T04:21:40.984</Modified>
+      <Modified>2017-12-12T23:11:50.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_hover v2.png">
       <PackagePath>Assets\Standard_hover v2.png</PackagePath>
-      <Modified>2017-12-08T18:45:17.433</Modified>
+      <Modified>2017-12-12T23:11:50.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_hover.png">
       <PackagePath>Assets\Standard_hover.png</PackagePath>
-      <Modified>2017-12-08T15:50:56.876</Modified>
+      <Modified>2017-12-12T23:11:50.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_normal v2.png">
       <PackagePath>Assets\Standard_normal v2.png</PackagePath>
-      <Modified>2017-12-08T18:37:51.721</Modified>
+      <Modified>2017-12-12T23:11:50.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_normal.png">
       <PackagePath>Assets\Standard_normal.png</PackagePath>
-      <Modified>2017-12-08T15:51:03.606</Modified>
+      <Modified>2017-12-12T23:11:50.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_pressed v2.png">
       <PackagePath>Assets\Standard_pressed v2.png</PackagePath>
-      <Modified>2017-12-08T18:54:11.284</Modified>
+      <Modified>2017-12-12T23:11:50.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Standard_pressed.png">
       <PackagePath>Assets\Standard_pressed.png</PackagePath>
-      <Modified>2017-12-08T15:51:09.106</Modified>
+      <Modified>2017-12-12T23:11:50.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-09T04:25:57.009</Modified>
+      <Modified>2017-12-12T23:11:50.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\textBeep.wav">
+      <PackagePath>Assets\textBeep.wav</PackagePath>
+      <Modified>2017-12-28T05:20:40.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-09T04:38:30.596</Modified>
+      <Modified>2017-12-12T23:11:50.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
       <Modified>2016-06-14T02:46:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.dll">
-      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
-      <Modified>2017-06-26T08:01:44.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.winmd">
-      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
-      <Modified>2017-06-26T08:01:44.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml</PackagePath>
-      <Modified>2017-11-21T16:25:46.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.dll">
       <PackagePath>NewHorizonApp.dll</PackagePath>
-      <Modified>2017-12-12T03:51:44.419</Modified>
+      <Modified>2017-12-28T05:23:27.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2017-12-12T03:51:45.621</Modified>
+      <Modified>2017-12-28T05:23:28.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.pdb">
       <PackagePath>NewHorizonApp.pdb</PackagePath>
-      <Modified>2017-12-12T03:51:45.608</Modified>
+      <Modified>2017-12-28T05:23:28.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-12T03:50:31.161</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Robmikh.CompositionSurfaceFactory.dll">
-      <PackagePath>Robmikh.CompositionSurfaceFactory.dll</PackagePath>
-      <Modified>2017-09-28T00:20:54.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Robmikh.CompositionSurfaceFactory.pdb">
-      <PackagePath>Robmikh.CompositionSurfaceFactory.pdb</PackagePath>
-      <Modified>2017-09-28T00:20:54.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Robmikh.CompositionSurfaceFactory.winmd">
-      <PackagePath>Robmikh.CompositionSurfaceFactory.winmd</PackagePath>
-      <Modified>2017-09-28T00:20:52.000</Modified>
+      <Modified>2017-12-28T05:23:07.711</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

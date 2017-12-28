@@ -198,16 +198,6 @@
       <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerUpThemeAnimation" />
-    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel">
-      <RootProperty Name="BlurRadius" />
-      <RootProperty Name="OffsetX" />
-      <RootProperty Name="OffsetY" />
-      <RootProperty Name="ShadowOpacity" />
-      <RootProperty Name="Color" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Content" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
     <RootType FullName="Windows.UI.Xaml.Shapes.Polygon">
       <RootProperty Name="Points" />

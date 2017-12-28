@@ -99,126 +99,15 @@
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\textBeep.wav">
+      <PackagePath>Assets\textBeep.wav</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.dll">
-      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Graphics.Canvas.winmd">
-      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xaml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml">
-      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.dll">
       <PackagePath>NewHorizonApp.dll</PackagePath>
@@ -232,15 +121,6 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Robmikh.CompositionSurfaceFactory.dll">
-      <PackagePath>Robmikh.CompositionSurfaceFactory.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Robmikh.CompositionSurfaceFactory.pdb">
-      <PackagePath>Robmikh.CompositionSurfaceFactory.pdb</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\Robmikh.CompositionSurfaceFactory.winmd">
-      <PackagePath>Robmikh.CompositionSurfaceFactory.winmd</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
