@@ -95,10 +95,10 @@ namespace NewHorizonApp.ViewModels
                     thisUri = new Uri("http://www.nh-choice.com");
                     break;
                 case "vitalsourceButton":
-                    thisUri = new Uri("http://online.vitalsourcde.com/signin");
+                    thisUri = new Uri("http://online.vitalsource.com/signin");
                     break;
                 case "ciscoToolsButton":
-                    thisUri = new Uri("http://online.vitalsourcde.com/signin");
+                    thisUri = new Uri("https://tools.cisco.com/IDREG/guestRegistration");
                     break;
                 case "ciscoLearningButton":
                     thisUri = new Uri("https://learningspace.cisco.com/");
