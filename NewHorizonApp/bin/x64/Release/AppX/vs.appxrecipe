@@ -31,7 +31,7 @@
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-28T05:34:34.349</Modified>
+      <Modified>2017-12-29T00:20:39.206</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -147,20 +147,20 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.dll">
       <PackagePath>NewHorizonApp.dll</PackagePath>
-      <Modified>2017-12-28T05:34:34.211</Modified>
+      <Modified>2017-12-29T00:20:39.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2017-12-28T05:34:34.337</Modified>
+      <Modified>2017-12-29T00:20:39.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\NewHorizonApp.pdb">
       <PackagePath>NewHorizonApp.pdb</PackagePath>
-      <Modified>2017-12-28T05:34:34.327</Modified>
+      <Modified>2017-12-29T00:20:39.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-28T05:34:18.942</Modified>
+      <Modified>2017-12-29T00:20:19.248</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
