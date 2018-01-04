@@ -91,6 +91,7 @@ namespace NewHorizonApp
                                 {
                                     ButtonDescriptionTextBlock.Text += descriptionText[i];
                                     //System.Diagnostics.Debug.WriteLine("descriptionText: " + descriptionText[i].ToString());
+                                    //PlayTextBeepSound();
                                 }
                             });
 
@@ -111,13 +112,13 @@ namespace NewHorizonApp
                                 //                              System.Diagnostics.Debug.WriteLine("Animation End: " + ThisCT.IsCancellationRequested.ToString());                                
                             }
 
-                            if (i % 1 == 0)
-                            {
-                                await MainMediaElement.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
-                                {
-                                    PlayTextBeepSound();
-                                });                                
-                            }
+                            //if (i % 1 == 0)
+                            //{
+                            //await MainMediaElement.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+                            //{
+                            //    PlayTextBeepSound();
+                            //});
+                            //}
                         }
 
                         if (_descriptionText == descriptionText)
