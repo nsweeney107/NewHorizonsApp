@@ -161,12 +161,12 @@
           Background="#2B3552">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
             <RowDefinition />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="24" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="548" />
             <ColumnDefinition />
             <ColumnDefinition Width="24" />
         </Grid.ColumnDefinitions>
@@ -205,7 +205,7 @@
                    Height="450"
                    Margin="8"
                    Source="/Assets/Pixel Portrait Riley Small.png"
-                   Grid.Row="1"
+                   Grid.Row="2"
                    Grid.Column="0"
                    Canvas.ZIndex="0" />
         <Image x:ConnectionId='7' x:Name="MouthImage"
@@ -214,7 +214,7 @@
                    Height="450"
                    Margin="8"
                    Source="/Assets/Mouth.png" 
-                   Grid.Row="1"
+                   Grid.Row="2"
                    Grid.Column="0"
                    Canvas.ZIndex="1" 
                RenderTransformOrigin="0.5,0.5">
@@ -228,7 +228,7 @@
                 Height="450"
                 Margin="8"
                 Source="/Assets/Blinking.png" 
-                Grid.Row="1"
+                Grid.Row="2"
                 Grid.Column="0"
                 Canvas.ZIndex="2"
                Opacity="0"
@@ -236,28 +236,31 @@
                                            />
         <Grid x:ConnectionId='9' x:Name="TextBubbleGrid" 
               Padding="12"
-                Grid.Row="2"
+                Grid.Row="1"
                 Grid.Column="0">
-            <Polygon Points="0 15,0,0 15,15"
+            <Polygon Points="0 0,15,15 15,0"
                         Fill="#C8A686"
                         Stroke="#47280B"
-                        Margin="300,0,0,0"/>
+                        Margin="200,0,0,0"
+                     VerticalAlignment="Bottom"/>
             <Border Background="#C8A686"
                     BorderBrush="#47280B"
                     CornerRadius="3"
                     Padding="4"
-                    VerticalAlignment="Top"
-                    Margin="0,14,0,0">
+                    VerticalAlignment="Bottom"
+                    Margin="0,0,0,14">
                 <TextBlock x:ConnectionId='27' x:Name="ButtonDescriptionTextBlock"
                         Margin="8"
                         Padding="8"
                         Width="500"
                            Foreground="#2B3552"
+                           VerticalAlignment="Bottom"
                     Style="{StaticResource TitleTextBlockStyle}" />
             </Border>
-            <Polygon Points="0 15,0,0 15,15"
+            <Polygon Points="0 0,15,15 15,0"
                         Fill="#C8A686"
-                        Margin="300,0,0,0"/>
+                        Margin="200,0,0,0"
+                     VerticalAlignment="Bottom"/>
         </Grid>
 
         <ScrollViewer x:ConnectionId='10'                                       

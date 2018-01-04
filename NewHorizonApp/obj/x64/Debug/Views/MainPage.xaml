@@ -166,7 +166,7 @@
             <RowDefinition Height="24" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="548" />
             <ColumnDefinition />
             <ColumnDefinition Width="24" />
         </Grid.ColumnDefinitions>

@@ -59,6 +59,7 @@ namespace NewHorizonApp
             Tasks = new ConcurrentBag<Task>();
 
             ButtonDescriptionTextBlock.Text = "";
+            TextBubbleGrid.Visibility = Visibility.Collapsed;
 
             var task = Task.Factory.StartNew(async () =>
             {
@@ -91,7 +92,7 @@ namespace NewHorizonApp
                                 {
                                     ButtonDescriptionTextBlock.Text += descriptionText[i];
                                     //System.Diagnostics.Debug.WriteLine("descriptionText: " + descriptionText[i].ToString());
-                                    //PlayTextBeepSound();
+                                    PlayTextBeepSound();
                                 }
                             });
 
@@ -189,6 +190,7 @@ namespace NewHorizonApp
         // These all came from the old HomePage.xaml.cs
         private void MouseEntered(object sender, PointerRoutedEventArgs e)
         {
+            TextBubbleGrid.Visibility = Visibility.Visible;
             GetButtonDescriptionText(sender);
             //SpeakText(DataHolder.ButtonDescription);
             TypewriterTextFiller();
@@ -346,6 +348,7 @@ namespace NewHorizonApp
 
         private void MouseExited(object sender, PointerRoutedEventArgs e)
         {
+            TextBubbleGrid.Visibility = Visibility.Collapsed;
             CancelTask();
             //mediaElement.Stop();
             //MainMediaElement.Stop();
