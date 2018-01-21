@@ -229,3 +229,8 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\EmailQuestionPage.g.i
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\EmailQuestionPage.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\EmailQuestionPage.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\EmailQuestionPage.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Views\Food.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Food.g.i.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Food.g.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Food.xaml
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Food.xbf

@@ -71,7 +71,7 @@ namespace NewHorizonApp.ViewModels
                 case "RedStarButton":
                     thisUri = new Uri("https://www.google.com");
                     break;
-                case "faqButton":
+                case "FaqButton":
                     thisUri = new Uri("https://drive.google.com/open?id=1Gx7ATClPOXmcgr-6pNTzjHhZqd8wHOE6");
                     break;
                 case "VitalAcceleratorButton":
@@ -84,7 +84,7 @@ namespace NewHorizonApp.ViewModels
                     thisUri = new Uri("https://drive.google.com/open?id=1fFGLLUBLf2zihM9q4VfFCsWBpHqzfMvw");
                     break;
                 case "HungryButton":
-                    thisUri = new Uri("https://drive.google.com/open?id=1MuGdyRfAG3aQDRcgWY86lrhzf45MN-77");
+                    //thisUri = new Uri("https://drive.google.com/open?id=1MuGdyRfAG3aQDRcgWY86lrhzf45MN-77");
                     break;
                 // TO DO - Implement other buttons
                 // These are the buttons from the Courseware.xaml page
@@ -140,18 +140,23 @@ namespace NewHorizonApp.ViewModels
                 case "RedStarButton":
                     thisDescription = "If you have a red star on your nametag, then please click here for all of the instructions you need to complete to launch your class experience with us.";
                     break;
-                case "faqButton":
+                case "FaqButton":
                     thisDescription = "Click here for the answers to all kinds of questions, from \"What is that grinding noise I hear?\" to \"How can I save more money on my training?\"";
                     break;
                 case "VitalAcceleratorButton":
                     break;
                 case "HeadsetButton":
+                    thisDescription = "Before you toss your headset in the garabage on the way out the door, click this button to see what we do with the unwanted headsets!";
                     break;
                 case "ShoppingButton":
+                    thisDescription = "So your class is out early, but you don't feel like going back to work?  Click this button to see what stores are nearby to kill some time at.";
                     break;
                 case "HungryButton":
+                    thisDescription = "So it's lunch-time, but you're in a new city.  Fear not!  Click on this button to see what restaurants are nearby!";
                     break;
-                // TO DO - Implement other buttons
+                case "QuestionButton":
+                    thisDescription = "Have a question?  Click here to submit it to us, we'd love to hear from you!";
+                    break;
 
                 default:
                     break;

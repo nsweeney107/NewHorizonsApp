@@ -1,0 +1,75 @@
+﻿<Page
+    x:Class="NewHorizonApp.Views.Food"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NewHorizonApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Transitions>
+        <TransitionCollection>
+            <!--<EntranceThemeTransition />-->
+            <!--<EdgeUIThemeTransition Edge="Left" />-->
+            <PaneThemeTransition />
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Grid Background="#5F6987"
+          Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Style="{StaticResource HeaderTextBlockStyle}"
+                   Text="Please click on the button with the name of the New Horizons facility you are currently at to see a list of nearby restaurants."
+                   FontWeight="Bold"
+                   Foreground="White"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   Margin="0,0,0,36"/>
+        <StackPanel x:Name="Appleton"
+                    Orientation="Vertical"
+                    Grid.Row="1"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            
+            <Button x:Name="AppletonButton" 
+                    Content="Appleton"
+                    Style="{StaticResource ButtonStyle}"
+                    FontSize="72"
+                    Click="WebsiteButtonClick"/>
+        </StackPanel>
+
+        <StackPanel x:Name="City2"
+                    Orientation="Vertical"
+                    Grid.Row="2"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Button x:Name="City2Button"
+                Content="City 2"
+                    Style="{StaticResource ButtonStyle}"                    
+                    FontSize="72"
+                    Click="WebsiteButtonClick"/>
+        </StackPanel>
+
+        <StackPanel x:Name="City3"
+                    Orientation="Vertical"
+                    Grid.Row="3"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">            
+            <Button x:Name="City3Button" 
+                    Content="City 3"
+                    Style="{StaticResource ButtonStyle}"                    
+                    FontSize="72"
+                    Click="WebsiteButtonClick"/>
+        </StackPanel>
+
+        <Button Style="{StaticResource ButtonStyle}"
+                Content="Return to Home Page"
+                Grid.Row="4"
+                Click="HomeClick"/>
+    </Grid>
+</Page>

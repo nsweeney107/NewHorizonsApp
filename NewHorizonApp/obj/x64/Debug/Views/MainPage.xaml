@@ -537,14 +537,14 @@
                         Style="{StaticResource CustomButton}"
                         Content="Don't want your Headset?" />
 
-                <Button x:ConnectionId='25' x:Name="faqButton"
+                <Button x:ConnectionId='25' x:Name="FaqButton"
                     Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="FAQ" />
 
-                <Button x:ConnectionId='26' x:Name="questionButton"
+                <Button x:ConnectionId='26' x:Name="QuestionButton"
                         Style="{StaticResource CustomButton}"
                                                      
                                                    

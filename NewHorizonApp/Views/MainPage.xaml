@@ -537,14 +537,14 @@
                         Style="{StaticResource CustomButton}"
                         Content="Don't want your Headset?" />
 
-                <Button x:Name="faqButton"
+                <Button x:Name="FaqButton"
                     Style="{StaticResource CustomButton}"
                         PointerEntered="MouseEntered"
                         PointerExited="MouseExited"
                         Click="MouseClick"
                         Content="FAQ" />
 
-                <Button x:Name="questionButton"
+                <Button x:Name="QuestionButton"
                         Style="{StaticResource CustomButton}"
                         PointerEntered="MouseEntered"
                         PointerExited="MouseExited"

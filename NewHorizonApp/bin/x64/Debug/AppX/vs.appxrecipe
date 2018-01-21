@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>BBC02D222117C5A3953B062A5646F19026365924FC7551C0376DCBD35807343B</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.2.0_x64__6x7jhkn3vq95c</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>AB20B3C5D4109C3C180B398D397938CD8FFFE6F458B076F080AE186D22492287</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8504N8Software.NewHorizonsofWisconsinPortalApp_0.7.3.0_x64__6x7jhkn3vq95c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8504N8Software.NewHorizonsofWisconsinPortalApp_6x7jhkn3vq95c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>8504N8Software.NewHorizonsofWisconsinPortalApp</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8</RegisteredPackagePublisher>
-    <RegisteredVersion>0.7.2.0</RegisteredVersion>
+    <RegisteredVersion>0.7.3.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-04T15:54:44.204</Modified>
+      <Modified>2018-01-21T18:57:42.491</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.exe">
       <PackagePath>entrypoint\NewHorizonApp.exe</PackagePath>
-      <Modified>2018-01-04T15:54:43.575</Modified>
+      <Modified>2018-01-21T18:57:41.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NateDev\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -607,7 +607,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.xr.xml">
       <PackagePath>NewHorizonApp.xr.xml</PackagePath>
-      <Modified>2018-01-04T03:29:31.321</Modified>
+      <Modified>2018-01-21T18:51:31.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -616,11 +616,11 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-04T15:54:44.029</Modified>
+      <Modified>2018-01-21T18:57:42.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2018-01-04T15:54:44.202</Modified>
+      <Modified>2018-01-21T18:57:42.489</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
