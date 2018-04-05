@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-21T18:57:42.491</Modified>
+      <Modified>2018-04-05T02:52:26.929</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.exe">
       <PackagePath>entrypoint\NewHorizonApp.exe</PackagePath>
-      <Modified>2018-01-21T18:57:41.971</Modified>
+      <Modified>2018-04-05T02:52:26.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NateDev\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -599,7 +599,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\textBeep.wav">
       <PackagePath>Assets\textBeep.wav</PackagePath>
-      <Modified>2017-12-28T05:20:40.491</Modified>
+      <Modified>2018-04-05T02:29:29.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -607,7 +607,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.xr.xml">
       <PackagePath>NewHorizonApp.xr.xml</PackagePath>
-      <Modified>2018-01-21T18:51:31.076</Modified>
+      <Modified>2018-04-05T02:52:26.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -616,11 +616,11 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-01-21T18:57:42.365</Modified>
+      <Modified>2018-04-05T02:52:26.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2018-01-21T18:57:42.489</Modified>
+      <Modified>2018-04-05T02:52:26.926</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

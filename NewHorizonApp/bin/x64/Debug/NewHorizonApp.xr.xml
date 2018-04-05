@@ -178,9 +178,6 @@
       <RootProperty Name="KeyTime" />
       <RootProperty Name="Value" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
-      <RootProperty Name="Source" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootMethod Name="GetZIndex" />
       <RootMethod Name="SetZIndex" />
@@ -210,6 +207,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform" />
     <RootType FullName="NewHorizonApp.MainPage" />
+    <RootType FullName="NewHorizonApp.Views.Shopping" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EdgeUIThemeTransition">
       <RootProperty Name="Edge" />
     </RootType>

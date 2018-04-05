@@ -132,7 +132,7 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
+            _typeNameTable = new string[11];
             _typeNameTable[0] = "NewHorizonApp.Views.Courseware";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -142,9 +142,10 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             _typeNameTable[6] = "NewHorizonApp.ViewModel.MainViewModel";
             _typeNameTable[7] = "Object";
             _typeNameTable[8] = "System.Collections.Concurrent.ConcurrentBag`1<System.Threading.Tasks.Task>";
-            _typeNameTable[9] = "NewHorizonApp.Views.WebView";
+            _typeNameTable[9] = "NewHorizonApp.Views.Shopping";
+            _typeNameTable[10] = "NewHorizonApp.Views.WebView";
 
-            _typeTable = new global::System.Type[10];
+            _typeTable = new global::System.Type[11];
             _typeTable[0] = typeof(global::NewHorizonApp.Views.Courseware);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -154,7 +155,8 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
             _typeTable[6] = typeof(global::NewHorizonApp.ViewModel.MainViewModel);
             _typeTable[7] = typeof(global::System.Object);
             _typeTable[8] = typeof(global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>);
-            _typeTable[9] = typeof(global::NewHorizonApp.Views.WebView);
+            _typeTable[9] = typeof(global::NewHorizonApp.Views.Shopping);
+            _typeTable[10] = typeof(global::NewHorizonApp.Views.WebView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -195,7 +197,8 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
         private object Activate_5_MainPage() { return new global::NewHorizonApp.MainPage(); }
         private object Activate_6_MainViewModel() { return new global::NewHorizonApp.ViewModel.MainViewModel(); }
         private object Activate_8_ConcurrentBag() { return new global::System.Collections.Concurrent.ConcurrentBag<global::System.Threading.Tasks.Task>(); }
-        private object Activate_9_WebView() { return new global::NewHorizonApp.Views.WebView(); }
+        private object Activate_9_Shopping() { return new global::NewHorizonApp.Views.Shopping(); }
+        private object Activate_10_WebView() { return new global::NewHorizonApp.Views.WebView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -262,9 +265,16 @@ namespace NewHorizonApp.NewHorizonApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  NewHorizonApp.Views.WebView
+            case 9:   //  NewHorizonApp.Views.Shopping
                 userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_WebView;
+                userType.Activator = Activate_9_Shopping;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  NewHorizonApp.Views.WebView
+                userType = new global::NewHorizonApp.NewHorizonApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_WebView;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;

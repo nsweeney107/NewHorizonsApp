@@ -92,7 +92,7 @@ namespace NewHorizonApp
                                 {
                                     ButtonDescriptionTextBlock.Text += descriptionText[i];
                                     //System.Diagnostics.Debug.WriteLine("descriptionText: " + descriptionText[i].ToString());
-                                    PlayTextBeepSound();
+                                    //PlayTextBeepSound();
                                 }
                             });
 
@@ -137,10 +137,10 @@ namespace NewHorizonApp
             });
         }
 
-        private void PlayTextBeepSound()
-        {
-            MainMediaElement.Play();
-        }
+        //private void PlayTextBeepSound()
+        //{
+        //    MainMediaElement.Play();
+        //}
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -380,6 +380,9 @@ namespace NewHorizonApp
                         break;
                     case "HungryButton":
                         Frame.Navigate(typeof(Food));
+                        break;
+                    case "ShoppingButton":
+                        Frame.Navigate(typeof(Shopping));
                         break;
                     default:
                         DataHolder.GetUrl(thisName);

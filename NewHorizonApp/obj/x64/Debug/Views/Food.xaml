@@ -43,25 +43,25 @@
                                               />
         </StackPanel>
 
-        <StackPanel x:ConnectionId='2' x:Name="City2"
+        <StackPanel x:ConnectionId='2' x:Name="Brookfield"
                     Orientation="Vertical"
                     Grid.Row="2"
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center">
             <Button x:ConnectionId='6' x:Name="City2Button"
-                Content="City 2"
+                Content="Brookfield"
                     Style="{StaticResource ButtonStyle}"                    
                     FontSize="72"
                                               />
         </StackPanel>
 
-        <StackPanel x:ConnectionId='3' x:Name="City3"
+        <StackPanel x:ConnectionId='3' x:Name="Madison"
                     Orientation="Vertical"
                     Grid.Row="3"
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center">            
             <Button x:ConnectionId='5' x:Name="City3Button" 
-                    Content="City 3"
+                    Content="Madison"
                     Style="{StaticResource ButtonStyle}"                    
                     FontSize="72"
                                               />

@@ -171,8 +171,8 @@
             <ColumnDefinition Width="24" />
         </Grid.ColumnDefinitions>
 
-        <MediaElement x:Name="MainMediaElement" 
-                      Source="/Assets/textBeep.wav"/>
+        <!--<MediaElement x:Name="MainMediaElement" 
+                      Source="/Assets/textBeep.wav"/>-->
         <!--MediaEnded="HandleMediaEnded"
                   MediaFailed="HandleMediaFailed"/>-->
         

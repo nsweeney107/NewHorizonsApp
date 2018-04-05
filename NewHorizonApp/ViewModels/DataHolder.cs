@@ -103,6 +103,30 @@ namespace NewHorizonApp.ViewModels
                 case "ciscoLearningButton":
                     thisUri = new Uri("https://learningspace.cisco.com/");
                     break;
+
+                // These are the buttons from the Food.xaml page
+                case "AppletonButton":
+                    thisUri = new Uri("https://drive.google.com/open?id=1m1pU1q4N3ncwpxDNstTzZRZpKG6qk7y4");
+                    break;
+                case "City2Button":
+                    thisUri = new Uri("https://drive.google.com/open?id=1YhP_jzKqJ2BHe2jRFZhTiqzmqwQlY45g");
+                    break;
+                case "City3Button":
+                    thisUri = new Uri("https://drive.google.com/open?id=1UWV1GNY0khxEn3h3469F9bSTNMxTzyk7");
+                    break;
+
+                // These are the buttons from the Shopping.xaml page
+                case "AppletonShopButton":
+                    thisUri = new Uri("https://drive.google.com/open?id=1dVEKMpcaqRylUm3CQxjWd1_eTDwQLVir");
+                    break;
+                case "BrookfieldShopButton":
+                    thisUri = new Uri("https://drive.google.com/open?id=1ppdlGfXl-iZcUfKkWf0UP-mZ_7_PzGE9");
+                    break;
+                case "MadisonShopButton":
+                    thisUri = new Uri("https://drive.google.com/open?id=1snNCTPVLtgJdSelmsgpouAooFN9LQDvW");
+                    break;
+
+
                 default:
                     break;
             }

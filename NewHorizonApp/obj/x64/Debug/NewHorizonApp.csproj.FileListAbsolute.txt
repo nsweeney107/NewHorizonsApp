@@ -234,3 +234,8 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Food.g.i.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Food.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Food.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Food.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Shopping.g.i.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Shopping.g.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Shopping.xaml
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Shopping.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Views\Shopping.xbf
