@@ -75,7 +75,7 @@ namespace NewHorizonApp.ViewModels
                     thisUri = new Uri("https://drive.google.com/open?id=1Gx7ATClPOXmcgr-6pNTzjHhZqd8wHOE6");
                     break;
                 case "VitalAcceleratorButton":
-                    thisUri = new Uri("http://wwww.vitalaccelerator.com");
+                    thisUri = new Uri("http://vitalaccelerator.com");
                     break;
                 case "HeadsetButton":
                     thisUri = new Uri("https://drive.google.com/open?id=132vVkM_-pwuR3lHGFQWBzDBXhsqIbjif");
