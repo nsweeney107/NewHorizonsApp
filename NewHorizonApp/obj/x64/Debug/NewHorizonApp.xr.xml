@@ -223,6 +223,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.WebView">
       <RootProperty Name="Margin" />
       <RootProperty Name="DefaultBackgroundColor" />
+      <RootEvent Name="UnsupportedUriSchemeIdentified" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Name" />

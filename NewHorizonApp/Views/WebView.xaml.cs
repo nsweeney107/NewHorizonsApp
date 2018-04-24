@@ -1,4 +1,5 @@
 ﻿using NewHorizonApp.ViewModel;
+using NewHorizonApp.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -23,14 +24,23 @@ namespace NewHorizonApp.Views
     /// </summary>
     public sealed partial class WebView : Page
     {
-        public MainViewModel ViewModel { get; set; }
+        public MainViewModel ViewModel { get; set; }        
 
         public WebView()
         {
             this.InitializeComponent();
 
             ViewModel = new MainViewModel();
+            MainWebView.NavigationStarting += OnNavigationStarting;
             MainWebView.Navigate(ViewModel.NavigationTarget);
+        }
+
+        private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
+        {
+            if (args.Uri.IsAbsoluteUri)
+            {
+                DataHolder.NavigationTarget = new Uri(args.Uri.AbsoluteUri);
+            }
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -93,6 +103,15 @@ namespace NewHorizonApp.Views
         public void OnHomeButtonClicked()
         {
             HomeButtonClicked?.Invoke(this, new EventArgs());
+        }
+
+        private void OnUnsupportedUriSchemeIdentified(Windows.UI.Xaml.Controls.WebView sender, WebViewUnsupportedUriSchemeIdentifiedEventArgs args)
+        {
+            if (args.Uri.Scheme != "href")
+            {
+                args.Handled = true;
+                // TODO need to figure out what the URLs are from the PDFs
+            }
         }
     }
 }
