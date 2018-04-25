@@ -31,24 +31,61 @@ namespace NewHorizonApp.Views
             this.InitializeComponent();
 
             ViewModel = new MainViewModel();
-            MainWebView.NavigationStarting += OnNavigationStarting;
+            //MainWebView.NavigationStarting += OnNavigationStarting;
+            MainWebView.NavigationCompleted += OnNavigationCompleted;
+            MainWebView.NewWindowRequested += OnNewWindowRequested;
             MainWebView.Navigate(ViewModel.NavigationTarget);
         }
 
-        private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
+        private void OnNewWindowRequested(Windows.UI.Xaml.Controls.WebView sender, WebViewNewWindowRequestedEventArgs args)
         {
-            if (args.Uri.IsAbsoluteUri)
+            // Intercept the call to a new window and instead open it in the MainWebView
+            MainWebView.Navigate(args.Uri);
+
+            // Let the app know the event is handled
+            args.Handled = true;
+        }
+
+        private void OnNavigationCompleted(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationCompletedEventArgs args)
+        {
+            if (args.IsSuccess)
             {
-                DataHolder.NavigationTarget = new Uri(args.Uri.AbsoluteUri);
+                // Toggle the ForwardButton
+                if (MainWebView.CanGoForward)
+                {
+                    ForwardButton.IsEnabled = true;
+                }
+                else
+                {
+                    ForwardButton.IsEnabled = false;
+                }
+
+                // Toggle the BackButton
+                if (MainWebView.CanGoBack)
+                {
+                    BackButton.IsEnabled = true;
+                }
+                else
+                {
+                    BackButton.IsEnabled = false;
+                }
             }
         }
+
+        //private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
+        //{
+        //    if (args.Uri.IsAbsoluteUri)
+        //    {
+        //        DataHolder.NavigationTarget = new Uri(args.Uri.AbsoluteUri);
+        //    }
+        //}
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
             MainWebView.Navigate(ViewModel.NavigationTarget);
-            //BackButton.IsEnabled = false;
-            //ForwardButton.IsEnabled = false;
+            BackButton.IsEnabled = false;
+            ForwardButton.IsEnabled = false;
         }
 
         private void HomeButton_Click(object sender, RoutedEventArgs e)
@@ -64,7 +101,7 @@ namespace NewHorizonApp.Views
             {
                 MainWebView.GoBack();
             }
-            ForwardButton.IsEnabled = true;
+            //ForwardButton.IsEnabled = true;
         }
 
         private void ForwardButton_Click(object sender, RoutedEventArgs e)
