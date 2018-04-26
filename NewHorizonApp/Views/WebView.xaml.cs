@@ -39,6 +39,10 @@ namespace NewHorizonApp.Views
 
         private void OnNewWindowRequested(Windows.UI.Xaml.Controls.WebView sender, WebViewNewWindowRequestedEventArgs args)
         {
+            Windows.UI.Xaml.Controls.WebView newWebView = new Windows.UI.Xaml.Controls.WebView();
+            newWebView.Navigate(args.Uri);
+            
+            
             // Intercept the call to a new window and instead open it in the MainWebView
             MainWebView.Navigate(args.Uri);
 
