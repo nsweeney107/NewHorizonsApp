@@ -31,7 +31,7 @@ namespace NewHorizonApp.Views
             this.InitializeComponent();
 
             ViewModel = new MainViewModel();
-            //MainWebView.NavigationStarting += OnNavigationStarting;
+            MainWebView.NavigationStarting += OnNavigationStarting;
             MainWebView.NavigationCompleted += OnNavigationCompleted;
             MainWebView.NewWindowRequested += OnNewWindowRequested;
             MainWebView.Navigate(ViewModel.NavigationTarget);
@@ -76,13 +76,10 @@ namespace NewHorizonApp.Views
             }
         }
 
-        //private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
-        //{
-        //    if (args.Uri.IsAbsoluteUri)
-        //    {
-        //        DataHolder.NavigationTarget = new Uri(args.Uri.AbsoluteUri);
-        //    }
-        //}
+        private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
+        {
+            sender.AddWebAllowedObject("CallJSCSharp", pObject: new CallJSCSharp());
+        }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
