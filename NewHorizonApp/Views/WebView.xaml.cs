@@ -2,6 +2,7 @@
 using NewHorizonApp.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -35,6 +36,15 @@ namespace NewHorizonApp.Views
             MainWebView.NavigationCompleted += OnNavigationCompleted;
             MainWebView.NewWindowRequested += OnNewWindowRequested;
             MainWebView.Navigate(ViewModel.NavigationTarget);
+            ViewModel.PropertyChanged += OnViewModelPropertyChanged;
+        }
+
+        private void OnViewModelPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName == "UriName")
+            {
+                MainWebView.Navigate(ViewModel.NavigationTarget);
+            }
         }
 
         private void OnNewWindowRequested(Windows.UI.Xaml.Controls.WebView sender, WebViewNewWindowRequestedEventArgs args)

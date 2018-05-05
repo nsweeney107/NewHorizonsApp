@@ -150,6 +150,7 @@
     <Content Include="Assets\Standard_pressed v2.png" />
     <Content Include="Assets\Standard_pressed.png" />
     <Content Include="Assets\textBeep.wav" />
+    <Content Include="ClickHandler.js" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
