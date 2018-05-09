@@ -32,7 +32,7 @@ namespace NewHorizonApp.Views
             this.InitializeComponent();
 
             ViewModel = new MainViewModel();
-            MainWebView.NavigationStarting += OnNavigationStarting;
+            //MainWebView.NavigationStarting += OnNavigationStarting;
             MainWebView.NavigationCompleted += OnNavigationCompleted;
             MainWebView.NewWindowRequested += OnNewWindowRequested;
             MainWebView.Navigate(ViewModel.NavigationTarget);
@@ -51,8 +51,8 @@ namespace NewHorizonApp.Views
         {
             Windows.UI.Xaml.Controls.WebView newWebView = new Windows.UI.Xaml.Controls.WebView();
             newWebView.Navigate(args.Uri);
-            
-            
+
+
             // Intercept the call to a new window and instead open it in the MainWebView
             MainWebView.Navigate(args.Uri);
 
@@ -86,10 +86,10 @@ namespace NewHorizonApp.Views
             }
         }
 
-        private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
-        {
-            sender.AddWebAllowedObject("CallJSCSharp", pObject: new CallJSCSharp());
-        }
+        //private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
+        //{
+        //    sender.AddWebAllowedObject("CallJSCSharp", pObject: new CallJSCSharp());
+        //}
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
