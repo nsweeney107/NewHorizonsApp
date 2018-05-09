@@ -35,8 +35,16 @@ namespace NewHorizonApp.Views
             //MainWebView.NavigationStarting += OnNavigationStarting;
             MainWebView.NavigationCompleted += OnNavigationCompleted;
             MainWebView.NewWindowRequested += OnNewWindowRequested;
+            MainWebView.LoadCompleted += OnLoadCompleted;
             MainWebView.Navigate(ViewModel.NavigationTarget);
             ViewModel.PropertyChanged += OnViewModelPropertyChanged;
+        }
+
+        private void OnLoadCompleted(object sender, NavigationEventArgs e)
+        {
+            string script = "$(\"a\").click(function(event){event.preventDefault();CallJSCSharp.redirctURL($(this).attr('href'));});";
+            string[] args = { script };
+            MainWebView.InvokeScript("eval", args);
         }
 
         private void OnViewModelPropertyChanged(object sender, PropertyChangedEventArgs e)
