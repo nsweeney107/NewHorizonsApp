@@ -2,6 +2,7 @@
 using NewHorizonApp.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -33,16 +34,33 @@ namespace NewHorizonApp.Views
             ViewModel = new MainViewModel();
             //MainWebView.NavigationStarting += OnNavigationStarting;
             MainWebView.NavigationCompleted += OnNavigationCompleted;
-            MainWebView.NewWindowRequested += OnNewWindowRequested;
+            //MainWebView.NewWindowRequested += OnNewWindowRequested;
+            //MainWebView.LoadCompleted += OnLoadCompleted;
             MainWebView.Navigate(ViewModel.NavigationTarget);
+            ViewModel.PropertyChanged += OnViewModelPropertyChanged;
+        }
+
+        private async void OnLoadCompleted(object sender, NavigationEventArgs e)
+        {
+            string script = "$(\"a\").click(function(event){event.preventDefault();CallJSCSharp.redirctURL($(this).attr('href'));});";
+            string[] args = { script };
+            await MainWebView.InvokeScriptAsync("eval", args);
+        }
+
+        private void OnViewModelPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName == "UriName")
+            {
+                MainWebView.Navigate(ViewModel.NavigationTarget);
+            }
         }
 
         private void OnNewWindowRequested(Windows.UI.Xaml.Controls.WebView sender, WebViewNewWindowRequestedEventArgs args)
         {
             Windows.UI.Xaml.Controls.WebView newWebView = new Windows.UI.Xaml.Controls.WebView();
             newWebView.Navigate(args.Uri);
-            
-            
+
+
             // Intercept the call to a new window and instead open it in the MainWebView
             MainWebView.Navigate(args.Uri);
 
@@ -76,13 +94,10 @@ namespace NewHorizonApp.Views
             }
         }
 
-        //private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
-        //{
-        //    if (args.Uri.IsAbsoluteUri)
-        //    {
-        //        DataHolder.NavigationTarget = new Uri(args.Uri.AbsoluteUri);
-        //    }
-        //}
+        private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
+        {
+            sender.AddWebAllowedObject("CallJSCSharp", new CallJSCSharp());
+        }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
