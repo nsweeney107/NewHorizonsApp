@@ -34,17 +34,17 @@ namespace NewHorizonApp.Views
             ViewModel = new MainViewModel();
             //MainWebView.NavigationStarting += OnNavigationStarting;
             MainWebView.NavigationCompleted += OnNavigationCompleted;
-            MainWebView.NewWindowRequested += OnNewWindowRequested;
-            MainWebView.LoadCompleted += OnLoadCompleted;
+            //MainWebView.NewWindowRequested += OnNewWindowRequested;
+            //MainWebView.LoadCompleted += OnLoadCompleted;
             MainWebView.Navigate(ViewModel.NavigationTarget);
             ViewModel.PropertyChanged += OnViewModelPropertyChanged;
         }
 
-        private void OnLoadCompleted(object sender, NavigationEventArgs e)
+        private async void OnLoadCompleted(object sender, NavigationEventArgs e)
         {
             string script = "$(\"a\").click(function(event){event.preventDefault();CallJSCSharp.redirctURL($(this).attr('href'));});";
             string[] args = { script };
-            MainWebView.InvokeScript("eval", args);
+            await MainWebView.InvokeScriptAsync("eval", args);
         }
 
         private void OnViewModelPropertyChanged(object sender, PropertyChangedEventArgs e)
@@ -94,10 +94,10 @@ namespace NewHorizonApp.Views
             }
         }
 
-        //private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
-        //{
-        //    sender.AddWebAllowedObject("CallJSCSharp", pObject: new CallJSCSharp());
-        //}
+        private void OnNavigationStarting(Windows.UI.Xaml.Controls.WebView sender, WebViewNavigationStartingEventArgs args)
+        {
+            sender.AddWebAllowedObject("CallJSCSharp", new CallJSCSharp());
+        }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
