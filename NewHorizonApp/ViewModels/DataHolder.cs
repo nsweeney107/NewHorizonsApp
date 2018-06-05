@@ -106,24 +106,30 @@ namespace NewHorizonApp.ViewModels
 
                 // These are the buttons from the Food.xaml page
                 case "AppletonButton":
-                    thisUri = new Uri("https://drive.google.com/open?id=1m1pU1q4N3ncwpxDNstTzZRZpKG6qk7y4");
+                    //thisUri = new Uri("https://drive.google.com/open?id=1m1pU1q4N3ncwpxDNstTzZRZpKG6qk7y4");
+                    thisUri = new Uri("ms-appx-web:///WebPages/AppletonHungry.html");
                     break;
                 case "City2Button":
-                    thisUri = new Uri("https://drive.google.com/open?id=1YhP_jzKqJ2BHe2jRFZhTiqzmqwQlY45g");
+                    //thisUri = new Uri("https://drive.google.com/open?id=1YhP_jzKqJ2BHe2jRFZhTiqzmqwQlY45g");
+                    thisUri = new Uri("ms-appx-web:///WebPages/BrookfieldHungry.html");
                     break;
                 case "City3Button":
-                    thisUri = new Uri("https://drive.google.com/open?id=1UWV1GNY0khxEn3h3469F9bSTNMxTzyk7");
+                    //thisUri = new Uri("https://drive.google.com/open?id=1UWV1GNY0khxEn3h3469F9bSTNMxTzyk7");
+                    thisUri = new Uri("ms-appx-web:///WebPages/MadisonHungry.html");
                     break;
 
                 // These are the buttons from the Shopping.xaml page
                 case "AppletonShopButton":
-                    thisUri = new Uri("https://drive.google.com/open?id=1dVEKMpcaqRylUm3CQxjWd1_eTDwQLVir");
+                    //thisUri = new Uri("https://drive.google.com/open?id=1dVEKMpcaqRylUm3CQxjWd1_eTDwQLVir");
+                    thisUri = new Uri("ms-appx-web:///WebPages/AppletonShopping.html");
                     break;
                 case "BrookfieldShopButton":
-                    thisUri = new Uri("https://drive.google.com/open?id=1ppdlGfXl-iZcUfKkWf0UP-mZ_7_PzGE9");
+                    //thisUri = new Uri("https://drive.google.com/open?id=1ppdlGfXl-iZcUfKkWf0UP-mZ_7_PzGE9");
+                    thisUri = new Uri("ms-appx-web:///WebPages/BrookfieldShopping.html");
                     break;
                 case "MadisonShopButton":
-                    thisUri = new Uri("https://drive.google.com/open?id=1snNCTPVLtgJdSelmsgpouAooFN9LQDvW");
+                    //thisUri = new Uri("https://drive.google.com/open?id=1snNCTPVLtgJdSelmsgpouAooFN9LQDvW");
+                    thisUri = new Uri("ms-appx-web:///WebPages/MadisonShopping.html");
                     break;
 
 

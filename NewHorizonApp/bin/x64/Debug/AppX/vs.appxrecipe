@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-11T16:28:04.967</Modified>
+      <Modified>2018-06-05T02:28:24.986</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.exe">
       <PackagePath>entrypoint\NewHorizonApp.exe</PackagePath>
-      <Modified>2018-05-11T16:28:02.210</Modified>
+      <Modified>2018-06-05T02:28:24.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NateDev\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -535,6 +535,22 @@
       <PackagePath>Assets\PixelPortraitRileySmall.png</PackagePath>
       <Modified>2017-10-11T02:56:16.973</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\AppletonShoppingFooter.png">
+      <PackagePath>WebPages\WebAssets\AppletonShoppingFooter.png</PackagePath>
+      <Modified>2018-06-05T02:16:58.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\BrookfieldShoppingFooter.png">
+      <PackagePath>WebPages\WebAssets\BrookfieldShoppingFooter.png</PackagePath>
+      <Modified>2018-06-05T02:16:58.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\MadisonShoppingFooter.png">
+      <PackagePath>WebPages\WebAssets\MadisonShoppingFooter.png</PackagePath>
+      <Modified>2018-06-05T02:16:58.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\ShoppingHeader.png">
+      <PackagePath>WebPages\WebAssets\ShoppingHeader.png</PackagePath>
+      <Modified>2018-06-05T02:16:58.045</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_hover v2.png">
       <PackagePath>Assets\Standard_hover v2.png</PackagePath>
       <Modified>2017-12-12T23:11:50.221</Modified>
@@ -597,13 +613,65 @@
       <PackagePath>Assets\nhlogo.jpg</PackagePath>
       <Modified>2017-12-12T23:11:50.442</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\AppletonHungryBg.jpg">
+      <PackagePath>WebPages\WebAssets\AppletonHungryBg.jpg</PackagePath>
+      <Modified>2018-06-05T02:07:01.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\AppletonShoppingBg.jpg">
+      <PackagePath>WebPages\WebAssets\AppletonShoppingBg.jpg</PackagePath>
+      <Modified>2018-06-05T02:06:41.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\BrookfieldHungryBg.jpg">
+      <PackagePath>WebPages\WebAssets\BrookfieldHungryBg.jpg</PackagePath>
+      <Modified>2018-06-05T02:06:15.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\BrookfieldShoppingBg.jpg">
+      <PackagePath>WebPages\WebAssets\BrookfieldShoppingBg.jpg</PackagePath>
+      <Modified>2018-06-05T02:05:50.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\MadisonHungryBg.jpg">
+      <PackagePath>WebPages\WebAssets\MadisonHungryBg.jpg</PackagePath>
+      <Modified>2018-06-05T02:05:19.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\MadisonShoppingBg.jpg">
+      <PackagePath>WebPages\WebAssets\MadisonShoppingBg.jpg</PackagePath>
+      <Modified>2018-06-05T02:04:50.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\AppletonHungry.html">
+      <PackagePath>WebPages\AppletonHungry.html</PackagePath>
+      <Modified>2018-06-05T02:17:05.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\AppletonShopping.html">
+      <PackagePath>WebPages\AppletonShopping.html</PackagePath>
+      <Modified>2018-06-05T02:20:06.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\BrookfieldHungry.html">
+      <PackagePath>WebPages\BrookfieldHungry.html</PackagePath>
+      <Modified>2018-06-05T02:24:07.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\BrookfieldShopping.html">
+      <PackagePath>WebPages\BrookfieldShopping.html</PackagePath>
+      <Modified>2018-06-05T02:25:09.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\MadisonHungry.html">
+      <PackagePath>WebPages\MadisonHungry.html</PackagePath>
+      <Modified>2018-06-05T02:26:14.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\MadisonShopping.html">
+      <PackagePath>WebPages\MadisonShopping.html</PackagePath>
+      <Modified>2018-06-05T02:27:06.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\CSS\PDFStyles.css">
+      <PackagePath>WebPages\CSS\PDFStyles.css</PackagePath>
+      <Modified>2018-06-05T02:19:06.839</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\textBeep.wav">
       <PackagePath>Assets\textBeep.wav</PackagePath>
       <Modified>2018-04-05T02:29:29.542</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\ClickHandler.js">
       <PackagePath>ClickHandler.js</PackagePath>
-      <Modified>2018-05-05T21:29:35.546</Modified>
+      <Modified>2018-05-11T16:32:47.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -620,11 +688,11 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-11T16:28:04.531</Modified>
+      <Modified>2018-06-05T02:28:24.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2018-05-11T16:28:04.960</Modified>
+      <Modified>2018-06-05T02:28:24.984</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

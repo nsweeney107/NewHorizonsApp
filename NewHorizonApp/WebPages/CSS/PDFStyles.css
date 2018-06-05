@@ -1,0 +1,47 @@
+﻿.page-header {
+    font-size: 24;
+    color: #ffffff;
+    font-family: Arial Black;
+}
+
+.bold-text {
+    font-family: Palatino Linotype;
+    font-weight: bold;
+    font-size: 20;
+    color: black;
+}
+
+.description-text {
+    font-family: Palatino Linotype;
+    font-size: 12;
+    color: black;
+}
+
+.shopping-bold-text {
+    font-family: Palatino Linotype;
+    font-weight: bold;
+    font-size: 28;
+    color: black;
+}
+
+.shopping-description-text {
+    font-family: Palatino Linotype;
+    font-size: 16;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
