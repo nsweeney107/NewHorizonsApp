@@ -1,1 +1,1 @@
-E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Upload\NewHorizonApp_0.7.3.0\NewHorizonApp_0.7.3.0_x64.appxbundle
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Release\Upload\NewHorizonApp_0.9.6.0\NewHorizonApp_0.9.6.0_x64.appxbundle

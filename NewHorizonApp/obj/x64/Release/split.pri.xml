@@ -12,6 +12,11 @@
 					<Base64Value>[Embedded Binary Data]</Base64Value>
 				</Candidate>
 			</NamedResource>
+			<NamedResource name="ClickHandler.js" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/ClickHandler.js">
+				<Candidate type="Path">
+					<Value>ClickHandler.js</Value>
+				</Candidate>
+			</NamedResource>
 			<NamedResource name="NewHorizonApp.xr.xml" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/NewHorizonApp.xr.xml">
 				<Candidate type="Path">
 					<Value>NewHorizonApp.xr.xml</Value>
@@ -165,7 +170,17 @@
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="Food.xbf" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/Views/Food.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="MainPage.xbf" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/Views/MainPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Shopping.xbf" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/Views/Shopping.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
@@ -175,6 +190,117 @@
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WebPages">
+				<NamedResource name="AppletonHungry.html" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/AppletonHungry.html">
+					<Candidate type="Path">
+						<Value>WebPages\AppletonHungry.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AppletonShopping.html" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/AppletonShopping.html">
+					<Candidate type="Path">
+						<Value>WebPages\AppletonShopping.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BrookfieldHungry.html" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/BrookfieldHungry.html">
+					<Candidate type="Path">
+						<Value>WebPages\BrookfieldHungry.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BrookfieldShopping.html" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/BrookfieldShopping.html">
+					<Candidate type="Path">
+						<Value>WebPages\BrookfieldShopping.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CourseCatelog.htm" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/CourseCatelog.htm">
+					<Candidate type="Path">
+						<Value>WebPages\CourseCatelog.htm</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MadisonHungry.html" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/MadisonHungry.html">
+					<Candidate type="Path">
+						<Value>WebPages\MadisonHungry.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MadisonShopping.html" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/MadisonShopping.html">
+					<Candidate type="Path">
+						<Value>WebPages\MadisonShopping.html</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="CSS">
+					<NamedResource name="PDFStyles.css" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/CSS/PDFStyles.css">
+						<Candidate type="Path">
+							<Value>WebPages\CSS\PDFStyles.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="WebAssets">
+					<NamedResource name="AppletonHungryBg.jpg" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/AppletonHungryBg.jpg">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\AppletonHungryBg.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AppletonShoppingBg.jpg" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/AppletonShoppingBg.jpg">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\AppletonShoppingBg.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AppletonShoppingFooter.png" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/AppletonShoppingFooter.png">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\AppletonShoppingFooter.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BrookfieldHungryBg.jpg" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/BrookfieldHungryBg.jpg">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\BrookfieldHungryBg.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BrookfieldShoppingBg.jpg" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/BrookfieldShoppingBg.jpg">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\BrookfieldShoppingBg.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BrookfieldShoppingFooter.png" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/BrookfieldShoppingFooter.png">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\BrookfieldShoppingFooter.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MadisonHungryBg.jpg" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/MadisonHungryBg.jpg">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\MadisonHungryBg.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MadisonShoppingBg.jpg" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/MadisonShoppingBg.jpg">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\MadisonShoppingBg.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MadisonShoppingFooter.png" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/MadisonShoppingFooter.png">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\MadisonShoppingFooter.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="nhlogolg.png" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/nhlogolg.png">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\nhlogolg.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="nwlogosm.jpg" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/nwlogosm.jpg">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\nwlogosm.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ShoppingHeader.png" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/ShoppingHeader.png">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\ShoppingHeader.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="txtbubble.png" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WebPages/WebAssets/txtbubble.png">
+						<Candidate type="Path">
+							<Value>WebPages\WebAssets\txtbubble.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="WinMetadata">
 				<NamedResource name="Windows.winmd" uri="ms-resource://8504N8Software.NewHorizonsofWisconsinPortalApp/Files/WinMetadata/Windows.winmd">

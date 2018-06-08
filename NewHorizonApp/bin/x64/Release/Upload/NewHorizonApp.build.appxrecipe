@@ -394,6 +394,24 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\PixelPortraitRileySmall.png">
       <PackagePath>Assets\PixelPortraitRileySmall.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\AppletonShoppingFooter.png">
+      <PackagePath>WebPages\WebAssets\AppletonShoppingFooter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\BrookfieldShoppingFooter.png">
+      <PackagePath>WebPages\WebAssets\BrookfieldShoppingFooter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\MadisonShoppingFooter.png">
+      <PackagePath>WebPages\WebAssets\MadisonShoppingFooter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\nhlogolg.png">
+      <PackagePath>WebPages\WebAssets\nhlogolg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\ShoppingHeader.png">
+      <PackagePath>WebPages\WebAssets\ShoppingHeader.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\txtbubble.png">
+      <PackagePath>WebPages\WebAssets\txtbubble.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_hover v2.png">
       <PackagePath>Assets\Standard_hover v2.png</PackagePath>
     </AppxPackagedFile>
@@ -442,8 +460,56 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\nhlogo.jpg">
       <PackagePath>Assets\nhlogo.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\AppletonHungryBg.jpg">
+      <PackagePath>WebPages\WebAssets\AppletonHungryBg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\AppletonShoppingBg.jpg">
+      <PackagePath>WebPages\WebAssets\AppletonShoppingBg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\BrookfieldHungryBg.jpg">
+      <PackagePath>WebPages\WebAssets\BrookfieldHungryBg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\BrookfieldShoppingBg.jpg">
+      <PackagePath>WebPages\WebAssets\BrookfieldShoppingBg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\MadisonHungryBg.jpg">
+      <PackagePath>WebPages\WebAssets\MadisonHungryBg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\MadisonShoppingBg.jpg">
+      <PackagePath>WebPages\WebAssets\MadisonShoppingBg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\nwlogosm.jpg">
+      <PackagePath>WebPages\WebAssets\nwlogosm.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\AppletonHungry.html">
+      <PackagePath>WebPages\AppletonHungry.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\AppletonShopping.html">
+      <PackagePath>WebPages\AppletonShopping.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\BrookfieldHungry.html">
+      <PackagePath>WebPages\BrookfieldHungry.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\BrookfieldShopping.html">
+      <PackagePath>WebPages\BrookfieldShopping.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\MadisonHungry.html">
+      <PackagePath>WebPages\MadisonHungry.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\MadisonShopping.html">
+      <PackagePath>WebPages\MadisonShopping.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\CourseCatelog.htm">
+      <PackagePath>WebPages\CourseCatelog.htm</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\CSS\PDFStyles.css">
+      <PackagePath>WebPages\CSS\PDFStyles.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\textBeep.wav">
       <PackagePath>Assets\textBeep.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\ClickHandler.js">
+      <PackagePath>ClickHandler.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

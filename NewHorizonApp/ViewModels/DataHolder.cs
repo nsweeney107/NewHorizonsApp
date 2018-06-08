@@ -60,7 +60,8 @@ namespace NewHorizonApp.ViewModels
                 case "LabsButton":
                     goto case "YourClassButton";
                 case "BrowseClassesButton":
-                    thisUri = new Uri("https://drive.google.com/open?id=1ic7ZKOjrgjyr6D35dC_xIDggAoc4VE0a");
+                    //thisUri = new Uri("https://drive.google.com/open?id=1ic7ZKOjrgjyr6D35dC_xIDggAoc4VE0a");
+                    thisUri = new Uri("ms-appx-web:///WebPages/CourseCatelog.htm");
                     break;
                 case "FreeWebinars":
                     thisUri = new Uri("https://www.newhorizonswi.com/resources/free-webinars");
@@ -71,7 +72,7 @@ namespace NewHorizonApp.ViewModels
                 case "RedStarButton":
                     thisUri = new Uri("https://www.google.com");
                     break;
-                case "FaqButton":
+                case "faqButton":
                     thisUri = new Uri("https://drive.google.com/open?id=1Gx7ATClPOXmcgr-6pNTzjHhZqd8wHOE6");
                     break;
                 case "VitalAcceleratorButton":
@@ -80,13 +81,16 @@ namespace NewHorizonApp.ViewModels
                 case "HeadsetButton":
                     thisUri = new Uri("https://drive.google.com/open?id=132vVkM_-pwuR3lHGFQWBzDBXhsqIbjif");
                     break;
-                case "ShoppingButton":
-                    thisUri = new Uri("https://drive.google.com/open?id=1fFGLLUBLf2zihM9q4VfFCsWBpHqzfMvw");
+                //case "ShoppingButton":
+                //    thisUri = new Uri("https://drive.google.com/open?id=1fFGLLUBLf2zihM9q4VfFCsWBpHqzfMvw");
+                //    break;
+                //case "HungryButton":
+                //    thisUri = new Uri("https://drive.google.com/open?id=1MuGdyRfAG3aQDRcgWY86lrhzf45MN-77");
+                //    break;
+                case "questionButton":
+                    thisUri = new Uri("https://lc.chat/now/7026351/");
                     break;
-                case "HungryButton":
-                    //thisUri = new Uri("https://drive.google.com/open?id=1MuGdyRfAG3aQDRcgWY86lrhzf45MN-77");
-                    break;
-                // TO DO - Implement other buttons
+
                 // These are the buttons from the Courseware.xaml page
                 case "skillpipeButton":
                     thisUri = new Uri("http://skillpipe.courseware-marketplace.com/reader");
@@ -170,7 +174,7 @@ namespace NewHorizonApp.ViewModels
                 case "RedStarButton":
                     thisDescription = "If you have a red star on your nametag, then please click here for all of the instructions you need to complete to launch your class experience with us.";
                     break;
-                case "FaqButton":
+                case "faqButton":
                     thisDescription = "Click here for the answers to all kinds of questions, from \"What is that grinding noise I hear?\" to \"How can I save more money on my training?\"";
                     break;
                 case "VitalAcceleratorButton":
@@ -184,7 +188,7 @@ namespace NewHorizonApp.ViewModels
                 case "HungryButton":
                     thisDescription = "So it's lunch-time, but you're in a new city.  Fear not!  Click on this button to see what restaurants are nearby!";
                     break;
-                case "QuestionButton":
+                case "questionButton":
                     thisDescription = "Have a question?  Click here to submit it to us, we'd love to hear from you!";
                     break;
 

@@ -2,6 +2,6 @@
 /Lib:"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in"
 /Lib:"C:\Users\NateDev\.nuget\packages\microsoft.net.native.compiler\1.7.2\tools\x64\ilc\lib\Private"
 /WinMD:"E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{"AppId":1001,"AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","HostName":"Dev14","Id":"99da5966-3384-42d5-a8e3-d5ecad9d265e","IsOptedIn":true,"ProcessStartTime":636521561258243533,"UserId":"bbcc4824-51d4-45f5-9038-a8a8fcffe14c"}"
+/VSTelemetrySessionSettings:"{"AppId":1001,"AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","HostName":"Dev14","Id":"8bb999c9-a227-48c8-97f6-72b2dc90c298","IsOptedIn":true,"ProcessStartTime":636640235892010513,"UserId":"bbcc4824-51d4-45f5-9038-a8a8fcffe14c"}"
 /RdXmlPath:"C:\Users\NateDev\.nuget\packages\microsoft.net.native.compiler\1.7.2\tools\LibraryXML"
 /RunOnlyPreDR

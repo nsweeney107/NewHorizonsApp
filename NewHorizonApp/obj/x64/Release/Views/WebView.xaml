@@ -64,7 +64,8 @@
         <WebView x:ConnectionId='3' x:Name="MainWebView"
                  Grid.Row="1"
                  Margin="4"
-             DefaultBackgroundColor="#424D6D">
+             DefaultBackgroundColor="#424D6D"
+                                                                                  >
         </WebView>
     </Grid>
     

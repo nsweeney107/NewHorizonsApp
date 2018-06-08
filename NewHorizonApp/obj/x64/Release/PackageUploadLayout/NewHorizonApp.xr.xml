@@ -26,8 +26,8 @@
       <RootProperty Name="Text" />
       <RootProperty Name="Style" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Padding" />
       <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Padding" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Style" />
@@ -35,6 +35,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontSize" />
       <RootEvent Name="Click" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
@@ -157,6 +158,7 @@
       <RootProperty Name="TextWrapping" />
     </RootType>
     <RootType FullName="NewHorizonApp.Views.EmailQuestionPage" />
+    <RootType FullName="NewHorizonApp.Views.Food" />
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="HorizontalAlignment" />
@@ -175,9 +177,6 @@
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EasingDoubleKeyFrame">
       <RootProperty Name="KeyTime" />
       <RootProperty Name="Value" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
-      <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootMethod Name="GetZIndex" />
@@ -208,6 +207,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform" />
     <RootType FullName="NewHorizonApp.MainPage" />
+    <RootType FullName="NewHorizonApp.Views.Shopping" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EdgeUIThemeTransition">
       <RootProperty Name="Edge" />
     </RootType>
@@ -223,6 +223,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.WebView">
       <RootProperty Name="Margin" />
       <RootProperty Name="DefaultBackgroundColor" />
+      <RootEvent Name="UnsupportedUriSchemeIdentified" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Name" />

@@ -375,9 +375,9 @@ namespace NewHorizonApp
                     case "DigitalReadingButton":
                         Frame.Navigate(typeof(Courseware));
                         break;
-                    case "QuestionButton":
-                        Frame.Navigate(typeof(EmailQuestionPage));
-                        break;
+                    //case "QuestionButton":
+                    //    Frame.Navigate(typeof(EmailQuestionPage));
+                    //    break;
                     case "HungryButton":
                         Frame.Navigate(typeof(Food));
                         break;

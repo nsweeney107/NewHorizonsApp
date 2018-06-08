@@ -1,1 +1,1 @@
-E:\GitHub\NewHorizonsApp\NewHorizonApp\AppPackages\NewHorizonApp_0.7.3.0_Test\NewHorizonApp_0.7.3.0_x64.appxbundle
+E:\GitHub\NewHorizonsApp\NewHorizonApp\AppPackages\NewHorizonApp_0.9.6.0_Test\NewHorizonApp_0.9.6.0_x64.appxbundle

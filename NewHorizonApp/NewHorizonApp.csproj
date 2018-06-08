@@ -146,6 +146,7 @@
     <Content Include="WebPages\AppletonShopping.html" />
     <Content Include="WebPages\BrookfieldHungry.html" />
     <Content Include="WebPages\BrookfieldShopping.html" />
+    <Content Include="WebPages\CourseCatelog.htm" />
     <Content Include="WebPages\CSS\PDFStyles.css" />
     <Content Include="WebPages\MadisonHungry.html" />
     <Content Include="WebPages\MadisonShopping.html" />
@@ -158,7 +159,10 @@
     <Content Include="WebPages\WebAssets\MadisonHungryBg.jpg" />
     <Content Include="WebPages\WebAssets\MadisonShoppingBg.jpg" />
     <Content Include="WebPages\WebAssets\MadisonShoppingFooter.png" />
+    <Content Include="WebPages\WebAssets\nhlogolg.png" />
+    <Content Include="WebPages\WebAssets\nwlogosm.jpg" />
     <Content Include="WebPages\WebAssets\ShoppingHeader.png" />
+    <Content Include="WebPages\WebAssets\txtbubble.png" />
     <None Include="Package.StoreAssociation.xml" />
     <Content Include="Assets\Standard_hover v2.png" />
     <Content Include="Assets\Standard_hover.png" />

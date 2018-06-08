@@ -2,5 +2,7 @@ App.xbf
 StylizedButton.xbf
 Views\Courseware.xbf
 Views\EmailQuestionPage.xbf
+Views\Food.xbf
 Views\MainPage.xbf
+Views\Shopping.xbf
 Views\WebView.xbf

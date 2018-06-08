@@ -409,8 +409,14 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\MadisonShoppingFooter.png">
       <PackagePath>WebPages\WebAssets\MadisonShoppingFooter.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\nhlogolg.png">
+      <PackagePath>WebPages\WebAssets\nhlogolg.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\ShoppingHeader.png">
       <PackagePath>WebPages\WebAssets\ShoppingHeader.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\txtbubble.png">
+      <PackagePath>WebPages\WebAssets\txtbubble.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Standard_hover v2.png">
       <PackagePath>Assets\Standard_hover v2.png</PackagePath>
@@ -478,6 +484,9 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\MadisonShoppingBg.jpg">
       <PackagePath>WebPages\WebAssets\MadisonShoppingBg.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\nwlogosm.jpg">
+      <PackagePath>WebPages\WebAssets\nwlogosm.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\AppletonHungry.html">
       <PackagePath>WebPages\AppletonHungry.html</PackagePath>
     </AppxPackagedFile>
@@ -495,6 +504,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\MadisonShopping.html">
       <PackagePath>WebPages\MadisonShopping.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\CourseCatelog.htm">
+      <PackagePath>WebPages\CourseCatelog.htm</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\CSS\PDFStyles.css">
       <PackagePath>WebPages\CSS\PDFStyles.css</PackagePath>
