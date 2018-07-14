@@ -78,9 +78,6 @@ namespace NewHorizonApp.ViewModels
                 case "VitalAcceleratorButton":
                     thisUri = new Uri("http://vitalaccelerator.com");
                     break;
-                case "HeadsetButton":
-                    thisUri = new Uri("https://drive.google.com/open?id=132vVkM_-pwuR3lHGFQWBzDBXhsqIbjif");
-                    break;
                 //case "ShoppingButton":
                 //    thisUri = new Uri("https://drive.google.com/open?id=1fFGLLUBLf2zihM9q4VfFCsWBpHqzfMvw");
                 //    break;
@@ -178,9 +175,6 @@ namespace NewHorizonApp.ViewModels
                     thisDescription = "Click here for the answers to all kinds of questions, from \"What is that grinding noise I hear?\" to \"How can I save more money on my training?\"";
                     break;
                 case "VitalAcceleratorButton":
-                    break;
-                case "HeadsetButton":
-                    thisDescription = "Before you toss your headset in the garabage on the way out the door, click this button to see what we do with the unwanted headsets!";
                     break;
                 case "ShoppingButton":
                     thisDescription = "So your class is out early, but you don't feel like going back to work?  Click this button to see what stores are nearby to kill some time at.";

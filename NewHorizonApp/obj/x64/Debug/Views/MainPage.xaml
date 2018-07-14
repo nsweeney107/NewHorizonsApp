@@ -179,12 +179,12 @@
         <StackPanel Orientation="Vertical" 
                     Grid.ColumnSpan="2" 
                     HorizontalAlignment="Center">
-            <TextBlock x:ConnectionId='27' x:Name="TitleTextBlock" 
+            <TextBlock x:ConnectionId='26' x:Name="TitleTextBlock" 
                    Text="New Horizons of Wisconsin"
                    Style="{StaticResource HeaderTextBlockStyle}"
                        HorizontalAlignment="Center"
                    Foreground="White"/>
-            <TextBlock x:ConnectionId='28' x:Name="SubtitleTextBlock"
+            <TextBlock x:ConnectionId='27' x:Name="SubtitleTextBlock"
                        Text="Student Portal"
                        Style="{StaticResource SubheaderTextBlockStyle}"
                        HorizontalAlignment="Center"
@@ -249,7 +249,7 @@
                     Padding="4"
                     VerticalAlignment="Bottom"
                     Margin="0,0,0,14">
-                <TextBlock x:ConnectionId='26' x:Name="ButtonDescriptionTextBlock"
+                <TextBlock x:ConnectionId='25' x:Name="ButtonDescriptionTextBlock"
                         Margin="8"
                         Padding="8"
                         Width="500"
@@ -530,21 +530,14 @@
                         Content="Free Webinars"
                         Style="{StaticResource CustomButton}" />
 
-                <Button x:ConnectionId='23' x:Name="HeadsetButton"
-                                                     
-                                                   
-                                          
-                        Style="{StaticResource CustomButton}"
-                        Content="Don't want your Headset?" />
-
-                <Button x:ConnectionId='24' x:Name="FaqButton"
+                <Button x:ConnectionId='23' x:Name="faqButton"
                     Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           
                         Content="FAQ" />
 
-                <Button x:ConnectionId='25' x:Name="QuestionButton"
+                <Button x:ConnectionId='24' x:Name="questionButton"
                         Style="{StaticResource CustomButton}"
                                                      
                                                    

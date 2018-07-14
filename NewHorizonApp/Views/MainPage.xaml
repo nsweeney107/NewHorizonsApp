@@ -530,13 +530,6 @@
                         Content="Free Webinars"
                         Style="{StaticResource CustomButton}" />
 
-                <Button x:Name="HeadsetButton"
-                        PointerEntered="MouseEntered"
-                        PointerExited="MouseExited"
-                        Click="MouseClick"
-                        Style="{StaticResource CustomButton}"
-                        Content="Don't want your Headset?" />
-
                 <Button x:Name="faqButton"
                     Style="{StaticResource CustomButton}"
                         PointerEntered="MouseEntered"
