@@ -31,7 +31,7 @@
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-14T03:07:23.668</Modified>
+      <Modified>2018-07-14T18:06:25.905</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -675,7 +675,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\CourseCatelog.htm">
       <PackagePath>WebPages\CourseCatelog.htm</PackagePath>
-      <Modified>2018-07-14T03:02:11.070</Modified>
+      <Modified>2018-07-14T18:06:21.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\CSS\PDFStyles.css">
       <PackagePath>WebPages\CSS\PDFStyles.css</PackagePath>
@@ -704,11 +704,11 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-14T03:07:23.487</Modified>
+      <Modified>2018-07-14T18:06:25.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2018-07-14T03:07:23.666</Modified>
+      <Modified>2018-07-14T18:06:25.903</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
