@@ -381,9 +381,14 @@
                                                 </VisualState>
                                                 <VisualState x:Name="PointerOver">
                                                     <Storyboard>
-                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="grid"
+                                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
                                                                                        Storyboard.TargetProperty="Background">
                                                             <DiscreteObjectKeyFrame KeyTime="0" Value="Orange" />
+                                                        </ObjectAnimationUsingKeyFrames>-->
+                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
+                                                                                       Storyboard.TargetProperty="BorderBrush">
+                                                            <DiscreteObjectKeyFrame KeyTime="0"
+                                                                                    Value="White" />
                                                         </ObjectAnimationUsingKeyFrames>
 
                                                         <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
@@ -404,9 +409,10 @@
                                                 <Border BorderBrush="{TemplateBinding Background}"
                                                             BorderThickness="1"
                                                             CornerRadius="6"
-                                                            Background="{TemplateBinding Background}"/>
+                                                        Background="{TemplateBinding Background}"/>
 
-                                                <Border BorderBrush="{TemplateBinding Background}"
+                                                <Border x:Name="ThreeDeeButtonPart"
+                                                        BorderBrush="{TemplateBinding Background}"
                                                         BorderThickness="1"
                                                         CornerRadius="6"
                                                         Background="{TemplateBinding Background}"/>
@@ -417,7 +423,8 @@
                                                         CornerRadius="6" />
                                             </Grid>
                                             <Grid x:Name="grid" Margin="0" Grid.Row="0" Grid.RowSpan="2">
-                                                <Border     BorderBrush="{TemplateBinding Background}"
+                                                <Border     x:Name="TopButtonPart" 
+                                                            BorderBrush="{TemplateBinding Background}"
                                                             BorderThickness="1"
                                                             CornerRadius="6"
                                                             Background="{TemplateBinding Background}"/>
@@ -450,7 +457,7 @@
                     PointerEntered="MouseEntered"
                     PointerExited="MouseExited"
                     Click="MouseClick"
-                    Style="{StaticResource CustomImportantButton}"
+                    Style="{StaticResource StylizedButtonStyle}"
                         Content="Start my Class" />
 
                 <Button x:Name="DigitalReadingButton"
