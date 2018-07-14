@@ -1,4 +1,4 @@
-﻿<Page x:ConnectionId='1'
+﻿<Page
     x:Class="NewHorizonApp.Views.WebView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -24,44 +24,44 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <CommandBar x:ConnectionId='2' x:Name="TopCommandBar"  
+        <CommandBar x:ConnectionId='1' x:Name="TopCommandBar"  
                     FontSize="36"
                     Background="#5F6987"
                     Foreground="White"
                                                    
                                                    >
-            <AppBarButton x:ConnectionId='4' Name="HomeButton"
+            <AppBarButton x:ConnectionId='3' Name="HomeButton"
                           Style="{StaticResource DefaultCommandBarButtonStyle}"
                           Icon="Home" 
                           Label="Home" 
                                                    />
-            <AppBarButton x:ConnectionId='5' Name="BackButton"
+            <AppBarButton x:ConnectionId='4' Name="BackButton"
                           Style="{StaticResource DefaultCommandBarButtonStyle}" 
                           Icon="Back" 
                           Label="Back" 
                                                    />
-            <AppBarButton x:ConnectionId='6' Name="ForwardButton" 
+            <AppBarButton x:ConnectionId='5' Name="ForwardButton" 
                           Style="{StaticResource DefaultCommandBarButtonStyle}" 
                           Icon="Forward" 
                           Label="Forward" 
                                                       />
-            <AppBarButton x:ConnectionId='7' Name="StopButton" 
+            <AppBarButton x:ConnectionId='6' Name="StopButton" 
                           Style="{StaticResource DefaultCommandBarButtonStyle}"
                           Icon="Stop" 
                           Label="Stop" 
                                                    />
-            <AppBarButton x:ConnectionId='8' Name="RefreshButton" 
+            <AppBarButton x:ConnectionId='7' Name="RefreshButton" 
                           Style="{StaticResource DefaultCommandBarButtonStyle}"
                           Icon="Refresh" 
                           Label="Refresh" 
                                                       />
-            <CommandBar.Content>
-                <TextBlock x:ConnectionId='9' x:Name="UrlTextBlock"
-                           FontSize="36"
-                                                                         />
-            </CommandBar.Content>
+            <!--<commandbar.content>
+                <textblock x:name="urltextblock"
+                           fontsize="36"
+                           text="{x:bind viewmodel.uriname, mode=oneway}"/>
+            </commandbar.content>-->
         </CommandBar>
-        <WebView x:ConnectionId='3' x:Name="MainWebView"
+        <WebView x:ConnectionId='2' x:Name="MainWebView"
                  Grid.Row="1"
                  Margin="4"
              DefaultBackgroundColor="#424D6D"

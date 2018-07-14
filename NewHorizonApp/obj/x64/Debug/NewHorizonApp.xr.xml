@@ -216,7 +216,6 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="PrimaryCommands" />
-      <RootProperty Name="Content" />
       <RootEvent Name="Opening" />
       <RootEvent Name="Closing" />
     </RootType>
@@ -231,9 +230,6 @@
       <RootProperty Name="Icon" />
       <RootProperty Name="Label" />
       <RootEvent Name="Click" />
-    </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
-      <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="NewHorizonApp.Views.WebView" />
   </Roots.RootTypes>

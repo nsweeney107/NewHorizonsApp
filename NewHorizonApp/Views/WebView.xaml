@@ -55,11 +55,11 @@
                           Icon="Refresh" 
                           Label="Refresh" 
                           Click="RefreshButton_Click" />
-            <CommandBar.Content>
-                <TextBlock x:Name="UrlTextBlock"
-                           FontSize="36"
-                           Text="{x:Bind ViewModel.UriName, Mode=OneWay}"/>
-            </CommandBar.Content>
+            <!--<commandbar.content>
+                <textblock x:name="urltextblock"
+                           fontsize="36"
+                           text="{x:bind viewmodel.uriname, mode=oneway}"/>
+            </commandbar.content>-->
         </CommandBar>
         <WebView x:Name="MainWebView"
                  Grid.Row="1"
