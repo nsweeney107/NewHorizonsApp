@@ -132,6 +132,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Blinking.png" />
+    <Content Include="Assets\ButtonIcons\Bored.png" />
+    <Content Include="Assets\ButtonIcons\Cookies.png" />
+    <Content Include="Assets\ButtonIcons\Courses.png" />
+    <Content Include="Assets\ButtonIcons\FAQ.png" />
+    <Content Include="Assets\ButtonIcons\FreeWebinars.png" />
+    <Content Include="Assets\ButtonIcons\Hungry.png" />
+    <Content Include="Assets\ButtonIcons\Labs.png" />
+    <Content Include="Assets\ButtonIcons\LikeShopping.png" />
+    <Content Include="Assets\ButtonIcons\OpenMyCourseware.png" />
+    <Content Include="Assets\ButtonIcons\Question.png" />
+    <Content Include="Assets\ButtonIcons\RedStar.png" />
+    <Content Include="Assets\ButtonIcons\SaveMoney.png" />
+    <Content Include="Assets\ButtonIcons\StartMyClass.png" />
+    <Content Include="Assets\ButtonIcons\VitalAccelerator.png" />
     <Content Include="Assets\Important_hover v2.png" />
     <Content Include="Assets\Important_hover.png" />
     <Content Include="Assets\Important_normal v2.png" />

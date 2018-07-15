@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F748BA157C4E9F1462ABDF9160BC89949913EAECA7C15E8FD6C38F2FB9B008DA</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>8504N8Software.NewHorizonsofWisconsinPortalApp_0.9.4.0_x64__6x7jhkn3vq95c</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>62FE564DE858D1D5E6B3295A4CA94E847E50D06D1F719D467DF05FC749A397DE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>8504N8Software.NewHorizonsofWisconsinPortalApp_0.9.6.0_x64__6x7jhkn3vq95c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8504N8Software.NewHorizonsofWisconsinPortalApp_6x7jhkn3vq95c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>8504N8Software.NewHorizonsofWisconsinPortalApp</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=EC2EE017-02EC-4FEF-BCE4-3CE34F4F5DC8</RegisteredPackagePublisher>
-    <RegisteredVersion>0.9.4.0</RegisteredVersion>
+    <RegisteredVersion>0.9.6.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-15T00:17:10.980</Modified>
+      <Modified>2018-07-15T04:06:25.634</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.exe">
       <PackagePath>entrypoint\NewHorizonApp.exe</PackagePath>
-      <Modified>2018-07-15T00:17:10.320</Modified>
+      <Modified>2018-07-15T04:06:24.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NateDev\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -499,6 +499,62 @@
       <PackagePath>Assets\Blinking.png</PackagePath>
       <Modified>2017-10-17T19:19:04.501</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Bored.png">
+      <PackagePath>Assets\ButtonIcons\Bored.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Cookies.png">
+      <PackagePath>Assets\ButtonIcons\Cookies.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Courses.png">
+      <PackagePath>Assets\ButtonIcons\Courses.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\FAQ.png">
+      <PackagePath>Assets\ButtonIcons\FAQ.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\FreeWebinars.png">
+      <PackagePath>Assets\ButtonIcons\FreeWebinars.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Hungry.png">
+      <PackagePath>Assets\ButtonIcons\Hungry.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Labs.png">
+      <PackagePath>Assets\ButtonIcons\Labs.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\LikeShopping.png">
+      <PackagePath>Assets\ButtonIcons\LikeShopping.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\OpenMyCourseware.png">
+      <PackagePath>Assets\ButtonIcons\OpenMyCourseware.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Question.png">
+      <PackagePath>Assets\ButtonIcons\Question.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\RedStar.png">
+      <PackagePath>Assets\ButtonIcons\RedStar.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\SaveMoney.png">
+      <PackagePath>Assets\ButtonIcons\SaveMoney.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\StartMyClass.png">
+      <PackagePath>Assets\ButtonIcons\StartMyClass.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\VitalAccelerator.png">
+      <PackagePath>Assets\ButtonIcons\VitalAccelerator.png</PackagePath>
+      <Modified>2018-07-15T03:40:12.292</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_hover v2.png">
       <PackagePath>Assets\Important_hover v2.png</PackagePath>
       <Modified>2017-12-12T23:11:49.877</Modified>
@@ -695,7 +751,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.xr.xml">
       <PackagePath>NewHorizonApp.xr.xml</PackagePath>
-      <Modified>2018-07-14T03:07:22.811</Modified>
+      <Modified>2018-07-15T04:01:49.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -704,11 +760,11 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-15T00:17:10.794</Modified>
+      <Modified>2018-07-15T04:06:25.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2018-07-15T00:17:10.978</Modified>
+      <Modified>2018-07-15T04:06:25.633</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

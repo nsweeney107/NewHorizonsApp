@@ -348,6 +348,7 @@
                     </Style>
                     <Style TargetType="Button" x:Key="StylizedButtonStyle">
                         <Setter Property="FontSize" Value="24" />
+                        <Setter Property="FontFamily" Value="Segoe UI" />
                         <Setter Property="Width" Value="240" />
                         <Setter Property="Height" Value="120" />
                         <Setter Property="BorderThickness" Value="4" />
@@ -376,6 +377,16 @@
                                                                     <x:Int32>1</x:Int32>
                                                                 </DiscreteObjectKeyFrame.Value>
                                                             </DiscreteObjectKeyFrame>
+                                                        </ObjectAnimationUsingKeyFrames>
+                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="DropShadowLayer"
+                                                                                       Storyboard.TargetProperty="Opacity">
+                                                            <DiscreteObjectKeyFrame KeyTime="0"
+                                                                                    Value="0" />
+                                                        </ObjectAnimationUsingKeyFrames>
+                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="WhiteOpacityLayer"
+                                                                                       Storyboard.TargetProperty="Opacity">
+                                                            <DiscreteObjectKeyFrame KeyTime="0"
+                                                                                    Value="0.2" />
                                                         </ObjectAnimationUsingKeyFrames>
                                                     </Storyboard>
                                                 </VisualState>
@@ -411,7 +422,22 @@
                                                 <RowDefinition/>
                                                 <RowDefinition Height="7*"/>
                                                 <RowDefinition/>
+                                                <RowDefinition Height="4"/>
                                             </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition />
+                                                <ColumnDefinition Width="4" />
+                                            </Grid.ColumnDefinitions>
+                                            <Grid x:Name="DropShadowLayer"
+                                                  Grid.Row="1"
+                                                  Grid.RowSpan="4"
+                                                  Grid.ColumnSpan="2">
+                                                <Border BorderBrush="Black"
+                                                        BorderThickness="1"
+                                                        CornerRadius="6"
+                                                        Background="Black"
+                                                        Opacity="0.2"/>
+                                            </Grid>
                                             <Grid x:Name="ShadowGrid" 
                                                   Margin="0" 
                                                   Grid.RowSpan="2" 
@@ -448,6 +474,7 @@
                                                                     SelectionHighlightColor="{TemplateBinding Foreground}"
                                                                     FontSize="{TemplateBinding FontSize}"
                                                                     Foreground="{TemplateBinding Foreground}"
+                                                                Padding="20"
                                                                     HorizontalAlignment="Center"
                                                                     VerticalAlignment="Center"
                                                                     TextWrapping="Wrap"
@@ -473,8 +500,8 @@
                     PointerExited="MouseExited"
                     Click="MouseClick"
                     Style="{StaticResource StylizedButtonStyle}"
-                        Content="Start my Class" />
-
+                    Content="Start my Class" />
+                
                 <Button x:Name="DigitalReadingButton"
                     PointerEntered="MouseEntered"
                     PointerExited="MouseExited"

@@ -373,6 +373,48 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Blinking.png">
       <PackagePath>Assets\Blinking.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Bored.png">
+      <PackagePath>Assets\ButtonIcons\Bored.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Cookies.png">
+      <PackagePath>Assets\ButtonIcons\Cookies.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Courses.png">
+      <PackagePath>Assets\ButtonIcons\Courses.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\FAQ.png">
+      <PackagePath>Assets\ButtonIcons\FAQ.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\FreeWebinars.png">
+      <PackagePath>Assets\ButtonIcons\FreeWebinars.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Hungry.png">
+      <PackagePath>Assets\ButtonIcons\Hungry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Labs.png">
+      <PackagePath>Assets\ButtonIcons\Labs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\LikeShopping.png">
+      <PackagePath>Assets\ButtonIcons\LikeShopping.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\OpenMyCourseware.png">
+      <PackagePath>Assets\ButtonIcons\OpenMyCourseware.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\Question.png">
+      <PackagePath>Assets\ButtonIcons\Question.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\RedStar.png">
+      <PackagePath>Assets\ButtonIcons\RedStar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\SaveMoney.png">
+      <PackagePath>Assets\ButtonIcons\SaveMoney.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\StartMyClass.png">
+      <PackagePath>Assets\ButtonIcons\StartMyClass.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\ButtonIcons\VitalAccelerator.png">
+      <PackagePath>Assets\ButtonIcons\VitalAccelerator.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Important_hover v2.png">
       <PackagePath>Assets\Important_hover v2.png</PackagePath>
     </AppxPackagedFile>
