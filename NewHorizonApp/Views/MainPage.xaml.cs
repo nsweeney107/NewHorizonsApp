@@ -150,6 +150,8 @@ namespace NewHorizonApp
             ButtonDescriptionTextBlock.Text = "";
 
             BlinkingAnimator();
+
+            MapIconsToButtons();
         }
 
         private void WaitABit(int timeToWait)
@@ -187,6 +189,10 @@ namespace NewHorizonApp
             Tasks.Add(blinkingTask);
         }
 
+        private void MapIconsToButtons()
+        {
+            //YourClassButton.Content
+        }
         // These all came from the old HomePage.xaml.cs
         private void MouseEntered(object sender, PointerRoutedEventArgs e)
         {
@@ -203,16 +209,14 @@ namespace NewHorizonApp
             string thisName = "";
             if (sender is Button)
             {
-                var thisButton = sender as Button;
-                if (thisButton != null)
+                if (sender is Button thisButton)
                 {
                     thisName = thisButton.Name.ToString();
-                }                
+                }
             }
             else if (sender is Image)
             {
-                var thisImage = sender as Image;
-                if (thisImage != null)
+                if (sender is Image thisImage)
                 {
                     thisName = thisImage.Name.ToString();
                 }
@@ -365,13 +369,17 @@ namespace NewHorizonApp
         {
             CancelTask();
 
-            var thisButton = sender as Button;
-            if (thisButton != null)
+            if (sender is Button thisButton)
             {
                 var thisName = thisButton.Name.ToString();
 
                 switch (thisName)
                 {
+                    case "YourClassButton":
+                    case "LabsButton":
+                        DataHolder.GetUrl(thisName);
+                        LaunchExternalWebpage(DataHolder.NavigationTarget);
+                        break;
                     case "DigitalReadingButton":
                         Frame.Navigate(typeof(Courseware));
                         break;
@@ -399,6 +407,11 @@ namespace NewHorizonApp
                 //    Frame.Navigate(typeof(Views.WebView));
                 //}
             }
+        }
+
+        private async void LaunchExternalWebpage(Uri uri)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(uri);
         }
 
         private void ScrollViewer_ViewChanged(object sender, ScrollViewerViewChangedEventArgs e)

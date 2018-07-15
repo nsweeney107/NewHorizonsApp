@@ -378,11 +378,15 @@
                                                                 </DiscreteObjectKeyFrame.Value>
                                                             </DiscreteObjectKeyFrame>
                                                         </ObjectAnimationUsingKeyFrames>
-                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="DropShadowLayer"
+                                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="DropShadowLayer">
+                                                            <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.2"/>
+                                                            <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                                                        </DoubleAnimationUsingKeyFrames>
+                                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="DropShadowLayer"
                                                                                        Storyboard.TargetProperty="Opacity">
                                                             <DiscreteObjectKeyFrame KeyTime="0"
                                                                                     Value="0" />
-                                                        </ObjectAnimationUsingKeyFrames>
+                                                        </ObjectAnimationUsingKeyFrames>-->
                                                         <ObjectAnimationUsingKeyFrames Storyboard.TargetName="WhiteOpacityLayer"
                                                                                        Storyboard.TargetProperty="Opacity">
                                                             <DiscreteObjectKeyFrame KeyTime="0"
@@ -406,11 +410,11 @@
                                                             <DiscreteObjectKeyFrame KeyTime="0"
                                                                                     Value="0.1" />
                                                         </ObjectAnimationUsingKeyFrames>
-                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BlackOpacityLayer"
+                                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="BlackOpacityLayer"
                                                                                        Storyboard.TargetProperty="Opacity">
                                                             <DiscreteObjectKeyFrame KeyTime="0"
                                                                                     Value="0" />
-                                                        </ObjectAnimationUsingKeyFrames>
+                                                        </ObjectAnimationUsingKeyFrames>-->
 
                                                         <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
                                                     </Storyboard>
@@ -422,16 +426,16 @@
                                                 <RowDefinition/>
                                                 <RowDefinition Height="7*"/>
                                                 <RowDefinition/>
-                                                <RowDefinition Height="4"/>
+                                                <RowDefinition Height="12"/>
                                             </Grid.RowDefinitions>
-                                            <Grid.ColumnDefinitions>
+                                            <!--<Grid.ColumnDefinitions>
                                                 <ColumnDefinition />
-                                                <ColumnDefinition Width="4" />
-                                            </Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="8" />
+                                            </Grid.ColumnDefinitions>-->
                                             <Grid x:Name="DropShadowLayer"
                                                   Grid.Row="1"
-                                                  Grid.RowSpan="4"
-                                                  Grid.ColumnSpan="2">
+                                                  Grid.RowSpan="4">
+                                                <!--Grid.ColumnSpan="2">-->
                                                 <Border BorderBrush="Black"
                                                         BorderThickness="1"
                                                         CornerRadius="6"
@@ -448,7 +452,7 @@
                                                         Background="{TemplateBinding Background}"/>
 
                                                 <Border x:Name="ThreeDeeButtonPart"
-                                                        BorderBrush="{TemplateBinding Background}"
+                                                        BorderBrush="White"
                                                         BorderThickness="1"
                                                         CornerRadius="6"
                                                         Background="{TemplateBinding Background}"/>
@@ -461,7 +465,7 @@
                                             </Grid>
                                             <Grid x:Name="grid" Margin="0" Grid.Row="0" Grid.RowSpan="2">
                                                 <Border     x:Name="TopButtonPart" 
-                                                            BorderBrush="{TemplateBinding Background}"
+                                                            BorderBrush="White"
                                                             BorderThickness="1"
                                                             CornerRadius="6"
                                                             Background="{TemplateBinding Background}"/>
@@ -470,17 +474,26 @@
                                                         Background="White"
                                                         Opacity="0" />
                                                 <ContentPresenter>
-                                                    <TextBlock  FontFamily="{TemplateBinding FontFamily}"
+                                                    <!--<StackPanel Orientation="Vertical"
+                                                                VerticalAlignment="Center"
+                                                                HorizontalAlignment="Center"
+                                                                Padding="10">
+                                                        <Image Source="/Assets/ButtonIcons/Bored.png" 
+                                                               Height="40"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"/>-->
+                                                        <TextBlock  FontFamily="{TemplateBinding FontFamily}"
                                                                     SelectionHighlightColor="{TemplateBinding Foreground}"
                                                                     FontSize="{TemplateBinding FontSize}"
                                                                     Foreground="{TemplateBinding Foreground}"
-                                                                Padding="20"
                                                                     HorizontalAlignment="Center"
                                                                     VerticalAlignment="Center"
                                                                     TextWrapping="Wrap"
                                                                     Height="Auto"
                                                                     Width="Auto"
                                                                     Text="{Binding Content, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                                                    <!--</StackPanel>-->
+                                                    
                                                 </ContentPresenter>
                                             </Grid>
                                         </Grid>
@@ -496,6 +509,7 @@
                     </TransitionCollection>
                 </GridView.Transitions>
                 <Button x:ConnectionId='11' x:Name="YourClassButton"
+                        Background="Goldenrod"
                                                  
                                                
                                       
