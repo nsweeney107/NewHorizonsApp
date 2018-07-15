@@ -33,15 +33,16 @@ namespace NewHorizonApp.Views
             Frame.Navigate(typeof(MainPage));
         }
 
-        private void WebsiteButtonClick(object sender, RoutedEventArgs e)
+        private async void WebsiteButtonClick(object sender, RoutedEventArgs e)
         {
-            var thisButton = sender as Button;
-            if (thisButton != null)
+            if (sender is Button thisButton)
             {
                 var thisName = thisButton.Name.ToString();
 
                 DataHolder.GetUrl(thisName);
-                Frame.Navigate(typeof(Views.WebView));
+
+                await Windows.System.Launcher.LaunchUriAsync(DataHolder.NavigationTarget);
+                //Frame.Navigate(typeof(Views.WebView));
             }
         }
     }
