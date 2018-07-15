@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-15T20:40:34.708</Modified>
+      <Modified>2018-07-15T21:57:51.992</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.exe">
       <PackagePath>entrypoint\NewHorizonApp.exe</PackagePath>
-      <Modified>2018-07-15T20:40:34.042</Modified>
+      <Modified>2018-07-15T21:57:51.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NateDev\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -705,6 +705,10 @@
       <PackagePath>WebPages\WebAssets\nwlogosm.jpg</PackagePath>
       <Modified>2018-06-08T03:39:59.334</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\cookies.mp4">
+      <PackagePath>Assets\cookies.mp4</PackagePath>
+      <Modified>2018-07-15T20:48:15.303</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\AppletonHungry.html">
       <PackagePath>WebPages\AppletonHungry.html</PackagePath>
       <Modified>2018-06-08T03:39:59.304</Modified>
@@ -751,7 +755,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.xr.xml">
       <PackagePath>NewHorizonApp.xr.xml</PackagePath>
-      <Modified>2018-07-15T19:59:51.843</Modified>
+      <Modified>2018-07-15T21:57:18.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -760,11 +764,11 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-15T20:40:34.507</Modified>
+      <Modified>2018-07-15T21:57:51.808</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2018-07-15T20:40:34.706</Modified>
+      <Modified>2018-07-15T21:57:51.990</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

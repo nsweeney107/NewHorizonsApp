@@ -103,6 +103,9 @@
     <Compile Include="CallJSCSharp.cs" />
     <Compile Include="ViewModels\DataHolder.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="Views\Cookies.xaml.cs">
+      <DependentUpon>Cookies.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Courseware.xaml.cs">
       <DependentUpon>Courseware.xaml</DependentUpon>
     </Compile>
@@ -156,6 +159,7 @@
     <Content Include="Assets\nhlogo.jpg" />
     <Content Include="Assets\Pixel Portrait Riley small.png" />
     <Content Include="Assets\PixelPortraitRileySmall.png" />
+    <Content Include="Assets\cookies.mp4" />
     <Content Include="WebPages\AppletonHungry.html" />
     <Content Include="WebPages\AppletonShopping.html" />
     <Content Include="WebPages\BrookfieldHungry.html" />
@@ -204,6 +208,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Views\Cookies.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Courseware.xaml">
       <SubType>Designer</SubType>

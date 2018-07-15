@@ -452,7 +452,7 @@
                                                         Background="{TemplateBinding Background}"/>
 
                                                 <Border x:Name="ThreeDeeButtonPart"
-                                                        BorderBrush="White"
+                                                        BorderBrush="Black"
                                                         BorderThickness="1"
                                                         CornerRadius="6"
                                                         Background="{TemplateBinding Background}"/>
@@ -473,15 +473,15 @@
                                                         CornerRadius="6"
                                                         Background="White"
                                                         Opacity="0" />
-                                                <ContentPresenter>
+                                                <ContentPresenter Content="{TemplateBinding Content}">
                                                     <!--<StackPanel Orientation="Vertical"
                                                                 VerticalAlignment="Center"
                                                                 HorizontalAlignment="Center"
                                                                 Padding="10">
-                                                        <Image Source="/Assets/ButtonIcons/Bored.png" 
+                                                        <Image Source="/Assets/ButtonIcons/StartMyClass.png" 
                                                                Height="40"
                                                                HorizontalAlignment="Center"
-                                                               VerticalAlignment="Center"/>-->
+                                                               VerticalAlignment="Center"/>
                                                         <TextBlock  FontFamily="{TemplateBinding FontFamily}"
                                                                     SelectionHighlightColor="{TemplateBinding Foreground}"
                                                                     FontSize="{TemplateBinding FontSize}"
@@ -492,7 +492,7 @@
                                                                     Height="Auto"
                                                                     Width="Auto"
                                                                     Text="{Binding Content, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
-                                                    <!--</StackPanel>-->
+                                                    </StackPanel>-->
                                                     
                                                 </ContentPresenter>
                                             </Grid>
@@ -513,15 +513,51 @@
                                                  
                                                
                                       
-                    Style="{StaticResource StylizedButtonStyle}"
-                    Content="Start my Class" />
-                
+                    Style="{StaticResource StylizedButtonStyle}">
+                    <Button.Content>
+                        <StackPanel Orientation="Vertical"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center">
+                            <Image Source="/Assets/ButtonIcons/StartMyClass.png" 
+                                    Height="40"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"/>
+                            <TextBlock  HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        TextWrapping="Wrap"
+                                        Height="Auto"
+                                        Width="Auto"
+                                        Text="Start my Class"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+                    <!--Content="Start my Class" />-->
+
                 <Button x:ConnectionId='12' x:Name="DigitalReadingButton"
                                                  
                                                
                                       
-                    Style="{StaticResource CustomImportantButton}"
-                        Content="Open my Courseware" />
+                    Background="Aqua"
+                      Style="{StaticResource StylizedButtonStyle}">
+                    <Button.Content>
+                        <StackPanel Orientation="Vertical"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center">
+                            <Image Source="/Assets/ButtonIcons/OpenMyCourseware.png" 
+                                    Height="40"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"/>
+                            <TextBlock  HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        TextWrapping="Wrap"
+                                        Height="Auto"
+                                        Width="Auto"
+                                        Text="Open my Courseware"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
+                <!--Style="{StaticResource CustomImportantButton}"
+                        Content="Open my Courseware" />-->
 
                 <Button x:ConnectionId='13' x:Name="LabsButton"
                                                              
@@ -580,7 +616,7 @@
                         Content="Why do we make Cookies?"/>
 
                 <Button x:ConnectionId='21' x:Name="VitalAcceleratorButton"
-                    Style="{StaticResource CustomButton}"
+                        Style="{StaticResource CustomButton}"
                                                      
                                                    
                                           

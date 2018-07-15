@@ -529,6 +529,9 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\nwlogosm.jpg">
       <PackagePath>WebPages\WebAssets\nwlogosm.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\cookies.mp4">
+      <PackagePath>Assets\cookies.mp4</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\AppletonHungry.html">
       <PackagePath>WebPages\AppletonHungry.html</PackagePath>
     </AppxPackagedFile>

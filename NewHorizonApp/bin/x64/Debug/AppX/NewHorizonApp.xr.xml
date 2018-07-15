@@ -31,6 +31,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Style" />
+      <RootProperty Name="Padding" />
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
@@ -138,11 +139,17 @@
       <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
       <RootProperty Name="Transitions" />
       <RootProperty Name="Resources" />
-      <RootProperty Name="Content" />
       <RootProperty Name="RequestedTheme" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
+      <RootProperty Name="Source" />
+      <RootProperty Name="AutoPlay" />
+      <RootProperty Name="AreTransportControlsEnabled" />
+    </RootType>
+    <RootType FullName="NewHorizonApp.Views.Cookies" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.PaneThemeTransition" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
@@ -170,6 +177,7 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Opacity" />
+      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
     </RootType>

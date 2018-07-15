@@ -239,3 +239,8 @@ E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Shopping.g.cs
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Shopping.xaml
 E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Shopping.xbf
 E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Views\Shopping.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Views\Cookies.xbf
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Cookies.g.i.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Cookies.g.cs
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Cookies.xaml
+E:\GitHub\NewHorizonsApp\NewHorizonApp\obj\x64\Debug\Views\Cookies.xbf
