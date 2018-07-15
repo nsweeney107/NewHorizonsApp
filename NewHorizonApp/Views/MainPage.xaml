@@ -385,10 +385,20 @@
                                                                                        Storyboard.TargetProperty="Background">
                                                             <DiscreteObjectKeyFrame KeyTime="0" Value="Orange" />
                                                         </ObjectAnimationUsingKeyFrames>-->
-                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
+                                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
                                                                                        Storyboard.TargetProperty="BorderBrush">
                                                             <DiscreteObjectKeyFrame KeyTime="0"
                                                                                     Value="White" />
+                                                        </ObjectAnimationUsingKeyFrames>-->
+                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="WhiteOpacityLayer"
+                                                                                       Storyboard.TargetProperty="Opacity">
+                                                            <DiscreteObjectKeyFrame KeyTime="0"
+                                                                                    Value="0.1" />
+                                                        </ObjectAnimationUsingKeyFrames>
+                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BlackOpacityLayer"
+                                                                                       Storyboard.TargetProperty="Opacity">
+                                                            <DiscreteObjectKeyFrame KeyTime="0"
+                                                                                    Value="0" />
                                                         </ObjectAnimationUsingKeyFrames>
 
                                                         <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
@@ -417,7 +427,8 @@
                                                         CornerRadius="6"
                                                         Background="{TemplateBinding Background}"/>
 
-                                                <Border Background="Black" 
+                                                <Border x:Name="BlackOpacityLayer" 
+                                                        Background="Black" 
                                                         Opacity="0.25" 
                                                         BorderBrush="Black" 
                                                         CornerRadius="6" />
@@ -428,6 +439,10 @@
                                                             BorderThickness="1"
                                                             CornerRadius="6"
                                                             Background="{TemplateBinding Background}"/>
+                                                <Border x:Name="WhiteOpacityLayer"
+                                                        CornerRadius="6"
+                                                        Background="White"
+                                                        Opacity="0" />
                                                 <ContentPresenter>
                                                     <TextBlock  FontFamily="{TemplateBinding FontFamily}"
                                                                     SelectionHighlightColor="{TemplateBinding Foreground}"
