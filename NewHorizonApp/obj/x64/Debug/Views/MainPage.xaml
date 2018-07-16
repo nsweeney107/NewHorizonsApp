@@ -146,7 +146,7 @@
         </Style>
         <Style TargetType="Button" x:Key="StylizedButtonStyle">
             <Setter Property="Width" Value="240" />
-            <Setter Property="Height" Value="120" />
+            <Setter Property="Height" Value="160" />
             <Setter Property="Margin" Value="20" />
             <Setter Property="Padding" Value="4" />
             <Setter Property="UseSystemFocusVisuals" Value="True" />
@@ -274,6 +274,16 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style x:Key="ImportantStylizedButtonStyle"
+               TargetType="Button"
+               BasedOn="{StaticResource StylizedButtonStyle}">
+            <Setter Property="Background" Value="#D13438" />
+        </Style>
+        <Style x:Key="StandardStylizedButtonStyle"
+               TargetType="Button"
+               BasedOn="{StaticResource StylizedButtonStyle}">
+            <Setter Property="Background" Value="#CCCCCC" />
+        </Style>
         <Style x:Key="BaseTextBlockStyle" TargetType="TextBlock">
             <Setter Property="FontFamily" Value="Segoe UI" />
             <Setter Property="FontSize" Value="24" />
@@ -324,12 +334,12 @@
         <StackPanel Orientation="Vertical" 
                     Grid.ColumnSpan="2" 
                     HorizontalAlignment="Center">
-            <TextBlock x:ConnectionId='26' x:Name="TitleTextBlock" 
+            <TextBlock x:ConnectionId='27' x:Name="TitleTextBlock" 
                    Text="New Horizons of Wisconsin"
                    Style="{StaticResource HeaderTextBlockStyle}"
                        HorizontalAlignment="Center"
                    Foreground="White"/>
-            <TextBlock x:ConnectionId='27' x:Name="SubtitleTextBlock"
+            <TextBlock x:ConnectionId='28' x:Name="SubtitleTextBlock"
                        Text="Student Portal"
                        Style="{StaticResource SubheaderTextBlockStyle}"
                        HorizontalAlignment="Center"
@@ -379,6 +389,7 @@
                Opacity="0"
                                             
                                            />
+        
         <Grid x:ConnectionId='8' x:Name="TextBubbleGrid" 
               Padding="12"
                 Grid.Row="1"
@@ -394,7 +405,7 @@
                     Padding="4"
                     VerticalAlignment="Bottom"
                     Margin="0,0,0,14">
-                <TextBlock x:ConnectionId='25' x:Name="ButtonDescriptionTextBlock"
+                <TextBlock x:ConnectionId='26' x:Name="ButtonDescriptionTextBlock"
                         Margin="8"
                         Padding="8"
                         Width="500"
@@ -414,148 +425,270 @@
                         Grid.RowSpan="2" 
                       HorizontalContentAlignment="Center" 
                       VerticalContentAlignment="Top">
-            <GridView x:ConnectionId='10' x:Name="MainGridView"
-                      HorizontalContentAlignment="Center"
-                      Padding="16"
-                    Background="#5F6987">
-                <GridView.Resources>
-                    
-                </GridView.Resources>
-                <GridView.Transitions>
-                    <TransitionCollection>
-                        <EntranceThemeTransition />
-                    </TransitionCollection>
-                </GridView.Transitions>
-                <Button x:ConnectionId='11' x:Name="YourClassButton"
-                        Background="Red"
-                                                 
-                                               
-                                      
-                    Style="{StaticResource StylizedButtonStyle}">
-                    <Button.Content>
-                        <StackPanel Orientation="Vertical"
-                                    VerticalAlignment="Center"
-                                    HorizontalAlignment="Center">
-                            <Image Style="{StaticResource IconImageStyle}" 
-                                Source="/Assets/ButtonIcons/StartMyClass.png" />
-                            <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
-                                        Text="Start my Class"/>
-                        </StackPanel>
-                    </Button.Content>
-                </Button>
-
-                <Button x:ConnectionId='12' x:Name="DigitalReadingButton"
-                                                 
-                                               
-                                      
-                    Background="Goldenrod"
-                      Style="{StaticResource StylizedButtonStyle}">
-                    <Button.Content>
-                        <StackPanel Orientation="Vertical"
-                                    VerticalAlignment="Center"
-                                    HorizontalAlignment="Center">
-                            <Image Style="{StaticResource IconImageStyle}" 
-                                   Source="/Assets/ButtonIcons/OpenMyCourseware.png" />
-                            <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
-                                        Text="Open my Courseware"/>
-                        </StackPanel>
-                    </Button.Content>
-                </Button>
-
-                <Button x:ConnectionId='13' x:Name="LabsButton"
-                        Background="Blue"
-                                                             
-                                                           
-                                                  
-                                Style="{StaticResource StylizedButtonStyle}">
-                    <Button.Content>
-                        <StackPanel Orientation="Vertical"
-                                    VerticalAlignment="Center"
-                                    HorizontalAlignment="Center">
-                            <Image Style="{StaticResource IconImageStyle}" 
-                                   Source="/Assets/ButtonIcons/Labs.png" />
-                            <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
-                                        Text="Labs"/>
-                        </StackPanel>
-                    </Button.Content>
-                </Button>
-                <Button x:ConnectionId='14' x:Name="RedStarButton"
-                    Style="{StaticResource CustomButton}"
+            <StackPanel Orientation="Vertical">
+                <!--<TextBlock Style="{StaticResource HeaderTextBlockStyle}"
+                           Foreground="Red"
+                           HorizontalAlignment="Center"
+                           Text="Start Here" />-->
+                <GridView x:ConnectionId='10' x:Name="MainGridView"
+                          HorizontalContentAlignment="Center"
+                          Padding="16,16,16,0"
+                        Background="AliceBlue"
+                          Width="Auto">
+                    <GridView.Transitions>
+                        <TransitionCollection>
+                            <EntranceThemeTransition />
+                        </TransitionCollection>
+                    </GridView.Transitions>
+                    <Button x:ConnectionId='23' x:Name="YourClassButton"
                                                      
                                                    
                                           
-                        Content="I have a Red Star!" />
+                        Style="{StaticResource ImportantStylizedButtonStyle}">
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                    Source="/Assets/ButtonIcons/StartMyClass.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Start my Class"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+
+                    <Button x:ConnectionId='24' x:Name="DigitalReadingButton"
+                                                     
+                                                   
+                                          
+                          Style="{StaticResource ImportantStylizedButtonStyle}">
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/OpenMyCourseware.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Open my Courseware"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+
+                    <Button x:ConnectionId='25' x:Name="LabsButton"
+                                                                 
+                                                               
+                                                      
+                                    Style="{StaticResource ImportantStylizedButtonStyle}">
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/Labs.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Labs"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                </GridView>
                 
-                <Button x:ConnectionId='15' x:Name="BrowseClassesButton"
-                    Style="{StaticResource CustomButton}"
-                                                     
-                                                   
-                                          
-                        Content="What Other Courses Do you Have?" />
+                <GridView x:ConnectionId='11' x:Name="SecondaryGridView"
+                          HorizontalContentAlignment="Center"
+                          Padding="16"
+                        Background="#5F6987">
+                    <GridView.Transitions>
+                        <TransitionCollection>
+                            <EntranceThemeTransition />
+                        </TransitionCollection>
+                    </GridView.Transitions>
+                    <Button x:ConnectionId='12' x:Name="RedStarButton"
+                        Style="{StaticResource StandardStylizedButtonStyle}"
+                                                         
+                                                       
+                                              >
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/RedStar.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="I Have a Red Star"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
 
-                <Button x:ConnectionId='16' x:Name="LaunchGameButton"
-                        Style="{StaticResource CustomButton}"
-                                                     
-                                                   
-                                          
-                        Content="Bored?"/>
+                    <Button x:ConnectionId='13' x:Name="BrowseClassesButton"
+                        Style="{StaticResource StandardStylizedButtonStyle}"
+                                                         
+                                                       
+                                              >
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/Courses.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="What Other Courses Do You Have?"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
 
-                <Button x:ConnectionId='17' x:Name="SaveMoneyButton"
-                    Style="{StaticResource CustomButton}"
-                                                     
-                                                   
-                                          
-                        Content="Want to Save $?"/>
+                    <Button x:ConnectionId='14' x:Name="LaunchGameButton"
+                            Style="{StaticResource StandardStylizedButtonStyle}"
+                                                         
+                                                       
+                                              >
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/Bored.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Bored?"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
 
-                <Button x:ConnectionId='18' x:Name="HungryButton"
-                        Style="{StaticResource CustomButton}"
-                                                     
-                                                   
-                                          
-                        Content="Hungry?" />
+                    <Button x:ConnectionId='15' x:Name="SaveMoneyButton"
+                        Style="{StaticResource StandardStylizedButtonStyle}"
+                                                         
+                                                       
+                                              >
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/SaveMoney.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Want To Save $?"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
 
-                <Button x:ConnectionId='19' x:Name="ShoppingButton"
-                    Style="{StaticResource CustomButton}"
-                                                     
-                                                   
-                                          
-                        Content="Like Shopping?" />
+                    <Button x:ConnectionId='16' x:Name="HungryButton"
+                            Style="{StaticResource StandardStylizedButtonStyle}"
+                                                         
+                                                       
+                                              >
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/Hungry.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Hungry?"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
 
-                <Button x:ConnectionId='20' x:Name="WhyCookiesButton"                        
-                                                     
-                                                   
-                                          
-                        Style="{StaticResource CustomButton}"
-                        Content="Why do we make Cookies?"/>
+                    <Button x:ConnectionId='17' x:Name="ShoppingButton"
+                        Style="{StaticResource StandardStylizedButtonStyle}"
+                                                         
+                                                       
+                                              >
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/LikeShopping.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Like Shopping?"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
 
-                <Button x:ConnectionId='21' x:Name="VitalAcceleratorButton"
-                        Style="{StaticResource CustomButton}"
-                                                     
-                                                   
-                                          
-                        Content="What is the Vital Accelerator?" />
+                    <Button x:ConnectionId='18' x:Name="WhyCookiesButton"                        
+                                                         
+                                                       
+                                              
+                            Style="{StaticResource StandardStylizedButtonStyle}">
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/Cookies.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Why Do We Make Cookies?"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
 
-                <Button x:ConnectionId='22' x:Name="FreeWebinars"
-                                                     
-                                                           
-                                                  
-                        Content="Free Webinars"
-                        Style="{StaticResource CustomButton}" />
+                    <Button x:ConnectionId='19' x:Name="VitalAcceleratorButton"
+                            Style="{StaticResource StandardStylizedButtonStyle}"
+                                                         
+                                                       
+                                              >
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/VitalAccelerator.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="What is the Vital Accelerator?"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
 
-                <Button x:ConnectionId='23' x:Name="faqButton"
-                    Style="{StaticResource CustomButton}"
-                                                     
-                                                   
-                                          
-                        Content="FAQ" />
+                    <Button x:ConnectionId='20' x:Name="FreeWebinars"
+                                                         
+                                                               
+                                                      
+                            Style="{StaticResource StandardStylizedButtonStyle}">
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/FreeWebinars.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Free Webinars"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
 
-                <Button x:ConnectionId='24' x:Name="questionButton"
-                        Style="{StaticResource CustomButton}"
-                                                     
-                                                   
-                                          
-                        Content="Have a Question?" />
-            </GridView>
+                    <Button x:ConnectionId='21' x:Name="faqButton"
+                        Style="{StaticResource StandardStylizedButtonStyle}"
+                                                         
+                                                       
+                                              >
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/FAQ.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="FAQ"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+
+                    <Button x:ConnectionId='22' x:Name="questionButton"
+                            Style="{StaticResource StandardStylizedButtonStyle}"
+                                                         
+                                                       
+                                              >
+                        <Button.Content>
+                            <StackPanel Orientation="Vertical"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center">
+                                <Image Style="{StaticResource IconImageStyle}" 
+                                       Source="/Assets/ButtonIcons/Question.png" />
+                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                            Text="Have a Question?"/>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                </GridView>
+            </StackPanel>
         </ScrollViewer>
     </Grid>
 </Page>

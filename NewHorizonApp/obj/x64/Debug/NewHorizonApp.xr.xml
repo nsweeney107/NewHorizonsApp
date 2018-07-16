@@ -37,7 +37,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="Background" />
       <RootEvent Name="Click" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
@@ -55,6 +54,7 @@
       <RootProperty Name="Padding" />
       <RootProperty Name="Template" />
       <RootProperty Name="UseSystemFocusVisuals" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
       <RootProperty Name="MergedDictionaries" />
@@ -200,7 +200,7 @@
       <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="Padding" />
       <RootProperty Name="Background" />
-      <RootProperty Name="Resources" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Transitions" />
       <RootProperty Name="Items" />
     </RootType>
