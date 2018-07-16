@@ -144,6 +144,151 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style TargetType="Button" x:Key="StylizedButtonStyle">
+            <Setter Property="Width" Value="240" />
+            <Setter Property="Height" Value="120" />
+            <Setter Property="Margin" Value="20" />
+            <Setter Property="Padding" Value="4" />
+            <Setter Property="UseSystemFocusVisuals" Value="True" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="RootGrid">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Grid.Row)" Storyboard.TargetName="grid">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <x:Int32>1</x:Int32>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="DropShadowLayer">
+                                                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.2"/>
+                                                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="WhiteOpacityLayer"
+                                                                                       Storyboard.TargetProperty="Opacity">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="0.4" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="WhiteOpacityLayer"
+                                                                                       Storyboard.TargetProperty="Opacity">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                         Value="0.2" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="7*"/>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="12"/>
+                                </Grid.RowDefinitions>
+                                <!--<Grid.ColumnDefinitions>
+                                                <ColumnDefinition />
+                                                <ColumnDefinition Width="8" />
+                                            </Grid.ColumnDefinitions>-->
+                                <Grid x:Name="DropShadowLayer"
+                                                  Grid.Row="1"
+                                                  Grid.RowSpan="4">
+                                    <!--Grid.ColumnSpan="2">-->
+                                    <Border BorderBrush="Black"
+                                                        BorderThickness="1"
+                                                        CornerRadius="6"
+                                                        Background="Black"
+                                                        Opacity="0.2"/>
+                                </Grid>
+                                <Grid x:Name="ShadowGrid" 
+                                                  Margin="0" 
+                                                  Grid.RowSpan="2" 
+                                                  Grid.Row="1">
+                                    <Border BorderBrush="{TemplateBinding Background}"
+                                                            BorderThickness="1"
+                                                            CornerRadius="6"
+                                                        Background="{TemplateBinding Background}"/>
+
+                                    <Border x:Name="ThreeDeeButtonPart"
+                                                        BorderBrush="Black"
+                                                        BorderThickness="1"
+                                                        CornerRadius="6"
+                                                        Background="{TemplateBinding Background}"/>
+
+                                    <Border x:Name="BlackOpacityLayer" 
+                                                        Background="Black" 
+                                                        Opacity="0.25" 
+                                                        BorderBrush="Black" 
+                                                        CornerRadius="6" />
+                                </Grid>
+                                <Grid x:Name="grid" Margin="0" Grid.Row="0" Grid.RowSpan="2">
+                                    <Border     x:Name="TopButtonPart" 
+                                                            BorderBrush="White"
+                                                            BorderThickness="1"
+                                                            CornerRadius="6"
+                                                            Background="{TemplateBinding Background}"/>
+                                    <Border x:Name="WhiteOpacityLayer"
+                                                        CornerRadius="6"
+                                                        Background="White"
+                                                        Opacity="0" />
+                                    <ContentPresenter Content="{TemplateBinding Content}">
+                                        <!--<StackPanel Orientation="Vertical"
+                                                                VerticalAlignment="Center"
+                                                                HorizontalAlignment="Center"
+                                                                Padding="10">
+                                                        <Image Source="/Assets/ButtonIcons/StartMyClass.png" 
+                                                               Height="40"
+                                                               HorizontalAlignment="Center"
+                                                               VerticalAlignment="Center"/>
+                                                        <TextBlock  FontFamily="{TemplateBinding FontFamily}"
+                                                                    SelectionHighlightColor="{TemplateBinding Foreground}"
+                                                                    FontSize="{TemplateBinding FontSize}"
+                                                                    Foreground="{TemplateBinding Foreground}"
+                                                                    HorizontalAlignment="Center"
+                                                                    VerticalAlignment="Center"
+                                                                    TextWrapping="Wrap"
+                                                                    Height="Auto"
+                                                                    Width="Auto"
+                                                                    Text="{Binding Content, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                                                    </StackPanel>-->
+
+                                    </ContentPresenter>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="BaseTextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Height" Value="Auto" />
+            <Setter Property="Width" Value="Auto" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style x:Key="IconImageStyle" TargetType="Image">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Height" Value="40" />
+        </Style>
     </Page.Resources>
     <Page.Transitions>
         <TransitionCollection>
@@ -239,12 +384,12 @@
                 Grid.Row="1"
                 Grid.Column="0">
             <Polygon Points="0 0,15,15 15,0"
-                        Fill="#C8A686"
-                        Stroke="#47280B"
+                        Fill="LightGray"
+                        Stroke="Black"
                         Margin="200,0,0,0"
                      VerticalAlignment="Bottom"/>
-            <Border Background="#C8A686"
-                    BorderBrush="#47280B"
+            <Border Background="LightGray"
+                    BorderBrush="Black"
                     CornerRadius="3"
                     Padding="4"
                     VerticalAlignment="Bottom"
@@ -253,255 +398,28 @@
                         Margin="8"
                         Padding="8"
                         Width="500"
-                           Foreground="#2B3552"
+                           Foreground="Black"
                            VerticalAlignment="Bottom"
                     Style="{StaticResource TitleTextBlockStyle}" />
             </Border>
             <Polygon Points="0 0,15,15 15,0"
-                        Fill="#C8A686"
+                        Fill="LightGray"
                         Margin="200,0,0,0"
                      VerticalAlignment="Bottom"/>
         </Grid>
 
         <ScrollViewer x:ConnectionId='9'                                       
                       Grid.Column="1"
-               Grid.Row="1"
-               Grid.RowSpan="2" 
+                        Grid.Row="1"
+                        Grid.RowSpan="2" 
                       HorizontalContentAlignment="Center" 
                       VerticalContentAlignment="Top">
             <GridView x:ConnectionId='10' x:Name="MainGridView"
                       HorizontalContentAlignment="Center"
-                  Padding="16"
-                  Background="#5F6987">
+                      Padding="16"
+                    Background="#5F6987">
                 <GridView.Resources>
-                    <Style x:Key="BaseButtonStyle" TargetType="Button">
-                        <Setter Property="FontSize" Value="24" />
-                        <Setter Property="Width" Value="240" />
-                        <Setter Property="Height" Value="120" />
-                        <Setter Property="BorderThickness" Value="4" />
-                        <Setter Property="Margin" Value="20" />
-                        <Setter Property="Padding" Value="4" />
-                    </Style>
-                    <Style x:Key="DefaultButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
-                        <Setter Property="Background" Value="#2B3552" />
-                        <Setter Property="Foreground" Value="#F2F2F2" />
-                        <Setter Property="BorderBrush" Value="#424D6D" />
-                        <!--<Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="Button">
-                                <Grid x:Name="RootGrid"
-                                      Background="{TemplateBinding Background}">
-                                    <VisualStateManager.VisualStateGroups>
-                                        <VisualStateGroup x:Name="CommonGroups">
-                                            <VisualState x:Name="Normal">
-                                                <Storyboard>
-                                                    <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
-                                                </Storyboard>
-                                            </VisualState>
-                                            <VisualState x:Name="PointerOver" >
-                                                <Storyboard>
-                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid"
-                                                                                   Storyboard.TargetProperty="Background">
-                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Bind DataHolder.Color}" />
-                                                    </ObjectAnimationUsingKeyFrames>
-                                                </Storyboard>
-                                            </VisualState>
-                                                         
-                                        </VisualStateGroup>
-                                    </VisualStateManager.VisualStateGroups>
-                                </Grid>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>-->
-                    </Style>
-                    <Style x:Key="ImportantButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
-                        <Setter Property="Background" Value="#795838" />
-                        <Setter Property="Foreground" Value="#F2F2F2" />
-                        <Setter Property="BorderBrush" Value="#A27C5A" />
-                        <!--<Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="Button">
-                                <Grid x:Name="RootGrid"
-                                      Background="{TemplateBinding Background}">
-                                    <VisualStateManager.VisualStateGroups>
-                                        <VisualStateGroup x:Name="CommonGroups">
-                                            <VisualState x:Name="Normal">
-                                                <Storyboard>
-                                                    <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
-                                                </Storyboard>
-                                            </VisualState>
-                                            <VisualState x:Name="PointerOver" >
-                                                <Storyboard>
-                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid"
-                                                                                   Storyboard.TargetProperty="Background">
-                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Bind DataHolder.Color}" />
-                                                    </ObjectAnimationUsingKeyFrames>
-                                                </Storyboard>
-                                            </VisualState>
-                                                         
-                                        </VisualStateGroup>
-                                    </VisualStateManager.VisualStateGroups>
-                                </Grid>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>-->
-                    </Style>
-                    <Style TargetType="Button" x:Key="StylizedButtonStyle">
-                        <Setter Property="FontSize" Value="24" />
-                        <Setter Property="FontFamily" Value="Segoe UI" />
-                        <Setter Property="Width" Value="240" />
-                        <Setter Property="Height" Value="120" />
-                        <Setter Property="BorderThickness" Value="4" />
-                        <Setter Property="Margin" Value="20" />
-                        <Setter Property="Padding" Value="4" />
-                        <Setter Property="Background" Value="#2B3552" />
-                        <Setter Property="Foreground" Value="#F2F2F2" />
-                        <Setter Property="BorderBrush" Value="#424D6D" />
-                        <Setter Property="UseSystemFocusVisuals" Value="True" />
-                        <Setter Property="Template">
-                            <Setter.Value>
-                                <ControlTemplate TargetType="Button">
-                                    <Grid x:Name="RootGrid">
-                                        <VisualStateManager.VisualStateGroups>
-                                            <VisualStateGroup x:Name="CommonStates">
-                                                <VisualState x:Name="Normal">
-                                                    <Storyboard>
-                                                        <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
-                                                    </Storyboard>
-                                                </VisualState>
-                                                <VisualState x:Name="Pressed">
-                                                    <Storyboard>
-                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Grid.Row)" Storyboard.TargetName="grid">
-                                                            <DiscreteObjectKeyFrame KeyTime="0">
-                                                                <DiscreteObjectKeyFrame.Value>
-                                                                    <x:Int32>1</x:Int32>
-                                                                </DiscreteObjectKeyFrame.Value>
-                                                            </DiscreteObjectKeyFrame>
-                                                        </ObjectAnimationUsingKeyFrames>
-                                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="DropShadowLayer">
-                                                            <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.2"/>
-                                                            <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
-                                                        </DoubleAnimationUsingKeyFrames>
-                                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="DropShadowLayer"
-                                                                                       Storyboard.TargetProperty="Opacity">
-                                                            <DiscreteObjectKeyFrame KeyTime="0"
-                                                                                    Value="0" />
-                                                        </ObjectAnimationUsingKeyFrames>-->
-                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="WhiteOpacityLayer"
-                                                                                       Storyboard.TargetProperty="Opacity">
-                                                            <DiscreteObjectKeyFrame KeyTime="0"
-                                                                                    Value="0.2" />
-                                                        </ObjectAnimationUsingKeyFrames>
-                                                    </Storyboard>
-                                                </VisualState>
-                                                <VisualState x:Name="PointerOver">
-                                                    <Storyboard>
-                                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
-                                                                                       Storyboard.TargetProperty="Background">
-                                                            <DiscreteObjectKeyFrame KeyTime="0" Value="Orange" />
-                                                        </ObjectAnimationUsingKeyFrames>-->
-                                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
-                                                                                       Storyboard.TargetProperty="BorderBrush">
-                                                            <DiscreteObjectKeyFrame KeyTime="0"
-                                                                                    Value="White" />
-                                                        </ObjectAnimationUsingKeyFrames>-->
-                                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="WhiteOpacityLayer"
-                                                                                       Storyboard.TargetProperty="Opacity">
-                                                            <DiscreteObjectKeyFrame KeyTime="0"
-                                                                                    Value="0.1" />
-                                                        </ObjectAnimationUsingKeyFrames>
-                                                        <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="BlackOpacityLayer"
-                                                                                       Storyboard.TargetProperty="Opacity">
-                                                            <DiscreteObjectKeyFrame KeyTime="0"
-                                                                                    Value="0" />
-                                                        </ObjectAnimationUsingKeyFrames>-->
-
-                                                        <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
-                                                    </Storyboard>
-                                                </VisualState>
-                                            </VisualStateGroup>
-                                        </VisualStateManager.VisualStateGroups>
-                                        <Grid>
-                                            <Grid.RowDefinitions>
-                                                <RowDefinition/>
-                                                <RowDefinition Height="7*"/>
-                                                <RowDefinition/>
-                                                <RowDefinition Height="12"/>
-                                            </Grid.RowDefinitions>
-                                            <!--<Grid.ColumnDefinitions>
-                                                <ColumnDefinition />
-                                                <ColumnDefinition Width="8" />
-                                            </Grid.ColumnDefinitions>-->
-                                            <Grid x:Name="DropShadowLayer"
-                                                  Grid.Row="1"
-                                                  Grid.RowSpan="4">
-                                                <!--Grid.ColumnSpan="2">-->
-                                                <Border BorderBrush="Black"
-                                                        BorderThickness="1"
-                                                        CornerRadius="6"
-                                                        Background="Black"
-                                                        Opacity="0.2"/>
-                                            </Grid>
-                                            <Grid x:Name="ShadowGrid" 
-                                                  Margin="0" 
-                                                  Grid.RowSpan="2" 
-                                                  Grid.Row="1">
-                                                <Border BorderBrush="{TemplateBinding Background}"
-                                                            BorderThickness="1"
-                                                            CornerRadius="6"
-                                                        Background="{TemplateBinding Background}"/>
-
-                                                <Border x:Name="ThreeDeeButtonPart"
-                                                        BorderBrush="Black"
-                                                        BorderThickness="1"
-                                                        CornerRadius="6"
-                                                        Background="{TemplateBinding Background}"/>
-
-                                                <Border x:Name="BlackOpacityLayer" 
-                                                        Background="Black" 
-                                                        Opacity="0.25" 
-                                                        BorderBrush="Black" 
-                                                        CornerRadius="6" />
-                                            </Grid>
-                                            <Grid x:Name="grid" Margin="0" Grid.Row="0" Grid.RowSpan="2">
-                                                <Border     x:Name="TopButtonPart" 
-                                                            BorderBrush="White"
-                                                            BorderThickness="1"
-                                                            CornerRadius="6"
-                                                            Background="{TemplateBinding Background}"/>
-                                                <Border x:Name="WhiteOpacityLayer"
-                                                        CornerRadius="6"
-                                                        Background="White"
-                                                        Opacity="0" />
-                                                <ContentPresenter Content="{TemplateBinding Content}">
-                                                    <!--<StackPanel Orientation="Vertical"
-                                                                VerticalAlignment="Center"
-                                                                HorizontalAlignment="Center"
-                                                                Padding="10">
-                                                        <Image Source="/Assets/ButtonIcons/StartMyClass.png" 
-                                                               Height="40"
-                                                               HorizontalAlignment="Center"
-                                                               VerticalAlignment="Center"/>
-                                                        <TextBlock  FontFamily="{TemplateBinding FontFamily}"
-                                                                    SelectionHighlightColor="{TemplateBinding Foreground}"
-                                                                    FontSize="{TemplateBinding FontSize}"
-                                                                    Foreground="{TemplateBinding Foreground}"
-                                                                    HorizontalAlignment="Center"
-                                                                    VerticalAlignment="Center"
-                                                                    TextWrapping="Wrap"
-                                                                    Height="Auto"
-                                                                    Width="Auto"
-                                                                    Text="{Binding Content, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
-                                                    </StackPanel>-->
-                                                    
-                                                </ContentPresenter>
-                                            </Grid>
-                                        </Grid>
-                                    </Grid>
-                                </ControlTemplate>
-                            </Setter.Value>
-                        </Setter>
-                    </Style>
+                    
                 </GridView.Resources>
                 <GridView.Transitions>
                     <TransitionCollection>
@@ -509,7 +427,7 @@
                     </TransitionCollection>
                 </GridView.Transitions>
                 <Button x:ConnectionId='11' x:Name="YourClassButton"
-                        Background="Goldenrod"
+                        Background="Red"
                                                  
                                                
                                       
@@ -518,54 +436,49 @@
                         <StackPanel Orientation="Vertical"
                                     VerticalAlignment="Center"
                                     HorizontalAlignment="Center">
-                            <Image Source="/Assets/ButtonIcons/StartMyClass.png" 
-                                    Height="40"
-                                    HorizontalAlignment="Center"
-                                    VerticalAlignment="Center"/>
-                            <TextBlock  HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        TextWrapping="Wrap"
-                                        Height="Auto"
-                                        Width="Auto"
+                            <Image Style="{StaticResource IconImageStyle}" 
+                                Source="/Assets/ButtonIcons/StartMyClass.png" />
+                            <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
                                         Text="Start my Class"/>
                         </StackPanel>
                     </Button.Content>
                 </Button>
-                    <!--Content="Start my Class" />-->
 
                 <Button x:ConnectionId='12' x:Name="DigitalReadingButton"
                                                  
                                                
                                       
-                    Background="Aqua"
+                    Background="Goldenrod"
                       Style="{StaticResource StylizedButtonStyle}">
                     <Button.Content>
                         <StackPanel Orientation="Vertical"
                                     VerticalAlignment="Center"
                                     HorizontalAlignment="Center">
-                            <Image Source="/Assets/ButtonIcons/OpenMyCourseware.png" 
-                                    Height="40"
-                                    HorizontalAlignment="Center"
-                                    VerticalAlignment="Center"/>
-                            <TextBlock  HorizontalAlignment="Center"
-                                        VerticalAlignment="Center"
-                                        TextWrapping="Wrap"
-                                        Height="Auto"
-                                        Width="Auto"
+                            <Image Style="{StaticResource IconImageStyle}" 
+                                   Source="/Assets/ButtonIcons/OpenMyCourseware.png" />
+                            <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
                                         Text="Open my Courseware"/>
                         </StackPanel>
                     </Button.Content>
                 </Button>
-                <!--Style="{StaticResource CustomImportantButton}"
-                        Content="Open my Courseware" />-->
 
                 <Button x:ConnectionId='13' x:Name="LabsButton"
+                        Background="Blue"
                                                              
                                                            
                                                   
-                                Style="{StaticResource CustomImportantButton}"
-                        Content="Labs"/>
-
+                                Style="{StaticResource StylizedButtonStyle}">
+                    <Button.Content>
+                        <StackPanel Orientation="Vertical"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center">
+                            <Image Style="{StaticResource IconImageStyle}" 
+                                   Source="/Assets/ButtonIcons/Labs.png" />
+                            <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                        Text="Labs"/>
+                        </StackPanel>
+                    </Button.Content>
+                </Button>
                 <Button x:ConnectionId='14' x:Name="RedStarButton"
                     Style="{StaticResource CustomButton}"
                                                      

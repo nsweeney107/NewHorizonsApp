@@ -47,16 +47,13 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Padding" />
       <RootProperty Name="Template" />
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="FontFamily" />
       <RootProperty Name="UseSystemFocusVisuals" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
@@ -177,10 +174,11 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Opacity" />
-      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Style" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerUpThemeAnimation" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimationUsingKeyFrames">
       <RootProperty Name="KeyFrames" />
     </RootType>
@@ -206,7 +204,6 @@
       <RootProperty Name="Transitions" />
       <RootProperty Name="Items" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.Animation.PointerUpThemeAnimation" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
     <RootType FullName="Windows.UI.Xaml.Shapes.Polygon">
       <RootProperty Name="Points" />
