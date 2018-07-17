@@ -152,6 +152,11 @@
                                                 <DiscreteObjectKeyFrame KeyTime="0"
                                                                          Value="0.2" />
                                             </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
+                                                                           Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="Black" />
+                                            </ObjectAnimationUsingKeyFrames>
                                             <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
                                         </Storyboard>
                                     </VisualState>
@@ -162,7 +167,7 @@
                                     <RowDefinition/>
                                     <RowDefinition Height="7*"/>
                                     <RowDefinition/>
-                                    <RowDefinition Height="12"/>
+                                    <RowDefinition Height="16"/>
                                 </Grid.RowDefinitions>
                                 <!--<Grid.ColumnDefinitions>
                                                 <ColumnDefinition />
@@ -176,7 +181,7 @@
                                                         BorderThickness="1"
                                                         CornerRadius="6"
                                                         Background="Black"
-                                                        Opacity="0.2"/>
+                                                        Opacity="0.3"/>
                                 </Grid>
                                 <Grid x:Name="ShadowGrid" 
                                                   Margin="0" 
@@ -188,31 +193,31 @@
                                                         Background="{TemplateBinding Background}"/>
 
                                     <Border x:Name="ThreeDeeButtonPart"
-                                                        BorderBrush="Black"
+                                                        BorderBrush="{TemplateBinding Background}"
                                                         BorderThickness="1"
                                                         CornerRadius="6"
                                                         Background="{TemplateBinding Background}"/>
 
-                                    <!--<Border x:Name="BlackOpacityLayer" 
+                                    <Border x:Name="BlackOpacityLayer" 
                                                         Background="Black" 
                                                         Opacity="0.25" 
                                                         BorderBrush="Black" 
-                                                        CornerRadius="6" />-->
+                                                        CornerRadius="6" />
                                     <Border x:Name="ThreeDeeEffectLayer" 
                                             CornerRadius="6">
-                                        <Border.BorderBrush>
+                                        <Border.Background>
                                             <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                                 <GradientStop Color="#C8000000" Offset="0.0" />
-                                                <GradientStop Color="#20000000" Offset="0.2" />
-                                                <GradientStop Color="#20000000" Offset="0.8" />
+                                                <GradientStop Color="#20000000" Offset="0.03" />
+                                                <GradientStop Color="#20000000" Offset="0.97" />
                                                 <GradientStop Color="#C8000000" Offset="1.0" />
                                             </LinearGradientBrush>
-                                        </Border.BorderBrush>
+                                        </Border.Background>
                                     </Border>
                                 </Grid>
                                 <Grid x:Name="grid" Margin="0" Grid.Row="0" Grid.RowSpan="2">
                                     <Border     x:Name="TopButtonPart" 
-                                                            BorderBrush="White"
+                                                            BorderBrush="{TemplateBinding Background}"
                                                             BorderThickness="1"
                                                             CornerRadius="6"
                                                             Background="{TemplateBinding Background}"/>
@@ -288,7 +293,7 @@
     <Grid x:ConnectionId='3' x:Name="MainGrid" 
           Padding="0,36,0,0"
           MinWidth="800"
-          Background="#2B3552">
+          Background="#F2F2F2">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition />
@@ -313,12 +318,12 @@
                    Text="New Horizons of Wisconsin"
                    Style="{StaticResource HeaderTextBlockStyle}"
                        HorizontalAlignment="Center"
-                   Foreground="White"/>
+                   Foreground="Black"/>
             <TextBlock x:ConnectionId='28' x:Name="SubtitleTextBlock"
                        Text="Student Portal"
                        Style="{StaticResource SubheaderTextBlockStyle}"
                        HorizontalAlignment="Center"
-                       Foreground="White" />
+                       Foreground="Black" />
         </StackPanel>
 
         <Image x:ConnectionId='4' x:Name="Logo"
@@ -408,7 +413,7 @@
                 <GridView x:ConnectionId='10' x:Name="MainGridView"
                           HorizontalContentAlignment="Center"
                           Padding="16,16,16,0"
-                        Background="#5F6987"
+                        Background="#FFFFFF"
                           Width="Auto">
                     <GridView.Transitions>
                         <TransitionCollection>
@@ -470,7 +475,7 @@
                 <GridView x:ConnectionId='11' x:Name="SecondaryGridView"
                           HorizontalContentAlignment="Center"
                           Padding="16"
-                        Background="#5F6987">
+                        Background="#FFFFFF">
                     <GridView.Transitions>
                         <TransitionCollection>
                             <EntranceThemeTransition />
