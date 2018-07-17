@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-16T04:24:08.151</Modified>
+      <Modified>2018-07-17T02:34:52.229</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.exe">
       <PackagePath>entrypoint\NewHorizonApp.exe</PackagePath>
-      <Modified>2018-07-16T04:24:07.481</Modified>
+      <Modified>2018-07-17T02:34:49.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NateDev\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -583,6 +583,10 @@
       <PackagePath>Assets\Mouth.png</PackagePath>
       <Modified>2017-10-17T18:42:31.005</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Pixel Portrait Riley small TR.png">
+      <PackagePath>Assets\Pixel Portrait Riley small TR.png</PackagePath>
+      <Modified>2018-07-17T02:34:13.343</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Pixel Portrait Riley small.png">
       <PackagePath>Assets\Pixel Portrait Riley small.png</PackagePath>
       <Modified>2017-10-17T18:42:12.365</Modified>
@@ -764,11 +768,11 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-16T04:24:07.946</Modified>
+      <Modified>2018-07-17T02:34:51.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2018-07-16T04:24:08.149</Modified>
+      <Modified>2018-07-17T02:34:52.223</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

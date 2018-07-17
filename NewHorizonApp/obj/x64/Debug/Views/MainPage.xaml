@@ -42,26 +42,8 @@
                                             <!--<PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />-->
                                         </Storyboard>
                                     </VisualState>
-                                    <VisualState x:Name="Pressed">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="StandardButtonImage"
-                                                                                       Storyboard.TargetProperty="Source">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Standard_pressed v2.png" />
-                                            </ObjectAnimationUsingKeyFrames>
-                                            
-                                            <!--<PointerDownThemeAnimation Storyboard.TargetName="RootGrid" />-->
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="PointerOver">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="StandardButtonImage"
-                                                                                       Storyboard.TargetProperty="Source">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Standard_hover v2.png" />
-                                            </ObjectAnimationUsingKeyFrames>
-
-                                            <!--<PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />-->
-                                        </Storyboard>
-                                    </VisualState>
+                                    <VisualState x:Name="Pressed"/>
+                                    <VisualState x:Name="PointerOver"/>
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
                             <!--<Border CornerRadius="16"
@@ -102,26 +84,8 @@
                                             <!--<PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />-->
                                         </Storyboard>
                                     </VisualState>
-                                    <VisualState x:Name="Pressed">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ImportantButtonImage"
-                                                                                       Storyboard.TargetProperty="Source">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Important_pressed v2.png" />
-                                            </ObjectAnimationUsingKeyFrames>
-
-                                            <!--<PointerDownThemeAnimation Storyboard.TargetName="RootGrid" />-->
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="PointerOver">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ImportantButtonImage"
-                                                                                       Storyboard.TargetProperty="Source">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="/Assets/Important_hover v2.png" />
-                                            </ObjectAnimationUsingKeyFrames>
-
-                                            <!--<PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />-->
-                                        </Storyboard>
-                                    </VisualState>
+                                    <VisualState x:Name="Pressed"/>
+                                    <VisualState x:Name="PointerOver"/>
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
                             <!--<Border CornerRadius="16"
@@ -308,7 +272,7 @@
         </TransitionCollection>
     </Page.Transitions>
 
-    
+
 
     <Grid x:ConnectionId='3' x:Name="MainGrid" 
           Padding="0,36,0,0"
@@ -330,7 +294,7 @@
                       Source="/Assets/textBeep.wav"/>-->
         <!--MediaEnded="HandleMediaEnded"
                   MediaFailed="HandleMediaFailed"/>-->
-        
+
         <StackPanel Orientation="Vertical" 
                     Grid.ColumnSpan="2" 
                     HorizontalAlignment="Center">
@@ -359,7 +323,7 @@
                    Width="330"
                    Height="450"
                    Margin="8"
-                   Source="/Assets/Pixel Portrait Riley Small.png"
+                   Source="/Assets/Pixel Portrait Riley Small TR.png"
                    Grid.Row="2"
                    Grid.Column="0"
                    Canvas.ZIndex="0" />
@@ -389,7 +353,7 @@
                Opacity="0"
                                             
                                            />
-        
+
         <Grid x:ConnectionId='8' x:Name="TextBubbleGrid" 
               Padding="12"
                 Grid.Row="1"
@@ -433,7 +397,7 @@
                 <GridView x:ConnectionId='10' x:Name="MainGridView"
                           HorizontalContentAlignment="Center"
                           Padding="16,16,16,0"
-                        Background="AliceBlue"
+                        Background="#5F6987"
                           Width="Auto">
                     <GridView.Transitions>
                         <TransitionCollection>
@@ -491,7 +455,7 @@
                         </Button.Content>
                     </Button>
                 </GridView>
-                
+
                 <GridView x:ConnectionId='11' x:Name="SecondaryGridView"
                           HorizontalContentAlignment="Center"
                           Padding="16"

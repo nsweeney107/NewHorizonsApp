@@ -436,6 +436,9 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Mouth.png">
       <PackagePath>Assets\Mouth.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Pixel Portrait Riley small TR.png">
+      <PackagePath>Assets\Pixel Portrait Riley small TR.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\Pixel Portrait Riley small.png">
       <PackagePath>Assets\Pixel Portrait Riley small.png</PackagePath>
     </AppxPackagedFile>
