@@ -263,12 +263,12 @@
         <Style x:Key="ImportantStylizedButtonStyle"
                TargetType="Button"
                BasedOn="{StaticResource StylizedButtonStyle}">
-            <Setter Property="Background" Value="YellowGreen" />
+            <Setter Property="Background" Value="CornflowerBlue" />
         </Style>
         <Style x:Key="StandardStylizedButtonStyle"
                TargetType="Button"
                BasedOn="{StaticResource StylizedButtonStyle}">
-            <Setter Property="Background" Value="OrangeRed" />
+            <Setter Property="Background" Value="MediumSeaGreen" />
         </Style>
         <Style x:Key="BaseTextBlockStyle" TargetType="TextBlock">
             <Setter Property="FontFamily" Value="Segoe UI" />
@@ -299,7 +299,7 @@
     <Grid x:Name="MainGrid" 
           Padding="0,36,0,0"
           MinWidth="800"
-          Background="#E6E6E6">
+          Background="LightGray">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition />
@@ -381,11 +381,11 @@
                 Grid.Row="1"
                 Grid.Column="0">
             <Polygon Points="0 0,15,15 15,0"
-                        Fill="LightGray"
+                        Fill="AliceBlue"
                         Stroke="Black"
                         Margin="200,0,0,0"
                      VerticalAlignment="Bottom"/>
-            <Border Background="LightGray"
+            <Border Background="AliceBlue"
                     BorderBrush="Black"
                     CornerRadius="3"
                     Padding="4"
@@ -400,7 +400,7 @@
                     Style="{StaticResource TitleTextBlockStyle}" />
             </Border>
             <Polygon Points="0 0,15,15 15,0"
-                        Fill="LightGray"
+                        Fill="AliceBlue"
                         Margin="200,0,0,0"
                      VerticalAlignment="Bottom"/>
         </Grid>
