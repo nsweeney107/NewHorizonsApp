@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-18T02:35:01.574</Modified>
+      <Modified>2018-07-18T03:25:07.857</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.exe">
       <PackagePath>entrypoint\NewHorizonApp.exe</PackagePath>
-      <Modified>2018-07-18T02:34:58.908</Modified>
+      <Modified>2018-07-18T03:25:07.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\NateDev\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -595,6 +595,18 @@
       <PackagePath>Assets\PixelPortraitRileySmall.png</PackagePath>
       <Modified>2017-10-11T02:56:16.973</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\StateImages\Appleton.png">
+      <PackagePath>Assets\StateImages\Appleton.png</PackagePath>
+      <Modified>2018-07-18T02:58:10.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\StateImages\Brookfield.png">
+      <PackagePath>Assets\StateImages\Brookfield.png</PackagePath>
+      <Modified>2018-07-18T02:58:10.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\StateImages\Madison.png">
+      <PackagePath>Assets\StateImages\Madison.png</PackagePath>
+      <Modified>2018-07-18T02:58:10.570</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\AppletonShoppingFooter.png">
       <PackagePath>WebPages\WebAssets\AppletonShoppingFooter.png</PackagePath>
       <Modified>2018-06-08T03:39:59.318</Modified>
@@ -759,7 +771,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\NewHorizonApp.xr.xml">
       <PackagePath>NewHorizonApp.xr.xml</PackagePath>
-      <Modified>2018-07-17T02:42:58.526</Modified>
+      <Modified>2018-07-18T03:24:04.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -768,11 +780,11 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-18T02:35:01.141</Modified>
+      <Modified>2018-07-18T03:25:07.674</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\bin\x64\Debug\Core\NewHorizonApp.exe">
       <PackagePath>NewHorizonApp.exe</PackagePath>
-      <Modified>2018-07-18T02:35:01.568</Modified>
+      <Modified>2018-07-18T03:25:07.855</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

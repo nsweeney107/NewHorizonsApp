@@ -108,185 +108,7 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        <Style TargetType="Button" x:Key="StylizedButtonStyle">
-            <Setter Property="Width" Value="240" />
-            <Setter Property="Height" Value="160" />
-            <Setter Property="Margin" Value="20" />
-            <Setter Property="Padding" Value="4" />
-            <Setter Property="UseSystemFocusVisuals" Value="True" />
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Grid x:Name="RootGrid">
-                            <VisualStateManager.VisualStateGroups>
-                                <VisualStateGroup x:Name="CommonStates">
-                                    <VisualState x:Name="Normal">
-                                        <Storyboard>
-                                            <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="Pressed">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(Grid.Row)" Storyboard.TargetName="grid">
-                                                <DiscreteObjectKeyFrame KeyTime="0">
-                                                    <DiscreteObjectKeyFrame.Value>
-                                                        <x:Int32>1</x:Int32>
-                                                    </DiscreteObjectKeyFrame.Value>
-                                                </DiscreteObjectKeyFrame>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="DropShadowLayer">
-                                                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.2"/>
-                                                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
-                                            </DoubleAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="WhiteOpacityLayer"
-                                                                                       Storyboard.TargetProperty="Opacity">
-                                                <DiscreteObjectKeyFrame KeyTime="0"
-                                                                        Value="0.4" />
-                                            </ObjectAnimationUsingKeyFrames>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="PointerOver">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="WhiteOpacityLayer"
-                                                                                       Storyboard.TargetProperty="Opacity">
-                                                <DiscreteObjectKeyFrame KeyTime="0"
-                                                                         Value="0.2" />
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
-                                                                           Storyboard.TargetProperty="BorderBrush">
-                                                <DiscreteObjectKeyFrame KeyTime="0"
-                                                                        Value="White" />
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
-                                        </Storyboard>
-                                    </VisualState>
-                                </VisualStateGroup>
-                            </VisualStateManager.VisualStateGroups>
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition/>
-                                    <RowDefinition Height="7*"/>
-                                    <RowDefinition/>
-                                    <RowDefinition Height="16"/>
-                                </Grid.RowDefinitions>
-                                <!--<Grid.ColumnDefinitions>
-                                                <ColumnDefinition />
-                                                <ColumnDefinition Width="8" />
-                                            </Grid.ColumnDefinitions>-->
-                                <Grid x:Name="DropShadowLayer"
-                                                  Grid.Row="1"
-                                                  Grid.RowSpan="4">
-                                    <!--Grid.ColumnSpan="2">-->
-                                    <Border BorderBrush="Black"
-                                                        CornerRadius="6">
-                                        <Border.Background>
-                                            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
-                                                <GradientStop Color="#FF000000" Offset="0.5" />
-                                                <GradientStop Color="#00000000" Offset="1.0" />
-                                            </LinearGradientBrush>
-                                        </Border.Background>
-                                    </Border>
-                                                        <!--Background="Black"
-                                                        Opacity="0.3"/>-->
-                                </Grid>
-                                <Grid x:Name="ShadowGrid" 
-                                                  Margin="0" 
-                                                  Grid.RowSpan="2" 
-                                                  Grid.Row="1">
-                                    <Border BorderBrush="{TemplateBinding Background}"
-                                                            BorderThickness="1"
-                                                            CornerRadius="6"
-                                                        Background="{TemplateBinding Background}"/>
-
-                                    <Border x:Name="ThreeDeeButtonPart"
-                                                        BorderBrush="Black"
-                                                        BorderThickness="1"
-                                                        CornerRadius="6"
-                                                        Background="{TemplateBinding Background}"/>
-
-                                    <Border x:Name="BlackOpacityLayer" 
-                                                        Background="Black" 
-                                                        Opacity="0.25" 
-                                                        BorderBrush="Black" 
-                                                        CornerRadius="6" />
-                                    <Border x:Name="ThreeDeeEffectLayer" 
-                                            CornerRadius="6">
-                                        <Border.Background>
-                                            <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                                <GradientStop Color="#C8000000" Offset="0.0" />
-                                                <GradientStop Color="#20000000" Offset="0.03" />
-                                                <GradientStop Color="#20000000" Offset="0.97" />
-                                                <GradientStop Color="#C8000000" Offset="1.0" />
-                                            </LinearGradientBrush>
-                                        </Border.Background>
-                                    </Border>
-                                </Grid>
-                                <Grid x:Name="grid" Margin="0" Grid.Row="0" Grid.RowSpan="2">
-                                    <Border     x:Name="TopButtonPart" 
-                                                            BorderBrush="{TemplateBinding Background}"
-                                                            BorderThickness="1"
-                                                            CornerRadius="6"
-                                                            Background="{TemplateBinding Background}"/>
-                                    <Border x:Name="WhiteOpacityLayer"
-                                                        CornerRadius="6"
-                                                        Background="White"
-                                                        Opacity="0" />
-                                    <ContentPresenter Content="{TemplateBinding Content}">
-                                        <!--<StackPanel Orientation="Vertical"
-                                                                VerticalAlignment="Center"
-                                                                HorizontalAlignment="Center"
-                                                                Padding="10">
-                                                        <Image Source="/Assets/ButtonIcons/StartMyClass.png" 
-                                                               Height="40"
-                                                               HorizontalAlignment="Center"
-                                                               VerticalAlignment="Center"/>
-                                                        <TextBlock  FontFamily="{TemplateBinding FontFamily}"
-                                                                    SelectionHighlightColor="{TemplateBinding Foreground}"
-                                                                    FontSize="{TemplateBinding FontSize}"
-                                                                    Foreground="{TemplateBinding Foreground}"
-                                                                    HorizontalAlignment="Center"
-                                                                    VerticalAlignment="Center"
-                                                                    TextWrapping="Wrap"
-                                                                    Height="Auto"
-                                                                    Width="Auto"
-                                                                    Text="{Binding Content, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
-                                                    </StackPanel>-->
-
-                                    </ContentPresenter>
-                                </Grid>
-                            </Grid>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style x:Key="ImportantStylizedButtonStyle"
-               TargetType="Button"
-               BasedOn="{StaticResource StylizedButtonStyle}">
-            <Setter Property="Background" Value="CornflowerBlue" />
-        </Style>
-        <Style x:Key="StandardStylizedButtonStyle"
-               TargetType="Button"
-               BasedOn="{StaticResource StylizedButtonStyle}">
-            <Setter Property="Background" Value="MediumSeaGreen" />
-        </Style>
-        <Style x:Key="BaseTextBlockStyle" TargetType="TextBlock">
-            <Setter Property="FontFamily" Value="Palatino Linotype" />
-            <Setter Property="FontSize" Value="24" />
-            <Setter Property="Padding" Value="8" />
-            <Setter Property="Foreground" Value="White" />
-            <Setter Property="HorizontalAlignment" Value="Center" />
-            <Setter Property="VerticalAlignment" Value="Center" />
-            <Setter Property="TextAlignment" Value="Center" />
-            <Setter Property="Height" Value="Auto" />
-            <Setter Property="Width" Value="Auto" />
-            <Setter Property="TextWrapping" Value="Wrap" />
-        </Style>
-        <Style x:Key="IconImageStyle" TargetType="Image">
-            <Setter Property="HorizontalAlignment" Value="Center" />
-            <Setter Property="VerticalAlignment" Value="Center" />
-            <Setter Property="Height" Value="40" />
-        </Style>
+        
     </Page.Resources>
     <Page.Transitions>
         <TransitionCollection>
@@ -439,7 +261,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                     Source="/Assets/ButtonIcons/StartMyClass.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Start my Class"/>
                             </StackPanel>
                         </Button.Content>
@@ -456,7 +278,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/OpenMyCourseware.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Open my Courseware"/>
                             </StackPanel>
                         </Button.Content>
@@ -473,7 +295,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/Labs.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Labs"/>
                             </StackPanel>
                         </Button.Content>
@@ -500,7 +322,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/RedStar.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="I Have a Red Star"/>
                             </StackPanel>
                         </Button.Content>
@@ -517,7 +339,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/Courses.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="What Other Courses Do You Have?"/>
                             </StackPanel>
                         </Button.Content>
@@ -534,7 +356,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/Bored.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Bored?"/>
                             </StackPanel>
                         </Button.Content>
@@ -551,7 +373,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/SaveMoney.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Want To Save $?"/>
                             </StackPanel>
                         </Button.Content>
@@ -568,7 +390,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/Hungry.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Hungry?"/>
                             </StackPanel>
                         </Button.Content>
@@ -585,7 +407,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/LikeShopping.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Like Shopping?"/>
                             </StackPanel>
                         </Button.Content>
@@ -602,7 +424,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/Cookies.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Why Do We Make Cookies?"/>
                             </StackPanel>
                         </Button.Content>
@@ -619,7 +441,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/VitalAccelerator.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="What is the Vital Accelerator?"/>
                             </StackPanel>
                         </Button.Content>
@@ -636,7 +458,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/FreeWebinars.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Free Webinars"/>
                             </StackPanel>
                         </Button.Content>
@@ -653,7 +475,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/FAQ.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="FAQ"/>
                             </StackPanel>
                         </Button.Content>
@@ -670,7 +492,7 @@
                                         HorizontalAlignment="Center">
                                 <Image Style="{StaticResource IconImageStyle}" 
                                        Source="/Assets/ButtonIcons/Question.png" />
-                                <TextBlock  Style="{StaticResource BaseTextBlockStyle}"
+                                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
                                             Text="Have a Question?"/>
                             </StackPanel>
                         </Button.Content>

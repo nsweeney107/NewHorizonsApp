@@ -26,7 +26,7 @@
         </Grid.RowDefinitions>
         <CommandBar x:ConnectionId='1' x:Name="TopCommandBar"  
                     FontSize="36"
-                    Background="#5F6987"
+                    Background="DarkGray"
                     Foreground="White"
                                                    
                                                    >
@@ -64,7 +64,7 @@
         <WebView x:ConnectionId='2' x:Name="MainWebView"
                  Grid.Row="1"
                  Margin="4"
-             DefaultBackgroundColor="#424D6D"
+             DefaultBackgroundColor="White"
                                                                                   >
         </WebView>
     </Grid>

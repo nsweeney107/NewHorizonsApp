@@ -14,63 +14,82 @@
         </TransitionCollection>
     </Page.Transitions>
 
-    <Grid Background="#5F6987"
+    <Grid Background="DarkGray"
           Padding="20">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="200"/>
             <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
         <TextBlock Style="{StaticResource HeaderTextBlockStyle}"
-                   Text="Please click on the button with the name of the New Horizons facility you are currently at to see a list of nearby restaurants."
+                   Text="Please select your location:"
+                   FontSize="72"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
                    FontWeight="Bold"
-                   Foreground="White"
+                   Foreground="Black"
                    HorizontalAlignment="Center"
-                   TextAlignment="Center"
-                   Margin="0,0,0,36"/>
-        <StackPanel x:ConnectionId='1' x:Name="Appleton"
-                    Orientation="Vertical"
-                    Grid.Row="1"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Center">
-            
-            <Button x:ConnectionId='7' x:Name="AppletonButton" 
-                    Content="Appleton"
-                    Style="{StaticResource ButtonStyle}"
-                    FontSize="72"
-                                              />
-        </StackPanel>
+                   TextAlignment="Center"/>
 
-        <StackPanel x:ConnectionId='2' x:Name="Brookfield"
-                    Orientation="Vertical"
-                    Grid.Row="2"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Center">
-            <Button x:ConnectionId='6' x:Name="City2Button"
-                Content="Brookfield"
-                    Style="{StaticResource ButtonStyle}"                    
-                    FontSize="72"
-                                              />
-        </StackPanel>
+        <Button x:ConnectionId='1' x:Name="AppletonButton"
+                Grid.Row="1"
+                Grid.Column="0"
+                Style="{StaticResource StateButtonStyle}"
+                                          >
+            <Button.Content>
+                <Image Source="/Assets/StateImages/Appleton.png" 
+                        Width="400"
+                        Height="400"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"/>
+            </Button.Content>
+        </Button>
 
-        <StackPanel x:ConnectionId='3' x:Name="Madison"
-                    Orientation="Vertical"
-                    Grid.Row="3"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Center">            
-            <Button x:ConnectionId='5' x:Name="City3Button" 
-                    Content="Madison"
-                    Style="{StaticResource ButtonStyle}"                    
-                    FontSize="72"
-                                              />
-        </StackPanel>
+        <Button x:ConnectionId='2' x:Name="City2Button"
+                Grid.Row="1"
+                Grid.Column="1"
+                Style="{StaticResource StateButtonStyle}"
+                                          >
+            <Button.Content>
+                <Image Source="/Assets/StateImages/Brookfield.png" 
+                           Width="400"
+                           Height="400"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Button.Content>
+        </Button>
 
-        <Button x:ConnectionId='4' Style="{StaticResource ButtonStyle}"
-                Content="Return to Home Page"
-                Grid.Row="4"
-                                 />
+        <Button x:ConnectionId='3' x:Name="City3Button" 
+                Grid.Row="1"
+                Grid.Column="2"
+                Style="{StaticResource StateButtonStyle}"
+                                          >
+            <Button.Content>
+                <Image Source="/Assets/StateImages/Madison.png" 
+                           Width="400"
+                           Height="400"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+            </Button.Content>
+        </Button>
+
+        <Button x:ConnectionId='4' Style="{StaticResource StandardStylizedButtonStyle}"
+                Grid.Row="3"
+                Grid.Column="1"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                                 >
+            <Button.Content>
+                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="Return to Home Page"/>
+            </Button.Content>
+        </Button>
     </Grid>
 </Page>
 

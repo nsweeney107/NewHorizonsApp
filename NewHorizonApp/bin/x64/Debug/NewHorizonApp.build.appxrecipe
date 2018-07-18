@@ -445,6 +445,15 @@
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\PixelPortraitRileySmall.png">
       <PackagePath>Assets\PixelPortraitRileySmall.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\StateImages\Appleton.png">
+      <PackagePath>Assets\StateImages\Appleton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\StateImages\Brookfield.png">
+      <PackagePath>Assets\StateImages\Brookfield.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\Assets\StateImages\Madison.png">
+      <PackagePath>Assets\StateImages\Madison.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\GitHub\NewHorizonsApp\NewHorizonApp\WebPages\WebAssets\AppletonShoppingFooter.png">
       <PackagePath>WebPages\WebAssets\AppletonShoppingFooter.png</PackagePath>
     </AppxPackagedFile>

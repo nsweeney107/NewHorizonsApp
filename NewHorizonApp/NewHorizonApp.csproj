@@ -161,6 +161,9 @@
     <Content Include="Assets\Pixel Portrait Riley small.png" />
     <Content Include="Assets\PixelPortraitRileySmall.png" />
     <Content Include="Assets\cookies.mp4" />
+    <Content Include="Assets\StateImages\Appleton.png" />
+    <Content Include="Assets\StateImages\Brookfield.png" />
+    <Content Include="Assets\StateImages\Madison.png" />
     <Content Include="WebPages\AppletonHungry.html" />
     <Content Include="WebPages\AppletonShopping.html" />
     <Content Include="WebPages\BrookfieldHungry.html" />
