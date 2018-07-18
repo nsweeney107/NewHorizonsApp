@@ -16,11 +16,16 @@
                     Source="/Assets/cookies.mp4"
                     AutoPlay="True"
                     AreTransportControlsEnabled="True"/>
-        <Button x:ConnectionId='2' Grid.Row="1"
-                Style="{StaticResource ButtonStyle}"
-                Padding="20"
-                Content="Return to Home Page"
-                                 />
+        <Button x:ConnectionId='2' Style="{StaticResource StandardStylizedButtonStyle}"
+                Grid.Row="1"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                                 >
+            <Button.Content>
+                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="Return to Home Page"/>
+            </Button.Content>
+        </Button>
     </Grid>
 </Page>
 
