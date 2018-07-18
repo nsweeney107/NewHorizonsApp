@@ -271,12 +271,13 @@
             <Setter Property="Background" Value="MediumSeaGreen" />
         </Style>
         <Style x:Key="BaseTextBlockStyle" TargetType="TextBlock">
-            <Setter Property="FontFamily" Value="Cambria" />
-            <Setter Property="FontSize" Value="22" />
+            <Setter Property="FontFamily" Value="Palatino Linotype" />
+            <Setter Property="FontSize" Value="24" />
             <Setter Property="Padding" Value="8" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="HorizontalAlignment" Value="Center" />
             <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextAlignment" Value="Center" />
             <Setter Property="Height" Value="Auto" />
             <Setter Property="Width" Value="Auto" />
             <Setter Property="TextWrapping" Value="Wrap" />

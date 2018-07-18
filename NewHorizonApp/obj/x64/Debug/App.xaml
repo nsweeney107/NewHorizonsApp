@@ -8,7 +8,7 @@
     <Application.Resources>
         <Style x:Key="BaseTextBlockStyle"
                TargetType="TextBlock">
-            <Setter Property="FontFamily" Value="Broadway" />
+            <Setter Property="FontFamily" Value="Palatino Linotype" />
             <Setter Property="FontWeight" Value="SemiBold" />
             <Setter Property="FontSize" Value="15" />
             <Setter Property="TextTrimming" Value="None" />
