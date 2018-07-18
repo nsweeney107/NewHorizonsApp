@@ -14,15 +14,21 @@
         </TransitionCollection>
     </Page.Transitions>
     <Page.Resources>
-        <!--<Style x:Key="ButtonStyle" TargetType="Button">
-            <Setter Property="HorizontalAlignment" Value="Center"/>
-            <Setter Property="FontSize" Value="24"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="Padding" Value="16" />
-        </Style>-->
+        <Style x:Key="CoursewareImportantButton"
+               TargetType="Button"
+               BasedOn="{StaticResource ImportantStylizedButtonStyle}">
+            <Setter Property="Height" Value="60" />
+            <Setter Property="Width" Value="360" />
+        </Style>
+        <Style x:Key="CoursewareStandardButton"
+               TargetType="Button"
+               BasedOn="{StaticResource StandardStylizedButtonStyle}">
+            <Setter Property="Height" Value="60" />
+            <Setter Property="Width" Value="360" />
+        </Style>
     </Page.Resources>
 
-    <Grid Background="#5F6987"
+    <Grid Background="DarkGray"
           Padding="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -69,10 +75,15 @@
                        Text="*Updates will be automatically applied"
                        Foreground="White"
                        Margin="24,0,0,16"/>
-            <Button x:ConnectionId='10' x:Name="skillpipeButton" 
-                    Content="skillpipe.com"
-                    Style="{StaticResource ButtonStyle}"
-                                              />
+            <Button x:ConnectionId='10' x:Name="skillpipeButton"
+                    HorizontalAlignment="Center"
+                    Style="{StaticResource CoursewareImportantButton}"
+                                              >
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="skillpipe.com"/>
+                </Button.Content>
+            </Button>
         </StackPanel>
 
         <StackPanel x:ConnectionId='2' x:Name="ApplicationCourses"
@@ -104,9 +115,14 @@
                        Foreground="White"
                        Margin="24,0,0,16"/>
             <Button x:ConnectionId='9' x:Name="nhChoiceButton"
-                Content="nh-choice.com"
-                    Style="{StaticResource ButtonStyle}"
-                                              />
+                    HorizontalAlignment="Center"
+                    Style="{StaticResource CoursewareImportantButton}"
+                                              >
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="nh-choice.com"/>
+                </Button.Content>
+            </Button>
         </StackPanel>
 
         <StackPanel x:ConnectionId='3' x:Name="vmWare"
@@ -129,10 +145,15 @@
                        Text="3) Enter the code provided in your Courseware Notes"
                        Foreground="White"
                        Margin="0,0,0,16"/>
-            <Button x:ConnectionId='8' x:Name="vitalsourceButton" 
-                    Content="vitalsource.com"
-                    Style="{StaticResource ButtonStyle}"
-                                              />
+            <Button x:ConnectionId='8' x:Name="vitalsourceButton"
+                    HorizontalAlignment="Center"
+                    Style="{StaticResource CoursewareImportantButton}"
+                                              >
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="vitalsource.com"/>
+                </Button.Content>
+            </Button>
         </StackPanel>
 
         <StackPanel x:ConnectionId='4' x:Name="cisco"
@@ -148,11 +169,16 @@
             <TextBlock Style="{StaticResource TitleTextBlockStyle}"
                        Text="1) Register for a Cisco.com ID"
                        Foreground="White"/>
-            <Button x:ConnectionId='6' x:Name="ciscoToolsButton" 
-                    Content="tools.cisco.com"
-                    Style="{StaticResource ButtonStyle}"
+            <Button x:ConnectionId='6' x:Name="ciscoToolsButton"
+                    HorizontalAlignment="Center"
                     Margin="0,16,0,16"
-                                              />
+                    Style="{StaticResource CoursewareImportantButton}"
+                                              >
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="tools.cisco.com"/>
+                </Button.Content>
+            </Button>
             <TextBlock Style="{StaticResource TitleTextBlockStyle}"
                        Text="2) Log into Cisco Learning Network using your Cisco.com ID"
                        Foreground="White"/>
@@ -163,18 +189,29 @@
                        Text="4) Enter the code provided in your Courseware Notes"
                        Foreground="White"
                        Margin="0,0,0,16"/>
-            <Button x:ConnectionId='7' x:Name="ciscoLearningButton" 
-                    Content="learningspace.cisco.com"
-                    Style="{StaticResource ButtonStyle}"
-                                              />
+            <Button x:ConnectionId='7' x:Name="ciscoLearningButton"
+                    HorizontalAlignment="Center"
+                    Style="{StaticResource CoursewareImportantButton}"
+                                              >
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="learningspace.cisco.com"/>
+                </Button.Content>
+            </Button>
         </StackPanel>
 
-        <Button x:ConnectionId='5' Style="{StaticResource ButtonStyle}"
-                Content="Return to Home Page"
-                Grid.Column="0"
+        <Button x:ConnectionId='5' Style="{StaticResource CoursewareStandardButton}"
                 Grid.Row="3"
+                Grid.Column="0"
                 Grid.ColumnSpan="2"
-                                 />
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                                 >
+            <Button.Content>
+                <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="Return to Home Page"/>
+            </Button.Content>
+        </Button>
     </Grid>
 </Page>
 
