@@ -21,10 +21,10 @@
             </Style>
         </Grid.Resources>
         <Grid.RowDefinitions>
+            <RowDefinition  />
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <CommandBar x:Name="TopCommandBar"  
+        <!--<CommandBar x:Name="TopCommandBar"  
                     FontSize="36"
                     Background="DarkGray"
                     Foreground="White"
@@ -55,18 +55,72 @@
                           Icon="Refresh" 
                           Label="Refresh" 
                           Click="RefreshButton_Click" />
-            <!--<commandbar.content>
+            --><!--<commandbar.content>
                 <textblock x:name="urltextblock"
                            fontsize="36"
                            text="{x:bind viewmodel.uriname, mode=oneway}"/>
-            </commandbar.content>-->
-        </CommandBar>
+            </commandbar.content>--><!--
+        </CommandBar>-->
         <WebView x:Name="MainWebView"
-                 Grid.Row="1"
+                 Grid.Row="0"
                  Margin="4"
              DefaultBackgroundColor="White"
                  UnsupportedUriSchemeIdentified="OnUnsupportedUriSchemeIdentified">
         </WebView>
+        <StackPanel Orientation="Horizontal"
+                    Grid.Row="1"
+                    HorizontalAlignment="Center">
+            <Button x:Name="HomeButton" 
+                    Style="{StaticResource StandardStylizedButtonStyle}"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Click="HomeButton_Click">
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="Return to Home Page"/>
+                </Button.Content>
+            </Button>
+            <Button x:Name="BackButton" 
+                    Style="{StaticResource StandardStylizedButtonStyle}"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Click="BackButton_Click">
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="Go Back"/>
+                </Button.Content>
+            </Button>
+            <Button x:Name="ForwardButton" 
+                    Style="{StaticResource StandardStylizedButtonStyle}"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Click="ForwardButton_Click">
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="Go Forward"/>
+                </Button.Content>
+            </Button>
+            <Button x:Name="StopButton" 
+                    Style="{StaticResource StandardStylizedButtonStyle}"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Click="StopButton_Click">
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="Stop"/>
+                </Button.Content>
+            </Button>
+            <Button x:Name="RefreshButton" 
+                    Style="{StaticResource StandardStylizedButtonStyle}"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Click="RefreshButton_Click">
+                <Button.Content>
+                    <TextBlock  Style="{StaticResource ButtonTextBlockStyle}"
+                            Text="Refresh"/>
+                </Button.Content>
+            </Button>
+        </StackPanel>
     </Grid>
     
 </Page>

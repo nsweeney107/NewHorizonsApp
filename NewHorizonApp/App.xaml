@@ -122,6 +122,25 @@
                                             <PointerUpThemeAnimation Storyboard.TargetName="RootGrid" />
                                         </Storyboard>
                                     </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
+                                                                           Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="LightGray" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TopButtonPart"
+                                                                           Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="Black" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ThreeDeeButtonPart"
+                                                                           Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0"
+                                                                        Value="LightGray" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
                             <Grid>
@@ -193,7 +212,8 @@
                                                         CornerRadius="6"
                                                         Background="White"
                                                         Opacity="0" />
-                                    <ContentPresenter Content="{TemplateBinding Content}">
+                                    <ContentPresenter x:Name="ContentPortion" 
+                                                      Content="{TemplateBinding Content}">
                                         <!--<StackPanel Orientation="Vertical"
                                                                 VerticalAlignment="Center"
                                                                 HorizontalAlignment="Center"
